@@ -1,0 +1,13 @@
+name = "Martis-2"
+author = "Losenone, Filostorm"
+version = "0.9.3-r1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "bdb84e46b72ab030c035d889faba83a1e69eaba9209b3bd32e2a624acecc9ef4"
+
+[versions]
+forge = "40.2.17"
+minecraft = "1.18.2"
