@@ -1,4 +1,4 @@
-name = "Martis-2"
+name = "Iuppiter-2"
 author = "Losenone, Filostorm"
 version = "0.9.3-r1"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "31cf9db8414ea7d0b1c780cd0bccf043d87cc121dc35be852e3abf575193aae7"
+hash = "9a217d324632bebba8dad62ad9b5f3ec32d380f30d8c705264f46d2a042fb74f"
 
 [versions]
 forge = "40.2.17"

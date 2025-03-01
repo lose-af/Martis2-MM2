@@ -33534,7 +33534,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "b3a5704f1f395bbcfa2c239665e7fa505cc45bde1fff1901863a88e0c2458ffa"
+hash = "9bebf06ad9d18399cfb737e6491a17cb6842b57b217476488ab8b9ab41a07ee5"
 metafile = true
 
 [[files]]
@@ -33714,7 +33714,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "47b2fe5984528205b00c724cb76d4c5a1e016ebd45b65e895d9b9ee7bff66c31"
+hash = "d91a4caf2b7556c5daeefde6d1ee95fb4299c9e0befa33162a200ad27cad4d55"
 metafile = true
 
 [[files]]
@@ -33754,7 +33754,7 @@ metafile = true
 
 [[files]]
 file = "mods/i18nupdatemod.pw.toml"
-hash = "ed8edf94f408830bb90bab95e3dc0201a29b3e95ba69b96419793420de52466f"
+hash = "8171ba1a407710be17b194fe071418023bfed2c9ab245cdf99fe694b536268c2"
 metafile = true
 
 [[files]]
@@ -33814,7 +33814,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris-flywheel-compat.pw.toml"
-hash = "8501d1fa55ba09fb97124bec94be30c0be415187cb55d2a7bdbeb4cf4482bb7f"
+hash = "931f98e98eb1b48ae107f57ba9f9cd14390c83a5ed8936bbfb008645b24349b3"
 metafile = true
 
 [[files]]
@@ -33934,7 +33934,7 @@ metafile = true
 
 [[files]]
 file = "mods/legendary-tooltips.pw.toml"
-hash = "e24e2fb3eef5fcef8cc97cd5e06f7aebea90dc5b7cbfc5e7665e19d22854ebab"
+hash = "5b9fafb57eb58dd94d9a9ec1234bf121112973eec085dc2d0a63182006714542"
 metafile = true
 
 [[files]]
@@ -34069,7 +34069,7 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-hash = "fad0e1c59d0548afbcbe2e34d25fbf97cf4c6effe40b3f7e2b93dd5c546ee601"
+hash = "e06240634ffc0160925d15dc99c0f6d765c04bc303fb118d76c2f6cac38eed69"
 metafile = true
 
 [[files]]

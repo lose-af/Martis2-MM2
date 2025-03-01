@@ -1,4 +1,4 @@
-# Martis 2 modpack (Multiblock Madness 2)
+# Iuppiter 2 modpack (Multiblock Madness 2)
 
 See: [https://www.curseforge.com/minecraft/modpacks/multiblock-madness-2](https://www.curseforge.com/minecraft/modpacks/multiblock-madness-2)
 
