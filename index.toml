@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "LICENSE"
-hash = "605e9047a563c5c8396ffb18232aa4304ec56586aee537c45064c6fb425e44ad"
-
-[[files]]
-file = "README.md"
-hash = "ea61e4fd14446d6f85c627490fb38ae5f5dfda0ce0389f443cfd4bb16033009f"
-
-[[files]]
 file = "config/EnderStorage.cfg"
 hash = "ee18dee1a8206cc3853e156102d70038554a4d0e30937e1e8145ef49086d0670"
 
