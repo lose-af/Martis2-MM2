@@ -1,7 +1,7 @@
 {
 	id: "03DE8555A4E067AA"
 	order_index: 11
-	title: "Scrolls"
+	title: "魔法卷轴"
 	icon: "elementalcraft:scroll_paper"
 	loot_size: 1
 	rewards: [

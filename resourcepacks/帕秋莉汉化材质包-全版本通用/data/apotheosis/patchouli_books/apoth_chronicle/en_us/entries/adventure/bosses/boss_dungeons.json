@@ -1,0 +1,17 @@
+{
+    "name": "首领地牢",
+    "icon": "minecraft:spawner",
+    "category": "apotheosis:adventure/bosses",
+    "flag": "apotheosis:adventure",
+    "sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "深藏于远古地脉中的神秘建筑群，封存着词缀系统的无上威能。若以为能轻易获取这般力量便大错特错——每座地牢皆有强大首领镇守。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "地下分布着数种首领地牢变体，均包含首领刷怪笼与战利品箱。靠近刷怪笼即会激活，释放被困其中的地城首领。"
+        }
+    ]
+}

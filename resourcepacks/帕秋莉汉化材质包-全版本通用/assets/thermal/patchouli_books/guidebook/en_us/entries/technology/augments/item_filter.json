@@ -1,0 +1,18 @@
+{
+    "name": "物品过滤器",
+    "icon": "thermal:item_filter_augment",
+    "category": "thermal:augments",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:augments/item_filter_augment",
+            "title": "物品过滤器",
+            "text": "物品过滤器强化部件可使机械/装置选择性接收物品。通过按住Shift键右键点击安装该部件的方块/物品，或在设备界面通过标签页进入独立配置界面，可设置最多15个物品的白名单/黑名单规则，并选择是否匹配NBT数据。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "最多可设置15个过滤物品，支持允许/拒绝名单切换及NBT数据匹配/忽略选项。"
+        }
+    ]
+}

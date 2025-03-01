@@ -1,0 +1,17 @@
+{
+    "name": "生物屠宰厂",
+    "icon": "industrialforegoing:mob_slaughter_factory",
+    "category": "industrialforegoing:agriculture_husbandry",
+    "sortnum": 9,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "将生物和动物加工为$(l:agr_hus/meat)液态肉$()与$(l:agr_hus/pink_slime)粉红粘液$()的机械装置。被此装置杀死的生物不会掉落物品或经验。$(br2)被动型生物比非被动型生物产出更多粉红粘液"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:mob_slaughter_factory"
+        }
+    ]
+}

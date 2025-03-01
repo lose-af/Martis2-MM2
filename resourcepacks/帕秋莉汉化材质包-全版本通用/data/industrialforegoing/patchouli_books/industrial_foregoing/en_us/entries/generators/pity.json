@@ -1,0 +1,17 @@
+{
+    "name": "低效发电机",
+    "icon": "industrialforegoing:pitiful_generator",
+    "category": "industrialforegoing:generators",
+    "sortnum": 0,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "燃烧煤炭等可燃物的低效发电机。$(br2)其效率低下到即使机器能量缓存已满仍会持续消耗燃料。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:pitiful_generator"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "月牙扳手",
+    "icon": "thermal:wrench",
+    "category": "thermal:tools",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "基础型扳手。可通过潜行右击回收机械，普通右击旋转机械。你甚至可以用它教训那些总在恶作剧的烦人朋友！"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:tools/wrench",
+            "title": "月牙扳手"
+        }
+    ]
+}

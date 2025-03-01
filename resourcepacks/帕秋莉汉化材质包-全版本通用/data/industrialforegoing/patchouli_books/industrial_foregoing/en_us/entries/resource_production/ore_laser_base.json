@@ -1,0 +1,17 @@
+{
+    "name": "矿石激光基座",
+    "icon": "industrialforegoing:ore_laser_base",
+    "category": "industrialforegoing:resource_production",
+    "sortnum": 14,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "当由$(l:resource_production/laser_drill)激光钻机$()完全充能时，该设备将生成矿石。每类可生成矿石的权重取决于机器所处的生物群系及其配置的采矿深度。$(br2)激光透镜可增加指定生成矿石的权重。$(br2)具体数值请查看JEI。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:ore_laser_base"
+        }
+    ]
+}

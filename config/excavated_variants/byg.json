@@ -1,214 +1,214 @@
 {
-  "mod_id": "byg",
-  "provided_stones": [
-    {
-      "block_id": "byg:red_rock",
-      "types": [
-        "stone"
-      ],
-      "id": "byg_red_rock",
-      "en_name": "Red Rock"
-    },
-    {
-      "block_id": "byg:dacite",
-      "types": [
-        "stone"
-      ],
-      "id": "byg_dacite",
-      "en_name": "Dacite"
-    },
-    {
-      "block_id": "byg:brimstone",
-      "types": [
-        "nether"
-      ],
-      "id": "byg_brimstone",
-      "en_name": "Brimstone"
-    },
-    {
-      "block_id": "byg:ether_stone",
-      "types": [
-        "end"
-      ],
-      "id": "byg_ether_stone",
-      "en_name": "Ether Stone"
-    },
-    {
-      "block_id": "byg:soapstone",
-      "types": [
-        "stone"
-      ],
-      "id": "byg_soapstone",
-      "en_name": "Soapstone"
-    },
-    {
-      "block_id": "byg:blue_netherrack",
-      "types": [
-        "nether"
-      ],
-      "id": "byg_blue_netherrack",
-      "en_name": "Blue Netherrack"
-    },
-    {
-      "block_id": "byg:scoria_stone",
-      "types": [
-        "nether"
-      ],
-      "id": "byg_scoria",
-      "en_name": "Scoria"
-    },
-    {
-      "block_id": "byg:travertine",
-      "types": [
-        "stone"
-      ],
-      "id": "byg_travertine",
-      "en_name": "Travertine"
-    },
-    {
-      "block_id": "byg:rocky_stone",
-      "types": [
-        "stone"
-      ],
-      "id": "byg_rocky",
-      "en_name": "Rocky"
-    },
-    {
-      "block_id": "byg:cryptic_stone",
-      "types": [
-        "end"
-      ],
-      "id": "byg_cryptic",
-      "en_name": "Cryptic"
-    },
-    {
-      "block_id": "byg:purpur_stone",
-      "types": [
-        "end"
-      ],
-      "id": "byg_purpur",
-      "en_name": "Purpur"
-    },
-    {
-      "block_id": "byg:mossy_stone",
-      "types": [
-        "stone"
-      ],
-      "id": "byg_mossy_stone",
-      "en_name": "Mossy Stone"
-    }
-  ],
-  "provided_ores": [
-    {
-      "block_id": [
-        "byg:anthracite_ore"
-      ],
-      "en_name": "Anthracite Ore",
-      "types": [
-        "nether"
-      ],
-      "id": "anthracite_ore",
-      "stone": [
-        "byg_brimstone"
-      ]
-    },
-    {
-      "block_id": [
-        "byg:pendorite_ore"
-      ],
-      "en_name": "Pendorite Ore",
-      "types": [
-        "nether"
-      ],
-      "id": "pendorite_ore",
-      "stone": [
-        "byg_blue_netherrack"
-      ]
-    },
-    {
-      "block_id": [
-        "byg:emeraldite_ore"
-      ],
-      "en_name": "Emeraldite Ore",
-      "types": [
-        "nether"
-      ],
-      "id": "emeraldite_ore",
-      "stone": [
-        "byg_scoria"
-      ]
-    },
-    {
-      "block_id": [
-        "byg:ametrine_ore"
-      ],
-      "en_name": "Ametrine Ore",
-      "types": [
-        "end"
-      ],
-      "id": "ametrine_ore",
-      "stone": [
-        "byg_ether_stone"
-      ]
-    },
-    {
-      "block_id": [
-        "byg:cryptic_redstone_ore"
-      ],
-      "en_name": "Redstone Ore",
-      "types": [
-        "end"
-      ],
-      "id": "redstone_ore",
-      "stone": [
-        "byg_cryptic"
-      ]
-    },
-    {
-      "block_id": [
-        "byg:lignite_ore"
-      ],
-      "en_name": "Lignite Ore",
-      "types": [
-        "end"
-      ],
-      "id": "lignite_ore",
-      "stone": [
-        "byg_ether_stone"
-      ]
-    },
-    {
-      "block_id": [
-        "byg:brimstone_nether_quartz_ore",
-        "byg:blue_nether_quartz_ore"
-      ],
-      "en_name": "Quartz Ore",
-      "types": [
-        "nether"
-      ],
-      "id": "quartz_ore",
-      "stone": [
-        "byg_brimstone",
-        "byg_blue_netherrack"
-      ]
-    },
-    {
-      "block_id": [
-        "byg:brimstone_nether_gold_ore",
-        "byg:blue_nether_gold_ore"
-      ],
-      "en_name": "Nether Gold Ore",
-      "types": [
-        "nether"
-      ],
-      "id": "nether_gold_ore",
-      "orename": [
-        "gold_ore"
-      ],
-      "stone": [
-        "byg_brimstone",
-        "byg_blue_netherrack"
-      ]
-    }
-  ]
+    "mod_id": "byg",
+    "provided_stones": [
+        {
+            "block_id": "byg:red_rock",
+            "types": [
+                "stone"
+            ],
+            "id": "byg_red_rock",
+            "en_name": "\u7ea2\u5ca9"
+        },
+        {
+            "block_id": "byg:dacite",
+            "types": [
+                "stone"
+            ],
+            "id": "byg_dacite",
+            "en_name": "\u82f1\u5b89\u5ca9"
+        },
+        {
+            "block_id": "byg:brimstone",
+            "types": [
+                "nether"
+            ],
+            "id": "byg_brimstone",
+            "en_name": "\u786b\u78fa\u77f3"
+        },
+        {
+            "block_id": "byg:ether_stone",
+            "types": [
+                "end"
+            ],
+            "id": "byg_ether_stone",
+            "en_name": "\u4ee5\u592a\u77f3"
+        },
+        {
+            "block_id": "byg:soapstone",
+            "types": [
+                "stone"
+            ],
+            "id": "byg_soapstone",
+            "en_name": "\u7682\u77f3"
+        },
+        {
+            "block_id": "byg:blue_netherrack",
+            "types": [
+                "nether"
+            ],
+            "id": "byg_blue_netherrack",
+            "en_name": "\u84dd\u8272\u5730\u72f1\u5ca9"
+        },
+        {
+            "block_id": "byg:scoria_stone",
+            "types": [
+                "nether"
+            ],
+            "id": "byg_scoria",
+            "en_name": "\u706b\u5c71\u6e23"
+        },
+        {
+            "block_id": "byg:travertine",
+            "types": [
+                "stone"
+            ],
+            "id": "byg_travertine",
+            "en_name": "\u77f3\u7070\u534e"
+        },
+        {
+            "block_id": "byg:rocky_stone",
+            "types": [
+                "stone"
+            ],
+            "id": "byg_rocky",
+            "en_name": "\u5ca9\u8d28"
+        },
+        {
+            "block_id": "byg:cryptic_stone",
+            "types": [
+                "end"
+            ],
+            "id": "byg_cryptic",
+            "en_name": "\u79d8\u77f3"
+        },
+        {
+            "block_id": "byg:purpur_stone",
+            "types": [
+                "end"
+            ],
+            "id": "byg_purpur",
+            "en_name": "\u7d2b\u73c0"
+        },
+        {
+            "block_id": "byg:mossy_stone",
+            "types": [
+                "stone"
+            ],
+            "id": "byg_mossy_stone",
+            "en_name": "\u82d4\u77f3"
+        }
+    ],
+    "provided_ores": [
+        {
+            "block_id": [
+                "byg:anthracite_ore"
+            ],
+            "en_name": "\u65e0\u70df\u7164\u77ff",
+            "types": [
+                "nether"
+            ],
+            "id": "anthracite_ore",
+            "stone": [
+                "byg_brimstone"
+            ]
+        },
+        {
+            "block_id": [
+                "byg:pendorite_ore"
+            ],
+            "en_name": "\u6f58\u591a\u77ff",
+            "types": [
+                "nether"
+            ],
+            "id": "pendorite_ore",
+            "stone": [
+                "byg_blue_netherrack"
+            ]
+        },
+        {
+            "block_id": [
+                "byg:emeraldite_ore"
+            ],
+            "en_name": "\u7eff\u5b9d\u77f3\u77ff",
+            "types": [
+                "nether"
+            ],
+            "id": "emeraldite_ore",
+            "stone": [
+                "byg_scoria"
+            ]
+        },
+        {
+            "block_id": [
+                "byg:ametrine_ore"
+            ],
+            "en_name": "\u7d2b\u9ec4\u6676\u77ff",
+            "types": [
+                "end"
+            ],
+            "id": "ametrine_ore",
+            "stone": [
+                "byg_ether_stone"
+            ]
+        },
+        {
+            "block_id": [
+                "byg:cryptic_redstone_ore"
+            ],
+            "en_name": "\u7ea2\u77f3\u77ff\u77f3",
+            "types": [
+                "end"
+            ],
+            "id": "redstone_ore",
+            "stone": [
+                "byg_cryptic"
+            ]
+        },
+        {
+            "block_id": [
+                "byg:lignite_ore"
+            ],
+            "en_name": "\u8910\u7164\u77ff",
+            "types": [
+                "end"
+            ],
+            "id": "lignite_ore",
+            "stone": [
+                "byg_ether_stone"
+            ]
+        },
+        {
+            "block_id": [
+                "byg:brimstone_nether_quartz_ore",
+                "byg:blue_nether_quartz_ore"
+            ],
+            "en_name": "\u77f3\u82f1\u77ff\u77f3",
+            "types": [
+                "nether"
+            ],
+            "id": "quartz_ore",
+            "stone": [
+                "byg_brimstone",
+                "byg_blue_netherrack"
+            ]
+        },
+        {
+            "block_id": [
+                "byg:brimstone_nether_gold_ore",
+                "byg:blue_nether_gold_ore"
+            ],
+            "en_name": "\u4e0b\u754c\u91d1\u77ff",
+            "types": [
+                "nether"
+            ],
+            "id": "nether_gold_ore",
+            "orename": [
+                "gold_ore"
+            ],
+            "stone": [
+                "byg_brimstone",
+                "byg_blue_netherrack"
+            ]
+        }
+    ]
 }

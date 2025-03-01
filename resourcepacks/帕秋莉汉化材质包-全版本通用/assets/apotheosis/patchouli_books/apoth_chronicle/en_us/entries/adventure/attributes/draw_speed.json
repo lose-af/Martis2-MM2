@@ -1,0 +1,17 @@
+{
+    "name": "蓄力速度",
+    "icon": "minecraft:bow",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)蓄力速度$()指远程武器相对于原速的蓄力效率(1=100%，2=200%)。$(p)该属性见于弓弩类武器。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 1$(p)$(9)$(n)最大值:$() 4$(p)"
+        }
+    ]
+}

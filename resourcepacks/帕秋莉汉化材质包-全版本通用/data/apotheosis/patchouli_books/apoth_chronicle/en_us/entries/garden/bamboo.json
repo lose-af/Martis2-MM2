@@ -1,0 +1,16 @@
+{
+    "name": "竹子",
+    "icon": "minecraft:bamboo",
+    "category": "apotheosis:garden/garden",
+    "flag": "apotheosis:garden",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "现在竹子最高可生长至32格。$(p)不过竹子的生长机制有些特殊，不一定总能达到这个精确高度。$(p)该数值可配置，实际高度可能因整合包设置而略有增减。"
+        }
+    ],
+    "extra_recipe_mappings": {
+        "minecraft:bamboo": 0
+    }
+}

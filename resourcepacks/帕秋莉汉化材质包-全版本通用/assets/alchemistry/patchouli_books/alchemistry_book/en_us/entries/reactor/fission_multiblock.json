@@ -1,0 +1,71 @@
+{
+    "name": "裂变多区块结构",
+    "icon": "alchemistry:reactor_casing",
+    "category": "alchemistry:reactor_category",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "multiblock",
+            "name": "裂变多区块结构",
+            "multiblock": {
+                "pattern": [
+                    [
+                        "CCCCC",
+                        "CCCCC",
+                        "CCCCC",
+                        "CCCCC",
+                        "CCCCC"
+                    ],
+                    [
+                        "CGGGC",
+                        "G   G",
+                        "G F G",
+                        "G   G",
+                        "CGGGC"
+                    ],
+                    [
+                        "CGGGC",
+                        "G   G",
+                        "G F G",
+                        "G   G",
+                        "CGGGC"
+                    ],
+                    [
+                        "CGGGC",
+                        "G   G",
+                        "G F X",
+                        "G   G",
+                        "CGGGC"
+                    ],
+                    [
+                        "CCCCC",
+                        "CCCCI",
+                        "CC0CE",
+                        "CCCCO",
+                        "CCCCC"
+                    ]
+                ],
+                "mapping": {
+                    "X": "alchemistry:fission_chamber_controller[facing=east]",
+                    "F": "alchemistry:fission_core",
+                    "0": "alchemistry:reactor_casing",
+                    "E": "alchemistry:reactor_energy[facing=east]",
+                    "I": "alchemistry:reactor_input[facing=east]",
+                    "O": "alchemistry:reactor_output[facing=east]",
+                    "C": "alchemistry:reactor_casing",
+                    "G": "alchemistry:reactor_glass"
+                }
+            }
+        },
+        {
+            "type": "text",
+            "title": "必备方块",
+            "text": " 1x 裂变仓控制器 $(br) 3x 裂变核心 $(br) 1x 反应堆能量输入口 $(br) 1x 反应堆物品输入口 $(br) 1x 反应堆物品输出口 $(br) 62x 反应堆外壳 $(br) 36x 反应堆玻璃"
+        },
+        {
+            "type": "text",
+            "title": "可选方块",
+            "text": "反应堆能量输入口及物品输入/输出口可安置在任何需要反应堆外壳的位置，但不可替换反应堆玻璃。$(br2)反应堆玻璃为可选部件，所有需玻璃的位置均可替换为反应堆外壳。按你喜欢的样式来建造。"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "name": "拆解系统",
+    "icon": "apotheosis:salvaging_table",
+    "category": "apotheosis:adventure/affix_loot",
+    "flag": "apotheosis:adventure",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:salvaging_table",
+            "text": "$(9)拆解台$()用于将词缀物品分解为对应的$(9)稀有材料$()。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "apotheosis:common_material",
+            "link_recipe": true,
+            "text": "形状奇异的未知金属碎片。$(p)拆解普通物品可得此材料。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "apotheosis:uncommon_material",
+            "link_recipe": true,
+            "text": "历经沧桑却完好无损的坚韧织物。$(p)拆解精良物品可得。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "apotheosis:rare_material",
+            "link_recipe": true,
+            "text": "蕴含强大魔力的璀璨晶石碎片。$(p)拆解稀有物品获得。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "apotheosis:epic_material",
+            "link_recipe": true,
+            "text": "来自魔法次元的秘法砂砾，饱含奥术诡异之力。$(p)拆解史诗物品的产物。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "apotheosis:mythic_material",
+            "link_recipe": true,
+            "text": "封印着神性能量的纯净之珠，其狂暴能量极不稳定。$(p)唯有拆解神话物品方能获得。"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "物质传送器",
+    "icon": "rftoolsutility:matter_transmitter",
+    "category": "rftoolsutility:category_rftoolsutility_machines",
+    "pages": [
+        {
+            "type": "text",
+            "text": "物质传送器可将玩家传送至任意$(l:rftoolsutility:machines/matter_receiver)物质接收器$(/l)。使用$(l:rftoolsutility:machines/dialing_device)拨号装置$(/l)将传送器与接收器进行调谐。$(br2)$(5)灌注$()该机器可降低能耗并提升传送速度"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "终端平板",
+    "icon": "rftoolsbase:tablet",
+    "category": "rftoolsbase:category_tools",
+    "pages": [
+        {
+            "type": "text",
+            "text": "终端平板可用于远程操控多种机器。$(5)潜行右键$()打开内置界面，最多可安装6个模块。普通右键打开当前模块界面。使用$(k:prevDestination)和$(k:nextDestination)键切换已安装模块"
+        },
+        {
+            "type": "text",
+            "text": "注意:远程操控需要目标机器处于有效范围或已加载区块。若正确加载区块，跨维度也可操作"
+        }
+    ]
+}

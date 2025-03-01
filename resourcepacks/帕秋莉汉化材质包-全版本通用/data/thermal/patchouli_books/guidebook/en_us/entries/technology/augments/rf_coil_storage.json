@@ -1,0 +1,14 @@
+{
+    "name": "稳压RF线圈",
+    "icon": "thermal:rf_coil_storage_augment",
+    "category": "thermal:augments",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:augments/rf_coil_storage_augment",
+            "title": "稳压RF线圈",
+            "text": "稳压RF线圈增强部件将RF存储量提升6倍，传输量提升2倍。"
+        }
+    ]
+}

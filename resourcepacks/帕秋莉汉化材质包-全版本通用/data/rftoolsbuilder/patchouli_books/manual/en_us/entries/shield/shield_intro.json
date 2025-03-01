@@ -1,0 +1,12 @@
+{
+    "name": "基础说明",
+    "icon": "minecraft:experience_bottle",
+    "category": "rftoolsbuilder:category_rftoolsbuilder_shield",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "护盾投射器既可防御生物入侵，也可圈禁生物并造成伤害"
+        }
+    ]
+}

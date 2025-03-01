@@ -1,0 +1,25 @@
+{
+    "name": "物品运输器",
+    "icon": "industrialforegoing:item_transporter_type",
+    "category": "industrialforegoing:transport",
+    "sortnum": 0,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "物品运输器可在相邻一格的容器间传输物品。需在输出端与输入端各配置一台运输器。$(br2)多个运输器类型可共存于同一方块，具备输入/输出两种工作模式。点击中央区域可切换工作模式。"
+        },
+        {
+            "type": "text",
+            "text": "可通过图形界面使用黑名单与白名单模式筛选交互对象。$(br2)潜行 + 右键点击运输器可移除升级模块或整台运输器。$(br2)在调节模式下，当运输器处于输入状态时可指定某一容器内允许存放的物品/流体数量。"
+        },
+        {
+            "type": "text",
+            "text": "通过右键点击运输器外环的速度升级模块可提升运输速率，效率升级模块则可增加单次运输量。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:item_transporter_type"
+        }
+    ]
+}

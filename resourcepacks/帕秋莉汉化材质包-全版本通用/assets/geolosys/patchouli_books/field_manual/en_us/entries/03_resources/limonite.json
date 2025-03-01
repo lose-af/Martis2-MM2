@@ -1,0 +1,14 @@
+{
+    "name": "褐铁矿",
+    "icon": "geolosys:limonite_ore",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "褐铁矿",
+            "item": "geolosys:limonite_ore",
+            "link_recipe": false,
+            "text": "该岩脉矿床生成于海平面下96米至112米间。仅存在于主世界，且仅生成于沼泽、蘑菇和湿润生物群系。"
+        }
+    ]
+}

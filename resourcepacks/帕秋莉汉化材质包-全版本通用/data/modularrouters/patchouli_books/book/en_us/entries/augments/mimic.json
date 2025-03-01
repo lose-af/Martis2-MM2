@@ -1,0 +1,15 @@
+{
+    "name": "拟态强化",
+    "category": "modularrouters:augments",
+    "icon": "modularrouters:mimic_augment",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该强化仅可添加至$(l:modules/extruder_2)挤出模块Mk2/$。$(p)启用后，模块生成的拟态方块将继承原方块的属性，例如$(item)黑曜石/$难以破坏，$(item)荧石/$发光，$(item)红石块/$输出红石信号。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:mimic_augment"
+        }
+    ]
+}

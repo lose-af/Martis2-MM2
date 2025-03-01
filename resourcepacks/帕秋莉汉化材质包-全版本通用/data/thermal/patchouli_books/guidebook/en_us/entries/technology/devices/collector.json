@@ -1,0 +1,24 @@
+{
+    "name": "真空收集器",
+    "icon": "thermal:device_collector",
+    "category": "thermal:devices",
+    "read_by_default": true,
+    "flag": "|mod:thermal_expansion,mod:thermal_dynamics",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "真空收集器可吸附作用范围内的物品。安装$(l:thermal:technology/augments/xp_storage)知识凝聚器增强部件$(/l)后可吸收经验球。基础作用范围为9x9x9区域，使用$(l:thermal:technology/augments/area_radius)范围增幅增强部件$(/l)可扩展至15x15x15。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:device_collector",
+            "title": "真空收集器",
+            "text": "受红石信号控制时，真空收集器将在激活瞬间立即吸附物品。这种设计保证其在接收脉冲信号时能可靠触发。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "增强部件兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)整体元件$(/l)$(li)$(l:thermal:technology/augments/item_filter)物品过滤器$(/l)$(li)$(l:thermal:technology/augments/xp_storage)知识凝聚器$(/l)$(li)$(l:thermal:technology/augments/area_radius)范围增幅$(/l)"
+        }
+    ]
+}

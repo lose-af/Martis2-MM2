@@ -1,0 +1,23 @@
+{
+    "name": "结晶器",
+    "icon": "thermal:machine_crystallizer",
+    "category": "thermal:machines",
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "结晶器是一种利用基础材料和流体生成晶体的机器。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:machine_crystallizer",
+            "title": "结晶器"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "增容兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)核心组件$(/l)$(li)$(l:thermal:technology/augments/item_filter)物品过滤器$(/l)$(li)$(l:thermal:technology/augments/xp_storage)知识浓缩器$(/l)$(li)$(l:thermal:technology/augments/rf_coil)扩展型RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)稳定型RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)高通量RF线圈$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)扩容储罐结构$(/l)$(li)$(l:thermal:technology/augments/machine_speed)通量联动放大器$(/l)$(li)$(l:thermal:technology/augments/machine_efficiency)通量效率$(/l)"
+        }
+    ]
+}

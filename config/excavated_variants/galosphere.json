@@ -1,21 +1,21 @@
 {
-  "mod_id": "galosphere",
-  "provided_stones": [],
-  "provided_ores": [
-    {
-      "block_id": [
-        "galosphere:silver_ore",
-        "galosphere:deepslate_silver_ore"
-      ],
-      "en_name": "Silver Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "silver_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    }
-  ]
+    "mod_id": "galosphere",
+    "provided_stones": [],
+    "provided_ores": [
+        {
+            "block_id": [
+                "galosphere:silver_ore",
+                "galosphere:deepslate_silver_ore"
+            ],
+            "en_name": "\u94f6\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "silver_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        }
+    ]
 }

@@ -1,0 +1,20 @@
+{
+    "name": "灌注附魔",
+    "icon": "apotheosis:infused_hellshelf",
+    "category": "apotheosis:enchanting/table",
+    "flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)灌注附魔$()是通过附魔台实现的全新制作方式。$(p)每个灌注配方包含单一物品输入与三项属性需求。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "每项属性需求通常设有最低值，部分可能设置上限。$(p)灌注魔咒仅使用第三槽位，并允许超额消耗经验。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "进行灌注附魔时，只需放置物品于槽位。$(p)满足属性条件后，第三槽位将亮起，点击即可完成灌注。"
+        }
+    ]
+}

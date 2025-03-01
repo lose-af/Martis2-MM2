@@ -1,59 +1,59 @@
 {
-  "mod_id": "mysticalagriculture",
-  "provided_stones": [
-    {
-      "block_id": "mysticalagriculture:soulstone",
-      "types": [
-        "nether",
-        "soul"
-      ],
-      "id": "mysticalagriculture_soulstone",
-      "en_name": "Soulstone"
-    }
-  ],
-  "provided_ores": [
-    {
-      "block_id": [
-        "mysticalagriculture:soulium_ore"
-      ],
-      "en_name": "Soulium Ore",
-      "types": [
-        "soul"
-      ],
-      "id": "soulium_ore",
-      "stone": [
-        "mysticalagriculture_soulstone"
-      ]
-    },
-    {
-      "block_id": [
-        "mysticalagriculture:prosperity_ore",
-        "mysticalagriculture:deepslate_prosperity_ore"
-      ],
-      "en_name": "Prosperity Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "prosperity_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    },
-    {
-      "block_id": [
-        "mysticalagriculture:inferium_ore",
-        "mysticalagriculture:deepslate_inferium_ore"
-      ],
-      "en_name": "Inferium Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "inferium_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    }
-  ]
+    "mod_id": "mysticalagriculture",
+    "provided_stones": [
+        {
+            "block_id": "mysticalagriculture:soulstone",
+            "types": [
+                "nether",
+                "soul"
+            ],
+            "id": "mysticalagriculture_soulstone",
+            "en_name": "\u9b42\u77f3"
+        }
+    ],
+    "provided_ores": [
+        {
+            "block_id": [
+                "mysticalagriculture:soulium_ore"
+            ],
+            "en_name": "\u9b42\u7d20\u77ff\u77f3",
+            "types": [
+                "soul"
+            ],
+            "id": "soulium_ore",
+            "stone": [
+                "mysticalagriculture_soulstone"
+            ]
+        },
+        {
+            "block_id": [
+                "mysticalagriculture:prosperity_ore",
+                "mysticalagriculture:deepslate_prosperity_ore"
+            ],
+            "en_name": "\u4e30\u9976\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "prosperity_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        },
+        {
+            "block_id": [
+                "mysticalagriculture:inferium_ore",
+                "mysticalagriculture:deepslate_inferium_ore"
+            ],
+            "en_name": "\u4e0b\u754c\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "inferium_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        }
+    ]
 }

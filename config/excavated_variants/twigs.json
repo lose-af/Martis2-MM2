@@ -1,30 +1,30 @@
 {
-  "mod_id": "twigs",
-  "provided_stones": [
-    {
-      "block_id": "twigs:schist",
-      "types": [
-        "stone"
-      ],
-      "id": "twigs_schist",
-      "en_name": "Schist"
-    },
-    {
-      "block_id": "twigs:rhyolite",
-      "types": [
-        "stone"
-      ],
-      "id": "twigs_rhyolite",
-      "en_name": "Rhyolite"
-    },
-    {
-      "block_id": "twigs:bloodstone",
-      "types": [
-        "nether"
-      ],
-      "id": "twigs_bloodstone",
-      "en_name": "Bloodstone"
-    }
-  ],
-  "provided_ores": []
+    "mod_id": "twigs",
+    "provided_stones": [
+        {
+            "block_id": "twigs:schist",
+            "types": [
+                "stone"
+            ],
+            "id": "twigs_schist",
+            "en_name": "\u7247\u5ca9"
+        },
+        {
+            "block_id": "twigs:rhyolite",
+            "types": [
+                "stone"
+            ],
+            "id": "twigs_rhyolite",
+            "en_name": "\u6d41\u7eb9\u5ca9"
+        },
+        {
+            "block_id": "twigs:bloodstone",
+            "types": [
+                "nether"
+            ],
+            "id": "twigs_bloodstone",
+            "en_name": "\u8840\u77f3"
+        }
+    ],
+    "provided_ores": []
 }

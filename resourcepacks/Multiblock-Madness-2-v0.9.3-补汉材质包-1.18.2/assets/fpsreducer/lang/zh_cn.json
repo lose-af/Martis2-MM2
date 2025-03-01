@@ -1,0 +1,12 @@
+{
+    "fpsreducer.config.hudPosAdj.hudInfo.6": "简单",
+    "fpsreducer.config.tooltip.noActFps": "无操作时的最大FPS。在检测到无操作后，FPS立即限制为此值。",
+    "fpsreducer.config.tooltip.profile.modest": "§e配置文件：§o适度节能§r\n当客户端在后台或在ESC菜单中时，FPS将会降低。 (默认)",
+    "fpsreducer.config.tooltip.profile.eco": "§e配置文件：§o节能§r\n几乎与FPS Reducer 1的默认设置相同。当客户端在后台，ESC菜单中或无操作10分钟时，FPS将会降低。",
+    "fpsreducer.config.tooltip.guiScreenFps": "在GUI屏幕（如库存屏幕和菜单屏幕）中的最大FPS。",
+    "fpsreducer.config.tooltip.waitingTime": "客户端在无操作时转为空闲状态的等待时间。可以通过将滑块移动到右边缘来关闭。",
+    "fpsreducer.config.menu.noActFps": "无操作时的最大FPS",
+    "fpsreducer.config.tooltip.profile.cooling2": "§e配置文件：§o情境降温（高）§r\n根据情况更强大的负载抑制。 (适用于性能较弱的 PC) 除了Eco配置文件的行为外，当角色静止、在存储库屏幕或任何GUI屏幕时，FPS将限制为30fps。",
+    "fpsreducer.config.tooltip.idleFps": "空闲状态下的最大 FPS。在指定时间内没有操作时，FPS 将降至此值。",
+    "fpsreducer.config.tooltip.profile.cooling1": "§e配置文件：§o情境冷却（低）§r\n根据情况主动控制负载。（适用于运行在60fps或更高的PC。）除了Eco配置文件的行为外，当角色静止，处于库存屏幕或任何GUI屏幕时，FPS将被限制到60fps。根据视频设置中的VSync和最大帧率设置，效果将会减弱。"
+}

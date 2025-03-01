@@ -1,0 +1,17 @@
+{
+    "name": "刷怪笼机制",
+    "icon": "minecraft:spawner",
+    "category": "apotheosis:spawner/spawner",
+    "flag": "apotheosis:spawner",
+    "sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)刷怪笼$()是从虚空中召唤实体的魔法装置。$(p)相信你已熟知基础功能，现在介绍进阶内容。$(p)在Apotheosis模组中，可使用$(9)精准采集$()工具直接获取刷怪笼。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "采集刷怪笼会消耗额外耐久度。$(p)每个刷怪笼都拥有$(l:apotheosis:spawner/stats)生成器属性$()控制系统。$(p)这些属性可通过$(l:apotheosis:spawner/modifiers)生成器修正项$()进行调整。"
+        }
+    ]
+}

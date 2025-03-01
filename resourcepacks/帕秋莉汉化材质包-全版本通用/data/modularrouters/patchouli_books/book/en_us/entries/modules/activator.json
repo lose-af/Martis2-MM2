@@ -1,0 +1,34 @@
+{
+    "name": "激活模块",
+    "category": "modularrouters:modules",
+    "icon": "modularrouters:activator_module",
+    "pages": [
+        {
+            "type": "text",
+            "text": "这个强力模块如同$(italic)模拟玩家/$，能够使用路由器缓存槽中的物品对周围方块或实体进行操作。通过界面右侧控件可选择三种模式，具体说明详见后续页面。"
+        },
+        {
+            "type": "text",
+            "title": "右键点击",
+            "text": "此模式模拟玩家右键点击操作，逻辑与玩家行为完全一致。例如使用$(item)打火石/$点击门会开启门而非引燃。$(p)目标方块的判定取决于路由器朝向、模块方向及视角高度(上方/下方/水平)设置。"
+        },
+        {
+            "type": "text",
+            "title": "实体互动",
+            "text": "此模式对附近$(thing)实体/$执行右键操作，例如给奶牛挤奶或为绵羊剪毛。$(p)若使用多个容器类物品(如多个桶)可能导致物品掉落地面。"
+        },
+        {
+            "type": "text",
+            "title": "实体攻击",
+            "text": "此模式对附近$(thing)实体/$执行左键攻击，默认消耗$(l:upgrades/energy)锻造能源/$。$(p)注意:虽然$(l:upgrades/speed)速度升级/$可提升效率，但受武器冷却限制，过度使用反而会浪费能源和耐久。"
+        },
+        {
+            "type": "text",
+            "text": "激活模块有效范围约4格，与实际玩家相当。可配置视角为$(thing)上方/$或$(thing)下方/$(默认$(thing)水平/$)。$(p)$(thing)上方/$模式适合在路由器侧面或顶部种植作物，$(thing)下方/$模式便于直接操作路由器相邻地面。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:activator_module"
+        }
+    ]
+}

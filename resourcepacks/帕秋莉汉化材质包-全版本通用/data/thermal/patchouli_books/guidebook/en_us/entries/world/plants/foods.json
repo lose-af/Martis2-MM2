@@ -1,0 +1,74 @@
+{
+    "name": "特色食品",
+    "icon": "thermal:pbj_sandwich",
+    "read_by_default": true,
+    "flag": "mod:thermal_cultivation",
+    "category": "thermal:plants",
+    "pages": [
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:carrot_cake",
+            "text": "精心烘焙的胡萝卜蛋糕，蕴含丰富胡萝卜素。食用后获得夜视效果。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:chocolate_cake",
+            "text": "令人愉悦的精美甜点，比普通蛋糕更具满足感。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:potion_cake",
+            "text": "熬煮出的美味！食用者可获得烘焙时所用药水效果。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:spice_cake",
+            "text": "由辣根香料制成的饱足甜点，食用时清除负面状态。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:stuffed_pumpkin",
+            "text": "塞满南瓜果肉的饱满馅饼，饱腹感极强且份量十足。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:cheese_wheel",
+            "text": "通过凝乳酶凝结酪蛋白制成的凝乳制品。谁不爱奶酪呢？可切分为楔形块。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:green_bean_pie",
+            "text": "汇集多种蔬菜的经典丰收季主食，以派的形式呈现。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:pbj_sandwich_2",
+            "text": "以粘糯胶质凝聚面筋，堪称绝配的美味组合。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:stuffed_pepper",
+            "text": "帕尔玛干椒酿顶级肉馅，极致饱足的美味享受！"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:sushi_maki_8",
+            "text": "海盐渍海鲜佐短粒米，裹以海苔，常配酱油食用。营养丰富且便于速食。别告诉Direwolf20。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:spring_salad",
+            "text": "采撷春日馈赠精制而成，食用后显著提升跳跃高度。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:hearty_stew",
+            "text": "以球根作物熬煮的滋补浓汤，饮用后提升生命上限。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:xp_stew",
+            "text": "富含丰沛经验加成的振奋茄汁，饮用后提升经验获取率。"
+        }
+    ]
+}

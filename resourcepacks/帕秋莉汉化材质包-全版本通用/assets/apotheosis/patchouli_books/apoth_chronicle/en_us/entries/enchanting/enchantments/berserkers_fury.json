@@ -1,0 +1,17 @@
+{
+    "name": "狂战士之怒",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(4)狂战士之怒$()是适用于胸甲的腐化附魔。$(p)启用时若受到伤害，将承受额外伤害并获得抗性提升、速度与力量效果。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "承受伤害值与药效强度随附魔等级提升。"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "item.thermal.ender_tnt_minecart.keyword": "末影 TNT 矿车",
+    "item.thermal.glowstone_tnt_minecart.keyword": "荧石 TNT 矿车",
+    "block.thermal.nuke_tnt.keyword": "核弹 TNT",
+    "item.thermal.redstone_tnt_minecart.keyword": "红石 TNT 矿车",
+    "item.thermal.detonator.keyword": "雷管",
+    "item.thermal.nuke_tnt_minecart.keyword": "核弹 TNT 矿车",
+    "thermal.book.subtitle": "我的世界 1.18.2",
+    "block.thermal.ender_tnt.keyword": "末影 TNT",
+    "item.thermal.slime_tnt_minecart.keyword": "粘液 TNT 矿车",
+    "_comment": "我是注释,以下内容使用up主柠娜的汉化工具生成",
+    "block.thermal.redstone_tnt.keyword": "红石 TNT",
+    "block.thermal.glowstone_tnt.keyword": "荧石 TNT",
+    "block.thermal.slime_tnt.keyword": "粘液 TNT",
+    "block.thermal.phyto_tnt": "植物 TNT"
+}

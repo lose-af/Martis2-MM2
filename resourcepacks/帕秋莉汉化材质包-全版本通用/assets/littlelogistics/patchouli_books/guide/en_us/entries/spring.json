@@ -1,0 +1,12 @@
+{
+    "name": "载具锁链",
+    "icon": "littlelogistics:spring",
+    "category": "littlelogistics:items",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:spring",
+            "text": "用于连接船舶或车厢。按顺序右键载具组建车队，每列车队仅允许一艘拖船/机车且不可闭环。载具间距过远时会断裂。"
+        }
+    ]
+}

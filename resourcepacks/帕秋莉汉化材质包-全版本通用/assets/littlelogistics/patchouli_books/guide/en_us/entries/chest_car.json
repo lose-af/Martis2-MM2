@@ -1,0 +1,19 @@
+{
+    "name": "储物车厢",
+    "icon": "littlelogistics:chest_car",
+    "category": "littlelogistics:trains",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:chest_car",
+            "scale": 0.6,
+            "offset": 0.5,
+            "text": "可储存物品的简易车厢，类似于运输矿车。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:chest_car",
+            "text": "必须停靠并作为火车编队成员，方可与漏斗交互。"
+        }
+    ]
+}

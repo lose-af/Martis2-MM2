@@ -1,0 +1,17 @@
+{
+    "name": "穿透",
+    "icon": "apotheosis:textures/mob_effect/sundering.png",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)穿透$()决定攻击时无视目标护甲的比例。$(p)此属性仅见于重武器。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 1$(p)$(9)$(n)最大值:$() 1024$(p)注:1.0实际对应0%穿透率，但若基础值为零，百分比修正将失效，且固定值修正无法正确传递加成。"
+        }
+    ]
+}

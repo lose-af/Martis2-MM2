@@ -1,0 +1,22 @@
+{
+    "name": "核裂变概览",
+    "icon": "alchemistry:fission_chamber_controller",
+    "category": "alchemistry:reactor_category",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "裂变反应堆能拆解维系元素的基本结构。除氢元素外，所有元素都可通过裂变多区块结构进行裂解。具体配方请查阅JEI。$(br2)$(o)摘自沃伦教授笔记:那些从变异烈焰人身上掉落的棒状物启发我制造了新机器。$()$(br2)该结构为5x5x5立方体，顶部、底部和四角立柱需使用反应堆外壳。中央需放置三个裂变核心方块，墙体可用反应堆外壳或反应堆玻璃填充。但若缺少聚变仓控制器、能量输入和物品输入/输出方块，整个装置将无法运作。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "alchemistry:fission_chamber_controller",
+            "text": "虽非核心部件，仓控制器却是裂变反应堆的中枢。这个装置控制着核心区域的所有反应过程，需要能量供应并设有物品输入输出接口。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "alchemistry:fission_core",
+            "text": "核心区域及其周边空间是裂变反应发生的场所。将物品置入核心后，原子会被分裂产生可用于实验的新元素。"
+        }
+    ]
+}

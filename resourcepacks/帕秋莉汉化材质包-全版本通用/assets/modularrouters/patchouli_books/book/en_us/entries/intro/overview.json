@@ -1,0 +1,20 @@
+{
+    "name": "总览",
+    "icon": "minecraft:cake",
+    "category": "modularrouters:intro",
+    "priority": "true",
+    "pages": [
+        {
+            "type": "text",
+            "text": "欢迎使用模块化路由器！$(p)本模组通过$(thing)模块化路由器/$单一方块与可插拔$(thing)模块/$系统，实现物品跨维度智能传输。您可执行抽取库存、远程投递、实体化放置、方块破坏、物品抛掷、自动化分拣等多样化操作。"
+        },
+        {
+            "type": "image",
+            "text": "$(italic)想象这是注入强化药剂的高阶漏斗.../$",
+            "images": [
+                "modularrouters:textures/patchouli/modular_router.png"
+            ],
+            "border": "true"
+        }
+    ]
+}

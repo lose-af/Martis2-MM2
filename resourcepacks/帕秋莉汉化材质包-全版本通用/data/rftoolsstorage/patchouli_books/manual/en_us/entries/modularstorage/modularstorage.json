@@ -1,0 +1,12 @@
+{
+    "name": "模块化存储",
+    "icon": "rftoolsstorage:modular_storage",
+    "category": "rftoolsstorage:category_rftoolsstorage_modularstorage",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "模块化存储方块是被动式超级容器，在配备适当存储模块时可容纳多达500组物品"
+        }
+    ]
+}

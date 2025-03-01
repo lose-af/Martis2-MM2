@@ -1,0 +1,17 @@
+{
+    "name": "信素安全锁",
+    "icon": "thermal:lock",
+    "category": "thermal:technology",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "用于激活各类机器、发电机及物品的安全面板功能，实现设备所有权认证。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:tools/lock",
+            "title": "信素安全锁"
+        }
+    ]
+}

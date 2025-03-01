@@ -1,0 +1,19 @@
+{
+    "name": "挤出模块Mk2",
+    "category": "modularrouters:modules",
+    "icon": "modularrouters:extruder_module_2",
+    "pages": [
+        {
+            "type": "text",
+            "text": "本模块行为类似$(l:modules/extruder_1)挤出模块Mk1/$，但存在重要区别:$(li)Mk2模块不从路由器缓冲区放置物品，而是使用模块内部定义的模板$(li)该模板显示在模块界面右侧，含9个槽位，每槽可放置多个'幽灵'物品作为占位符"
+        },
+        {
+            "type": "text",
+            "text": "$(li)生成的方块为'虚拟'状态——凭空产生，破坏时不会掉落且无法常规合成$(li)因此该模块不适合像Mk1那样用于资源生产，但可布置比Mk1更复杂的门/桥梁等结构$(li)Mk2默认作用范围24格，使用范围升级可扩展至48格"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:extruder_module_2"
+        }
+    ]
+}

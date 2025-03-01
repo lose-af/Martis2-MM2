@@ -1,0 +1,32 @@
+{
+    "name": "冰霜精魄",
+    "icon": "thermal:blizz_rod",
+    "category": "thermal:mobs",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "thermal:3_item_page",
+            "title": "冰霜精魄",
+            "item1": "thermal:blizz_rod",
+            "item2": "thermal:blizz_powder",
+            "item3": "thermal:blizz_spawn_egg",
+            "text": "冰霜精魄生成于寒冷生物群系。拥有10颗心生命值，近距离攻击造成3.5颗心伤害。其寒冰投射物造成2.5颗心伤害并附加霜冻效果。死亡时有概率掉落霜核，可用于合成或粉碎成霜末。"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "thermal:blizz",
+            "title": "冰霜精魄",
+            "text": "寒霜:每级降低30%移动速度与0.4秒攻击间隔"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "行为模式",
+            "text": "寒冰元素是孤高的元素生物，会向敌人投射冰锥。它会盘旋于目标上空，在周围区域生成下坠的冰锥弹幕。若目标足够靠近，它会在目标头顶环形悬停。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "应对策略",
+            "text": "使用远程武器是最简单的应对方式。近战时最好直面寒冰元素硬抗伤害以进入攻击范围。"
+        }
+    ]
+}

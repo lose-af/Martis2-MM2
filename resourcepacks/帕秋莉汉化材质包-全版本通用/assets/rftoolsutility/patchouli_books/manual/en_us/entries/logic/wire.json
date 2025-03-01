@@ -1,0 +1,16 @@
+{
+    "name": "导线",
+    "icon": "rftoolsutility:wire",
+    "category": "rftoolsutility:category_rftoolsutility_logic",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)导线$()的作用是单纯传递$(thing)输入信号$()至$(thing)输出端$()。结构简单、性能稳定、无延迟损耗，但仅支持直线布线。$(br2)与所有使用$(l:rftoolsbase:basics/machine_base)机器基座$()制造的方块相同，该装置可被安装在墙面或天花板上"
+        },
+        {
+            "type": "crafting",
+            "heading": "Wire",
+            "recipe": "rftoolsutility:wire"
+        }
+    ]
+}

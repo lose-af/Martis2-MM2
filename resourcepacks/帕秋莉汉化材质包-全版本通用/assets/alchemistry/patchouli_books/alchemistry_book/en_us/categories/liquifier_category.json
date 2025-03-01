@@ -1,0 +1,6 @@
+{
+    "name": "液化器",
+    "description": "摘自炼金实验室目录:$(br)当然，您可能需要将H₂O还原为可灌溉的水。放心！我们的液化器完美解决！只需确认您认为的H₂O不是H₂SO₄！",
+    "icon": "alchemistry:liquifier",
+    "sortnum": 6
+}

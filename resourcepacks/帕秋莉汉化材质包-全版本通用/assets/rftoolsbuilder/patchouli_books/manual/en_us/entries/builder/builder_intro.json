@@ -1,0 +1,12 @@
+{
+    "name": "基础说明",
+    "icon": "minecraft:experience_bottle",
+    "category": "rftoolsbuilder:category_rftoolsbuilder_builder",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "建造者方块具备采掘、建造、抽液、收集经验与物品等多样化功能，通过形状卡指定操作模式"
+        }
+    ]
+}

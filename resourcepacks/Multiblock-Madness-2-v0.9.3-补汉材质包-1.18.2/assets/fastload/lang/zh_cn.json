@@ -1,0 +1,13 @@
+{
+    "fastload.button.instant_load": "立即加载",
+    "fastload.button.local_render_chunk_radius.tooltip": "单人游戏中Fastload的建筑地形中应以圆形渲染多少区块的半径。",
+    "fastload.button.server_render_chunk_radius.tooltip": "服务器中Fastload的建筑地形中应以圆形渲染多少区块的半径。",
+    "fastload.button.instant_load.tooltip": "你是不是不耐烦？讨厌加载界面？只要打开它，加载一个世界，你就会后悔。-_-",
+    "fastload.button.local_render_chunk_radius.max": "什么鬼",
+    "fastload.buildingTerrain.starting": "开始游戏",
+    "fastload.button.server_render_chunk_radius": "服务器半径",
+    "fastload.button.server_render_chunk_radius.max": "什么鬼",
+    "fastload.button.local_render_chunk_radius": "本地半径",
+    "fastload.button.server_render_chunk_radius.min": "禁用",
+    "fastload.button.local_render_chunk_radius.min": "禁用"
+}

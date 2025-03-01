@@ -1,0 +1,7 @@
+{
+    "name": "建造者",
+    "description": "建造者方块是集建造、采掘、收集功能于一体的多功能方块",
+    "parent": "rftoolsbuilder:category_rftoolsbuilder",
+    "icon": "rftoolsbuilder:builder",
+    "sortnum": 20
+}

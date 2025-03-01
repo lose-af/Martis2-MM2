@@ -1,0 +1,24 @@
+{
+    "name": "水体纠缠器",
+    "icon": "thermal:device_fisher",
+    "category": "thermal:devices",
+    "read_by_default": true,
+    "flag": "mod:thermal_cultivation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "水体纠缠器是放置于水域中能被动捕获鱼类的装置。其捕获速率取决于生物群系、天气和增强模块配置，基础速率为数分钟捕获一次。安装$(l:thermal:technology/augments/integral_components)整合元件$(/l)和$(l:thermal:technology/augments/area_radius)径向增强$(/l)可提升效率。可选用$(l:thermal:world/materials/bait)饵料$(/l)加速捕获或改变捕获物品种类。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:device_fisher",
+            "title": "水体纠缠器",
+            "text": "若安装$(l:thermal:technology/augments/xp_storage)知识浓缩器$(/l)增强模块，每次捕获还将网罗(双关语警告)1-3点经验值。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "增强模块兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)整合元件$(/l)$(li)$(l:thermal:technology/augments/item_filter)物品过滤器$(/l)$(li)$(l:thermal:technology/augments/xp_storage)知识浓缩器$(/l)$(li)$(l:thermal:technology/augments/area_radius)径向增强$(/l)"
+        }
+    ]
+}

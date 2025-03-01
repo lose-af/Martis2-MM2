@@ -1,0 +1,7 @@
+{
+    "name": "机械类",
+    "description": "本模组所有机械装置",
+    "parent": "rftoolsutility:category_rftoolsutility",
+    "icon": "rftoolsutility:crafter3",
+    "sortnum": 30
+}

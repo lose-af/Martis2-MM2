@@ -1,0 +1,17 @@
+{
+    "name": "反射防御",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)反射防御$() 是盾牌附魔。$(p)使所有被格挡的攻击将部分伤害反弹给攻击者。$(p)具体来说，会反射被格挡伤害的15%。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "反射的伤害会转化为魔法伤害。$(p)足够高等级的$(9)反射防御$()可以造成超过原始伤害的反弹。"
+        }
+    ]
+}

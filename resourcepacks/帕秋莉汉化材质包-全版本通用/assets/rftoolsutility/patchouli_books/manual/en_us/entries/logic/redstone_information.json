@@ -1,0 +1,11 @@
+{
+    "name": "红石信号传输系统",
+    "icon": "rftoolsutility:redstone_information",
+    "category": "rftoolsutility:category_rftoolsutility_logic",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该装置可存储多个红石频道(在$(l:rftoolsutility:logic/redstone_transmitter)红石发射器$(/l)或$(l:rftoolsutility:logic/redstone_receiver)红石接收器$(/l)上$(5)右键点击$()可添加频道)。您可将其置入$(l:rftoolsbase:tools/tablet)终端平板$(/l)中，实现远程红石信号的监测与调控功能。"
+        }
+    ]
+}

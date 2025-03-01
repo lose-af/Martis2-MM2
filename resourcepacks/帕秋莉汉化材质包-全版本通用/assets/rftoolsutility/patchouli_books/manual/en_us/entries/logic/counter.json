@@ -1,0 +1,17 @@
+{
+    "name": "计数器",
+    "icon": "rftoolsutility:counter",
+    "category": "rftoolsutility:category_rftoolsutility_logic",
+    "pages": [
+        {
+            "type": "text",
+            "text": "计数器是种简易方块，能够统计红石脉冲次数并在达到设定值时发射红石信号，随后重新开始计数。$(br2)其操作界面显示两个数值——'最大值'(计数上限)与'当前值'(实时计数)。"
+        },
+        {
+            "type": "crafting",
+            "heading": "Counter",
+            "recipe": "rftoolsutility:counter",
+            "text": "当当前值等于最大值时，方块将发射红石信号。再次接收红石脉冲会关闭信号并将当前值归零。"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "海绵爆破",
+    "icon": "minecraft:lime_dye",
+    "category": "thermal:contributors",
+    "read_by_default": true,
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "海绵爆破",
+            "item": "minecraft:player_head{SkullOwner:'SpongeBlast'}",
+            "text": "强化模块章节撰写，终于能让诸位明白它们的用武之地了:D "
+        }
+    ]
+}

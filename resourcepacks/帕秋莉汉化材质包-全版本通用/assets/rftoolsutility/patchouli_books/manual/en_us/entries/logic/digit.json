@@ -1,0 +1,16 @@
+{
+    "name": "数显器",
+    "icon": "rftoolsutility:digit",
+    "category": "rftoolsutility:category_rftoolsutility_logic",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该方块根据输入信号强度显示0至F(十六进制)的对应数值。"
+        },
+        {
+            "type": "crafting",
+            "heading": "Digit",
+            "recipe": "rftoolsutility:digit"
+        }
+    ]
+}

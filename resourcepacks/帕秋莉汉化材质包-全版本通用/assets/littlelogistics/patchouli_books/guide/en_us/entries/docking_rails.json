@@ -1,0 +1,23 @@
+{
+    "name": "停靠轨道",
+    "icon": "littlelogistics:locomotive_dock_rail",
+    "category": "littlelogistics:blocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "存在两种对接轨道:机车轨与车厢轨。任何配置中必须始终存在机车停靠轨，车厢停靠轨需在其后呈直线排列。这些轨道本身不传输物品，但会向机车通报是否有待转移物资需要等待。也可通过红石信号强制机车等待。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "机车停靠轨",
+            "recipe": "littlelogistics:locomotive_dock_rail",
+            "text": "机车停靠轨仅支持注入模式(橙色/输出模式)，需在轨道旁放置漏斗进行输入。轨道朝向必须与机车行进方向一致。车厢停靠轨说明见下页 >>>"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "车厢停靠轨",
+            "recipe": "littlelogistics:car_dock_rail",
+            "text": "车厢停靠轨支持输出(橙色模式)与输入(蓝色模式)双向操作，潜行右键切换模式。在轨道下方放置漏斗即可提取资源。"
+        }
+    ]
+}

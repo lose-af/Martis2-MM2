@@ -1,0 +1,50 @@
+{
+    "name": "模块系统",
+    "icon": "modularrouters:breaker_module",
+    "category": "modularrouters:intro",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)模块/$插入$(l:intro/modular_router)模块化路由装置/$后赋予其功能。现有20种功能各异的模块类型，均具备以下共性:$(li)所有模块配备9个$(thing)过滤槽/$以控制处理物品类型$(li)多数模块具有基于路由装置朝向的$(thing)作用方向/$。"
+        },
+        {
+            "type": "text",
+            "text": "$(li)部分模块拥有额外设置项，用于配置模块专属功能。$(p)所有这些配置都可通过手持模块时$(thing)右键点击/$打开模块GUI界面进行调整。$(p)您也可以在路由器GUI界面中配置已安装模块:悬停光标时按下$(4)$(bold)[$(k:modularrouters.configure)]/$快捷键，或直接$(thing)中键点击/$模块，无需将其从路由器取出。"
+        },
+        {
+            "type": "image",
+            "images": [
+                "modularrouters:textures/patchouli/module_gui.png"
+            ],
+            "text": "$(italic)模块GUI界面说明:详见后续页面各部分解析/$",
+            "border": true
+        },
+        {
+            "type": "text",
+            "title": "1. 筛选器插槽",
+            "anchor": "filter",
+            "text": "九个筛选器插槽可放置任意物品/方块的幽灵副本。仅当路由器$(thing)缓存区/$中的物品与筛选器内物品匹配时，模块才会运作(白名单模式；黑名单模式则相反)。"
+        },
+        {
+            "type": "text",
+            "anchor": "direction",
+            "title": "2. 方向选择器",
+            "text": "多数模块根据路由器朝向在指定方向运作，此处可定义方向。$(p)部分模块(例如$(l:modules/sender2)发送器Mk2/$)直接锁定远端方块，因此无需定义方向。此时方向选择器将显示为空。"
+        },
+        {
+            "type": "text",
+            "title": "3. 筛选控制",
+            "text": "此处多个按钮控制:$(li)白名单/黑名单模式切换$(li)是否匹配物品耐久值(适用于可损耗物品)$(li)是否匹配NBT数据(如附魔属性)$(li)是否按$(l:https://minecraft.gamepedia.com/Tag)物品标签/$匹配$(p)另有按钮控制$(l:router/termination)终止行为/$，该功能在独立页面说明。"
+        },
+        {
+            "type": "text",
+            "title": "4. 增强组件",
+            "text": "每个模块配备四个$(thing)增强组件/$插槽，可插入模块专属强化装置。$(p)可插入的增强组件类型取决于模块种类，并非所有模块都支持全部增强类型。"
+        },
+        {
+            "type": "text",
+            "title": "5. 扩展设置",
+            "text": "部分模块提供额外配置选项。例如前文展示的$(l:modules/detector)侦测模块/$可设置红石输出等级，以及选择输出弱信号或强信号。$(p)此类选项通常显示在GUI界面右侧。"
+        }
+    ]
+}

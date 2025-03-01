@@ -1,0 +1,7 @@
+{
+    "name": "多重网络系统",
+    "description": "通过路由节点连接多个网络",
+    "parent": "xnet:category_xnet",
+    "icon": "xnet:router",
+    "sortnum": 20
+}

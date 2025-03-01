@@ -1,0 +1,17 @@
+{
+    "name": "暴击伤害",
+    "icon": "minecraft:netherite_axe",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)暴击伤害$()指暴击造成的伤害倍数(2=2倍普通伤害)。$(p)跳跃暴击发生时同样享受该加成。$(p)该属性见于近战武器。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 1$(p)$(9)$(n)最大值:$() 1024$(p)"
+        }
+    ]
+}

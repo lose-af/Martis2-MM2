@@ -1,0 +1,7 @@
+{
+    "name": "能源生产",
+    "description": "各类能量生成设备",
+    "parent": "rftoolspower:category_rftoolspower",
+    "icon": "rftoolspower:coalgenerator",
+    "sortnum": 10
+}

@@ -1,0 +1,12 @@
+{
+    "name": "无线路由节点",
+    "icon": "xnet:wireless_router",
+    "category": "xnet:category_xnet_wireless",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "实现网络的无线连接 @待完善"
+        }
+    ]
+}

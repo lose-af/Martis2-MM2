@@ -1,0 +1,22 @@
+{
+    "name": "通量导管",
+    "icon": "thermal:energy_duct",
+    "read_by_default": true,
+    "flag": "mod:thermal_dynamics",
+    "category": "thermal:ducts",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "通量导管用于传输能量。传输量级？足以满足需求。当连接处于饱和状态时，系统将自动提升传输上限。建议保持稳定的能量需求。若要限制能量流速，可使用红石通量限制器附件。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:energy_duct_4"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "兼容附件",
+            "text": "$(li)红石通量限制器"
+        }
+    ]
+}

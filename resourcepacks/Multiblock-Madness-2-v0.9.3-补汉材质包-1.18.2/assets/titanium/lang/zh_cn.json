@@ -1,0 +1,19 @@
+{
+    "tooltip.titanium.tank.no_action": "无法从物品填充或排放",
+    "block.titanium.block_twenty_four_test": "测试方块：(二十四个朝向)",
+    "tooltip.titanium.tank.action_drain": "<右键点击以从物品排放>",
+    "tooltip.titanium.unlocks": "解锁：",
+    "tooltip.titanium.tank.can_fill_from_item": "可通过物品填充",
+    "tooltip.titanium.tank.can_drain_from_item": "可通过物品排放",
+    "block.titanium.block_asset_test": "测试方块：(资产)",
+    "tooltip.titanium.tank.empty": "空 ",
+    "block.titanium.block_test": "测试方块：(基础)",
+    "tooltip.titanium.locks": "锁定：",
+    "tooltip.titanium.facing_handler.fluid": "液体储罐",
+    "tooltip.titanium.tank.no_tank": "<未悬停在储罐上>",
+    "tooltip.titanium.tank.fluid": "液体：",
+    "tooltip.titanium.progressbar.progress": "进度：",
+    "tooltip.titanium.tank.amount": "数量：",
+    "block.titanium.machine_test": "测试方块：(机器)",
+    "tooltip.titanium.tank.action_fill": "<左键点击以从物品填充>"
+}

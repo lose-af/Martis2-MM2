@@ -1,0 +1,17 @@
+{
+    "name": "不朽符咒",
+    "icon": "minecraft:enchanting_table",
+    "category": "apotheosis:potion/charms",
+    "flag": "&apotheosis:potion,apotheosis:enchanting",
+    "sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "通过$(l:apotheosis:enchanting/table/infusion)灌注附魔$()可使符咒获得不朽属性。$(p)借此可无限持续任何药水效果。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "不朽符咒的灌注配方难度较高。$(p)需要深入理解$(l:apotheosis:enchanting/table/stats)附魔属性机制$()才能完成。"
+        }
+    ]
+}

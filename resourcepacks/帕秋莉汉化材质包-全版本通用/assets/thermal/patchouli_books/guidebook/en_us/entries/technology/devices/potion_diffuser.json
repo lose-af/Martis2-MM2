@@ -1,0 +1,28 @@
+{
+    "name": "煎煮扩散器",
+    "icon": "thermal:device_potion_diffuser",
+    "category": "thermal:devices",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "煎煮扩散器是一种周期性消耗$(l:thermal:technology/potion_fluid)药水流体$(/l)来向周围生物施加药水效果的装置。通过此方式施加的效果持续时间仅有普通药水的1/4。当作用范围内没有生物时会自动停止运作。基础作用范围为以自身为中心的9x9x9区域，可通过$(l:thermal:technology/augments/area_radius)径向增强升级组件$(/l)扩展至15x15x15。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:device_potion_diffuser",
+            "title": "煎煮扩散器",
+            "text": "红石可延长持续时间，荧石能提升效果等级(最高IV级)但会缩短持续时间。每份反应物可支持扩散器16次运作。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "当受红石信号控制时，只要范围内存在生物，扩散器将在激活瞬间施加药水效果。这种机制确保其在接收脉冲信号时能可靠触发。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "升级组件兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)集成组件$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)扩容罐体结构$(/l)$(li)$(l:thermal:technology/augments/area_radius)径向增强$(/l)$(li)$(l:thermal:technology/augments/potion_amplifier)炼金增幅器$(/l)$(li)$(l:thermal:technology/augments/potion_duration)炼金延展器$(/l)"
+        }
+    ]
+}

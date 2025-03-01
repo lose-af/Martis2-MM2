@@ -1,0 +1,12 @@
+{
+    "name": "默认形状卡",
+    "icon": "rftoolsbuilder:shape_card_def",
+    "category": "rftoolsbuilder:category_rftoolsbuilder_shape_cards",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "默认形状卡用于建造模式(建造者)或为护盾投射器定义区域形状"
+        }
+    ]
+}

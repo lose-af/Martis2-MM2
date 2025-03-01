@@ -1,123 +1,123 @@
 {
-  "mod_id": "miningmaster",
-  "provided_stones": [],
-  "provided_ores": [
-    {
-      "block_id": [
-        "miningmaster:ice_sapphire_ore"
-      ],
-      "en_name": "Ice Sapphire Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "ice_sapphire_ore",
-      "stone": [
-        "stone"
-      ]
-    },
-    {
-      "block_id": [
-        "miningmaster:power_pyrite_ore"
-      ],
-      "en_name": "Power Pyrite Ore",
-      "types": [
-        "nether"
-      ],
-      "id": "power_pyrite_ore",
-      "stone": [
-        "netherrack"
-      ]
-    },
-    {
-      "block_id": [
-        "miningmaster:haste_peridot_ore"
-      ],
-      "en_name": "Haste Peridot Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "haste_peridot_ore",
-      "stone": [
-        "stone"
-      ]
-    },
-    {
-      "block_id": [
-        "miningmaster:fire_ruby_ore"
-      ],
-      "en_name": "Fire Ruby Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "fire_ruby_ore",
-      "stone": [
-        "stone"
-      ]
-    },
-    {
-      "block_id": [
-        "miningmaster:kinetic_opal_ore"
-      ],
-      "en_name": "Kinetic Opal Ore",
-      "types": [
-        "nether"
-      ],
-      "id": "kinetic_opal_ore",
-      "stone": [
-        "netherrack"
-      ]
-    },
-    {
-      "block_id": [
-        "miningmaster:heart_rhodonite_ore"
-      ],
-      "en_name": "Heart Rhodonite Ore",
-      "types": [
-        "nether"
-      ],
-      "id": "heart_rhodonite_ore",
-      "stone": [
-        "netherrack"
-      ]
-    },
-    {
-      "block_id": [
-        "miningmaster:spirit_garnet_ore"
-      ],
-      "en_name": "Spirit Garnet Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "spirit_garnet_ore",
-      "stone": [
-        "stone"
-      ]
-    },
-    {
-      "block_id": [
-        "miningmaster:dive_aquamarine_ore"
-      ],
-      "en_name": "Dive Aquamarine Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "dive_aquamarine_ore",
-      "stone": [
-        "stone"
-      ]
-    },
-    {
-      "block_id": [
-        "miningmaster:lucky_citrine_ore"
-      ],
-      "en_name": "Lucky Citrine Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "lucky_citrine_ore",
-      "stone": [
-        "stone"
-      ]
-    }
-  ]
+    "mod_id": "miningmaster",
+    "provided_stones": [],
+    "provided_ores": [
+        {
+            "block_id": [
+                "miningmaster:ice_sapphire_ore"
+            ],
+            "en_name": "\u971c\u84dd\u5b9d\u77f3\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "ice_sapphire_ore",
+            "stone": [
+                "stone"
+            ]
+        },
+        {
+            "block_id": [
+                "miningmaster:power_pyrite_ore"
+            ],
+            "en_name": "\u52a8\u80fd\u9ec4\u94c1\u77ff\u77ff\u77f3",
+            "types": [
+                "nether"
+            ],
+            "id": "power_pyrite_ore",
+            "stone": [
+                "netherrack"
+            ]
+        },
+        {
+            "block_id": [
+                "miningmaster:haste_peridot_ore"
+            ],
+            "en_name": "\u8fc5\u6377\u6a44\u6984\u77f3\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "haste_peridot_ore",
+            "stone": [
+                "stone"
+            ]
+        },
+        {
+            "block_id": [
+                "miningmaster:fire_ruby_ore"
+            ],
+            "en_name": "\u708e\u7ea2\u5b9d\u77f3\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "fire_ruby_ore",
+            "stone": [
+                "stone"
+            ]
+        },
+        {
+            "block_id": [
+                "miningmaster:kinetic_opal_ore"
+            ],
+            "en_name": "\u52a8\u80fd\u86cb\u767d\u77f3\u77ff\u77f3",
+            "types": [
+                "nether"
+            ],
+            "id": "kinetic_opal_ore",
+            "stone": [
+                "netherrack"
+            ]
+        },
+        {
+            "block_id": [
+                "miningmaster:heart_rhodonite_ore"
+            ],
+            "en_name": "\u5fc3\u73ab\u7ea2\u77f3\u77ff\u77f3",
+            "types": [
+                "nether"
+            ],
+            "id": "heart_rhodonite_ore",
+            "stone": [
+                "netherrack"
+            ]
+        },
+        {
+            "block_id": [
+                "miningmaster:spirit_garnet_ore"
+            ],
+            "en_name": "\u7075\u67d8\u69b4\u77f3\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "spirit_garnet_ore",
+            "stone": [
+                "stone"
+            ]
+        },
+        {
+            "block_id": [
+                "miningmaster:dive_aquamarine_ore"
+            ],
+            "en_name": "\u6f5c\u6d77\u84dd\u5b9d\u77f3\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "dive_aquamarine_ore",
+            "stone": [
+                "stone"
+            ]
+        },
+        {
+            "block_id": [
+                "miningmaster:lucky_citrine_ore"
+            ],
+            "en_name": "\u5e78\u8fd0\u9ec4\u6c34\u6676\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "lucky_citrine_ore",
+            "stone": [
+                "stone"
+            ]
+        }
+    ]
 }

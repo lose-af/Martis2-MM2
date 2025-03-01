@@ -1,0 +1,17 @@
+{
+    "name": "附魔应用器",
+    "icon": "industrialforegoing:enchantment_applicator",
+    "category": "industrialforegoing:misc",
+    "sortnum": 3,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "功能与铁砧相同，但使用$(l:agr_husb/essence)精华$()而非经验值。可从顶部储罐汲取精华，但消耗量巨大。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:enchantment_applicator"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "message.cucumber.filled_energy": "这个 %s 已经消耗了你的能量！",
+    "message.cucumber.filled_energy_error": "这个 %s 无法消耗你的能量。",
+    "tooltip.cucumber.failed_to_load_nbt": "加载 NBT 失败"
+}

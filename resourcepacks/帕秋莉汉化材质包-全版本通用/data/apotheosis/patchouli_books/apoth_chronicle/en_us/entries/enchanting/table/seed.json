@@ -1,0 +1,16 @@
+{
+    "name": "附魔种子",
+    "icon": "minecraft:wheat_seeds",
+    "category": "apotheosis:enchanting/table",
+    "flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "附魔系统(及其他相关机制)的所有随机因素都基于你的$(9)附魔种子$()。$(p)每次在附魔台进行附魔操作时，种子都会改变。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "只要种子不变，所有基于种子的随机结果都会保持一致。$(p)例如，特定附魔槽位出现的魔咒种类就是基于种子的随机结果。"
+        }
+    ]
+}

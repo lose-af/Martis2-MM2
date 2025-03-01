@@ -1,0 +1,15 @@
+{
+    "name": "拾取延迟强化",
+    "category": "modularrouters:augments",
+    "icon": "modularrouters:pickup_delay_augment",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该强化仅可添加至$(l:modules/dropper)投掷器/$和$(l:modules/flinger)弹射器/$模块。$(p)可叠加安装，每层强化使掉落/弹射物品的拾取延迟增加10游戏刻(0.5秒)。适用于防止玩家误拾周边物品等场景。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:pickup_delay_augment"
+        }
+    ]
+}

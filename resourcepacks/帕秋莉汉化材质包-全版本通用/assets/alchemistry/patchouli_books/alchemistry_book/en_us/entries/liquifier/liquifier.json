@@ -1,0 +1,15 @@
+{
+    "name": "元素液化器",
+    "icon": "alchemistry:liquifier",
+    "category": "alchemistry:liquifier_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "液化器是台动力机械，可将元素与化合物转化为对应流体。$(br2)$(o)(摘自沃伦教授的笔记:自然，所有过程都应可逆。通过铁质容器的精准施压，我们能让原子瓶内的物质重新液化。)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "alchemistry:liquifier"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "智能过滤器",
+    "icon": "modularrouters:bulk_item_filter",
+    "category": "modularrouters:intro",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)智能过滤器/$可替代常规物品插入$(l:intro/modules)模块/$过滤槽。其具备特殊匹配机制，而非简单物品匹配。$(p)例如$(l:filters/bulk_item)批量物品过滤器/$最多可匹配54种不同物品，并支持从现有容器配置物品。"
+        },
+        {
+            "type": "image",
+            "images": [
+                "modularrouters:textures/patchouli/bulk_filter.png"
+            ],
+            "text": "$(italic)二代抽取模块中安装的批量物品过滤器/$",
+            "border": true
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
 	version: 13
-	title: "Multiblock Madness 2"
+	title: "&d多方块狂潮2&f"
 	default_reward_team: false
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"

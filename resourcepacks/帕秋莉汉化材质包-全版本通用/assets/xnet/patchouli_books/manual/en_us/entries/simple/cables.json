@@ -1,0 +1,12 @@
+{
+    "name": "传输线缆",
+    "icon": "xnet:netcable_red",
+    "category": "xnet:category_xnet_simple",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "text",
+            "text": "设有四种互不干扰的彩色传输线缆"
+        }
+    ]
+}

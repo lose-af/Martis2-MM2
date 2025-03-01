@@ -1,0 +1,14 @@
+{
+    "name": "蓝铜矿",
+    "icon": "geolosys:azurite_ore",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "蓝铜矿",
+            "item": "geolosys:azurite_ore",
+            "link_recipe": false,
+            "text": "这类致密矿脉生成于海平面下51米至113米之间，仅出现于主世界任意生物群系。"
+        }
+    ]
+}

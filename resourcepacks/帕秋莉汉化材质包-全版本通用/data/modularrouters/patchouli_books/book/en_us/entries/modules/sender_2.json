@@ -1,0 +1,20 @@
+{
+    "name": "发送模块 Mk2",
+    "category": "modularrouters:modules",
+    "icon": "modularrouters:sender_module_2",
+    "pages": [
+        {
+            "type": "text",
+            "text": "功能类似$(l:modules/sender_1)发送模块Mk1/$，但具备更强定位能力:$(li)最远距离24格(使用$(l:augments/range_up)距离增强组件/$可达48格)$(li)无需视线直达"
+        },
+        {
+            "type": "text",
+            "text": "$(li)手持发送模块Mk2潜行右击目标方块可选定容器，会有确认提示。$(li)持有已设定目标的发送模块Mk2时，目标方块会高亮显示。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:sender_module_2",
+            "recipe2": "modularrouters:sender_module_2_x4"
+        }
+    ]
+}

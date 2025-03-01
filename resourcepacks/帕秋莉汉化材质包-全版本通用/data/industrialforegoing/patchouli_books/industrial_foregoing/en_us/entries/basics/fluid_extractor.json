@@ -1,0 +1,18 @@
+{
+    "name": "流体提取器",
+    "icon": "industrialforegoing:fluid_extractor",
+    "category": "industrialforegoing:basics",
+    "sortnum": 0,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "该装置可从机器前方的木材中提取$(l:basics/latex)乳胶$()。多个提取器可同时作用于同一根原木。$(br2)机器将逐步消耗原木:第一阶段去除树皮变为去皮原木，第二阶段完全消耗原木。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:fluid_extractor",
+            "text": "$(br2)$(6)不同原木产乳胶量不同，具体数值请查阅JEI。$(6)可选供能:提供能量可加速运作"
+        }
+    ]
+}

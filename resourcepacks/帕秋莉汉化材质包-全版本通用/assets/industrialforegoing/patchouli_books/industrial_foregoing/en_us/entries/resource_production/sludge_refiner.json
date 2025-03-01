@@ -1,0 +1,17 @@
+{
+    "name": "污泥精炼机",
+    "icon": "industrialforegoing:sludge_refiner",
+    "category": "industrialforegoing:resource_production",
+    "sortnum": 10,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "将$(6)污泥$()转化为有用物质的设备。$(br2)当输入通过$(l:agriculture_n_husbandry/plant_gatherer)植物收集器$()获取的$(6)污泥$()时，可生成$(6)特定产物$()。$(br)该过程需消耗$(6)1000$()RF/t能量，请确保储备充足能源。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:sludge_refiner"
+        }
+    ]
+}

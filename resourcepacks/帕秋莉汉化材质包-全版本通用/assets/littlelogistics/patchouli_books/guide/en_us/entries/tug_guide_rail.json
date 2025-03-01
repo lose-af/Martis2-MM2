@@ -1,0 +1,12 @@
+{
+    "name": "拖船导航轨",
+    "icon": "littlelogistics:guide_rail_tug",
+    "category": "littlelogistics:blocks",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:guide_rail_tug",
+            "text": "放置在水方块下方，功能类似充能铁轨。可强制拖船按特定路线行进，不影响驳船。按住潜行键右键旋转方向。"
+        }
+    ]
+}

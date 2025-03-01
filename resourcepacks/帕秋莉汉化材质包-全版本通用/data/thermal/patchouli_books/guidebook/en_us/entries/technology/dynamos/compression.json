@@ -1,0 +1,23 @@
+{
+    "name": "压缩反应炉",
+    "icon": "thermal:dynamo_compression",
+    "category": "thermal:dynamos",
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "压缩反应炉使用树油等可燃液体燃料产生RF能量。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:dynamo_compression",
+            "title": "压缩反应炉"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "增强模块兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)集成元件$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)扩容储罐构造$(/l)$(li)$(l:thermal:technology/augments/dynamo_output)辅助反应室$(/l)$(li)$(l:thermal:technology/augments/dynamo_fuel)多循环喷射器$(/l)"
+        }
+    ]
+}

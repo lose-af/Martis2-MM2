@@ -1,0 +1,32 @@
+{
+    "name": "巴扎尔",
+    "icon": "thermal:basalz_rod",
+    "category": "thermal:mobs",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "thermal:3_item_page",
+            "title": "巴扎尔",
+            "item1": "thermal:basalz_rod",
+            "item2": "thermal:basalz_powder",
+            "item3": "thermal:basalz_spawn_egg",
+            "text": "巴扎尔是生成于荒芜或山岳生物群系的敌对生物。拥有10颗心生命值，近距离攻击造成4颗心伤害。其投射物可造成3颗心伤害并附加破甲效果。死亡时有概率掉落巴扎尔碎片，可用于合成或粉碎成巴扎尔粉末。"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "thermal:basalz",
+            "title": "巴扎尔",
+            "text": "破甲:每级使护甲效能降低25%。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "行为模式",
+            "text": "巴扎尔是擅长近战的勇猛元素生物。它会生成8枚环绕投射物，攻击4格范围内所有目标。每次攻击消耗一枚投射物，耗尽后需要5秒重新装填。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "应对策略",
+            "text": "建议使用远程武器对抗。近战时即使装备护甲也难以承受8枚投射物的破甲效果。最佳策略是用盾牌格挡全部投射物后趁其虚弱期攻击，或将其引向其他生物分担伤害。"
+        }
+    ]
+}

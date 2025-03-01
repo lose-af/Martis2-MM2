@@ -1,0 +1,17 @@
+{
+    "name": "野蛮生成器",
+    "icon": "minecraft:zombie_head",
+    "category": "apotheosis:adventure/rogue_spawners",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "野蛮生成器是游荡生成器的变种，能生成比普通版本更强的怪物。$(p)这些怪物将拥有更高的生命值、护甲值和伤害值，并且具有火焰抗性。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "唯一的优点是这类生成器在召唤增援前会有较长的延迟时间。"
+        }
+    ]
+}

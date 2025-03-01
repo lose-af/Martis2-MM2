@@ -1,0 +1,5 @@
+{
+    "name": "火车",
+    "description": "车厢与矿车类似，但可通过$(l:spring)载具链条$()连接。每列火车必须且只能有一个火车头。",
+    "icon": "littlelogistics:steam_locomotive"
+}

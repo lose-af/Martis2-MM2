@@ -1,0 +1,15 @@
+{
+    "name": "通量效能",
+    "icon": "thermal:machine_efficiency_augment",
+    "category": "thermal:augments",
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:augments/machine_efficiency_augment",
+            "title": "通量效能",
+            "text": "降低单次操作所需RF至0.9倍，但机械的最大RF使用速率降低10%。"
+        }
+    ]
+}

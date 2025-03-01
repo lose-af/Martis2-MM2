@@ -1,0 +1,19 @@
+{
+    "name": "增强部件",
+    "icon": "modularrouters:augment_core",
+    "category": "modularrouters:intro",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)增强部件/$类似$(l:intro/upgrades)升级组件/$，但需插入$(l:intro/modules)模块/$而非$(l:intro/modular_router)模块化路由装置/$。每个模块有4个增强插槽(部分增强可堆叠)。这些部件通过不同方式强化或扩展模块功能。"
+        },
+        {
+            "type": "image",
+            "images": [
+                "modularrouters:textures/patchouli/augments.png"
+            ],
+            "text": "$(italic)配备6个范围提升增强与经验吸取增强的真空模块/$",
+            "border": true
+        }
+    ]
+}

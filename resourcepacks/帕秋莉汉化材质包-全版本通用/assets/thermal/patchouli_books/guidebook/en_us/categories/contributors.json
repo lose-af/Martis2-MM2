@@ -1,0 +1,7 @@
+{
+    "name": "贡献者",
+    "description": "由这些可爱的人们共同呈现！感谢所有提供帮助的人，以及Discord社区中给予建议和反馈的每一位成员。特别感谢King，感谢他的包容与支持，让我们得以开展这个项目，并多年来无私地为我们带来整个热力系列模组。",
+    "icon": "minecraft:poppy",
+    "parent": "thermal:links",
+    "sortnum": 20
+}

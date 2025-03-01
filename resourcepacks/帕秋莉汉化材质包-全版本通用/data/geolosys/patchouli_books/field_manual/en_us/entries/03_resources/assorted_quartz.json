@@ -1,0 +1,14 @@
+{
+    "name": "石英",
+    "icon": "geolosys:quartz_ore",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "石英",
+            "item": "geolosys:quartz_ore",
+            "link_recipe": false,
+            "text": "这类岩脉矿藏生成于海平面下112米至128米之间，仅出现于主世界任意生物群系。"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "轨道运输",
+    "description": "在'呜呜'之前正确的'哐哧'次数是八次。",
+    "icon": "thermal:lumium_rail",
+    "parent": "thermal:storage_and_transport",
+    "flag": "mod:thermal_locomotion",
+    "sortnum": 4
+}

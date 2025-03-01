@@ -1,0 +1,17 @@
+{
+    "name": "水下矿车",
+    "icon": "thermal:underwater_minecart",
+    "read_by_default": true,
+    "flag": "mod:thermal_locomotion",
+    "category": "thermal:locomotion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "水下矿车允许实体(包括玩家)在水下乘坐$(l:thermal:storage_and_transport/locomotion/prismarinerails)轨道$(/l)。乘坐水下矿车的实体拥有4分钟窒息保护时间。生物仍会保持水下行为特征:亡灵生物不会燃烧，烈焰人和末影人会受到伤害，僵尸会转化为溺尸。可通过附魔水下呼吸来减少每次游戏刻消耗空气的几率。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:underwater_minecart"
+        }
+    ]
+}

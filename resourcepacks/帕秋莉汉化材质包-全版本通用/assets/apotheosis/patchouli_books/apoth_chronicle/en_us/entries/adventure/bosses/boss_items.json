@@ -1,0 +1,17 @@
+{
+    "name": "首领战利品",
+    "icon": "minecraft:ender_chest",
+    "category": "apotheosis:adventure/bosses",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "每位首领除全套附魔装备外，必携一件词缀物品。$(p)该物品死亡必掉，且较其他词缀获取途径更易获得高稀有度装备。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "此物既是讨伐成功的战利凭证，亦往往物超所值。$(p)作为原主纪念，每件首领装备都会冠以其名作为前缀。"
+        }
+    ]
+}

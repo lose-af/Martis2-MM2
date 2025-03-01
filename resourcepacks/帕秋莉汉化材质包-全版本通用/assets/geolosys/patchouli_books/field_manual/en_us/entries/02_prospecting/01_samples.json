@@ -1,0 +1,18 @@
+{
+    "name": "地表样本",
+    "icon": "geolosys:hematite_ore_sample",
+    "category": "geolosys:02_prospecting",
+    "pages": [
+        {
+            "type": "text",
+            "text": "样本生成于地下矿脉(即岩基)上方地表。根据配置，破坏样本可能掉落矿簇或物品，帮助判断岩基所含资源类型！可通过普通挖掘或右键点击方式采集。"
+        },
+        {
+            "type": "image",
+            "images": [
+                "geolosys:textures/gui/patchouli/introduction/samples.png"
+            ],
+            "border": true
+        }
+    ]
+}

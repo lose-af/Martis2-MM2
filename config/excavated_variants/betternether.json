@@ -1,58 +1,58 @@
 {
-  "mod_id": "betternether",
-  "provided_stones": [],
-  "provided_ores": [
-    {
-      "block_id": [
-        "betternether:nether_redstone_ore"
-      ],
-      "en_name": "Redstone Ore",
-      "types": [
-        "nether"
-      ],
-      "id": "redstone_ore",
-      "stone": [
-        "netherrack"
-      ]
-    },
-    {
-      "block_id": [
-        "betternether:nether_lapis_ore"
-      ],
-      "en_name": "Lapis Ore",
-      "types": [
-        "nether"
-      ],
-      "id": "lapis_ore",
-      "stone": [
-        "netherrack"
-      ]
-    },
-    {
-      "block_id": [
-        "betternether:cincinnasite_ore"
-      ],
-      "en_name": "Cincinnasite Ore",
-      "types": [
-        "nether"
-      ],
-      "id": "cincinnasite_ore",
-      "stone": [
-        "netherrack"
-      ]
-    },
-    {
-      "block_id": [
-        "betternether:nether_ruby_ore"
-      ],
-      "en_name": "Ruby Ore",
-      "types": [
-        "nether"
-      ],
-      "id": "ruby_ore",
-      "stone": [
-        "netherrack"
-      ]
-    }
-  ]
+    "mod_id": "betternether",
+    "provided_stones": [],
+    "provided_ores": [
+        {
+            "block_id": [
+                "betternether:nether_redstone_ore"
+            ],
+            "en_name": "\u7ea2\u77f3\u77ff\u77f3",
+            "types": [
+                "nether"
+            ],
+            "id": "redstone_ore",
+            "stone": [
+                "netherrack"
+            ]
+        },
+        {
+            "block_id": [
+                "betternether:nether_lapis_ore"
+            ],
+            "en_name": "\u9752\u91d1\u77f3\u77ff\u77f3",
+            "types": [
+                "nether"
+            ],
+            "id": "lapis_ore",
+            "stone": [
+                "netherrack"
+            ]
+        },
+        {
+            "block_id": [
+                "betternether:cincinnasite_ore"
+            ],
+            "en_name": "\u8f9b\u8f9b\u90a3\u63d0\u77ff",
+            "types": [
+                "nether"
+            ],
+            "id": "cincinnasite_ore",
+            "stone": [
+                "netherrack"
+            ]
+        },
+        {
+            "block_id": [
+                "betternether:nether_ruby_ore"
+            ],
+            "en_name": "\u7ea2\u5b9d\u77f3\u77ff",
+            "types": [
+                "nether"
+            ],
+            "id": "ruby_ore",
+            "stone": [
+                "netherrack"
+            ]
+        }
+    ]
 }

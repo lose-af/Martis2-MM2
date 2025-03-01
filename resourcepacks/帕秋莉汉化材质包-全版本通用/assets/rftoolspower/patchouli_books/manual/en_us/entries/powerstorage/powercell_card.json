@@ -1,0 +1,16 @@
+{
+    "name": "能源单元卡",
+    "icon": "rftoolspower:powercell_card",
+    "category": "rftoolspower:category_rftoolspower_powerstorage",
+    "sortnum": 30,
+    "pages": [
+        {
+            "type": "text",
+            "text": "此卡用于将多个$(l:rftoolspower:powerstorage/dimensionalcell)维度能源单元$()进行联频。合成时处于$(thing)未链接$()状态，插入能源单元即可建立链接:若当前单元未联频则创建新频段；若最左侧卡槽已有联频卡，新卡将同步至相同频段。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolspower:powercell_card"
+        }
+    ]
+}

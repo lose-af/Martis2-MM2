@@ -1,0 +1,20 @@
+{
+    "chemlib.jei.compound.graphite.description": "一种结晶形态的碳。它在铅笔、润滑剂中使用，在高压下可以形成钻石。",
+    "item.chemlib.roentgenium": "伦琴",
+    "item.chemlib.graphite_dust": "石墨粉末",
+    "item.chemlib.bohrium": "波弗里姆",
+    "chemlib.jei.compound.calcium_chloride.description": "这种盐常被用作除冰剂，因为它吸水时会发热。它吸湿的能力也使其在除湿器中有用。",
+    "item.chemlib.meitnerium": "麦特纳",
+    "item.chemlib.livermorium": "利弗莫",
+    "item.chemlib.hassium": "郝素",
+    "item.chemlib.dubnium": "杜布尼",
+    "item.chemlib.polyvinyl_chloride_plate": "聚氯乙烯板",
+    "chemlib.effect.on_hit": "击中效果",
+    "item.chemlib.darmstadtium": "达姆斯塔皮",
+    "item.chemlib.seaborgium": "西博格",
+    "item.chemlib.flerovium": "费罗",
+    "item.chemlib.rutherfordium": "卢瑟福",
+    "item.chemlib.copernicium": "哥伦布",
+    "item.chemlib.mercury_sulfide_dust": "硫化汞粉末",
+    "chemlib.jei.compound.calcium_sulfide.description": "称为矿物蓝铜矿，是一种罕见的矿物，可在陨石中发现-虽然它可以轻易合成，通常作为燃煤的副产品。"
+}

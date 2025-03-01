@@ -1,0 +1,7 @@
+{
+    "name": "实用道具",
+    "description": "本节详述所有用于简化附魔流程的实用工具。",
+    "icon": "apotheosis:library",
+    "flag": "apotheosis:enchanting",
+    "parent": "apotheosis:enchanting/enchanting"
+}

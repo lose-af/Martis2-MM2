@@ -1,0 +1,12 @@
+{
+    "name": "原版矿石",
+    "icon": "minecraft:iron_ore",
+    "category": "geolosys:01_introduction",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "text",
+            "text": "通过配置，可完全禁用主世界、下界或末地中的原版矿石生成！启用配置选项(默认开启)后，您便可完全依赖地矿系统获取诸如铁与红石等原版资源！"
+        }
+    ]
+}

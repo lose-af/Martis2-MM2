@@ -1,0 +1,39 @@
+{
+    "name": "物品导管何在？",
+    "icon": "thermal:iron_gear",
+    "read_by_default": true,
+    "category": "thermal:storage_and_transport",
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "动态运输系统尚在开发阶段。当前版本已包含通量导管与流体导管，足以满足能量与流体传输需求。后续页面将推荐其他适用于物品运输的管道模组。"
+        },
+        {
+            "type": "patchouli:link",
+            "title": "XNet",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/xnet",
+            "link_text": "Curseforge Link",
+            "text": "XNet是能通过单一线缆传输物品、流体、RF等多类资源的强力模组。每个网络需配备控制器，通过其可配置输入输出、过滤条件、堆叠数量等多项通道参数。虽需一定学习成本，但其控制精度堪称无出其右。"
+        },
+        {
+            "type": "patchouli:link",
+            "title": "精炼管道",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/refined-pipes",
+            "link_text": "Curseforge Link",
+            "text": "若怀念1.12版本动态运输的体验，不妨尝试精炼管道。该模组提供不同等级的管道与提取器，传输速率逐级提升。对于熟悉1.12版本动态运输的老玩家，此模组将带来宾至如归的体验。"
+        },
+        {
+            "type": "patchouli:link",
+            "title": "集成隧穿",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/integrated-tunnels",
+            "link_text": "Curseforge Link",
+            "text": "集成动力学是一个功能极其强大的模组，可以评估生物、容器等各类对象的多种属性。隧道系统作为其扩展模组，允许网络对容器进行物品的输入/输出操作。两者结合使用时，能实现极高的精确度、筛选能力和控制力。请注意，本模组的上手难度高于大多数模组。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "含管道系统的综合性模组",
+            "text": "以下模组不仅提供多种运输方案，还包含大量其他精彩内容。若您需要$(o)仅$()添加物品/流体/能量传输功能的模组，请查阅前文。$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/create)机械动力$()$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)沉浸工程$()$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/rats)趣味鼠类模组$()"
+        }
+    ]
+}

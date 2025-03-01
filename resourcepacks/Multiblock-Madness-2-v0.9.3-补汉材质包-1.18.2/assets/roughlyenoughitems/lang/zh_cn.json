@@ -1,0 +1,15 @@
+{
+    "config.rei.options.accessibility.inventory_search_darken_opacity.desc": "不匹配搜索过滤器的物品的暗化覆盖的不透明度。",
+    "text.rei.display_registry_analysis": "显示注册表分析",
+    "text.rei.jei_compat.sub.stability": "§c§l(阿尔法版)",
+    "config.rei.options.groups.accessibility.inventory_search": "物品栏搜索",
+    "tooltip.rei.fluid_amount.forge": "§7%d 毫升",
+    "config.rei.options.accessibility.inventory_search_darken_opacity": "暗化覆盖不透明度",
+    "config.rei.options.debug.display_registry_analysis": "显示注册表分析",
+    "config.rei.options.accessibility.inventory_search_opacity": "高亮不透明度",
+    "config.rei.options.accessibility.inventory_search_mode": "模式",
+    "config.rei.options.debug.display_registry_analysis.desc": "每个类别中显示注册的细分。",
+    "text.rei.display_registry_analysis.displays": "%d 个显示",
+    "config.rei.options.accessibility.inventory_search_opacity.desc": "匹配搜索过滤器的物品的绿色覆盖的不透明度。",
+    "config.rei.options.accessibility.inventory_search_mode.desc": "物品栏搜索允许你在物品栏中搜索物品。这对于快速找到物品栏中的物品非常有用。\n双击搜索栏以切换此功能。"
+}

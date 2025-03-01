@@ -1,0 +1,38 @@
+{
+    "name": "词缀",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:adventure/affix_loot",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(6)词缀$()是词缀物品的核心驱动力。每个词缀都类似于附魔效果，会为所附着的物品提供特定增益。$(p)本书不会罗列所有词缀(这需要你自行探索)，但会帮助解析其机制。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "词缀类型",
+            "text": "存在多种不同类型的词缀，每种类型都具备独特的功能集合。$(p)物品可获得的词缀类型取决于其$(l:apotheosis:adventure/affix_loot/rarities)稀有度$()。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "属性词缀",
+            "text": "最常见的词缀类型是属性词缀。这类词缀会为特定属性提供简单增益，所有稀有度物品均可获得。更高稀有度的物品将获得额外的属性词缀。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "效果词缀",
+            "text": "效果词缀是最有趣的词缀类型。它们能为物品赋予各种额外功能，从简单的实用增益到强力的战斗效果应有尽有。$(p)这类词缀仅出现在稀有及以上品质的物品中。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "插槽",
+            "text": "插槽是一种特殊词缀类型，专门用于承载$(l:apotheosis:adventure/affix_loot/gems)宝石$()。$(p)宝石能提供巨大增益，但较难获取。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "耐久词缀",
+            "text": "耐久词缀可提升物品抗损能力，所有稀有及以上品质物品均自带该词缀。$(p)其效果在所有其他损伤减免之后生效，因此与耐久附魔效果呈乘法叠加。"
+        }
+    ]
+}

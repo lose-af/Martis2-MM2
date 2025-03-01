@@ -1,0 +1,17 @@
+{
+    "name": "当前生命值伤害",
+    "icon": "minecraft:dragon_head",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)当前生命值伤害$()是命中特效伤害类型，每次攻击附加目标当前生命值百分比的伤害。$(p)该属性仅见于重型武器。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 1$(p)$(9)$(n)最大值:$() 1024$(p)注:数值1.0实际对应0%当前生命值伤害，若基础值为零会导致百分比修正失效，固定值修正也无法正确计算加成。"
+        }
+    ]
+}

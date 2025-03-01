@@ -1,0 +1,17 @@
+{
+    "name": "溶解仓",
+    "icon": "industrialforegoing:dissolution_chamber",
+    "category": "industrialforegoing:basics",
+    "sortnum": 6,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "使用最多$(6)8$()个物品和/或$(6)1$()种流体合成材料的强力机器。可生产物品和/或流体。$(br2)所有配方均为无序配方，原料可放置于任意槽位。$(br2)当存在有效配方时，机器将锁定所有槽位以防止继续输入物品。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:dissolution_chamber"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "name": "传送带升级组件",
+    "icon": "industrialforegoing:conveyor_extraction_upgrade",
+    "category": "industrialforegoing:transport",
+    "sortnum": 1,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "industrialforegoing:conveyor_extraction_upgrade",
+            "title": "抽取装置",
+            "text": "从容器中抽取物品与流体，亦可从玩家库存抽取。$(br2)可通过图形界面过滤待抽取物品与流体。"
+        },
+        {
+            "type": "spotlight",
+            "item": "industrialforegoing:conveyor_insertion_upgrade",
+            "title": "注入装置",
+            "text": "向容器注入物品与流体，含两种模式:接触传送带即注入或需直接接触升级组件。$(br2)可通过图形界面过滤待注入物品与流体。"
+        },
+        {
+            "type": "spotlight",
+            "item": "industrialforegoing:conveyor_detection_upgrade",
+            "title": "检测装置",
+            "text": "侦测传送带表面物品与实体。$(br2)可通过图形界面过滤待检测目标，实体需使用内置该生物的MIB进行过滤。"
+        },
+        {
+            "type": "spotlight",
+            "item": "industrialforegoing:conveyor_bouncing_upgrade",
+            "title": "弹射装置",
+            "text": "弹射传送带表面物品与实体，垂直与水平弹射力度可在界面调节。$(br2)可通过图形界面过滤弹射目标，实体需使用内置该生物的MIB过滤。"
+        },
+        {
+            "type": "spotlight",
+            "item": "industrialforegoing:conveyor_dropping_upgrade",
+            "title": "坠落装置",
+            "text": "使传送带表面物品与实体垂直坠落。$(br2)可通过图形界面过滤坠落目标，实体需使用内置该生物的MIB过滤。"
+        },
+        {
+            "type": "spotlight",
+            "item": "industrialforegoing:conveyor_blinking_upgrade",
+            "title": "闪烁装置",
+            "text": "传送传送带表面物品与实体，传送距离可在界面调节。$(br2)可通过图形界面过滤传送目标，实体需使用内置该生物的MIB过滤。"
+        },
+        {
+            "type": "spotlight",
+            "item": "industrialforegoing:conveyor_splitting_upgrade",
+            "title": "分流装置",
+            "text": "按界面设定比例分流传送带表面物品与实体，需在所有分流方向安装升级组件。"
+        }
+    ]
+}

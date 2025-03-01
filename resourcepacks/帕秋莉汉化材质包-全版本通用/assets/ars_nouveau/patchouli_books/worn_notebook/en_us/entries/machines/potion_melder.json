@@ -1,0 +1,37 @@
+{
+    "name": "block.ars_nouveau.potion_melder",
+    "icon": "ars_nouveau:potion_melder",
+    "category": "ars_nouveau:machines",
+    "pages": [
+        {
+            "text": "ars_nouveau.page1.potion_melder",
+            "type": "patchouli:text"
+        },
+        {
+            "recipe": "ars_nouveau:potion_melder",
+            "type": "ars_nouveau:apparatus_recipe"
+        },
+        {
+            "name": "block.ars_nouveau.potion_melder",
+            "text": "ars_nouveau.page2.potion_melder",
+            "multiblock": {
+                "pattern": [
+                    [
+                        "   "
+                    ],
+                    [
+                        "C0C"
+                    ],
+                    [
+                        " C "
+                    ]
+                ],
+                "mapping": {
+                    "C": "ars_nouveau:potion_jar",
+                    "0": "ars_nouveau:potion_melder"
+                }
+            },
+            "type": "patchouli:multiblock"
+        }
+    ]
+}

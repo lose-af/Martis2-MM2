@@ -1,36 +1,36 @@
 {
-  "mod_id": "bewitchment",
-  "provided_stones": [],
-  "provided_ores": [
-    {
-      "block_id": [
-        "bewitchment:silver_ore",
-        "bewitchment:deepslate_silver_ore"
-      ],
-      "en_name": "Silver Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "silver_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    },
-    {
-      "block_id": [
-        "bewitchment:salt_ore",
-        "bewitchment:deepslate_salt_ore"
-      ],
-      "en_name": "Salt Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "salt_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    }
-  ]
+    "mod_id": "bewitchment",
+    "provided_stones": [],
+    "provided_ores": [
+        {
+            "block_id": [
+                "bewitchment:silver_ore",
+                "bewitchment:deepslate_silver_ore"
+            ],
+            "en_name": "\u94f6\u77ff",
+            "types": [
+                "stone"
+            ],
+            "id": "silver_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        },
+        {
+            "block_id": [
+                "bewitchment:salt_ore",
+                "bewitchment:deepslate_salt_ore"
+            ],
+            "en_name": "\u76d0\u77ff",
+            "types": [
+                "stone"
+            ],
+            "id": "salt_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        }
+    ]
 }

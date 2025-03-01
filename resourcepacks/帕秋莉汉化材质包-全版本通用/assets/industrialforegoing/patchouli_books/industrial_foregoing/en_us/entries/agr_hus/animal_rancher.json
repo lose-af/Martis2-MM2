@@ -1,0 +1,17 @@
+{
+    "name": "畜牧工作台",
+    "icon": "industrialforegoing:animal_rancher",
+    "category": "industrialforegoing:agriculture_husbandry",
+    "sortnum": 0,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "具备$(6)剪羊毛$()与$(6)挤牛奶$()功能的自动化设备。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:animal_rancher"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "重力",
+    "icon": "minecraft:elytra",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)重力$()表示坠落加速度，单位为方块/秒²。$(p)可能存在于任何物品，也可能不存在，谁知道呢。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 0.08$(p)$(9)$(n)最大值:$() 8$(p)注:重力可为负值。负重力时你将向上漂浮。"
+        }
+    ]
+}

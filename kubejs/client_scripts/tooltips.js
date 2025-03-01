@@ -126,18 +126,18 @@ onEvent('client.generate_assets', event => {
 onEvent('item.tooltip', tooltip => {
 	
 	tooltip.addAdvanced('multiblocked:symbol', (item, advanced, text) => {
-		text.add(1, [Text.aqua('the first tooltip has issues sometimes')])
+		text.add(1, [Text.aqua('首个提示偶尔会出现异常')])
  	})
 
 	//Multiblocked Tooltips
 	tooltip.addAdvanced(`multiblocked:energy_input_mk1`, (item, advanced, text) => {
-		text.add(1, [Text.of('Max transfer: ').gold(), Text.of('128,000').green()])
+		text.add(1, [Text.of('最大传输量:').gold(), Text.of('128,000').green()])
  	})
   	tooltip.addAdvanced(`multiblocked:energy_input_mk2`, (item, advanced, text) => {
-		text.add(1, [Text.of('Max transfer: ').gold(), Text.of('1,028,000').green()])
+		text.add(1, [Text.of('最大传输量:').gold(), Text.of('1,028,000').green()])
   	})
   	tooltip.addAdvanced(`multiblocked:energy_input_mk3`, (item, advanced, text) => {
-		text.add(1, [Text.of('Max transfer: ').gold(), Text.of('8,192,000').green()])
+		text.add(1, [Text.of('最大传输量:').gold(), Text.of('8,192,000').green()])
   	})
 
 	//Battie tooltips
@@ -157,48 +157,48 @@ onEvent('item.tooltip', tooltip => {
 	
 	//Misc tooltips
 	tooltip.addAdvanced('forbidden_arcanus:orb_of_temporary_flight', (item, advanced, text) => {
-		text.add(2, [Text.of('Found In End City Chests').aqua()])
+		text.add(2, [Text.of('生成于末地城箱子').aqua()])
 	})
 	tooltip.addAdvanced('forbidden_arcanus:blood_test_tube', (item, advanced, text) => {
-		text.add(1, [Text.red('Filled With Blood By Hitting Mobs With The '), Text.gold('Mystical Dagger')])
+		text.add(1, [Text.red('使用'), Text.gold('神秘匕首')])
 	})
 	tooltip.addAdvanced('summoningrituals:altar', (item, advanced, text) => {
-		text.add(1, [Text.of('Look At The "Useful Things" Chapter To See What Can Be Summoned').aqua()])
+		text.add(1, [Text.of('攻击生物可为该物品注入血液').aqua()])
 	})
 	
 	//Summoning Altar
 	let summonable =['thermal:basalz_spawn_egg', 'naturalist:firefly_spawn_egg', 'thermal:blizz_spawn_egg', 'thermal:blitz_spawn_egg', 'artifacts:mimic_spawn_egg', 'minecraft:elder_guardian_spawn_egg', 'minecraft:blaze_spawn_egg', 'minecraft:phantom_spawn_egg']
 	summonable.forEach(spawnegg => {
 		tooltip.addAdvanced(`${spawnegg}`, (item, advanced, text) => {
-			text.add(1, [Text.of('Can Be Summoned At The Summoning Altar').darkGreen()])
+			text.add(1, [Text.of('查看\"实用物品\"章节了解可召唤物').darkGreen()])
 		})
 	})
 	
   var ae2aLoaded = Platform.isLoaded('ae2_additions');
    	if(ae2aLoaded){
 	tooltip.addAdvanced('ae2_additions:pattern_provider_2th', (item, advanced, text) => {
-		text.add(1, [Text.of('Holds 18 Patterns').lightPurple()])
-		text.add(2, [Text.of('Only Shows Up On The Advanced Pattern Access Terminal').red()])
+		text.add(1, [Text.of('可在召唤祭坛进行召唤').lightPurple()])
+		text.add(2, [Text.of('可存储18种符文模板').red()])
   	})
 	tooltip.addAdvanced('ae2_additions:pattern_provider_3th', (item, advanced, text) => {
-		text.add(1, [Text.of('Holds 27 Patterns').lightPurple()])
-		text.add(2, [Text.of('Only Shows Up On The Advanced Pattern Access Terminal').red()])
+		text.add(1, [Text.of('仅在高级符文模板访问终端显示').lightPurple()])
+		text.add(2, [Text.of('可存储18种符文模板').red()])
   	})
 	tooltip.addAdvanced('ae2_additions:pattern_provider_4th', (item, advanced, text) => {
-		text.add(1, [Text.of('Holds 36 Patterns').lightPurple()])
-		text.add(2, [Text.of('Only Shows Up On The Advanced Pattern Access Terminal').red()])
+		text.add(1, [Text.of('仅在高级符文模板访问终端显示').lightPurple()])
+		text.add(2, [Text.of('可存储18种符文模板').red()])
   	})
 	tooltip.addAdvanced('ae2_additions:part_pattern_provider_2th', (item, advanced, text) => {
-		text.add(1, [Text.of('Holds 18 Patterns').lightPurple()])
-		text.add(2, [Text.of('Only Shows Up On The Advanced Pattern Access Terminal').red()])
+		text.add(1, [Text.of('可在召唤祭坛进行召唤').lightPurple()])
+		text.add(2, [Text.of('可存储18种符文模板').red()])
   	})
 	tooltip.addAdvanced('ae2_additions:part_pattern_provider_3th', (item, advanced, text) => {
-		text.add(1, [Text.of('Holds 27 Patterns').lightPurple()])
-		text.add(2, [Text.of('Only Shows Up On The Advanced Pattern Access Terminal').red()])
+		text.add(1, [Text.of('仅在高级符文模板访问终端显示').lightPurple()])
+		text.add(2, [Text.of('可存储18种符文模板').red()])
   	})
 	tooltip.addAdvanced('ae2_additions:part_pattern_provider_4th', (item, advanced, text) => {
-		text.add(1, [Text.of('Holds 36 Patterns').lightPurple()])
-		text.add(2, [Text.of('Only Shows Up On The Advanced Pattern Access Terminal').red()])
+		text.add(1, [Text.of('仅在高级符文模板访问终端显示').lightPurple()])
+		text.add(2, [Text.of('可存储18种符文模板').red()])
   	})
 	}
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -228,7 +228,7 @@ onEvent('item.tooltip', tooltip => {
 	]
 	coilHeatValues.forEach(coil => {
 		tooltip.addAdvanced(`kubejs:${coil.name}_coil`, (item, advanced, text) => {
-			text.add(1, [Text.white('EBF Heat Increase Per Coil: '), Text.red(`${coil.heat}`)])
+			text.add(1, [Text.white('每线圈EBF热量增幅:'), Text.red(`${coil.heat}`)])
 		})
 	});
 
@@ -244,12 +244,12 @@ onEvent('item.tooltip', tooltip => {
 			let feruchemyToolTip = item.feruchemy
 			tooltip.addAdvanced(`allomancy:${item.material}_flakes`, (item, advanced, text) => {
 				if (!tooltip.shift) {
-				  text.add(1, [Text.of('Hold ').gold(), Text.of('Shift ').aqua(), Text.of('to see allomantic uses.').gold()])
+				  text.add(1, [Text.of('按住').gold(), Text.of('Shift键').aqua(), Text.of('查看镕金术用途').gold()])
 				} else {
 				  text.add(1, Text.aqua(allomancyToolTip))
 				}
 				if (!tooltip.ctrl) {
-				  text.add(2, [Text.of('Hold ').gold(), Text.of('Ctrl ').green(), Text.of('to see feruchemy uses.').gold()])
+				  text.add(2, [Text.of('按住').gold(), Text.of('Ctrl键').green(), Text.of('查看藏金术用途').gold()])
 				} else {
 				  text.add(2, Text.green(feruchemyToolTip))
 				}
@@ -312,31 +312,31 @@ onEvent('item.tooltip', tooltip => {
 			//Bonus Tooltips
 			if(item.type != 'compound_ore') {
 				tooltip.addAdvanced(`kubejs:grit_${item.material}`, (items, advanced, text) => {
-					text.add(1, [Text.of(`Metal Tier: `).white(),Text.of(`${item.tier}`).gold()])
-					text.add(2, [Text.white(`Can be smelted in: `), Text.yellow(`${nameUpper(smeltingList[item.tier])}`)])
+					text.add(1, [Text.of(`金属等阶:`).white(),Text.of(`${item.tier}`).gold()])
+					text.add(2, [Text.white(`可熔炼于:`), Text.yellow(`${nameUpper(smeltingList[item.tier])}`)])
 				})
 			} else {
 				tooltip.addAdvanced(`kubejs:grit_${item.material}`, (items, advanced, text) => {
-					text.add(1, [Text.of(`Metal Tier: `).white(),Text.of(`${item.tier}`).gold()])
-					text.add(2, [Text.white(`Can be smelted into: `), Text.gold(`${nameUpper(item.components[0])}`)])
+					text.add(1, [Text.of(`金属等阶:`).white(),Text.of(`${item.tier}`).gold()])
+					text.add(2, [Text.white(`可熔炼为:`), Text.gold(`${nameUpper(item.components[0])}`)])
 				})}
 
 			if(item.tier <= 1) {
 				if(item.type == 'compound_ore') {
 					tooltip.addAdvanced(`kubejs:fragment_${item.material}`, (items, advanced, text) => {
-						text.add(1, [Text.of(`Metal Tier: `).white(),Text.of(`${item.tier}`).gold()])
-						text.add(2, [Text.white(`Can be smelted into `), Text.gold(`${nameUpper(item.components[0])} Nuggets`), Text.white(` or combined into Raw Ore`)])
+						text.add(1, [Text.of(`金属等阶:`).white(),Text.of(`${item.tier}`).gold()])
+						text.add(2, [Text.white(`可熔炼为`), Text.gold(`${nameUpper(item.components[0])} Nuggets`), Text.white(`或合成粗矿`)])
 					}) 
 				} else {
 					tooltip.addAdvanced(`kubejs:fragment_${item.material}`, (items, advanced, text) => {
-						text.add(1, [Text.of(`Metal Tier: `).white(),Text.of(`${item.tier}`).gold()])
-						text.add(2, [Text.white(`Can be smelted or combined into Raw Ore`)])
+						text.add(1, [Text.of(`金属等阶:`).white(),Text.of(`${item.tier}`).gold()])
+						text.add(2, [Text.white(`可熔炼或合成粗矿`)])
 					}) 
 				}
 			} else {
 				tooltip.addAdvanced(`kubejs:fragment_${item.material}`, (items, advanced, text) => {
-					text.add(1, [Text.of(`Metal Tier: `).white(),Text.of(`${item.tier}`).gold()])
-					text.add(2, [Text.white(`Combine into Raw Ore for futher processing`)])
+					text.add(1, [Text.of(`金属等阶:`).white(),Text.of(`${item.tier}`).gold()])
+					text.add(2, [Text.white(`需合成粗矿进行后续加工`)])
 				}) 
 			}
 			////////////////////////////////////////////////
@@ -357,9 +357,9 @@ onEvent('item.tooltip', tooltip => {
 					let smeltingFunction = (tier) => {
 						let smeltingTooltip = ""
 						if (tier-1 > part.grade && part.name != 'grit') {
-							smeltingTooltip = Text.of(`Must be processed further to be smelted or refined.`).red()
+							smeltingTooltip = Text.of(`必须经过进一步处理才能熔炼或提纯`).red()
 						} else {
-							smeltingTooltip = [Text.of(`Can be smelted in: `).white(), Text.of(`${smeltingList[tier]}`).yellow()]
+							smeltingTooltip = [Text.of(`可熔炼于:`).white(), Text.of(`${smeltingList[tier]}`).yellow()]
 						}
 						return smeltingTooltip
 					}
@@ -403,7 +403,7 @@ onEvent('item.tooltip', tooltip => {
 					let processingLine1 = (part) => {
 						let tooltipLine1 = ""
 						if (part == 'raw') {
-							tooltipLine1 = Text.gray(`- Ore`)
+							tooltipLine1 = Text.gray(`- 矿石`)
 						} else if (part == 'crushed') {
 							tooltipLine1 = [smeltingDashFunction(item.tier, index-1), Text.gray(oreProcessingPartList[index-1])]
 						} else {
@@ -436,11 +436,11 @@ onEvent('item.tooltip', tooltip => {
 					let processingToolTipCreation = (name) => {
 						//Make the Actual Tooltip
 						tooltip.addAdvanced(name, (items, advanced, text) => {
-							text.add(1, [Text.of(`Metal Tier: `).white(),Text.of(`${item.tier}`).gold()])
+							text.add(1, [Text.of(`金属等阶:`).white(),Text.of(`${item.tier}`).gold()])
 							text.add(2, [smeltingFunction(item.tier)])
 								if (!tooltip.shift) {
 									text.add(3, processingLine2(part.name))
-									text.add(4, [Text.of('Hold ').gray(), Text.of('Shift ').green(), Text.of('to see more information.').gray()])
+									text.add(4, [Text.of('按住').gray(), Text.of('Shift键').green(), Text.of('查看更多信息').gray()])
 								} else {
 									text.add(3, processingLine1(part.name))
 									text.add(4, processingLine2(part.name))
@@ -486,9 +486,9 @@ onEvent('item.tooltip', tooltip => {
 			let compoundSmeltingFunction = (grade) => {
 				let smeltingTooltip = ""
 				if (grade <= 0) {
-					smeltingTooltip = [Text.white(`Can be smelted into: `), Text.gold(`${nameUpper(item.components[0])}`)]
+					smeltingTooltip = [Text.white(`可熔炼为:`), Text.gold(`${nameUpper(item.components[0])}`)]
 				} else {
-					smeltingTooltip = Text.red(`Must be sorted into base metals before smelting.`)
+					smeltingTooltip = Text.red(`熔炼前需分拣为基底金属.`)
 				}
 				return smeltingTooltip
 			}
@@ -507,12 +507,12 @@ onEvent('item.tooltip', tooltip => {
 							}
 						} else if (line == part.grade + 2) {
 							if (line != 8) { // replaces a line with this text 
-								tooltipLine = [Text.white(`Increase `),Text.green(`Processing`),Text.white(` for:`)]
+								tooltipLine = [Text.white(`提升`),Text.green(`加工`),Text.white(`用于:`)]
 							} else {
 								tooltipLine = Text.darkGray(`Maximum yield achieved`)
 							}
 						} else { //process further
-							tooltipLine = [gradeLetterColor[line-2], Text.gray(` [Shift]`)]
+							tooltipLine = [gradeLetterColor[line-2], Text.gray(` [Shift键]`)]
 						}
 				return tooltipLine
 			}
@@ -527,7 +527,7 @@ onEvent('item.tooltip', tooltip => {
 							}
 						} else if (line == part.grade + 2) {
 							if (line != 8) {
-								tooltipLine = [Text.white(`Increase `),Text.green(`Processing`),Text.white(` for:`)]
+								tooltipLine = [Text.white(`提升`),Text.green(`加工`),Text.white(`用于:`)]
 							} else {
 								tooltipLine = Text.darkGray(`Maximum yield achieved`)
 							}
@@ -539,7 +539,7 @@ onEvent('item.tooltip', tooltip => {
 			let compoundToolTipCreation = (name) => {
 				//Make the Compound part Tooltip
 				tooltip.addAdvanced(name, (items, advanced, text) => {
-					text.add(1, [Text.gold('Sort'),Text.white(' at this grade for:')])
+					text.add(1, [Text.gold('按此品级筛选:'),Text.white('该品级对应:')])
 						if (!tooltip.shift) {
 							//text.add(1, [compoundSmeltingFunction(part.grade)])
 							text.add(2, compoundLine(0))
@@ -588,9 +588,9 @@ onEvent('item.tooltip', tooltip => {
 			let smeltingFunction = (tier) => {
 				let smeltingTooltip = ""
 				if (part.level == 1) {
-					smeltingTooltip = [Text.of(`Can be smelted in: `).white(), Text.of(`${smeltingList[tier]}`).yellow()]
+					smeltingTooltip = [Text.of(`可熔炼于:`).white(), Text.of(`${smeltingList[tier]}`).yellow()]
 				} else {
-					smeltingTooltip = Text.of(`Must be refined to level 1 before smelting.`).aqua()
+					smeltingTooltip = Text.of(`熔炼前需精炼至1级.`).aqua()
 				}
 				return smeltingTooltip
 			}
@@ -634,7 +634,7 @@ onEvent('item.tooltip', tooltip => {
 				let tooltipLine3 = ""
 				//console.log(oreRefiningPartList)
 				if (oreRefiningPartList[1] == nameUpper(linePart)) { //last item on the list has no next step
-					tooltipLine3 = Text.gray(`Can also be crushed into dust`)
+					tooltipLine3 = Text.gray(`也可粉碎成粉末`)
 				} else {
 					tooltipLine3 = [smeltingCheckFunction(index-1), Text.gray(oreRefiningPartList[index-1]), Text.gray(` (${index-1})`)]
 				}
@@ -647,11 +647,11 @@ onEvent('item.tooltip', tooltip => {
 					let refiningToolTipCreation = (name) => {
 						//Make the Actual Tooltip
 						tooltip.addAdvanced(name, (items, advanced, text) => {
-							text.add(1, [Text.of(`Metal Tier: `).white(),Text.of(`${item.tier}`).gold()])
+							text.add(1, [Text.of(`金属等阶:`).white(),Text.of(`${item.tier}`).gold()])
 							text.add(2, [smeltingFunction(item.tier)])
 								if (!tooltip.shift) {
 									text.add(3, tooltipLine2)
-									text.add(4, [Text.of('Hold ').gray(), Text.of('Shift ').aqua(), Text.of('to see more information.').gray()])
+									text.add(4, [Text.of('按住').gray(), Text.of('Shift键').aqua(), Text.of('查看更多信息').gray()])
 								} else {
 									text.add(3, refiningLine1(part.name))
 									text.add(4, tooltipLine2)

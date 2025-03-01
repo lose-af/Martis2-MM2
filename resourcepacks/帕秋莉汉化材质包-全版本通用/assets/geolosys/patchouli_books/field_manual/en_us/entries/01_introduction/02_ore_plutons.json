@@ -1,0 +1,48 @@
+{
+    "name": "矿脉岩基",
+    "icon": "geolosys:hematite_ore",
+    "category": "geolosys:01_introduction",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "矿物将生成于岩基构造中——这些自然形成的结构包含您所需的资源。岩基共有四种类型:"
+        },
+        {
+            "type": "image",
+            "title": "致密岩基",
+            "text": "黄金致密岩基示例",
+            "images": [
+                "geolosys:textures/gui/patchouli/introduction/dense.png"
+            ],
+            "border": true
+        },
+        {
+            "type": "image",
+            "title": "岩脉构造",
+            "text": "石英岩脉示例",
+            "images": [
+                "geolosys:textures/gui/patchouli/introduction/dike.png"
+            ],
+            "border": true
+        },
+        {
+            "type": "image",
+            "title": "层状岩基",
+            "text": "煤层状岩基示例",
+            "images": [
+                "geolosys:textures/gui/patchouli/introduction/layer.png"
+            ],
+            "border": true
+        },
+        {
+            "type": "image",
+            "title": "稀疏矿脉",
+            "text": "红石稀疏矿脉示例",
+            "images": [
+                "geolosys:textures/gui/patchouli/introduction/sparse.png"
+            ],
+            "border": true
+        }
+    ]
+}

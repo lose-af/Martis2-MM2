@@ -1,0 +1,17 @@
+{
+    "name": "幸运",
+    "icon": "minecraft:rabbit_foot",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)幸运$()使你更易获得优质战利品！$(p)任何物品都可能提供幸运值。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 0$(p)$(9)$(n)最大值:$() 1024$(p)注:负幸运值会使优质战利品更难获取。"
+        }
+    ]
+}

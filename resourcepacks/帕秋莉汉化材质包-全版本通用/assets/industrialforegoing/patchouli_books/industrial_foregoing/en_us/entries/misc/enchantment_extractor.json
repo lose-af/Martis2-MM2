@@ -1,0 +1,17 @@
+{
+    "name": "附魔提取器",
+    "icon": "industrialforegoing:enchantment_extractor",
+    "category": "industrialforegoing:misc",
+    "sortnum": 4,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "该机器可用书籍提取物品附魔。$(br2)有两种模式:将附魔导入书籍，或转化为$(l:agr_husb/essence)精华$()。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:enchantment_extractor"
+        }
+    ]
+}

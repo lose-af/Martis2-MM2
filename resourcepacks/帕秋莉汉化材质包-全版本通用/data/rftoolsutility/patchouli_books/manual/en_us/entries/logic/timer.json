@@ -1,0 +1,15 @@
+{
+    "name": "计时器",
+    "icon": "rftoolsutility:timer",
+    "category": "rftoolsutility:category_rftoolsutility_logic",
+    "pages": [
+        {
+            "type": "text",
+            "text": "计时器是一个简单的闸门装置，能够周期性地发出红石脉冲信号。您可自定义延时参数，因此也适用于需要长时间间隔的应用场景"
+        },
+        {
+            "type": "text",
+            "text": "该计时器的独特之处在于:当其输入端接收到红石脉冲信号时，会立即重置计时周期。这意味着若持续输入脉冲信号，该装置将永远不会自行输出脉冲。利用这一特性，可将其作为超时监测器使用"
+        }
+    ]
+}

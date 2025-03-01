@@ -1,0 +1,12 @@
+{
+    "name": "珍珠注入器",
+    "icon": "rftoolspower:pearl_injector",
+    "category": "rftoolspower:category_rftoolspower_powergeneration",
+    "sortnum": 40,
+    "pages": [
+        {
+            "type": "text",
+            "text": "该装置必须朝向$(l:rftoolspower:powergeneration/endergenic)末影发电机$(/l)或置于其正下方，是唯一能将末影珍珠注入能量系统的设备。接收红石信号时，会将末影珍珠转化为末影能量珍珠并立即注入相邻发电机。若目标发电机已有珍珠，则注入失败且珍珠损毁"
+        }
+    ]
+}

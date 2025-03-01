@@ -1,0 +1,6 @@
+{
+    "name": "村庄模块",
+    "description": "村庄模块添加了与村庄和村民相关的诸多内容。",
+    "icon": "minecraft:textures/mob_effect/hero_of_the_village.png",
+    "flag": "apotheosis:village"
+}

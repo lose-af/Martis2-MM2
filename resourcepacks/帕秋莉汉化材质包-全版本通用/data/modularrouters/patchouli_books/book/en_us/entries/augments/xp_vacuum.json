@@ -1,0 +1,19 @@
+{
+    "name": "经验吸取增强组件",
+    "category": "modularrouters:augments",
+    "icon": "modularrouters:xp_vacuum_augment",
+    "pages": [
+        {
+            "type": "text",
+            "text": "本组件仅可装配于$(l:modules/vacuum)吸取模块/$。$(p)装配后，吸取模块将转为吸收经验球而非物品。经验球将以每瓶7XP的转化率(等同于击碎附魔之瓶获得的平均经验值)转换为$(item)附魔之瓶/$。"
+        },
+        {
+            "type": "text",
+            "text": "根据安装的模组情况，亦可将经验球转化为液态经验。需满足以下条件:路由器缓存中存在储液罐，或路由器毗邻位置存在储液罐。后者需确保吸取模块界面中的$(bold)弹出/$按钮处于启用状态。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:xp_vacuum_augment"
+        }
+    ]
+}

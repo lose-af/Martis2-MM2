@@ -1,0 +1,5 @@
+{
+    "name": "方块",
+    "description": "共有两种方块:码头与导引轨道。码头用于装卸载具；导引轨道应布设在狭窄水道周围，防止载具卡住。",
+    "icon": "littlelogistics:tug_dock"
+}

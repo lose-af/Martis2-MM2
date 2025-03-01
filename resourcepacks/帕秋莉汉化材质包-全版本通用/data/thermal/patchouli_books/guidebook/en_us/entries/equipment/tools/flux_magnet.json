@@ -1,0 +1,24 @@
+{
+    "name": "通量磁吸器",
+    "icon": "thermal:flux_magnet",
+    "category": "thermal:tools",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "这款RF供能工具可将附近物品吸附至玩家背包。手持时右键可主动吸取物品。按'$(k:cofh.mode_change_increment)'切换自动吸附模式。可在匠魂工作台中充能与强化。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:flux_magnet",
+            "title": "通量磁吸器",
+            "text": "可通过附魔$(l:thermal:world/holding)持有$(/l)提升RF容量。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "强化组件兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)集成组件$(/l)$(li)$(l:thermal:technology/augments/item_filter)物品过滤器$(/l)$(li)$(l:thermal:technology/augments/rf_coil)扩展型RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)稳定型RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)高流量RF线圈$(/l)$(li)$(l:thermal:technology/augments/area_radius)径向强化装置$(/l)"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "启灵水晶",
+    "icon": "thermal:xp_crystal",
+    "category": "thermal:tools",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "便携式经验存储器！可储存10，000点经验值(约63级)。通过附魔$(l:thermal:world/holding)持有$(/l)可提升容量。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:tools/xp_crystal",
+            "title": "启灵水晶"
+        }
+    ]
+}

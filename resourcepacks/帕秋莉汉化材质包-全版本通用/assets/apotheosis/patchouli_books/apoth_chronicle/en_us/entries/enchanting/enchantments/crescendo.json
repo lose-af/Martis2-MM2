@@ -1,0 +1,13 @@
+{
+    "name": "弩箭渐强",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2)弩箭渐强$()是弩的大师级附魔。$(p)每级附魔使每次装填多发射一支箭矢。$(p)额外箭矢不消耗弹药。"
+        }
+    ]
+}

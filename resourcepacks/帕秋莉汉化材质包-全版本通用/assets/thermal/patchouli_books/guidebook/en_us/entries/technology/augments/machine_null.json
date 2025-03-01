@@ -1,0 +1,14 @@
+{
+    "name": "辅助仙人掌",
+    "icon": "thermal:machine_null_augment",
+    "category": "thermal:augments",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:augments/machine_null_augment",
+            "title": "辅助仙人掌",
+            "text": "自动销毁可能超出存储容量限制的次级产物，防止产物溢出。"
+        }
+    ]
+}

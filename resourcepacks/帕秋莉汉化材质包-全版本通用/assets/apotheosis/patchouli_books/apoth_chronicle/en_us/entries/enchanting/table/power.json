@@ -1,0 +1,24 @@
+{
+    "name": "附魔强度",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:enchanting/table",
+    "flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "在附魔过程中，你需要消耗经验和青金石来为物品附魔。$(p)但魔咒是如何被选中的呢？$(p)答案就在于附魔强度。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "首先我们了解魔咒的选取机制。$(p)每个魔咒都拥有$(5)强度函数$()，该函数控制着需要多少$(fpower)才能解锁特定等级。$(p)当所有可用魔咒被收集后，系统会根据它们的权重进行随机筛选。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "那么$(fpower)如何计算？这需要一些数学运算。$(p)初始的$(bpower)是你附魔时消耗的等级数值。$(p)随后，通过$(quanta)和修正值对$(bpower)进行调整，最终得到$(fpower)。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "具体调整规则详见$(l:apotheosis:enchanting/table/stats#quanta)$(quanta)与$(l:apotheosis:enchanting/table/stats#rectification)修正值$()条目。$(p)通常来说，更高的$(fpower)能解锁更高等级的魔咒。"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "硫锡矿与绿柱石",
+    "icon": "geolosys:teallite_ore",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "硫锡矿与绿柱石",
+            "item": "geolosys:teallite_ore",
+            "link_recipe": false,
+            "text": "该岩脉矿床生成于海平面下104米至116米间。仅存在于主世界，且仅生成于河流和炎热生物群系。"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "empty": {
+        "sounds": []
+    },
+    "fire_family": {
+        "sounds": [
+            {
+                "name": "ars_nouveau:fire_projectile_medium"
+            },
+            {
+                "name": "ars_nouveau:fire_projectile_small"
+            },
+            {
+                "name": "ars_nouveau:fire_projectile_large",
+                "pitch": 1.1,
+                "volume": 0.75
+            }
+        ]
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "name": "物品",
+    "description": "查看$(l:https://littlelogistics.murad.dev)在线指南$()获取物品使用视频教程。",
+    "icon": "littlelogistics:tug_route"
+}

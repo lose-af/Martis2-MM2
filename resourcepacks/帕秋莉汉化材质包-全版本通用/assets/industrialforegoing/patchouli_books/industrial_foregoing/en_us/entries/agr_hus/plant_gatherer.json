@@ -1,0 +1,21 @@
+{
+    "name": "植物采集机",
+    "icon": "industrialforegoing:plant_gatherer",
+    "category": "industrialforegoing:agriculture_husbandry",
+    "sortnum": 1,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "用于$(6)砍伐$()树木和$(6)收割$()作物的机械装置。每次操作都会产生少量$(l:agr_hus/sludge)污泥$()。$(br2)若植物采集机开始采伐工作区域内的树木，将持续采伐与基部原木方块相连的所有原木或树叶。"
+        },
+        {
+            "type": "text",
+            "text": "植物采集机收割时会破坏作物，即使该作物可通过右键点击收获。但如果为其提供微量以太，装置将自动补种。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:plant_gatherer"
+        }
+    ]
+}

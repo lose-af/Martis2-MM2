@@ -1,0 +1,17 @@
+{
+    "name": "植物播种机",
+    "icon": "industrialforegoing:plant_sower",
+    "category": "industrialforegoing:agriculture_husbandry",
+    "sortnum": 4,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "用于$(6)播种$()作物与树苗的机械装置。$(br2)其9格内部物品栏采用$(6)颜色编码$()系统，与播种机顶部的色标对应。装置上方工作区域被划分为9个区块，各区块仅播种对应物品栏内的种子。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:plant_sower"
+        }
+    ]
+}

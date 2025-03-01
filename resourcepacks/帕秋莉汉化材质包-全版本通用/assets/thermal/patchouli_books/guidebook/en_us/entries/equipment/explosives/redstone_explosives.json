@@ -1,0 +1,24 @@
+{
+    "name": "红石炸药",
+    "icon": "thermal:redstone_tnt",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "category": "thermal:explosives",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "红石炸药爆炸时将产生红石通量激发场，激活作用范围内的所有红石元件与装置。该力场将持续10秒。爆炸方块与手雷生成的力场半径分别为9格和5格。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:redstone_tnt",
+            "B.recipe": "thermal:redstone_grenade_4"
+        },
+        {
+            "flag": "&mod:thermal_innovation,mod:thermal_locomotion",
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:redstone_tnt_minecart",
+            "title": "红石炸药矿车"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "蒸汽拖船",
+    "icon": "littlelogistics:tug",
+    "category": "littlelogistics:vessels",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:tug",
+            "scale": 0.4,
+            "offset": 0.5,
+            "text": "基础拖船，可使用任意熔炉燃料驱动。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:tug",
+            "text": "燃料可通过拖船码头顶部的漏斗装载。"
+        }
+    ]
+}

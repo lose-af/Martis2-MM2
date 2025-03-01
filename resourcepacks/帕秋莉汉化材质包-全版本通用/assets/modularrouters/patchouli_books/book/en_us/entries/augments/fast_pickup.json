@@ -1,0 +1,15 @@
+{
+    "name": "快速拾取强化",
+    "category": "modularrouters:augments",
+    "icon": "modularrouters:fast_pickup_augment",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该强化仅可添加至$(l:modules/vacuum)吸取模块/$。使吸取模块无视掉落物的默认拾取延迟——玩家丢弃物品需40游戏刻，其他方式掉落(如剪羊毛)需10游戏刻——实现即时拾取。$(p)最多可添加一个快速拾取强化。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:fast_pickup_augment"
+        }
+    ]
+}

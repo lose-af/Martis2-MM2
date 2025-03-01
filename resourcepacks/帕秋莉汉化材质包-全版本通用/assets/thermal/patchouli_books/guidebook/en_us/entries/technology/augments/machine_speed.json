@@ -1,0 +1,15 @@
+{
+    "name": "通量联动增幅器",
+    "icon": "thermal:machine_speed_augment",
+    "category": "thermal:augments",
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:augments/machine_speed_augment",
+            "title": "通量联动增幅器",
+            "text": "通量联动放大器增强部件可使最大RF使用速率提升100%，但每次操作的RF消耗量会乘以1.1倍。"
+        }
+    ]
+}

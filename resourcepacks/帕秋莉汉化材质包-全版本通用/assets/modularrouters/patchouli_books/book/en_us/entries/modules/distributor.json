@@ -1,0 +1,19 @@
+{
+    "name": "分发器模块",
+    "category": "modularrouters:modules",
+    "icon": "modularrouters:distributor_module",
+    "pages": [
+        {
+            "type": "text",
+            "text": "这是$(l:modules/sender_2)发送器模块Mk2/$的增强版，可向多个目标发送物品。$(thing)潜行右击/$容器可将其加入分发列表，再次$(thing)潜行右击/$可移除。$(p)最多支持8个分发目标。"
+        },
+        {
+            "type": "text",
+            "text": "通过右侧GUI可选择分发策略:$(li)$(bold)轮询/$ - 尽可能均匀地轮流分发$(li)$(bold)随机/$ - 随机选择目标$(li)$(bold)最近/$ - 优先填满最近的有空间目标$(li)$(bold)最远/$ - 优先填满最远的有空间目标"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:distributor_module"
+        }
+    ]
+}

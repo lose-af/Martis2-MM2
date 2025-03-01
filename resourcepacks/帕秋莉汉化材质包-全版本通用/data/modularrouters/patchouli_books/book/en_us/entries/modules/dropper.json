@@ -1,0 +1,15 @@
+{
+    "name": "投掷模块",
+    "category": "modularrouters:modules",
+    "icon": "modularrouters:dropper_module",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该模块会将缓冲区物品以零初速度投掷到模块$(l:intro/modules#direction)设定方向/$的相邻位置。与原版$(item)投掷器/$不同，它不会给物品添加烦人的随机初速度。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:dropper_module"
+        }
+    ]
+}

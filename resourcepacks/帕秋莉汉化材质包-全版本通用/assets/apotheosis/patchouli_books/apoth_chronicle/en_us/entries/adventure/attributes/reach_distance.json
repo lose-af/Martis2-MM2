@@ -1,0 +1,17 @@
+{
+    "name": "触及距离",
+    "icon": "minecraft:iron_pickaxe",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)触及距离$()是你能够与物体交互的最大距离，包括破坏方块或操作物品。$(p)常见于采掘工具，因该属性对武器无实际效用。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 4.5$(p)$(9)$(n)最大值:$() 1024$(p)"
+        }
+    ]
+}

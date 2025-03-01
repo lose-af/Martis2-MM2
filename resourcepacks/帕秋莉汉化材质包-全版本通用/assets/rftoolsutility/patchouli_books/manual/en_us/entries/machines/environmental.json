@@ -1,0 +1,140 @@
+{
+    "name": "环境控制器",
+    "icon": "rftoolsutility:environmental_controller",
+    "category": "rftoolsutility:category_rftoolsutility_machines",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)环境控制器$()可对区域施加多种$(thing)环境效应$()，最多同时激活7种效果，但会显著增加能耗"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:environmental_controller"
+        },
+        {
+            "type": "image",
+            "images": [
+                "rftoolsutility:textures/manual/env_controller_gui.png"
+            ],
+            "text": "控制器操作界面说明"
+        },
+        {
+            "type": "text",
+            "text": "界面包含以下功能模块:$(br2)左侧为7个$(item)模组插槽$()，用于放置生效中的环境模组$(br2)顶部滑动条设定作用半径，下方输入框限定生效的Y轴高度范围"
+        },
+        {
+            "type": "text",
+            "text": "中部为玩家筛选器，可指定生效/免疫的玩家名单。提供七种筛选模式:全部实体、玩家黑名单、玩家白名单、被动生物、敌对生物、被动+敌对生物$(br2)底部左侧设有红石控制按钮(激活条件:信号开启/关闭/忽略)及能量显示条"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:module_template",
+            "recipe2": "rftoolsutility:moduleplus_template"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:speed_module",
+            "text": "该模块为范围内所有有效目标赋予速度I效果。$(br2)消耗:0.001 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:regeneration_module",
+            "text": "该模块为范围内所有有效目标赋予生命恢复I效果。$(br2)消耗:0.0015 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:featherfalling_module",
+            "text": "该模块将使范围内所有有效目标的坠落伤害减半。$(br2)消耗:0.001 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:glowing_module",
+            "text": "该模块为范围内所有有效目标赋予发光效果。$(br2)消耗:0.001 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:haste_module",
+            "text": "该模块为范围内所有有效目标赋予急迫I效果。$(br2)消耗:0.001 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:nightvision_module",
+            "text": "该模块为范围内所有有效目标赋予夜视效果。$(br2)消耗:0.001 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:saturation_module",
+            "text": "该模块为范围内所有有效目标赋予饱和效果。$(br2)消耗:0.001 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:luck_module",
+            "text": "该模块为范围内所有有效目标赋予幸运效果。$(br2)消耗:0.002 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:peaceful_module",
+            "text": "该模块阻止敌对生物在范围内生成。$(br2)消耗:0.001 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:featherfallingplus_module",
+            "text": "该模块将完全抵消范围内所有有效目标的坠落伤害。$(br2)消耗:0.003 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:hasteplus_module",
+            "text": "该模块为范围内所有有效目标赋予急迫III效果。$(br2)消耗:0.001 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:waterbreathing_module",
+            "text": "该模块为范围内所有有效目标赋予水下呼吸效果。$(br2)消耗:0.001 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:flight_module",
+            "text": "该模块为范围内所有有效目标赋予$(thing)创造模式飞行$()能力。$(br2)消耗:0.004 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:regenerationplus_module",
+            "text": "该模块为范围内所有有效目标赋予生命恢复III效果。$(br2)消耗:0.001 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:speedplus_module",
+            "text": "该模块为范围内所有有效目标赋予速度III效果。$(br2)消耗:0.003 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:saturationplus_module",
+            "text": "该模块为范围内所有有效目标赋予饱和III效果。$(br2)消耗:0.003 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:noteleport_module",
+            "text": "该模块阻止潜影贝和末影人在范围内传送。$(br2)消耗:0.001 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:blindness_module",
+            "text": "该模块为范围内所有有效目标赋予失明效果。$(br2)消耗:0.001 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:poison_module",
+            "text": "该模块对范围内所有有效目标施加中毒效果。$(br2)消耗:0.001 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:weakness_module",
+            "text": "该模块为范围内所有有效目标赋予虚弱效果。$(br2)消耗:0.001 RF/刻(范围内每方块)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsutility:slowness_module",
+            "text": "该模块为范围内所有有效目标赋予缓慢效果。$(br2)消耗:0.001 RF/刻(范围内每方块)"
+        }
+    ]
+}

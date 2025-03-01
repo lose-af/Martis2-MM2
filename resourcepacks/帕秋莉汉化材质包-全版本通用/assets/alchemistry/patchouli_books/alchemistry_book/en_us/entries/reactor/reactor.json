@@ -1,0 +1,43 @@
+{
+    "name": "反应堆系统总览",
+    "icon": "alchemistry:reactor_casing",
+    "category": "alchemistry:reactor_category",
+    "sortnum": 0,
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "裂变与聚变反应堆是通过物质操控合成所需元素的核心设施。这些复杂的多方块结构需要满足诸多建造条件。$(br2)所有反应堆均需包含以下组件:$(li)反应堆外壳$(li)反应堆玻璃$(li)反应堆控制器$(li)反应堆核心$(li)能量输入口$(li)物品输入口$(li)物品输出口"
+        },
+        {
+            "type": "crafting",
+            "title": "反应堆外壳",
+            "recipe": "alchemistry:reactor_casing",
+            "text": "反应堆外壳构成反应堆的主体结构，其强度足以承受元素裂变与聚变产生的压力。你需要大量这类方块才能建造一个反应堆。"
+        },
+        {
+            "type": "spotlight",
+            "title": "反应堆玻璃",
+            "item": "alchemistry:reactor_glass",
+            "text": "反应堆玻璃能让你观察反应堆内部运作。这种铅衬玻璃或许能有效阻隔辐射——大概吧。该物品需在合成器中制作，具体配方请查阅JEI。"
+        },
+        {
+            "type": "crafting",
+            "title": "反应堆能量接口",
+            "recipe": "alchemistry:reactor_energy",
+            "text": "反应堆需要巨量能源——$(bold)非常庞大$()的能源。请确保连接的能源线缆能满足这种级别的能耗需求。"
+        },
+        {
+            "type": "crafting",
+            "title": "反应堆输入口",
+            "recipe": "alchemistry:reactor_input",
+            "text": "虽然可以手动投放元素，但这有何乐趣？通过物品管道实现反应堆自动化才是明智之选。"
+        },
+        {
+            "type": "crafting",
+            "title": "反应堆输出口",
+            "recipe": "alchemistry:reactor_output",
+            "text": "功能与输入口完全相反的设计，其他特性基本一致。"
+        }
+    ]
+}

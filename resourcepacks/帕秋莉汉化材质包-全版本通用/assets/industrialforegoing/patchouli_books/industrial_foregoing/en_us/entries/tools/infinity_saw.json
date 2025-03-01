@@ -1,0 +1,13 @@
+{
+    "name": "无尽电锯",
+    "icon": "industrialforegoing:infinity_saw",
+    "category": "industrialforegoing:tools",
+    "sortnum": 3,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "无尽电锯可高效伐木，等阶越高同时砍伐的方块越多。持续破坏同一区块可砍伐巨型树木。"
+        }
+    ]
+}

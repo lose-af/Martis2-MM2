@@ -1,0 +1,8 @@
+{
+    "name": "机器",
+    "description": "本节详述各机器功能。机器需要红石通量(RF)驱动。",
+    "icon": "thermal:machine_furnace",
+    "parent": "thermal:technology",
+    "flag": "mod:thermal_expansion",
+    "sortnum": 1
+}

@@ -1,0 +1,16 @@
+{
+    "name": "催化剂系统",
+    "icon": "thermal:rich_slag",
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "category": "thermal:materials",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "催化剂是可选的消耗品，用于提升特定配方产出。下一页将列出各机器对应催化剂及其增效倍数:主产物产量由「主要」系数调整，副产物由「次要」系数调整，单次操作能耗由「能量」系数调整，催化剂消耗概率则显示于「使用几率」项。"
+        },
+        {
+            "type": "thermal:catalyst_page"
+        }
+    ]
+}

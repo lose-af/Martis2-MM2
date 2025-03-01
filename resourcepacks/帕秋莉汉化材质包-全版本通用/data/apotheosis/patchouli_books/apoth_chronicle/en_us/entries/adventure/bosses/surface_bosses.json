@@ -1,0 +1,17 @@
+{
+    "name": "入侵首领",
+    "icon": "minecraft:beacon",
+    "category": "apotheosis:adventure/bosses",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "诡异的声响、奇特的讯息，以及从天而降的巨大光柱...$(p)所有迹象都表明有一个Boss正在主动入侵你的世界。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "与地牢中的Boss不同，入侵型Boss可能会罕见地出现在普通怪物生成的地表区域。$(p)它们的到来会伴随着巨大声响、状态提示信息，以及从生成点短暂投射出的信标光束作为标志。"
+        }
+    ]
+}

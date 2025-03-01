@@ -1,0 +1,22 @@
+{
+    "name": "聚变系统总览",
+    "icon": "alchemistry:fusion_chamber_controller",
+    "category": "alchemistry:reactor_category",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "text",
+            "text": "聚变反应堆能将两种元素融合生成新元素，新元素的原子序数为原两种元素之和。具体配方请查阅JEI。$(br2)$(o)摘自沃伦教授笔记:聚变需要恒星能量及下界深处特有元素。通过改造裂变反应堆组件，我研发出了更强大的反应装置，可将两种元素的原子序数相加融合。结合裂变与聚变技术，现在我能将任意元素转化为其他元素。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "alchemistry:fusion_chamber_controller",
+            "text": "聚变仓核心控制器负责元素对撞过程，需要能量供应并设有物品输入输出接口。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "alchemistry:fusion_core",
+            "text": "在反应堆核心及其周边空间，两种元素将合而为一。将物品置入核心后，通过高速对撞可将小元素融合为更大元素，供其他实验使用。"
+        }
+    ]
+}

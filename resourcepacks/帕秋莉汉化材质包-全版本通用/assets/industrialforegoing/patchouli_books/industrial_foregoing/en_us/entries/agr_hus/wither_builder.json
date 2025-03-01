@@ -1,0 +1,16 @@
+{
+    "name": "凋灵建造机",
+    "icon": "industrialforegoing:wither_builder",
+    "category": "industrialforegoing:agriculture_husbandry",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "用于生成凋灵的机械装置。当通入能量并投入$(6)3个凋灵骷髅头$()与$(6)4个灵魂沙$()后，将在工作区域内完整构建凋灵生成结构。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:wither_builder"
+        }
+    ]
+}

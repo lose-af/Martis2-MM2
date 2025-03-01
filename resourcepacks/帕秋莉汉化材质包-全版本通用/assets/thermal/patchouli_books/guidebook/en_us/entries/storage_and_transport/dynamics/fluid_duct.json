@@ -1,0 +1,23 @@
+{
+    "name": "流体导管",
+    "icon": "thermal:fluid_duct",
+    "read_by_default": true,
+    "flag": "mod:thermal_dynamics",
+    "category": "thermal:ducts",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "流体导管用于传输流体。单一导管网络同一时间仅能承载并传输一种流体。透窗式流体导管可观察内部流体状态。若需从$(l:thermal:technology/devices/introduction)设备$(/l)等无自动输出功能的方块中提取流体，需安装伺服器附件。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:fluid_duct_4",
+            "B.recipe": "thermal:fluid_duct_windowed_4"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "兼容附件",
+            "text": "$(li)过滤器$(li)伺服器$(li)涡轮伺服器"
+        }
+    ]
+}

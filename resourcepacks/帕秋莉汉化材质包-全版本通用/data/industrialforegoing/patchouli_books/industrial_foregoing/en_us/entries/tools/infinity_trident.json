@@ -1,0 +1,13 @@
+{
+    "name": "无尽三叉戟",
+    "icon": "industrialforegoing:infinity_trident",
+    "category": "industrialforegoing:tools",
+    "sortnum": 3,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "无尽三叉戟可释放三叉戟真正威力。提升等阶可解锁不同层级的$(6)忠诚$()、$(6)激流$()和$(6)引雷$()。$(br2)引雷效果与攻击伤害将作用于范围性区域。"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "附魔工厂",
+    "icon": "industrialforegoing:enchantment_factory",
+    "category": "industrialforegoing:misc",
+    "sortnum": 0,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "当注入大量$(l:agr_hus/essence)精华$()并提供物品时，可为物品附加$(6)30级$()附魔。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:enchantment_factory"
+        }
+    ]
+}

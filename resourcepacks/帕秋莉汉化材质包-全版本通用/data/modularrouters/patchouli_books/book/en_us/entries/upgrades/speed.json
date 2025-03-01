@@ -1,0 +1,19 @@
+{
+    "name": "速度升级组件",
+    "category": "modularrouters:upgrades",
+    "icon": "modularrouters:speed_upgrade",
+    "pages": [
+        {
+            "type": "text",
+            "text": "默认$(l:router/modular_router)路由器/$每20服务器刻(即每秒)运作一次，按从左到右顺序执行所有已安装模块。$(p)安装$(thing)速度升级组件/$可提升运作频率:每组件减少2服务器刻间隔，最低可缩短至2服务器刻(即每秒10次)。"
+        },
+        {
+            "type": "text",
+            "text": "基础运作间隔、升级增幅及硬性最低间隔均可在配置文件(config/modularrouters-common.toml)中调整。$(p)出于性能考量，在可行情况下应优先使用$(l:upgrades/stack)堆叠升级组件/$而非速度组件，仅在需要极限传输速率时谨慎使用速度组件。$(p)请善待您的服务器™。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:speed_upgrade"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "创造模块",
+    "category": "modularrouters:modules",
+    "icon": "modularrouters:creative_module",
+    "pages": [
+        {
+            "type": "text",
+            "text": "创造模块是特殊的不可合成模块，能凭空生成物品到路由器的缓冲区。$(p)其过滤器作为轮询列表，每游戏刻以轮询方式切换生成物品。该模块无视其他过滤设置(白名单/黑名单、NBT匹配等)。"
+        }
+    ]
+}

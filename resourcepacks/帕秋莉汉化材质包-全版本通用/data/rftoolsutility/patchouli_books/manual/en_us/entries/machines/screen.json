@@ -1,0 +1,19 @@
+{
+    "name": "信息屏幕",
+    "icon": "rftoolsutility:screen",
+    "category": "rftoolsutility:category_rftoolsutility_machines",
+    "pages": [
+        {
+            "type": "text",
+            "text": "信息屏幕是能展示各类数据的多功能方块，具体功能取决于安装的模组模块。屏幕需通过附近$(l:rftoolsutility:machines/screen_controller)屏幕控制器$(/l)远程供能。$(br2)$(5)空手右键点击$()可打开屏幕操作界面"
+        },
+        {
+            "type": "text",
+            "text": "在界面中可安装模块(或手持模块直接右键屏幕安装)$(br2)多数模块(如能源模块)需要设定监控目标。设定目标需先$(5)潜行右键点击$()待监控机器上的模块"
+        },
+        {
+            "type": "text",
+            "text": "模块安装至屏幕后，可通过特定模块界面(通过常规屏幕界面进入)设置多种显示参数$(br2)在该界面还可启用'全亮模式'，使用扳手可调整屏幕尺寸与透明度"
+        }
+    ]
+}

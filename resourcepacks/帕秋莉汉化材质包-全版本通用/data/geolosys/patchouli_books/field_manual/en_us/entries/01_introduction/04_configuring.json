@@ -1,0 +1,18 @@
+{
+    "name": "配置地矿系统",
+    "icon": "minecraft:redstone",
+    "category": "geolosys:01_introduction",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "自Minecraft 1.16.5版的地矿系统v6起，本模组已全面采用数据包体系。您可通过制作数据包来创建、覆盖或完全移除现有岩基构造，这意味着模组原生支持CraftTweaker兼容！"
+        },
+        {
+            "type": "link",
+            "text": "地矿系统内置标准矿物数据包，组织结构如下:$(br)$(li)deposits/ores/<矿石类型>$(li)deposits/stones/<岩石类型>$(li)deposits/other/peat(及其他)$(br)若需禁用预设矿石，只需覆盖同名路径文件。更多帮助请查阅$(l:https://mods.oitsjustjose.com/Geolosys/#datapacks)此链接$(/l)！",
+            "url": "https://minecraft.gamepedia.com/Data_Pack",
+            "link_text": "Data Pack Wiki"
+        }
+    ]
+}

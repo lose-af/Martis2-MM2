@@ -1,0 +1,19 @@
+{
+    "name": "能量拖船",
+    "icon": "littlelogistics:energy_tug",
+    "category": "littlelogistics:vessels",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:energy_tug",
+            "scale": 0.4,
+            "offset": 0.5,
+            "text": "使用Forge能源驱动的拖船，停靠时可通过$(l:vessel_charger)载具充电器$()补充能量。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:energy_tug",
+            "text": "拖船额外提供一个电容插槽，当长途航行中途耗尽能量时可用于应急充电。"
+        }
+    ]
+}

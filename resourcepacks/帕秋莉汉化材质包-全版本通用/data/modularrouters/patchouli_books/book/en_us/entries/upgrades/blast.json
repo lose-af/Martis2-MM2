@@ -1,0 +1,15 @@
+{
+    "name": "爆炸升级",
+    "category": "modularrouters:upgrades",
+    "icon": "modularrouters:blast_upgrade",
+    "pages": [
+        {
+            "type": "text",
+            "text": "使路由器完全免疫爆炸伤害，同时抵御BOSS生物造成的破坏。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:blast_upgrade"
+        }
+    ]
+}

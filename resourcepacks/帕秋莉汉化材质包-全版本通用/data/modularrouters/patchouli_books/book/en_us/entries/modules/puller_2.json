@@ -1,0 +1,20 @@
+{
+    "name": "拉取模块 Mk2",
+    "category": "modularrouters:modules",
+    "icon": "modularrouters:puller_module_2",
+    "pages": [
+        {
+            "type": "text",
+            "text": "功能类似$(l:modules/puller_1)拉取模块Mk1/$，但可拉取非相邻容器物品。$(p)最远距离12格(使用$(l:augments/range_up)距离增强组件/$可达24格)；无需视线直达。"
+        },
+        {
+            "type": "text",
+            "text": "$(li)手持拉取模块Mk2潜行右击目标方块可选定容器，会有确认提示。$(li)持有已设定目标的拉取模块Mk2时，目标方块会高亮显示。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:puller_module_2",
+            "recipe2": "modularrouters:puller_module_2_x4"
+        }
+    ]
+}

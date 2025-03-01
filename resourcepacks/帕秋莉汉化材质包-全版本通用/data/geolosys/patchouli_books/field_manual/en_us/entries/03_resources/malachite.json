@@ -1,0 +1,14 @@
+{
+    "name": "孔雀石",
+    "icon": "geolosys:malachite_ore",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "孔雀石",
+            "item": "geolosys:malachite_ore",
+            "link_recipe": false,
+            "text": "该致密矿床生成于海平面上26米至海平面下80米间。仅存在于主世界，可在任意生物群系中发现。"
+        }
+    ]
+}

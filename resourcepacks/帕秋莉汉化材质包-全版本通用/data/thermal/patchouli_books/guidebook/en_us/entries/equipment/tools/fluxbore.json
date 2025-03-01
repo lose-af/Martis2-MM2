@@ -1,0 +1,23 @@
+{
+    "name": "通量钻",
+    "icon": "thermal:flux_drill",
+    "category": "thermal:tools",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "使用RF高效开采石质与土质方块。可在匠魂工作台中充能与强化。开采黑曜石需要强化级或更高级的基础元件。安装范围强化后，按'$(k:cofh.mode_change_increment)'切换开采半径。可通过$(l:thermal:world/holding)容量$(/l)附魔提升RF储量。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:drill_head",
+            "B.recipe": "thermal:flux_drill"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "强化兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)整合组件$(/l)$(li)$(l:thermal:technology/augments/rf_coil)扩容RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)稳定化RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)高通量RF线圈$(/l)$(li)$(l:thermal:technology/augments/area_radius)径向增强$(/l)"
+        }
+    ]
+}

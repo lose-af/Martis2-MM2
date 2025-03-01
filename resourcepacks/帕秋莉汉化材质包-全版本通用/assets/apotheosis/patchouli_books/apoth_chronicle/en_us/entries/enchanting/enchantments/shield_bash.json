@@ -1,0 +1,13 @@
+{
+    "name": "盾击",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)盾击$() 是盾牌附魔。$(p)使持盾近战攻击造成额外伤害。$(p)但使用$(9)盾击$()攻击会额外损耗耐久。"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "bdlib.dumpregistry.saved": "注册表已保存到 %s",
+    "bdlib.oredistribution.start2": "服务器可能会有一段时间的延迟",
+    "bdlib.oredistribution.error": "保存矿石分布失败：%s",
+    "bdlib.format.rate.unit": "%s %s/刻",
+    "bdlib.oredistribution.warn": "%s 警告：%s 有多个生成的变种：",
+    "bdlib.multiblock.tip.module": "可安装在：",
+    "bdlib.config.power.activation": "激活能量",
+    "bdlib.multiblock.tip.module.max": "* %s (最多 %s)",
+    "bdlib.dumpregistry.error": "保存注册表失败：%s",
+    "bdlib.oredistribution.start1": "检查矿石分布在 (%s，%s，%s) 到 (%s，%s，%s) 维度 %s",
+    "bdlib.format.rate": "%s/刻",
+    "bdlib.oredistribution.usage": "用法：/oredistribution <半径> [<最小高度>] [<最大高度>] [--file]",
+    "bdlib.multiblock.tip.controller": "可能的模块：",
+    "bdlib.config.power.capacity": "能量容量",
+    "bdlib.oredistribution.entry": "%s %s - %s%s%%“ -> “%s个%s - %s %s%%",
+    "bdlib.oredistribution.saved": "矿石分布已保存到 %s",
+    "bdlib.config.power.maxinput": "最大能量输入",
+    "bdlib.unit.mb": "毫升"
+}

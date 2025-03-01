@@ -1,0 +1,12 @@
+{
+    "name": "存储扫描器",
+    "icon": "rftoolsstorage:storage_scanner",
+    "category": "rftoolsstorage:category_rftoolsstorage_scanner",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "存储扫描器是能搜索周边库存并展示其中物品的强力设备，还可实现物品的远程存取操作"
+        }
+    ]
+}

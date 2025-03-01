@@ -1,0 +1,14 @@
+{
+    "name": "金矿",
+    "icon": "geolosys:gold_ore",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "金矿",
+            "item": "geolosys:gold_ore",
+            "link_recipe": false,
+            "text": "该稠密矿床生成于海平面以下32米至128米之间，仅存在于主世界且可在任意生物群系中发现。"
+        }
+    ]
+}

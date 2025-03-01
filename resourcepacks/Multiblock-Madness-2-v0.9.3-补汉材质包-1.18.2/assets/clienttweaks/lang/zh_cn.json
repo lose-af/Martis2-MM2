@@ -1,0 +1,9 @@
+{
+    "text.autoconfig.clienttweaks.option.tweaks.noRecipeBookShifting": "禁用合成书翻页",
+    "text.autoconfig.clienttweaks.option.customization.shieldItems": "盾牌物品",
+    "text.autoconfig.clienttweaks.option.tweaks.paneBuildingSupport": "支持窗玻璃和地狱砖建造",
+    "clienttweaks.disableLogStripping": "禁用去除树皮：%s",
+    "text.autoconfig.clienttweaks.option.tweaks.noOffhandTorchWithFood": "禁止携带食物的副手火把",
+    "key.clienttweaks.disableLogStripping": "切换禁用去除树皮",
+    "text.autoconfig.clienttweaks.option.tweaks.disableLogStripping": "禁用去除树皮"
+}

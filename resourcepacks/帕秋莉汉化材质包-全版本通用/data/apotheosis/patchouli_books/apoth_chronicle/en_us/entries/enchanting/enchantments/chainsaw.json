@@ -1,0 +1,13 @@
+{
+    "name": "链锯",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2)链锯$()是适用于斧头的大师级附魔。$(p)砍伐树木时将完整收获整棵树。$(p)此效果会消耗斧头耐久。"
+        }
+    ]
+}

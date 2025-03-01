@@ -1,0 +1,7 @@
+{
+    "name": "模块化存储",
+    "description": "灵活多变的存储解决方案",
+    "parent": "rftoolsstorage:category_rftoolsstorage",
+    "icon": "rftoolsstorage:modular_storage",
+    "sortnum": 10
+}

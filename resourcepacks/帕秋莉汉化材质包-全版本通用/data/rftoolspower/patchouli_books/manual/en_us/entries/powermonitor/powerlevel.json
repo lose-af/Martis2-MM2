@@ -1,0 +1,17 @@
+{
+    "name": "能量等级",
+    "icon": "rftoolspower:power_level",
+    "category": "rftoolspower:category_rftoolspower_monitor",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "text",
+            "text": "该逻辑模块可将其输入面朝向$(thing)能量块$()放置。它会显示代表该能量块中电能强度的数字(0至9)，并发出对应强度的红石信号。"
+        },
+        {
+            "type": "crafting",
+            "heading": "Power Monitor",
+            "recipe": "rftoolspower:power_level"
+        }
+    ]
+}

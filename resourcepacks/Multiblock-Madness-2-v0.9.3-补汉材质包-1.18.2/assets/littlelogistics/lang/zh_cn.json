@@ -1,0 +1,7 @@
+{
+    "block.littlelogistics.fluid_hopper.capacity": "%s %s/%s 毫升",
+    "entity.littlelogistics.fluid_barge.capacity": "%s %s/%s 毫升",
+    "screen.littlelogistics.energy_tug.energy": "%s/%s能量值",
+    "block.littlelogistics.vessel_charger.capacity": "%s/%s能量值容量",
+    "item.littlelogistics.tug_route.node_named": "%s. %s节点"
+}

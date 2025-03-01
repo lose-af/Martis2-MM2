@@ -1,0 +1,6 @@
+{
+    "name": "强化装置",
+    "description": "模块强化装置可安装于功能模块中，用于增强或扩展其功能",
+    "icon": "modularrouters:xp_vacuum_augment",
+    "sortnum": 4
+}

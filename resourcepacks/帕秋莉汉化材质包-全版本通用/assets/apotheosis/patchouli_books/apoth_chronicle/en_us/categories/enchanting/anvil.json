@@ -1,0 +1,7 @@
+{
+    "name": "铁砧系统",
+    "description": "本节详述铁砧所有改动。$(p)铁砧现可附魔，无等级限制，并可用铁块在铁砧中修复。",
+    "icon": "minecraft:anvil",
+    "flag": "apotheosis:enchanting",
+    "parent": "apotheosis:enchanting/enchanting"
+}

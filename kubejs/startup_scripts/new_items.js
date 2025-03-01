@@ -192,41 +192,41 @@ onEvent('item.registry', event => {
 	event.create(`thermolytic_blend_chunk`).color(0, 0x42f5da).texture(`kubejs:item/ore/chunk`).parentModel(`kubejs:item/ore/chunk`) 
 	event.create(`thermolytic_blend_crystal`).color(0, 0x42f5da).texture(`kubejs:item/ore/crystal`).parentModel(`kubejs:item/ore/crystal`) 
 
-	event.create(`solar_chip_blue`).displayName('Dyson Tracking Chip (1)').texture(`kubejs:item/solar_chip_blue`)
-	event.create(`solar_chip_red`).displayName('Dyson Tracking Chip (8)').texture(`kubejs:item/solar_chip_red`)
-	event.create(`solar_chip_green`).displayName('Dyson Tracking Chip (64)').texture(`kubejs:item/solar_chip_green`)
-	event.create(`solar_chip_purple`).displayName('Dyson Tracking Chip (512)').texture(`kubejs:item/solar_chip_purple`)
+	event.create(`solar_chip_blue`).displayName('戴森追踪芯片(1)').texture(`kubejs:item/solar_chip_blue`)
+	event.create(`solar_chip_red`).displayName('戴森追踪芯片(8)').texture(`kubejs:item/solar_chip_red`)
+	event.create(`solar_chip_green`).displayName('戴森追踪芯片(64)').texture(`kubejs:item/solar_chip_green`)
+	event.create(`solar_chip_purple`).displayName('戴森追踪芯片(512)').texture(`kubejs:item/solar_chip_purple`)
 
-	event.create(`catalyst_basic`).displayName('Basic Ore Catalyst')
-	event.create(`catalyst_gem`).displayName('Crystal Ore Catalyst')
-	event.create(`catalyst_magic`).displayName('Magic Ore Catalyst')
-	event.create(`catalyst_empty`).displayName('Empty Catalyst Housing')
+	event.create(`catalyst_basic`).displayName('基础矿石催化剂')
+	event.create(`catalyst_gem`).displayName('水晶矿石催化剂')
+	event.create(`catalyst_magic`).displayName('魔法矿石催化剂')
+	event.create(`catalyst_empty`).displayName('空催化剂外壳')
 	
 	event.create(`water_filter`).unstackable()
 
 	event.create('bottled_magic').glow(true)
 	event.create('gavel_polish').unstackable().maxDamage(4)
 
-	event.create('assembly_rune').displayName('Rune of Assembly').rarity('rare')
+	event.create('assembly_rune').displayName('组装符文').rarity('rare')
 
-	event.create('galactic_standard_currency').displayName('§3Galactic Standard Currency')
+	event.create('galactic_standard_currency').displayName('§3银河标准货币')
 	
 
-	event.create('dimensional_alloy').displayName('§bDimensional Alloy')
-	event.create('extra_dimensional_alloy').displayName('§dExtra Dimensional Alloy')
+	event.create('dimensional_alloy').displayName('§b次元合金')
+	event.create('extra_dimensional_alloy').displayName('§d超次元合金')
 
 
-	event.create('sentient_processor').displayName('§bSentient Processor')
+	event.create('sentient_processor').displayName('§b感知处理器')
 	
 
-	event.create('reinforced_hdpe_sheet').displayName('§7Reinforced HDPE Sheet')
+	event.create('reinforced_hdpe_sheet').displayName('§7强化高密度聚乙烯板')
 	
-	event.create('quantum_processor').rarity('epic').displayName('§5Quantum Processor')
+	event.create('quantum_processor').rarity('epic').displayName('§5量子处理器')
 
-	event.create('blank_ai_chip').displayName('Blank AI Chip')
-	event.create('ai_chip').displayName('§eAI Chip')
-	event.create('hostile_ai_chip').displayName('§cHostile AI Chip')
-	event.create('advanced_ai_chip').displayName('§bAdvanced AI Chip')
+	event.create('blank_ai_chip').displayName('空白AI芯片')
+	event.create('ai_chip').displayName('§eAI芯片')
+	event.create('hostile_ai_chip').displayName('§c敌对AI芯片')
+	event.create('advanced_ai_chip').displayName('§b高级人工智能芯片')
 
 	event.create('blank_cosmic_blueprint').glow(true).rarity('epic')
 	event.create('world_shaper_blueprint').glow(true).rarity('epic')
@@ -246,7 +246,7 @@ onEvent('item.registry', event => {
 		event.create(`${type}_drone`)
 		event.create(`${type}_drone_active`).displayName(nameUpperWSpace(type) + ' Drone §a[Active]')
 	});
-	event.create('cargo_drone').displayName('Cargo Drone §b[Empty]')
+	event.create('cargo_drone').displayName('货运无人机 §b[空]')
 
 	global.planetTypes = [
 		'green',

@@ -1,0 +1,15 @@
+{
+    "name": "自动合成器",
+    "icon": "rftoolsutility:crafter3",
+    "category": "rftoolsutility:category_rftoolsutility_machines",
+    "pages": [
+        {
+            "type": "text",
+            "text": "自动合成器可实现物品自动化合成。顶级版本最多支持8种不同配方$(br2)配备26个原料输入槽位与4个成品输出槽位"
+        },
+        {
+            "type": "text",
+            "text": "通过R键可$(l)锁定$()槽位内容物，使输入/输出槽仅允许特定物品进出。使用F键可解除锁定$(br2)$(5)灌注$()该机器可降低能耗$(br2)支持安装$(l:rftoolsbase:tools/filtermodule)过滤模块$()"
+        }
+    ]
+}

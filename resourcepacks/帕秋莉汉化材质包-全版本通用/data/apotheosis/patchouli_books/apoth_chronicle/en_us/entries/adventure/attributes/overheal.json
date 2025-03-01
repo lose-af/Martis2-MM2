@@ -1,0 +1,17 @@
+{
+    "name": "过载治疗",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)过量治疗$()意味着你造成的部分物理伤害将转化为吸收护盾。与生命偷取不同，该效果在满血时依然生效。$(p)此属性仅见于重武器。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 1$(p)$(9)$(n)最大值:$() 1024$(p)注:1.0实际对应0%当前生命值伤害，但若基础值为零，百分比修正将失效，且固定值修正无法正确传递加成。"
+        }
+    ]
+}

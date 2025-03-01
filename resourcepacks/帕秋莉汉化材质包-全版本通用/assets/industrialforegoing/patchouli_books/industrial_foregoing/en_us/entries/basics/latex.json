@@ -1,0 +1,13 @@
+{
+    "name": "乳胶(流体)",
+    "icon": "industrialforegoing:latex_bucket",
+    "category": "industrialforegoing:basics",
+    "sortnum": 3,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "该流体用于$(l:basics/latex_processing_unit)乳胶处理单元$()制造小块干橡胶"
+        }
+    ]
+}

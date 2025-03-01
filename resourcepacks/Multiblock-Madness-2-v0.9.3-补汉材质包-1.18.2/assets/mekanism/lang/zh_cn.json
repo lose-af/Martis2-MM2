@@ -1,0 +1,21 @@
+{
+    "filter.mekanism.sorter.size_mode.on": "大小模式已启用%s!",
+    "tooltip.mekanism.jei.amount.with.capacity": "%s / %s 毫升",
+    "direction.mekanism.west.short": "西",
+    "direction.mekanism.south.short": "南",
+    "upgrade.mekanism.display.level": "- %1$s：%2$s倍",
+    "generic.mekanism.per_mb": "%s/毫升",
+    "temperature.mekanism.celsius.short": "摄氏度",
+    "filter.mekanism.filter.count": "总数：%s",
+    "network.mekanism.mb_stored": "%s（%s 毫升）",
+    "temperature.mekanism.ambient.short": "标准温度压力",
+    "temperature.mekanism.fahrenheit.short": "华氏度缩写：F",
+    "generic.mekanism.per_tick": "%1$s/每刻",
+    "direction.mekanism.north.short": "北",
+    "energy.mekanism.joules.short": "焦耳",
+    "network.mekanism.mb_per_tick": "%s 毫升/刻",
+    "direction.mekanism.east.short": "东",
+    "energy.mekanism.eu.short": "欧洲",
+    "generic.mekanism.mb": "%s 毫升",
+    "generic.mekanism.stored.mb": "%s：%s 毫升"
+}

@@ -1,29 +1,30 @@
 {
-  "mod_id": "forbidden_arcanus",
-  "provided_stones": [
-    {
-      "block_id": "forbidden_arcanus:darkstone",
-      "types": [
-        "stone"
-      ],
-      "id": "darkstone",
-      "en_name": "Darkstone"
-    }],
-  "provided_ores": [
-    {
-      "block_id": [
-        "forbidden_arcanus:deepslate_arcane_crystal_ore",
-        "forbidden_arcanus:arcane_crystal_ore"
-      ],
-      "en_name": "Arcane Crystal Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "arcane_crystal_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    }
-  ]
+    "mod_id": "forbidden_arcanus",
+    "provided_stones": [
+        {
+            "block_id": "forbidden_arcanus:darkstone",
+            "types": [
+                "stone"
+            ],
+            "id": "darkstone",
+            "en_name": "\u6697\u9ed1\u77f3"
+        }
+    ],
+    "provided_ores": [
+        {
+            "block_id": [
+                "forbidden_arcanus:deepslate_arcane_crystal_ore",
+                "forbidden_arcanus:arcane_crystal_ore"
+            ],
+            "en_name": "\u5965\u672f\u6c34\u6676\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "arcane_crystal_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        }
+    ]
 }

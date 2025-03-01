@@ -1,0 +1,43 @@
+{
+    "name": "稀有度体系",
+    "icon": "minecraft:nether_star",
+    "category": "apotheosis:adventure/affix_loot",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "每件词缀物品都有对应的$(9)稀有度$()等级。该等级决定物品强度及可获词缀类型。$(p)稀有度每提升一级，强度必然递增。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "普通",
+            "text": "$(#808080)普通$()级是最基础的词缀物品，必带一项属性加成，并有概率获得第二项。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "罕见",
+            "text": "$(#33FF33)罕见$()级物品较普通级更优，但仍无特效。必带双属性加成，可能获得第三项。$(p)还可获得一个插槽。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "稀有",
+            "text": "$(#5555FF)稀有$()级开始展现词缀威力，必带三属性加成及一项特效，可能获得第二特效。$(p)可获插槽并自带耐久加成。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "史诗",
+            "text": "$(#BB00BB)史诗$()级已触摸卓越之境，必带三属性加一特效，可能获得第四属性和第二特效。$(p)最多双插槽，耐久加成更强。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "神话",
+            "text": "$(#ED7014)神话$()级乃失落伟力所铸，必带四属性双特效，可能获第三特效及三插槽。$(p)附有显著耐久加成。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "远古",
+            "text": "$(b)远古$()级乃造物巅峰，是唯有天选者方能触及的极致力量凝聚。$(p)其稀有程度，甚至令人质疑是否真实存在..."
+        }
+    ]
+}

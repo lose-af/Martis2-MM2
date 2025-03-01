@@ -1,0 +1,16 @@
+{
+    "rsgauges.switchconfig.comparator_switch": "比较器开关%1$s%2$s%3$s%4$s",
+    "block.rsgauges.industrial_switchlink_receiver_analog.help": "小型设备，可从接收的开关链接信号输出模拟红石信号。可与模拟链接发射器、比较器开关或调光器配合使用。\n${rsgauges.switch.feature.linktarget.help}",
+    "rsgauges.switchconfig.daytimerclock": "日时计时器%1$s%2$s%3$s%4$s",
+    "rsgauges.switchconfig.options": "选项%1$s",
+    "rsgauges.switchconfig.touchcontactmat.entity_filter.mobs": "生物",
+    "block.rsgauges.industrial_switchlink_relay_analog": "工业模拟开关链接发射器",
+    "block.rsgauges.industrial_switchlink_receiver_analog": "工业模拟开关链接接收器",
+    "rsgauges.switchconfig.blocksensor": "方块传感器%1$s%2$s%3$s%4$s%5$s",
+    "language.region": "中国",
+    "rsgauges.switchconfig.detector.entity_filter.mobs": "生物",
+    "rsgauges.switchconfig.intervaltimer": "间隔计时器%1$s%2$s%3$s%4$s%5$s",
+    "rsgauges.switchconfig.lightsensor": "光传感器%1$s%2$s%3$s%4$s",
+    "language": "中文",
+    "block.rsgauges.industrial_switchlink_relay_analog.help": "一个小型设备，将检测到的红石信号无线传输为模拟信息以供开关链接目标使用。它本身不能发出红石信号。\n${rsgauges.switch.feature.linksource.help}"
+}

@@ -1,0 +1,12 @@
+{
+    "name": "容量附魔",
+    "icon": "minecraft:enchanted_book",
+    "read_by_default": true,
+    "category": "thermal:world",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "CoFH核心新增容量附魔，适用于可储存多种资源(如RF能量或流体)的方块和物品。每级提升50%容量上限，最高可达容量IV级的+200%。该效果可与$(l:thermal:technology/augments/introduction)增强部件$(/l)等存储扩容方式叠加。例如，若机器配备$(l:thermal:technology/augments/integral_components)谐振整合元件$(/l)和容量IV附魔，其RF存储量将提升至12倍。"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "name": "基础网络架构",
+    "description": "一个简单的传输网络",
+    "parent": "xnet:category_xnet",
+    "icon": "xnet:netcable_red",
+    "sortnum": 10
+}

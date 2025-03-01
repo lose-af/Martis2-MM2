@@ -1,0 +1,14 @@
+{
+    "name": "下界金矿",
+    "icon": "geolosys:nether_gold_ore",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "下界金矿",
+            "item": "geolosys:nether_gold_ore",
+            "link_recipe": false,
+            "text": "该稠密矿床生成于海平面以下24米至54米之间，仅存在于下界且可在任意生物群系中发现。"
+        }
+    ]
+}

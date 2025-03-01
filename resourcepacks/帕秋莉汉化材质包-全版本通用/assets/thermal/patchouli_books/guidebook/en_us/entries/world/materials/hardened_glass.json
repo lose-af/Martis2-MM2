@@ -1,0 +1,55 @@
+{
+    "name": "硬化玻璃",
+    "icon": "thermal:obsidian_glass",
+    "read_by_default": true,
+    "category": "thermal:materials",
+    "pages": [
+        {
+            "flag": "mod:thermal_expansion",
+            "type": "patchouli:text",
+            "text": "硬化玻璃是一种抗爆玻璃，广泛用于各类合成配方。可通过内衬不同金属赋予其特殊属性。与$(l:thermal:world/materials/alloys)合金$(/l)类似，硬化玻璃及其变种可在工作台使用基础材料和火焰弹合成，或直接在感应炉中制作。"
+        },
+        {
+            "flag": "mod:thermal_expansion",
+            "type": "thermal:3-3_alloy_page",
+            "A.in1": "minecraft:quartz",
+            "A.in2": "minecraft:obsidian",
+            "A.in3": "minecraft:sand",
+            "A.out": "thermal:obsidian_glass#2",
+            "A.text": "Basic witherproofing.",
+            "B.in1": "thermal:obsidian_glass#2",
+            "B.in2": "thermal:signalum_ingot",
+            "B.out": "thermal:signalum_glass#2",
+            "B.text": "Powers adjacent redstone."
+        },
+        {
+            "flag": "mod:thermal_expansion",
+            "type": "thermal:3-3_alloy_page",
+            "A.in1": "thermal:obsidian_glass#2",
+            "A.in2": "thermal:lumium_ingot",
+            "A.out": "thermal:lumium_glass#2",
+            "A.text": "Radiates an intense light.",
+            "B.in1": "thermal:obsidian_glass#2",
+            "B.in2": "thermal:enderium_ingot",
+            "B.out": "thermal:enderium_glass#2",
+            "B.text": "Lets you flex on others."
+        },
+        {
+            "flag": "!mod:thermal_expansion",
+            "type": "patchouli:text",
+            "text": "硬化玻璃作为抗爆玻璃应用于多种配方。不同金属内衬赋予其独特性质:信素玻璃能发出强红石信号，辉光玻璃具有明亮发光特性，末影玻璃则能彰显玩家尊贵身份。"
+        },
+        {
+            "flag": "!mod:thermal_expansion",
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:fire_charge/obsidian_glass_2",
+            "B.recipe": "thermal:fire_charge/signalum_glass_2"
+        },
+        {
+            "flag": "!mod:thermal_expansion",
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:fire_charge/lumium_glass_2",
+            "B.recipe": "thermal:fire_charge/enderium_glass_2"
+        }
+    ]
+}

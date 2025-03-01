@@ -1,0 +1,19 @@
+{
+    "name": "吸附模块",
+    "category": "modularrouters:modules",
+    "icon": "modularrouters:vacuum_module",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该模块会扫描路由器周围13×13×13立方区域(即每个方向最多6格)内的掉落物，并尽可能将其吸收至路由器缓存。$(p)通过安装$(l:augments/range_up)范围扩大增强器/$可将范围提升至25×25×25(每个方向12格)，或使用$(l:augments/range_down)范围缩小增强器/$将范围缩减至3×3×3。"
+        },
+        {
+            "type": "text",
+            "text": "当模块的$(l:intro/modules#direction)配置方向/$为$(bold)所有方向/$(默认设置)时，扫描区域以路由器为中心。$(p)若模块配置了特定方向，该区域会沿该方向偏移6格，并依据安装的每个范围扩大增强器+1格，每个范围缩小增强器-1格。$(p)例如当方向设为$(bold)上方/$时，模块仅扫描路由器正上方的区域。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:vacuum_module"
+        }
+    ]
+}

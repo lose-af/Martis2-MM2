@@ -1,0 +1,17 @@
+{
+    "name": "湮灭附魔",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/anvil",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)湮灭$()是另一种铁砧专属的全新附魔。$(p)带有湮灭的铁砧可以将单一附魔的附魔书分解为两本低一级的同种附魔书。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "使用湮灭铁砧时，将附魔书丢出后立即在书本上方放置铁砧。$(p)例如锋利III的附魔书经过湮灭会变成两本锋利II的附魔书。"
+        }
+    ]
+}

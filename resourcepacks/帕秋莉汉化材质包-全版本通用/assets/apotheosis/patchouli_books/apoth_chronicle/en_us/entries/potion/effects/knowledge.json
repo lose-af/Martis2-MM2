@@ -1,0 +1,17 @@
+{
+    "name": "远古知识",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:potion/effects",
+    "flag": "apotheosis:potion",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)远古知识$()药水是增益效果。$(p)生效期间，你击杀生物获得的经验值将被倍增。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "I级时经验掉落量翻四倍。$(p)II级时经验掉落量翻八倍。"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "炼狱炸药",
+    "icon": "thermal:fire_tnt",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "category": "thermal:explosives",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "炼狱炸药将点燃区域并焚烧范围内的生物。炸药块与手雷爆炸半径分别为9格和5格。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:fire_tnt",
+            "B.recipe": "thermal:fire_grenade_4"
+        },
+        {
+            "flag": "&mod:thermal_innovation,mod:thermal_locomotion",
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:fire_tnt_minecart",
+            "title": "炼狱炸药矿车"
+        }
+    ]
+}

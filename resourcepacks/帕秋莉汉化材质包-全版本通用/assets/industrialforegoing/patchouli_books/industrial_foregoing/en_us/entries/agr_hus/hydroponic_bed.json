@@ -1,0 +1,17 @@
+{
+    "name": "水栽培床",
+    "icon": "industrialforegoing:hydroponic_bed",
+    "category": "industrialforegoing:agriculture_husbandry",
+    "sortnum": 16,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "在供电且注入$(6)水$()(下界作物需用$(6)熔岩$())时可加速作物生长。$(br2)若通入微量$(l:resource_production/ether_gas)以太气体$()，作物将极速生长并自动补种。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:hydroponic_bed"
+        }
+    ]
+}

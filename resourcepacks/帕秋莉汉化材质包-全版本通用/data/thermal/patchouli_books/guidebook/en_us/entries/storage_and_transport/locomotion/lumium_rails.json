@@ -1,0 +1,27 @@
+{
+    "name": "发光合金轨道",
+    "icon": "thermal:lumium_rail",
+    "read_by_default": true,
+    "flag": "mod:thermal_locomotion",
+    "category": "thermal:locomotion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "发光合金轨道功能与标准轨道完全相同，但其可提供光照等级15的照明效果。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:lumium_rail",
+            "B.recipe": "thermal:lumium_crossover_rail"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:lumium_powered_rail",
+            "B.recipe": "thermal:lumium_activator_rail"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:lumium_detector_rail"
+        }
+    ]
+}

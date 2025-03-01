@@ -1,0 +1,17 @@
+{
+    "name": "资源熔炉",
+    "icon": "industrialforegoing:resourceful_furnace",
+    "category": "industrialforegoing:resource_production",
+    "sortnum": 6,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "三合一熔炉。$(br2)每熔炼一件物品返还$(6)2$()毫升精华。需消耗$(6)40$()RF/t能量。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:resourceful_furnace"
+        }
+    ]
+}

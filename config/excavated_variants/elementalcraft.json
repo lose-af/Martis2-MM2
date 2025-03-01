@@ -1,21 +1,21 @@
 {
-  "mod_id": "elementalcraft",
-  "provided_stones": [],
-  "provided_ores": [
-    {
-      "block_id": [
-        "elementalcraft:deepslate_inert_crystal_ore",
-        "elementalcraft:inert_crystal_ore"
-      ],
-      "en_name": "Inert Crystal Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "inert_crystal_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    }
-  ]
+    "mod_id": "elementalcraft",
+    "provided_stones": [],
+    "provided_ores": [
+        {
+            "block_id": [
+                "elementalcraft:deepslate_inert_crystal_ore",
+                "elementalcraft:inert_crystal_ore"
+            ],
+            "en_name": "\u60f0\u6027\u6c34\u6676\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "inert_crystal_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        }
+    ]
 }

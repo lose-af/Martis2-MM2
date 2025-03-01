@@ -1,0 +1,28 @@
+{
+    "name": "养蜂人护甲",
+    "icon": "thermal:beekeeper_chestplate",
+    "category": "thermal:armor",
+    "read_by_default": true,
+    "flag": "mod:thermal_cultivation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "养蜂人护甲能以耐久度为代价保护你免受各种针刺伤害，包括仙人掌、浆果丛和蜂刺。注意:必须穿戴全套才能获得$(o)完整$()防护！即便穿着全套，每次防护仍会消耗耐久度，$(o)小蜂$()提醒您注意安全。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:beekeeper_fabric",
+            "text": "制作所有养蜂人装备所需的布料。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:armor/beekeeper_helmet",
+            "B.recipe": "thermal:armor/beekeeper_chestplate"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:armor/beekeeper_leggings",
+            "B.recipe": "thermal:armor/beekeeper_boots"
+        }
+    ]
+}

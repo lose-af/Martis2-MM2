@@ -1,0 +1,40 @@
+{
+    "name": "宝石",
+    "icon": "apotheosis:gem",
+    "category": "apotheosis:adventure/affix_loot",
+    "flag": "apotheosis:adventure",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)宝石$()是凝聚力量的晶石。$(p)当镶嵌至词缀物品时，宝石会在物品正常生效时提供强力属性加成。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "获取宝石",
+            "text": "宝石可在战利品箱中找到，击杀生物时也有小概率掉落。但触发宝石掉落的条件是击杀者必须是真实玩家，而非机械装置或其他自动化来源。$(p)Boss生物掉落宝石的概率更高。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "镶嵌宝石",
+            "text": "欲将宝石镶嵌至物品，请在锻造台中合并二者。$(p)将物品置于左侧，宝石置于右侧。$(p)宝石无需严格对应特定类型物品，只要物品处于使用状态，宝石加成就始终生效。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "移除宝石",
+            "text": "从物品中移除宝石本是复杂工序，但聪慧的炼金术师们找到了破解之法。$(p)他们的笔记在后续几页有详尽记载。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:vial_of_expulsion",
+            "title": "炽热驱逐",
+            "text": "在锻造台中将带插槽物品与$(9)炽热驱逐药水$()结合，可摧毁并移除镶嵌的宝石。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:vial_of_extraction",
+            "title": "奥术萃取",
+            "text": "在锻造台中将带插槽物品与$(9)奥术萃取药水$()结合，可回收宝石但会损毁该物品。"
+        }
+    ]
+}

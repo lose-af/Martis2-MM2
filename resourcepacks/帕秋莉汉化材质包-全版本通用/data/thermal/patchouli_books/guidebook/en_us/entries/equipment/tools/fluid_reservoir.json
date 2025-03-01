@@ -1,0 +1,24 @@
+{
+    "name": "蓄液罐",
+    "icon": "thermal:fluid_reservoir",
+    "category": "thermal:tools",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "储存适量流体并可进行分配。按下'$(k:cofh.mode_change_increment)'切换清空/填充模式。潜行使用可激活或关闭大多数手持(或穿戴)流体容器的自动补充功能。可在匠魂工作台中填充流体并进行强化。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:fluid_reservoir",
+            "title": "蓄液罐",
+            "text": "可通过$(l:thermal:world/holding)容量$(/l)附魔提升流体储量。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "强化兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)基础元件$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)扩容储罐$(/l)"
+        }
+    ]
+}

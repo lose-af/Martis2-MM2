@@ -1,0 +1,7 @@
+{
+    "name": "护盾投射器",
+    "description": "护盾投射器既能保护区域也能消灭生物",
+    "parent": "rftoolsbuilder:category_rftoolsbuilder",
+    "icon": "rftoolsbuilder:shield_block1",
+    "sortnum": 30
+}

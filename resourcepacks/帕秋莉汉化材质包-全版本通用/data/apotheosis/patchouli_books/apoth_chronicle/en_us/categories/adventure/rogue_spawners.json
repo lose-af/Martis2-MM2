@@ -1,0 +1,7 @@
+{
+    "name": "游荡刷怪笼",
+    "description": "洞穴中零星分布着顶部覆盖坚硬方块、底部藏有箱子的独立刷怪笼。因其来源、用途与归属均不可考，我们称其为$(9)游荡刷怪笼$()。",
+    "icon": "minecraft:spawner",
+    "flag": "apotheosis:adventure",
+    "parent": "apotheosis:adventure/adventure"
+}

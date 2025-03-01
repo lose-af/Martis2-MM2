@@ -1,0 +1,17 @@
+{
+    "name": "能源监视器",
+    "icon": "rftoolspower:power_monitor",
+    "category": "rftoolspower:category_rftoolspower_monitor",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "该逻辑模块可将其输入面朝向$(thing)能量块$()放置。其自带GUI界面，可设置触发$(thing)红石信号$()的能源百分比区间。$(br2)当能量水平介于最小百分比与最大百分比之间时，红石信号将被激活。"
+        },
+        {
+            "type": "crafting",
+            "heading": "Power Monitor",
+            "recipe": "rftoolspower:power_monitor"
+        }
+    ]
+}

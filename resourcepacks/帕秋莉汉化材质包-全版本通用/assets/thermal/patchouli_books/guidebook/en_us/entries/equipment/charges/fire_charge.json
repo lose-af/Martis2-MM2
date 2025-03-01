@@ -1,0 +1,17 @@
+{
+    "name": "火焰弹",
+    "icon": "minecraft:fire_charge",
+    "category": "thermal:charges",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "火焰弹原版已有，但热力系列为其添加了新用途:在工作台中与其他资源合成特定合金和方块。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "minecraft:fire_charge",
+            "title": "火焰弹"
+        }
+    ]
+}

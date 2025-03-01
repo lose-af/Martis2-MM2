@@ -1,0 +1,6 @@
+{
+    "name": "药水模块",
+    "description": "药水模块负责新增药水与制药配方。$(p)几乎涵盖所有药水相关内容。",
+    "icon": "minecraft:potion",
+    "flag": "apotheosis:potion"
+}

@@ -1,0 +1,12 @@
+{
+    "name": "煤炭发电机",
+    "icon": "rftoolspower:coalgenerator",
+    "category": "rftoolspower:category_rftoolspower_powergeneration",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "可将煤炭与煤炭块转化为能量"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "寒冰伤害",
+    "icon": "minecraft:blue_ice",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)寒冰伤害$()是为近战攻击附加的魔法伤害，并根据伤害强度施加减速效果。$(p)该属性见于近战武器。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 0$(p)$(9)$(n)最大值:$() 1024$(p)"
+        }
+    ]
+}

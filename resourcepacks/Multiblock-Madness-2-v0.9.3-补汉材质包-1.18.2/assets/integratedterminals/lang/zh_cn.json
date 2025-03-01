@@ -1,0 +1,22 @@
+{
+    "gui.integratedterminals.terminal_storage.tooltip.energy.amount": "%s 能量单位",
+    "gui.integratedterminals.terminal_storage.scale.scaley": "§a比例 高",
+    "info_book.integratedterminals.storage_terminal.portable.text3": "对于高级用户，可以配置一个热键来打开库存中的第一个 &lPortable Storage Terminal&r。",
+    "gui.integratedterminals.terminal_storage.scale.info": "配置存储网格的大小",
+    "gui.integratedterminals.terminal_storage.scale.small": "§a小",
+    "info_book.integratedterminals.storage_terminal.portable": "便携式终端",
+    "gui.integratedterminals.terminal_storage.scale": "网格大小",
+    "gui.integratedterminals.terminal_storage.scale.medium": "§a中",
+    "info_book.integratedterminals.storage_terminal.usage.text7": "可以使用不同的前缀来定义搜索目标。默认情况下，您将在成分名称中进行搜索。通过在字符串前加上&o'@'&r，您可以按模组搜索。使用&o'#'&r，可以搜索工具提示。最后，通过&o'$'&r查询物品标签。例如，搜索条件&o'$plank @minecraft'&r会显示Minecraft添加的所有木板。",
+    "gui.integratedterminals.terminal_storage.tooltip.fluid.amount": "%s 毫升",
+    "info_book.integratedterminals.storage_terminal.portable.text2": "为了将你的 &lPortable Storage Terminal&r 链接到一个特定的网络，你的网络需要一个 &lOmni-Directional Connector&r。只需用你的 &lPortable Storage Terminal&r 右击 &lOmni-Directional Connector&r 即可完成链接。",
+    "info_book.integratedterminals.storage_terminal.usage.text10": "终端的所有设置（按钮、搜索框、选项卡等）都会针对每个玩家和每个终端进行持久化。为了配置新放置终端时将加载哪些设置，您可以在终端gui的右下角按下铁砧按钮。",
+    "gui.integratedterminals.terminal_storage.scale.scalex": "§a比例 宽",
+    "info_book.integratedterminals.tutorials.storage_terminal_filtering.text2": "在本教程的第一部分，我们将通过在搜索栏中键入特定字符串来筛选物品。请注意，您可以使用热键更快地选择此搜索栏。如果您安装了JEI，还可以将其内容与JEI搜索栏同步。默认情况下，您将在成分名称中进行搜索。通过在字符串前加上&o'@'&r，您可以按模组搜索。使用&o'#'&r，可以搜索工具提示。最后，通过&o'$'&r查询物品标签。为了完成本教程的第一部分，将&o'$plank @minecraft'&r键入搜索栏，以显示所有Minecraft添加的木板。",
+    "info_book.integratedterminals.storage_terminal.portable.text1": "通过在你的 &lStorage Terminal&r 上加上一些 &lCrystalized Menril Chunks&r，你可以创建一个便携式的终端",
+    "info_book.integratedterminals.storage_terminal.usage.text3": "当选择了一个存储网络的成分，通过再次点击存储网络插槽，可以增加一个小数量。按住 Shift 并点击会增加一个较大的数量。同样，可以通过右击减少数量。也可以通过在存储成分上滚动实现这一点。",
+    "_comment": "我是注释,以下内容使用up主柠娜的汉化工具生成",
+    "gui.integratedterminals.terminal_storage.scale.large": "§a大",
+    "gui.integratedterminals.terminal_storage.scale.scalexy": "§a比例 高/宽",
+    "info_book.integratedterminals.storage_terminal.usage.text9": "默认情况下，终端将占据尽可能多的空间。使用 &lGrid Size&r 按钮，可以将其更改为仅在高度、宽度上缩放，或使用固定数量的行和列（小、中、大）。如果你想显示更多的插槽，尝试调整Minecraft选项中的 &lGUI Scale&r。不同网格大小的行为可以通过你的客户端配置文件进行配置。"
+}

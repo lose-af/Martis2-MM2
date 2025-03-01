@@ -1,0 +1,23 @@
+{
+    "name": "自动道岔轨道",
+    "icon": "littlelogistics:automatic_switch_rail",
+    "category": "littlelogistics:blocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "此类道岔会在火车头接近时自动切换方向。切换依据是当前循环中尚未到达的$(l:loco_route)火车头路线$()最近目的地。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "自动道岔轨道",
+            "recipe": "littlelogistics:automatic_switch_rail",
+            "text": "在直行与左/右转间切换。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "自动T型道岔轨道",
+            "recipe": "littlelogistics:automatic_tee_junction_rail",
+            "text": "在左转与右转间切换。"
+        }
+    ]
+}

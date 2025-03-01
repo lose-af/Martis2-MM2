@@ -1,0 +1,15 @@
+{
+    "name": "炼金延效器",
+    "icon": "thermal:potion_duration_augment",
+    "category": "thermal:augments",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "pages": [
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:augments/potion_duration_augment",
+            "title": "炼金延效器",
+            "text": "炼金延效器增强部件使药水持续时间延长100%。对具有瞬时一次性效果的药水(即效药水)无效。"
+        }
+    ]
+}

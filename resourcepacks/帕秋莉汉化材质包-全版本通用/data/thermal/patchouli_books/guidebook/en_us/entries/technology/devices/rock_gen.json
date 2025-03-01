@@ -1,0 +1,24 @@
+{
+    "name": "火成挤出机",
+    "icon": "thermal:device_rock_gen",
+    "category": "thermal:devices",
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "火成挤出机是通过特定方块与流体环境实现无限生成石料的装置。需要相邻岩浆源方块与冷却液方块，底部可选择性放置基岩。具体配方请参考JEI。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:device_rock_gen",
+            "title": "火成挤出机",
+            "text": "初始产能为每秒1个方块，使用$(l:thermal:technology/augments/integral_components)集成组件$(/l)可提升至4个/秒。切换配方时将清空输出槽以适配新配方产物。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "升级组件兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)集成组件$(/l)"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "name": "机械装置",
+    "description": "所有机械装置详解",
+    "parent": "rftoolsbase:category_rftoolsbase",
+    "icon": "rftoolsbase:machine_infuser",
+    "sortnum": 30
+}

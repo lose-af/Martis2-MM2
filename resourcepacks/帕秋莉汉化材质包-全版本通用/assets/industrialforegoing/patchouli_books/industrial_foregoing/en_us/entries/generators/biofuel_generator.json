@@ -1,0 +1,17 @@
+{
+    "name": "生物燃料发电机",
+    "icon": "industrialforegoing:biofuel_generator",
+    "category": "industrialforegoing:generators",
+    "sortnum": 3,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "使用$(l:generators/biofuel)生物燃料$()发电的装置，产能$(6)160$()RF/刻。$(br2)具有节能特性，内部缓存充满时自动停止燃料消耗。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:biofuel_generator"
+        }
+    ]
+}

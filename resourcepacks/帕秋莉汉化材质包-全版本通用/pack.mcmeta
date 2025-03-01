@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 9,
+        "description": "§6§n帕秋莉汉化材质包§0-§9§o版本：§c§l全版本通用  §5§n由工具生成§0-§9§o来源于b站up：§b§l柠娜",
+        "supported_formats": {
+            "min_inclusive": 1,
+            "max_inclusive": 100
+        }
+    }
+}

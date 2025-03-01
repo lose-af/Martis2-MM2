@@ -1,0 +1,17 @@
+{
+    "name": "染料混合机",
+    "icon": "industrialforegoing:dye_mixer",
+    "category": "industrialforegoing:resource_production",
+    "sortnum": 12,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "本机器通过混合基础染料颜色合成彩虹色谱。$(br2)例如:当需要$(6)白色染料$()时，需各消耗1份$(4)红$(0)、$(2)绿$(0)与$(1)蓝$(0)染料。$(br)运行时消耗$(6)30$()RF/刻能量"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:dye_mixer"
+        }
+    ]
+}

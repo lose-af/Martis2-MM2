@@ -1,0 +1,17 @@
+{
+    "name": "护甲值",
+    "icon": "minecraft:iron_chestplate",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)护甲值$()表征你对物理伤害的抗性。$(p)通常由护甲装备和部分盾牌提供。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 0$(p)$(9)$(n)最大值:$() 40$(p)注:原版上限为30，Apotheosis模组提升至40并调整计算方式。"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "区域定位",
+    "icon": "minecraft:compass",
+    "category": "rftoolsbuilder:category_rftoolsbuilder_builder",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "text",
+            "text": "建造者的作用区域有多种控制方式... @待补充"
+        }
+    ]
+}

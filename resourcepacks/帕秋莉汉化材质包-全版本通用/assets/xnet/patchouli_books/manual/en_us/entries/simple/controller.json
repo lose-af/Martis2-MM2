@@ -1,0 +1,12 @@
+{
+    "name": "中央控制器",
+    "icon": "xnet:controller",
+    "category": "xnet:category_xnet_simple",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "本模组的核心设备，可在此编辑各类传输通道，定义物品、流体及能量的传输规则"
+        }
+    ]
+}

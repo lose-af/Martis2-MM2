@@ -1,0 +1,17 @@
+{
+    "name": "发酵工作站",
+    "icon": "industrialforegoing:fermentation_station",
+    "category": "industrialforegoing:resource_production",
+    "sortnum": 20,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "该机器使用生矿石肉，在达到预设阈值后密封容器，并通过选定生产模式进行肉类发酵。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:fermentation_station"
+        }
+    ]
+}

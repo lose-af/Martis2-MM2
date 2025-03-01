@@ -1,0 +1,17 @@
+{
+    "name": "洗涤工厂",
+    "icon": "industrialforegoing:washing_factory",
+    "category": "industrialforegoing:resource_production",
+    "sortnum": 19,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "该机器通过液态肉与矿石结合，可将液态肉转化为对应矿石的原始矿肉。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:washing_factory"
+        }
+    ]
+}

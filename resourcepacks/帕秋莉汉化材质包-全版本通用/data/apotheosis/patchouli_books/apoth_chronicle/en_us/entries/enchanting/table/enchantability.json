@@ -1,0 +1,12 @@
+{
+    "name": "物品附魔能力",
+    "icon": "minecraft:golden_sword",
+    "category": "apotheosis:enchanting/table",
+    "flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "在原版机制中，物品的附魔能力影响你的$(fpower)。$(p)Apotheosis将其改为直接提供$(arcana)加成。$(p)$(arcana)将增加物品附魔能力的50%。"
+        }
+    ]
+}

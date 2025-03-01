@@ -1,0 +1,19 @@
+{
+    "name": "流体模块Mk2",
+    "category": "modularrouters:modules",
+    "icon": "modularrouters:fluid_module_2",
+    "pages": [
+        {
+            "type": "text",
+            "text": "与$(l:modules/fluid_1)流体模块Mk1/$类似，当缓冲区存在流体容器时，此模块可在路由器与外界传输流体。其最大传输距离可达12格(若配备$(l:augments/range_up)范围增强组件/$则扩展至24格)。"
+        },
+        {
+            "type": "text",
+            "text": "对任意方块$(thing)潜行右击/$可设定目标位置。$(p)目标方块不限定为储罐——若设定目标后破坏该方块，模块仍可将整桶流体倾倒在原坐标位置。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:fluid_module_2"
+        }
+    ]
+}

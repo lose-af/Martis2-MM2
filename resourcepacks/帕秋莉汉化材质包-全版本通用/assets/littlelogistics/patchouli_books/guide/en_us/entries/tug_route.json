@@ -1,0 +1,16 @@
+{
+    "name": "拖船航线",
+    "icon": "littlelogistics:tug_route",
+    "category": "littlelogistics:items",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:tug_route",
+            "text": "此物品存储拖船航线。当物品置于拖船航线槽时，拖船将按节点0开始的顺序航行路线。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "右键点击任意坐标可在拖船路线末端添加节点(不可插入中间)。右键点击现有节点所在位置可移除该节点。当手持该物品时，节点位置会以光柱标示。"
+        }
+    ]
+}

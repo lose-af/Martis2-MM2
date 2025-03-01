@@ -1,0 +1,23 @@
+{
+    "name": "斯特林动态发电机",
+    "icon": "thermal:dynamo_stirling",
+    "category": "thermal:dynamos",
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "该型号通过燃烧可燃物品产生RF能量。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:dynamo_stirling",
+            "title": "斯特林动态发电机"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "增强兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)集成元件$(/l)$(li)$(l:thermal:technology/augments/dynamo_output)辅助反应仓$(/l)$(li)$(l:thermal:technology/augments/dynamo_fuel)多循环喷射器$(/l)"
+        }
+    ]
+}

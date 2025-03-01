@@ -1,0 +1,23 @@
+{
+    "name": "蜂巢汲取器",
+    "icon": "thermal:device_hive_extractor",
+    "category": "thermal:devices",
+    "read_by_default": true,
+    "flag": "mod:thermal_cultivation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "蜂巢汲取器是放置于蜂箱下方可提取蜂巢块与液态蜂蜜的装置。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:device_hive_extractor",
+            "title": "蜂巢汲取器"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "增强模块兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)整合元件$(/l)$(li)$(l:thermal:technology/augments/item_filter)物品过滤器$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)扩容储罐结构$(/l)"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "护甲韧性",
+    "icon": "minecraft:netherite_chestplate",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)护甲韧性$()决定护甲对抗高额伤害的效果。$(p)通常由护甲装备和部分盾牌提供。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 0$(p)$(9)$(n)最大值:$() 30$(p)注:原版上限为20，Apotheosis模组提升至30并调整计算方式。"
+        }
+    ]
+}

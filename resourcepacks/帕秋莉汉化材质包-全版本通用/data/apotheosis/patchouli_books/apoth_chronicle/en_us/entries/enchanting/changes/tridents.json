@@ -1,0 +1,20 @@
+{
+    "name": "三叉戟",
+    "icon": "minecraft:trident",
+    "category": "apotheosis:enchanting/changes",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "除新增附魔外，三叉戟现在可接受$(9)锋利$()、$(9)掠夺$()和$(9)穿透$()附魔。$(p)锋利与掠夺效果与剑类武器相同。$(p)穿透使投掷的三叉戟能击中更多目标。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "三叉戟锻造",
+            "item": "apotheosis:inert_trident",
+            "link_recipe": true,
+            "text": "启示录模组新增三叉戟制作方法。$(p)只需制作$(9)惰性三叉戟$()并通过$(l:apotheosis:enchanting/table/infusion)灌注附魔$()进行升级。"
+        }
+    ]
+}

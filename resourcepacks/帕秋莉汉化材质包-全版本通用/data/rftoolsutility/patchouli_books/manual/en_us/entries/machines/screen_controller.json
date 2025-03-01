@@ -1,0 +1,11 @@
+{
+    "name": "屏幕控制器",
+    "icon": "rftoolsutility:screen_controller",
+    "category": "rftoolsutility:category_rftoolsutility_machines",
+    "pages": [
+        {
+            "type": "text",
+            "text": "屏幕控制器可为附近$(l:rftoolsutility:machines/screen)信息屏幕$(/l)供能。通过界面中的'扫描'按钮可连接32x32x32范围内的所有屏幕。$(br2)$(5)灌注$()该机器可扩大连接范围"
+        }
+    ]
+}

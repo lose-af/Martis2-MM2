@@ -1,0 +1,5 @@
+{
+    "modernfix.option.mixin.bugfix.restore_old_dragon_movement": "修复了MC-272431，该问题追踪到末影龙无法像1.13及之前版本那样俯冲至传送门。这导致末影龙的飞行方式与现代玩家所习惯的有所不同，并且也修复了单循环问题，因此默认情况下不会启用。感谢Jukitsu发现了原版代码中的这一回归问题。",
+    "modernfix.option.mixin.perf.use_integrated_resources.jepb": "现代修复选项.混合.性能.使用集成资源.jepb",
+    "modernfix.option.mixin.perf.use_integrated_resources.jeresources": "现代修复选项.混合.性能.使用集成资源.jeresources"
+}

@@ -1,0 +1,18 @@
+{
+    "name": "知识凝聚器",
+    "icon": "thermal:xp_storage_augment",
+    "category": "thermal:augments",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:augments/xp_storage_augment",
+            "title": "知识凝聚器",
+            "text": "知识凝聚器增强部件允许机械或装置从配方或世界中收集经验值。初始最大存储量为2500点经验，该容量可通过$(l:thermal:technology/augments/integral_components)整体元件$(/l)提供的倍率进行倍增。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "安装后，方块GUI右下角将显示类似$(l:thermal:equipment/tools/xp_crystal)洞察水晶$(/l)的图标。玩家点击此图标即可提取设备中存储的经验值。"
+        }
+    ]
+}

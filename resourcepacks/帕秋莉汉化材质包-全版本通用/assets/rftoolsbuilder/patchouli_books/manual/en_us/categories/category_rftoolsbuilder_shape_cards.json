@@ -1,0 +1,7 @@
+{
+    "name": "形状卡",
+    "description": "形状卡是用于定义特定结构的物品，可被建造者和护盾投射器调用",
+    "parent": "rftoolsbuilder:category_rftoolsbuilder",
+    "icon": "rftoolsbuilder:shape_card_def",
+    "sortnum": 10
+}

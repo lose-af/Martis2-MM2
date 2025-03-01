@@ -1,0 +1,18 @@
+{
+    "name": "导言 - 功能装置",
+    "icon": "thermal:iron_gear",
+    "category": "thermal:devices",
+    "flag": "|mod:thermal_expansion,mod:thermal_cultivation",
+    "sortnum": -2,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "功能装置可对周边方块执行多种操作，部分装置需消耗RF能量。通过安装$(l:thermal:technology/augments/introduction)增强模块$(/l)可优化或调整装置功能特性。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "本章后续条目将详解各方块功能。每个方块的GUI界面均有可折叠面板提供简明说明。另一面板显示RF相关信息(若适用)，包括当前及最大RF消耗量。另有增强模块控制面板和红石控制面板，分别用于管理增强模块和设置红石信号响应。"
+        }
+    ]
+}

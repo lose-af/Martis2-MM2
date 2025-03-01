@@ -1,0 +1,14 @@
+{
+    "name": "金伯利岩",
+    "icon": "geolosys:kimberlite_ore",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "金伯利岩",
+            "item": "geolosys:kimberlite_ore",
+            "link_recipe": false,
+            "text": "该岩脉矿床生成于海平面下54米至128米间。仅存在于主世界，可在任意生物群系中发现。"
+        }
+    ]
+}

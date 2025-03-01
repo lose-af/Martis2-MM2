@@ -1,88 +1,88 @@
 {
-  "mod_id": "create",
-  "provided_stones": [
-    {
-      "block_id": "minecraft:smooth_basalt",
-      "types": [
-        "nether"
-      ],
-      "id": "create_smooth_basalt",
-      "en_name": "Smooth Basalt"
-    },
-    {
-      "block_id": "create:asurine",
-      "types": [
-        "stone"
-      ],
-      "id": "create_asurine",
-      "en_name": "Asurine"
-    },
-    {
-      "block_id": "create:crimsite",
-      "types": [
-        "stone"
-      ],
-      "id": "create_crimsite",
-      "en_name": "Crimsite"
-    },
-    {
-      "block_id": "create:limestone",
-      "types": [
-        "stone"
-      ],
-      "id": "create_limestone",
-      "en_name": "Limestone"
-    },
-    {
-      "block_id": "create:ochrum",
-      "types": [
-        "stone"
-      ],
-      "id": "create_ochrum",
-      "en_name": "Ochrum"
-    },
-    {
-      "block_id": "create:scorchia",
-      "types": [
-        "stone",
-        "nether"
-      ],
-      "id": "create_scorchia",
-      "en_name": "Scorchia"
-    },
-    {
-      "block_id": "create:scoria",
-      "types": [
-        "stone",
-        "nether"
-      ],
-      "id": "create_scoria",
-      "en_name": "Scoria"
-    },
-    {
-      "block_id": "create:veridium",
-      "types": [
-        "stone"
-      ],
-      "id": "create_veridium",
-      "en_name": "Veridium"
-    }
-  ],
-  "provided_ores": [
-    {
-      "block_id": [
-        "create:zinc_ore",
-        "create:deepslate_zinc_ore"
-      ],
-      "en_name": "Zinc Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "zinc_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    }
-  ]
+    "mod_id": "create",
+    "provided_stones": [
+        {
+            "block_id": "minecraft:smooth_basalt",
+            "types": [
+                "nether"
+            ],
+            "id": "create_smooth_basalt",
+            "en_name": "\u5e73\u6ed1\u7384\u6b66\u5ca9"
+        },
+        {
+            "block_id": "create:asurine",
+            "types": [
+                "stone"
+            ],
+            "id": "create_asurine",
+            "en_name": "\u5929\u9752\u77f3"
+        },
+        {
+            "block_id": "create:crimsite",
+            "types": [
+                "stone"
+            ],
+            "id": "create_crimsite",
+            "en_name": "\u7eef\u7ea2\u77f3"
+        },
+        {
+            "block_id": "create:limestone",
+            "types": [
+                "stone"
+            ],
+            "id": "create_limestone",
+            "en_name": "\u77f3\u7070\u5ca9"
+        },
+        {
+            "block_id": "create:ochrum",
+            "types": [
+                "stone"
+            ],
+            "id": "create_ochrum",
+            "en_name": "\u8d6d\u77f3"
+        },
+        {
+            "block_id": "create:scorchia",
+            "types": [
+                "stone",
+                "nether"
+            ],
+            "id": "create_scorchia",
+            "en_name": "\u7126\u9ed1\u5ca9"
+        },
+        {
+            "block_id": "create:scoria",
+            "types": [
+                "stone",
+                "nether"
+            ],
+            "id": "create_scoria",
+            "en_name": "\u706b\u5c71\u6e23"
+        },
+        {
+            "block_id": "create:veridium",
+            "types": [
+                "stone"
+            ],
+            "id": "create_veridium",
+            "en_name": "\u7eff\u8f89\u77f3"
+        }
+    ],
+    "provided_ores": [
+        {
+            "block_id": [
+                "create:zinc_ore",
+                "create:deepslate_zinc_ore"
+            ],
+            "en_name": "\u950c\u77ff",
+            "types": [
+                "stone"
+            ],
+            "id": "zinc_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        }
+    ]
 }

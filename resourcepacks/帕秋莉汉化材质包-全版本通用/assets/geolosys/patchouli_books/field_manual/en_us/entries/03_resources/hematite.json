@@ -1,0 +1,14 @@
+{
+    "name": "赤铁矿",
+    "icon": "geolosys:hematite_ore",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "赤铁矿",
+            "item": "geolosys:hematite_ore",
+            "link_recipe": false,
+            "text": "该岩脉矿床生成于海平面以下4米至32米之间，仅存在于主世界且可在任意生物群系中发现。"
+        }
+    ]
+}

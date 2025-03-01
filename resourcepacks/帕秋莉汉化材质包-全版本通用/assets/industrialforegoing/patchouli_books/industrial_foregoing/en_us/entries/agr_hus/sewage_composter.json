@@ -1,0 +1,17 @@
+{
+    "name": "污水堆肥机",
+    "icon": "industrialforegoing:sewage_composter",
+    "category": "industrialforegoing:agriculture_husbandry",
+    "sortnum": 14,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "当注入$(l:agr_hus/sewage)污水$()时，该装置可将其转化为$(l:agr_hus/fertilizer)肥料$()。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:sewage_composter"
+        }
+    ]
+}

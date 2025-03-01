@@ -1,0 +1,8 @@
+{
+    "name": "设备",
+    "description": "本节详述各设备功能。除非特别说明，设备均无需RF能源。",
+    "icon": "thermal:device_tree_extractor",
+    "parent": "thermal:technology",
+    "flag": "|mod:thermal_expansion,mod:thermal_cultivation,mod:thermal_dynamics,mod:thermal_innovation",
+    "sortnum": 2
+}

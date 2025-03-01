@@ -1,0 +1,19 @@
+{
+    "name": "能量分发模块",
+    "category": "modularrouters:modules",
+    "icon": "modularrouters:energy_distributor_module",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该模块结合了$(l:modules/energy_output)能量输出模块/$和$(l:modules/distributor)分配器模块/$的功能，能够无线向最多8个邻近的能源接收方分配FE(Forge能量)。$(p)$(thing)潜行右击/$方块可将其加入能量分配器模块的传输列表，再次$(thing)潜行右击/$同一方块可将其移除。"
+        },
+        {
+            "type": "text",
+            "text": "与$(l:modules/energy_output)能量输出模块/$类似，本模块既可从路由器的内部能量缓冲区提取能量(若安装过$(l:upgrades/energy)能量升级组件/$)，也可从路由器物品缓冲区中的含能物品获取能量。系统将优先使用内部能量缓冲区。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:energy_distributor_module"
+        }
+    ]
+}

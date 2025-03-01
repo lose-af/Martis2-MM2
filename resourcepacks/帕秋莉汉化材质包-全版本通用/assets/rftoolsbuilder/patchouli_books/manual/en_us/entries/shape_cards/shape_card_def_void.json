@@ -1,0 +1,12 @@
+{
+    "name": "虚空卡",
+    "icon": "rftoolsbuilder:shape_card_void",
+    "category": "rftoolsbuilder:category_rftoolsbuilder_shape_cards",
+    "sortnum": 30,
+    "pages": [
+        {
+            "type": "text",
+            "text": "虚空卡可使建造者执行区域清空操作"
+        }
+    ]
+}

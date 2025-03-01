@@ -1,32 +1,32 @@
 {
-  "mod_id": "oreganized",
-  "provided_stones": [],
-  "provided_ores": [
-    {
-      "block_id": [
-        "oreganized:lead_ore"
-      ],
-      "en_name": "Lead Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "lead_ore",
-      "stone": [
-        "stone"
-      ]
-    },
-    {
-      "block_id": [
-        "oreganized:silver_ore"
-      ],
-      "en_name": "Silver Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "silver_ore",
-      "stone": [
-        "stone"
-      ]
-    }
-  ]
+    "mod_id": "oreganized",
+    "provided_stones": [],
+    "provided_ores": [
+        {
+            "block_id": [
+                "oreganized:lead_ore"
+            ],
+            "en_name": "\u94c5\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "lead_ore",
+            "stone": [
+                "stone"
+            ]
+        },
+        {
+            "block_id": [
+                "oreganized:silver_ore"
+            ],
+            "en_name": "\u94f6\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "silver_ore",
+            "stone": [
+                "stone"
+            ]
+        }
+    ]
 }

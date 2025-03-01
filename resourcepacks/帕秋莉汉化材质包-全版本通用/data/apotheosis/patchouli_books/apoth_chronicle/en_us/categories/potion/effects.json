@@ -1,0 +1,7 @@
+{
+    "name": "新增药效",
+    "parent": "apotheosis:potion/potion",
+    "description": "本节详述Apotheosis新增的药水效果。",
+    "icon": "minecraft:experience_bottle",
+    "flag": "apotheosis:potion"
+}

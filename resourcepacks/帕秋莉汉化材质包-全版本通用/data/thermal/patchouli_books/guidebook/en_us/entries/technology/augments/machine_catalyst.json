@@ -1,0 +1,15 @@
+{
+    "name": "催化回收舱",
+    "icon": "thermal:machine_catalyst_augment",
+    "category": "thermal:augments",
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:augments/machine_catalyst_augment",
+            "title": "催化回收舱",
+            "text": "该强化部件使催化剂使用概率提升0.8倍，同时单次操作能耗增加1.25倍。"
+        }
+    ]
+}

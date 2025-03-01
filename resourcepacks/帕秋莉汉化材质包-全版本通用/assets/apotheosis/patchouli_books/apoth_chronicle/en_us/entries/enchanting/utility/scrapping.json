@@ -1,0 +1,18 @@
+{
+    "name": "拆解宝典",
+    "icon": "apotheosis:scrap_tome",
+    "category": "apotheosis:enchanting/utility",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "拆解宝典可用于回收物品附魔。$(p)在铁砧中与目标物品结合将销毁该物品，并随机生成包含部分附魔的书籍。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:scrap_tome",
+            "text": "必定回收半数附魔(向上取整)。$(p)具体附魔选择基于您的$(l:apotheosis:enchanting/table/seed)附魔种子$()。"
+        }
+    ]
+}

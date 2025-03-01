@@ -1,0 +1,71 @@
+{
+    "name": "聚变多区块结构",
+    "icon": "alchemistry:reactor_casing",
+    "category": "alchemistry:reactor_category",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "multiblock",
+            "name": "聚变多区块结构",
+            "multiblock": {
+                "pattern": [
+                    [
+                        "CCCCC",
+                        "CCCCC",
+                        "CCCCC",
+                        "CCCCC",
+                        "CCCCC"
+                    ],
+                    [
+                        "CGGGC",
+                        "G   G",
+                        "G F G",
+                        "G   G",
+                        "CGGGC"
+                    ],
+                    [
+                        "CGGGC",
+                        "G   G",
+                        "G F G",
+                        "G   G",
+                        "CGGGC"
+                    ],
+                    [
+                        "CGGGC",
+                        "G   G",
+                        "G F X",
+                        "G   G",
+                        "CGGGC"
+                    ],
+                    [
+                        "CCCCC",
+                        "CCCCI",
+                        "CC0CE",
+                        "CCCCO",
+                        "CCCCC"
+                    ]
+                ],
+                "mapping": {
+                    "X": "alchemistry:fusion_chamber_controller[facing=east]",
+                    "F": "alchemistry:fusion_core",
+                    "E": "alchemistry:reactor_energy[facing=east]",
+                    "I": "alchemistry:reactor_input[facing=east]",
+                    "O": "alchemistry:reactor_output[facing=east]",
+                    "C": "alchemistry:reactor_casing",
+                    "G": "alchemistry:reactor_glass",
+                    "0": "alchemistry:reactor_casing"
+                }
+            }
+        },
+        {
+            "type": "text",
+            "title": "必备方块",
+            "text": " 1x 聚变仓控制器 $(br) 3x 聚变核心 $(br) 1x 反应堆能量输入口 $(br) 1x 反应堆物品输入口 $(br) 1x 反应堆物品输出口 $(br) 62x 反应堆外壳 $(br) 36x 反应堆玻璃"
+        },
+        {
+            "type": "text",
+            "title": "可选方块",
+            "text": "反应堆能量输入和物品输入/输出方块可放置在任何需要反应堆外壳的位置，但不可替换反应堆玻璃。$(br2)反应堆玻璃为可选组件，任何需要反应堆玻璃的位置都可以用反应堆外壳替代。请按您喜好的外观自由设计。"
+        }
+    ]
+}

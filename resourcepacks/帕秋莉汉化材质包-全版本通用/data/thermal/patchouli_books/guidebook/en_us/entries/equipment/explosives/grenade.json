@@ -1,0 +1,16 @@
+{
+    "name": "手雷",
+    "icon": "thermal:explosive_grenade",
+    "read_by_default": true,
+    "category": "thermal:explosives",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "手雷是可投掷的迷你TNT，爆炸半径为5格！"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:explosive_grenade_4"
+        }
+    ]
+}

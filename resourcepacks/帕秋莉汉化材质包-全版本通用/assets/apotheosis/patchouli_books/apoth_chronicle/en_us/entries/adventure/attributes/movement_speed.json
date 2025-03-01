@@ -1,0 +1,17 @@
+{
+    "name": "移动速度",
+    "icon": "minecraft:leather_boots",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)移动速度$()以方块/秒为单位计算移动速率。$(p)几乎所有物品都可能提供此属性。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 0.7$(p)$(9)$(n)最大值:$() 1024"
+        }
+    ]
+}

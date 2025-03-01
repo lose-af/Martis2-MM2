@@ -1,0 +1,43 @@
+{
+    "name": "能量电池",
+    "icon": "rftoolspower:cell1",
+    "category": "rftoolspower:category_rftoolspower_powerstorage",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)能源单元$()能储存巨量能源。既可单独放置，也可相互连接形成多方块结构。能源单元会自动在自身与相邻单元间分配RF能量，无论层级差异均可组成多方块结构。"
+        },
+        {
+            "type": "text",
+            "text": "能源单元没有操作界面，但可通过在$(thing)扳手模式$()下用$(l:rftoolsbase:tools/smartwrench)智能扳手$()敲击对应面来配置能量输入/输出/阻断:蓝色为输入面，黄色为输出面，空白面不传输。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolspower:power_core1",
+            "recipe2": "rftoolspower:cell1"
+        },
+        {
+            "type": "text",
+            "text": "默认状态下，$(item)低级能源单元$()单体能存储500，000RF。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolspower:power_core2",
+            "recipe2": "rftoolspower:cell2"
+        },
+        {
+            "type": "text",
+            "text": "默认状态下，$(item)中级能源单元$()单体能存储4，000，000RF。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolspower:power_core3",
+            "recipe2": "rftoolspower:cell3"
+        },
+        {
+            "type": "text",
+            "text": "默认状态下，$(item)高级能源单元$()单体能存储20，000，000RF。这可是相当庞大的能量储备！"
+        }
+    ]
+}

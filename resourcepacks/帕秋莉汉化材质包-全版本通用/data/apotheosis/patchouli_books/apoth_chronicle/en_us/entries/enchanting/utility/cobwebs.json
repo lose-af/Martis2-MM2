@@ -1,0 +1,17 @@
+{
+    "name": "蛛网应用",
+    "icon": "minecraft:cobweb",
+    "category": "apotheosis:enchanting/utility",
+    "flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "铁砧中结合蛛网与物品可清除所有附魔。$(p)棱光蛛网在铁砧中使用可专门消除诅咒类附魔。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:cobweb",
+            "recipe2": "apotheosis:prismatic_web"
+        }
+    ]
+}

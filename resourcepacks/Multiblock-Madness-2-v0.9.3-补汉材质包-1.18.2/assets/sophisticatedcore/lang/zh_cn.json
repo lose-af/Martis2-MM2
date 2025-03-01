@@ -1,0 +1,7 @@
+{
+    "gui.sophisticatedcore.upgrades.battery.contents_tooltip": "%s FE，共 %s FE",
+    "item.sophisticatedcore.storage.tooltip.energy": "%s 能量",
+    "gui.sophisticatedcore.tooltip.stack_limit": "限制：%s",
+    "gui.sophisticatedcore.upgrades.tank.contents_tooltip": "%s mB 总共 %s mB",
+    "item.sophisticatedcore.storage.tooltip.fluid": "%s 毫升 %s"
+}

@@ -1,0 +1,49 @@
+{
+    "name": "维度电池",
+    "icon": "rftoolspower:dimensionalcell",
+    "category": "rftoolspower:category_rftoolspower_powerstorage",
+    "extra_recipe_mappings": [
+        [
+            "rftoolspower:dimensionalcell_creative",
+            0
+        ]
+    ],
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "text",
+            "text": "维度电池是跨维度的能源存储装置。与$(l:rftoolspower:powerstorage/powercell)能量电池$()类似，它们可以存储并传输巨量能源。但不同之处在于，维度电池无需相邻即可共享RF能量，而是通过$(l:rftoolspower:powerstorage/powercell)能量电池卡$()进行$(thing)链接$()。"
+        },
+        {
+            "type": "text",
+            "text": "[待办:此处放置GUI截图]"
+        },
+        {
+            "type": "text",
+            "text": "维度电池GUI包含3个槽位。左上方槽位用于创建新$(thing)链接$()，底部槽位用于将能量电池卡编程至当前链接，右上方槽位可放置需充能物品(如充能传送器)。$(br2)左侧进度条显示维度电池网络的总储能状态，右侧有四个功能按钮。"
+        },
+        {
+            "type": "text",
+            "text": "$(thing)统计$()按钮悬停时显示该模块的RF存取量。$(thing)无$()、$(thing)输入$()和$(thing)输出$()按钮分别设置模块各面为禁用、传输、接收模式。$(br2)使用$(l:rftoolsbase:tools/smartwrench)智能扳手$()在$(thing)扳手模式$()下可单独配置各面:蓝色为输入，黄色为输出，空白面不工作。"
+        },
+        {
+            "type": "text",
+            "text": "但维度电池存在一个缺点:当处于$(thing)输出模式$()时，从远程电池提取RF会产生少量能耗(通常为百分之几)。所幸维度电池可通过$(l:rftoolsbase:machines/infusing)灌注$()降低此损耗。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolspower:dimensionalcell_simple",
+            "text": "基础级维度电池存储容量为250，000 RF，最大输入/输出速率1，250 RF/刻。可通过$(l:rftoolsbase:machines/infusing)灌注$()提升速率。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolspower:dimensionalcell",
+            "text": "中级维度电池存储容量1，000，000 RF，最大输入/输出速率5，000 RF/刻。可通过$(l:rftoolsbase:machines/infusing)灌注$()提升速率。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolspower:dimensionalcell_advanced",
+            "text": "顶级维度电池存储容量4，000，000 RF，最大输入/输出速率20，000 RF/刻。可通过$(l:rftoolsbase:machines/infusing)灌注$()提升速率。"
+        }
+    ]
+}

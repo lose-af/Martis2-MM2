@@ -1,0 +1,6 @@
+{
+    "name": "科技",
+    "description": "专业技巧:按住Alt+Shift点击机器中的任何流体槽或RF计量表可清空其内容(流体/RF将被直接销毁)",
+    "icon": "thermal:machine_frame",
+    "sortnum": 1
+}

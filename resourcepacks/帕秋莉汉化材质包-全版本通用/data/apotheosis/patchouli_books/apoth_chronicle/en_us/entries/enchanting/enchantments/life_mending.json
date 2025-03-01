@@ -1,0 +1,17 @@
+{
+    "name": "生命修复",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(4)生命修复$()是可应用于所有可损坏物品的腐化附魔。$(p)$(9)经验修补$()将经验转化为耐久时，$(4)生命修复$()则将治疗转化为耐久。$(p)每点生命值转化的耐久度随等级提升而增加。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "该附魔也可在附魔台中获取。"
+        }
+    ]
+}

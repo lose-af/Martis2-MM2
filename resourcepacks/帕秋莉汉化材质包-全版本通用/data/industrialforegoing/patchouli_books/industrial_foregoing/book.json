@@ -1,0 +1,11 @@
+{
+    "name": "text.industrialforegoing.book.title",
+    "landing_text": "若需全自动化运作！$(br2)欢迎成为我的$(l:https://www.patreon.com/buuz135)赞助者$()。$(br2)若某机器未显示，则表示该机器尚未实装。",
+    "book_texture": "patchouli:textures/gui/book_cyan.png",
+    "version": "GRADLE:VERSION",
+    "text_color": "5A5766",
+    "header_color": "48435C",
+    "nameplate_color": "61E786",
+    "progress_bar_color": "EDFFEC",
+    "model": "industrialforegoing:book_manual"
+}

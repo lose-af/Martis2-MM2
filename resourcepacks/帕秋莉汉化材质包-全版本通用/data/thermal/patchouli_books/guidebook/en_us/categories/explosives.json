@@ -1,0 +1,7 @@
+{
+    "name": "爆炸物",
+    "description": "娱乐可把玩，吞服有风险。",
+    "icon": "thermal:explosive_grenade",
+    "parent": "thermal:equipment",
+    "sortnum": 4
+}

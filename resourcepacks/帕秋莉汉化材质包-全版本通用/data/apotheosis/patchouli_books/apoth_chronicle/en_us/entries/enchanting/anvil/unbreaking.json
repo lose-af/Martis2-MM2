@@ -1,0 +1,13 @@
+{
+    "name": "耐久附魔",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/anvil",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)耐久$()现在可以应用于铁砧。$(p)每级耐久都会降低铁砧在使用(或坠落)时受损的概率。"
+        }
+    ]
+}

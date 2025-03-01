@@ -1,0 +1,12 @@
+{
+    "name": "炽焱发电机",
+    "icon": "rftoolspower:blazing_generator",
+    "category": "rftoolspower:category_rftoolspower_powergeneration",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "text",
+            "text": "炽焱发电机可将烈焰棒转化为能量，但需先经$(l:rftoolspower:powergeneration/blazingagitator)炽焱搅拌机$(/l)处理。该发电机最多可同时处理四根烈焰棒，持续运转时效率最佳。启动阶段需要预热时间才能达到最大输出功率。"
+        }
+    ]
+}

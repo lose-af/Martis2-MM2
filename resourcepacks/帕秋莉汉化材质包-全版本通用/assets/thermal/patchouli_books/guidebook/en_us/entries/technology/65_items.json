@@ -1,0 +1,19 @@
+{
+    "name": "一组竟能堆叠65个物品？！",
+    "icon": "thermal:gold_gear",
+    "category": "thermal:technology",
+    "flag": "mod:thermal_expansion",
+    "sortnum": -2,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "部分机器存在概率性产出，特别是使用催化剂时。举例来说，某配方每个输入品会生成2.5个输出品。前两个输出品必然生成，第三个则有50%概率生成。当机器输出槽位满载时，这可能导致问题。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "此非程序错误！",
+            "text": "热力膨胀模组采用堆叠容量弹性增长机制，自动适应此类超额产出。"
+        }
+    ]
+}

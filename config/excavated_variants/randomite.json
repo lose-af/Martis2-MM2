@@ -1,21 +1,21 @@
 {
-  "mod_id": "randomite",
-  "provided_stones": [],
-  "provided_ores": [
-    {
-      "block_id": [
-        "randomite:randomite_ore",
-        "randomite:deepslate_randomite_ore"
-      ],
-      "en_name": "Randomite Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "randomite_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    }
-  ]
+    "mod_id": "randomite",
+    "provided_stones": [],
+    "provided_ores": [
+        {
+            "block_id": [
+                "randomite:randomite_ore",
+                "randomite:deepslate_randomite_ore"
+            ],
+            "en_name": "\u968f\u673a\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "randomite_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        }
+    ]
 }

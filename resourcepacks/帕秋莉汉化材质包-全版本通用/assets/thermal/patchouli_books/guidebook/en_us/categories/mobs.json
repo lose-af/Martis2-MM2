@@ -1,0 +1,7 @@
+{
+    "name": "生物",
+    "description": "水。土。火。雷。上古时期，四大元素在虚无中共存。直到下界更新打破平衡。唯有CoFH模组之主King Lemming，能召唤其他元素生灵。",
+    "icon": "thermal:blizz_rod",
+    "parent": "thermal:world",
+    "sortnum": 3
+}

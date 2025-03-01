@@ -1,0 +1,24 @@
+{
+    "name": "构造炸药",
+    "icon": "thermal:earth_tnt",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "category": "thermal:explosives",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "构造炸药可破坏并掉落区域内石质与土质方块，并使范围内的生物获得$(l:thermal:world/mobs/basalz)崩裂II$(/l)效果，适合采矿作业。炸药块与手雷作用半径分别为9格和5格。$(br2)$(o)传说此类炸药曾具有破坏基岩的威力。$()"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:earth_tnt",
+            "B.recipe": "thermal:earth_grenade_4"
+        },
+        {
+            "flag": "&mod:thermal_innovation,mod:thermal_locomotion",
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:earth_tnt_minecart",
+            "title": "构造炸药矿车"
+        }
+    ]
+}

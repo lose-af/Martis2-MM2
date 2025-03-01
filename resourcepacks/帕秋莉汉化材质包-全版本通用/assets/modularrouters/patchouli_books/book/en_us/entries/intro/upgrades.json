@@ -1,0 +1,11 @@
+{
+    "name": "强化升级",
+    "icon": "modularrouters:speed_upgrade",
+    "category": "modularrouters:intro",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)升级模块/$可以通过不同方式增强$(l:intro/modular_router)模块化路由器/$的功能。共有8种升级类型，每个路由器有5个升级插槽。$(p)虽然特定类型升级模块的插入数量存在限制，但您可以在单个插槽中叠加多个升级模块，具体限制请参考各升级页面或物品提示信息。"
+        }
+    ]
+}

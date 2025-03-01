@@ -1,0 +1,13 @@
+{
+    "name": "集群生成器",
+    "icon": "minecraft:spider_eye",
+    "category": "apotheosis:adventure/rogue_spawners",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "集群生成器是游荡生成器的恶性变种，能够极快速地生成大量怪物。$(p)通常它们仅限于生成较弱的节肢类怪物，因此不会形成压倒性的威胁。"
+        }
+    ]
+}

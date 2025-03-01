@@ -1,0 +1,17 @@
+{
+    "name": "生物禁锢装置",
+    "icon": "industrialforegoing:mob_imprisonment_tool",
+    "category": "industrialforegoing:tools",
+    "sortnum": 0,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "手持MIB$(6)右键$()生物可将其收容。$(br2)对地面$(6)右键$()可释放收容生物。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:mob_imprisonment_tool"
+        }
+    ]
+}

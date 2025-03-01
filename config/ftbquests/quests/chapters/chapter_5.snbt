@@ -3,7 +3,7 @@
 	group: "3C8730B42C1725BE"
 	order_index: 3
 	filename: "chapter_5"
-	title: "Chapter 4"
+	title: "第5章"
 	icon: "mekanism:ingot_osmium"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -13,16 +13,18 @@
 			y: -0.5d
 			dependencies: ["09B9B831214F6072"]
 			id: "61B47177E307B079"
-			tasks: [{
-				id: "40A75A68DDC671EB"
-				type: "item"
-				item: "beyond_earth:nasa_workbench"
-			}]
+			tasks: [
+				{
+					id: "40A75A68DDC671EB"
+					type: "item"
+					item: "beyond_earth:nasa_workbench"
+				}
+			]
 		}
 		{
 			x: -2.0d
 			y: -2.0d
-			description: ["Place the molten plastic in world to have it solidify into a Plastic Sheet, or place inside a chest that has been cooled via Heat Frame."]
+			description: ["将熔融塑料放置在世界中会固化为&a塑料板&f,或放入经&a导热框架&f冷却的容器内"]
 			dependencies: ["444E392EA0BB8807"]
 			dependency_requirement: "one_completed"
 			id: "09B9B831214F6072"
@@ -42,17 +44,19 @@
 		{
 			x: -3.5d
 			y: -2.0d
-			description: ["You can use Bio Diesel or LPG (from Refining Oil) to make Plastic."]
+			description: ["可使用&a生物柴油&f或炼油产生的液化石油气制造塑料"]
 			dependencies: [
 				"2F38722F9A7D89CC"
 				"14C449A154C78D7E"
 			]
 			id: "444E392EA0BB8807"
-			tasks: [{
-				id: "7DEBD273E3C1AC9F"
-				type: "item"
-				item: "pneumaticcraft:thermopneumatic_processing_plant"
-			}]
+			tasks: [
+				{
+					id: "7DEBD273E3C1AC9F"
+					type: "item"
+					item: "pneumaticcraft:thermopneumatic_processing_plant"
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -78,14 +82,16 @@
 			y: -3.5d
 			dependencies: ["1B543091EEA0D393"]
 			id: "01D41BC5B499F063"
-			tasks: [{
-				id: "498221C41233E562"
-				type: "item"
-				item: "pneumaticcraft:uv_light_box"
-			}]
+			tasks: [
+				{
+					id: "498221C41233E562"
+					type: "item"
+					item: "pneumaticcraft:uv_light_box"
+				}
+			]
 		}
 		{
-			title: "Better Circuits"
+			title: "&a强化电路板&f"
 			x: 1.5d
 			y: -2.25d
 			dependencies: [
@@ -114,7 +120,7 @@
 			]
 		}
 		{
-			title: "Destination: Moon"
+			title: "目标:月球"
 			icon: {
 				id: "beyond_earth:rocket_t1"
 				Count: 1b
@@ -124,9 +130,9 @@
 			y: 2.25d
 			shape: "hexagon"
 			description: [
-				"After placing the Rocket on the 3x3 Launch Pad, shift right click to open the gui for fueling."
+				"将火箭置于3x3&a发射平台&f后,按住潜行键&a右键点击&f打开燃料界面."
 				""
-				"After launching, you'll be given the option of where to land. Your goal is the Moon! Once you get there, you'll need to remove the rocket from the lander and set up a return Launch Pad."
+				"发射后选择着陆点,目标月球!抵达后需&a拆卸&f着陆器上的火箭,并建立返回用&a发射平台&f"
 			]
 			dependencies: [
 				"61B47177E307B079"
@@ -155,10 +161,10 @@
 			]
 		}
 		{
-			title: "Space Suit"
+			title: "&a宇航服&f"
 			x: -2.0d
 			y: 1.0d
-			description: ["You'll need to fill your suit with Oxygen before heading to space."]
+			description: ["进入太空前需为服装充入氧气"]
 			dependencies: ["12523E152182734F"]
 			id: "2DFADAC92EFECDFD"
 			tasks: [
@@ -219,17 +225,19 @@
 			y: 1.0d
 			dependencies: ["591233C3DDD3FE04"]
 			id: "5E914AEBF8D378B9"
-			tasks: [{
-				id: "7122E515F2EA8F1D"
-				type: "item"
-				item: "beyond_earth:fuel_bucket"
-				count: 2L
-			}]
+			tasks: [
+				{
+					id: "7122E515F2EA8F1D"
+					type: "item"
+					item: "beyond_earth:fuel_bucket"
+					count: 2L
+				}
+			]
 		}
 		{
 			x: -5.0d
 			y: -0.5d
-			description: ["Stacking up to 4 Refinery Outputs on the top (and insulating them), will allow you to get the maximum amount of products from your Crude Oil."]
+			description: ["在顶部堆叠最多4个精炼厂输出口(并隔热),可最大化&a原油&f产物获取"]
 			min_required_dependencies: 3
 			dependencies: [
 				"2F38722F9A7D89CC"
@@ -311,7 +319,7 @@
 			]
 		}
 		{
-			title: "Tier 4 Metals"
+			title: "四级金属材料"
 			x: 0.0d
 			y: 4.5d
 			shape: "circle"
@@ -322,24 +330,26 @@
 			]
 			size: 1.5d
 			id: "13C4C068E2EB695E"
-			tasks: [{
-				id: "4E248D82865F574E"
-				type: "item"
-				title: "Tier 4 Metals"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "mbm2:base_metals/tier_four"
+			tasks: [
+				{
+					id: "4E248D82865F574E"
+					type: "item"
+					title: "四级金属"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "mbm2:base_metals/tier_four"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			icon: "mbm2:air_collector_mk1"
 			x: -3.5d
 			y: -0.5d
-			description: ["You'll need to craft up some Pressurized Aluminum Alloy in the Pressure Chamber for this multiblock."]
+			description: ["需在&a压力室&f中制造加压铝合金用于此多方块结构"]
 			dependencies: ["14C449A154C78D7E"]
 			id: "12523E152182734F"
 			tasks: [
@@ -395,7 +405,7 @@
 			x: 2.0d
 			y: 1.5d
 			shape: "gear"
-			description: ["You'll also need to cover the Cog Blocks with water."]
+			description: ["还需在齿轮方块表面覆盖水层"]
 			dependencies: [
 				"63D72477BB0F83A4"
 				"281E051C6D348B35"
@@ -436,13 +446,19 @@
 				{
 					id: "5F4EFE0F907D42CF"
 					type: "item"
-					item: { id: "kubejs:cobalt_brass_cog_block", Count: 10b }
+					item: {
+						id: "kubejs:cobalt_brass_cog_block"
+						Count: 10b
+					}
 					count: 10L
 				}
 				{
 					id: "4F65CAF9179DF24C"
 					type: "item"
-					item: { id: "kubejs:reinforced_electrum_scaffolding", Count: 10b }
+					item: {
+						id: "kubejs:reinforced_electrum_scaffolding"
+						Count: 10b
+					}
 					count: 10L
 				}
 				{
@@ -453,10 +469,10 @@
 			]
 		}
 		{
-			title: "Purified Water"
+			title: "&a纯化水&f"
 			x: 3.5d
 			y: 1.5d
-			description: ["If used in the Flotation Tank, you'll be able to get some byproducts!"]
+			description: ["在&a浮选槽&f中使用可获得副产品"]
 			dependencies: [
 				"02E4BADB1F8BEB33"
 				"0E2B25A2429C9556"
@@ -474,12 +490,14 @@
 					item: "kubejs:water_filter"
 				}
 			]
-			rewards: [{
-				id: "572C27C7C2BC58E2"
-				type: "item"
-				item: "kubejs:water_filter"
-				count: 10
-			}]
+			rewards: [
+				{
+					id: "572C27C7C2BC58E2"
+					type: "item"
+					item: "kubejs:water_filter"
+					count: 10
+				}
+			]
 		}
 		{
 			icon: "mbm2:sorter_mk2"
@@ -535,17 +553,17 @@
 			]
 		}
 		{
-			title: "Compressing Air"
+			title: "压缩空气"
 			x: -5.0d
 			y: -3.5d
-			description: ["Attach the Safety Tube Module to keep your system from exploding if pressure gets too high."]
+			description: ["安装&a安全管道模块&f以防止系统压力&a过高&f时爆炸"]
 			dependencies: ["418AC2EB203010CA"]
 			id: "02285A69B0A09A44"
 			tasks: [
 				{
 					id: "63B0B7FC57DC0DFA"
 					type: "item"
-					title: "Any Basic Compressor"
+					title: "Any &a基础压缩机&f"
 					item: "pneumaticcraft:air_compressor"
 				}
 				{
@@ -561,13 +579,13 @@
 			]
 		}
 		{
-			title: "Using Heat"
+			title: "热能利用"
 			x: -3.5d
 			y: -3.5d
 			description: [
-				"The Vortex Tube will passively cool the blue side while heating the red side. If supplied Air Pressure, it will enhance this function significantly. Additionally, by adding a Heat Sink to the hot side, the cold side will be able to go much lower."
+				"&a涡流管&f会主动冷却蓝色端并加热红色端.供气加压可显著增强效能.在热端加装&a散热片&f可使冷端温度更低."
 				""
-				"By attaching the Heat Frame to a chest, and heating it, you can make an impromptu furnace! If cooled instead, you will be able to multiply your plastic output from buckets."
+				"通过&a导热框架&f连接加热容器可充当临时熔炉!若进行冷却处理,可倍增桶装塑料产量"
 			]
 			dependencies: ["02285A69B0A09A44"]
 			id: "2F38722F9A7D89CC"
@@ -588,18 +606,20 @@
 					item: "pneumaticcraft:heat_frame"
 				}
 			]
-			rewards: [{
-				id: "3B56C14689E00EBE"
-				type: "item"
-				item: "pneumaticcraft:thermal_lagging"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "3B56C14689E00EBE"
+					type: "item"
+					item: "pneumaticcraft:thermal_lagging"
+					count: 2
+				}
+			]
 		}
 		{
-			title: "Explosions!"
+			title: "爆炸艺术!"
 			x: -6.5d
 			y: -3.5d
-			description: ["Blow up some steel to start PneumaticCraft!"]
+			description: ["引爆钢材即可启动气动工艺模组"]
 			id: "418AC2EB203010CA"
 			tasks: [
 				{
@@ -617,70 +637,82 @@
 		{
 			x: 3.75d
 			y: -3.75d
-			description: ["Running out of channels yet? Each ME Controller can handle up to 64 Channels per side! (Normally 32)"]
+			description: ["频道不够用？每个&aME控制器&f每面可处理64个频道!(通常为32)"]
 			dependencies: ["281E051C6D348B35"]
 			size: 1.5d
 			id: "094B760566E1D22C"
-			tasks: [{
-				id: "183F22F63183D508"
-				type: "item"
-				item: "ae2:controller"
-			}]
-			rewards: [{
-				id: "6B6DA48A6E7D9019"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 824098445478849879L
-			}]
+			tasks: [
+				{
+					id: "183F22F63183D508"
+					type: "item"
+					item: "ae2:controller"
+				}
+			]
+			rewards: [
+				{
+					id: "6B6DA48A6E7D9019"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 824098445478849879L
+				}
+			]
 		}
 		{
 			x: -8.0d
 			y: 5.5d
 			dependencies: ["13D02E1465C8913E"]
 			id: "65E0754BC5138500"
-			tasks: [{
-				id: "40BB7B8E8F18AC62"
-				type: "item"
-				item: "botania:apothecary_default"
-			}]
+			tasks: [
+				{
+					id: "40BB7B8E8F18AC62"
+					type: "item"
+					item: "botania:apothecary_default"
+				}
+			]
 		}
 		{
 			x: -8.0d
 			y: 4.0d
 			dependencies: ["65E0754BC5138500"]
 			id: "6150C63B77F8E6D8"
-			tasks: [{
-				id: "08322B238168EF5A"
-				type: "item"
-				item: "botania:pure_daisy"
-			}]
+			tasks: [
+				{
+					id: "08322B238168EF5A"
+					type: "item"
+					item: "botania:pure_daisy"
+				}
+			]
 		}
 		{
 			x: -6.5d
 			y: 4.0d
 			dependencies: ["6150C63B77F8E6D8"]
 			id: "78B61F638A702484"
-			tasks: [{
-				id: "00FBE0804077C1F5"
-				type: "item"
-				item: "botania:livingrock"
-			}]
+			tasks: [
+				{
+					id: "00FBE0804077C1F5"
+					type: "item"
+					item: "botania:livingrock"
+				}
+			]
 		}
 		{
 			x: -6.5d
 			y: 2.5d
 			dependencies: ["6150C63B77F8E6D8"]
 			id: "207551C54C784815"
-			tasks: [{
-				id: "7FFF9E3A8BAA9357"
-				type: "item"
-				item: "botania:livingwood_log"
-			}]
+			tasks: [
+				{
+					id: "7FFF9E3A8BAA9357"
+					type: "item"
+					item: "botania:livingwood_log"
+				}
+			]
 		}
 		{
 			x: -5.0d
 			y: 2.5d
-			description: ["You'll need the Wand of the Forest to link this to the Mana Pool, in order for the flower's mana to be collected."]
+			description: ["你需要使用&a森林法杖&f将此装置与&a魔力池&f链接,才能收集花朵产生的魔力."]
 			dependencies: ["207551C54C784815"]
 			id: "343E2A3C2342E08A"
 			tasks: [
@@ -708,14 +740,16 @@
 			y: 4.0d
 			dependencies: ["78B61F638A702484"]
 			id: "24AB6B3E3C29F3CD"
-			tasks: [{
-				id: "6CDAF1DB41260EC7"
-				type: "item"
-				item: "botania:mana_pool"
-			}]
+			tasks: [
+				{
+					id: "6CDAF1DB41260EC7"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+			]
 		}
 		{
-			title: "Mana Infused Items"
+			title: "&a魔力灌注&f物品"
 			x: -3.5d
 			y: 4.0d
 			dependencies: [
@@ -738,13 +772,13 @@
 			]
 		}
 		{
-			title: "First Tier Generating Flowers"
+			title: "第一阶&a产能花&f"
 			x: -5.0d
 			y: 5.5d
 			description: [
-				"The Endoflame will consume burnable dropped items to generate a tiny amount of Mana, while the Hydroangeas will consume water source blocks on the same level to do the same. "
+				"&a火红莲&f通过吞噬可燃掉落物产生少量&a魔力&f,而水绣球则通过消耗同高度的水源方块实现相同效果."
 				""
-				"You'll want to make better flowers when you can!"
+				"建议尽快制作更高级的产能花!"
 			]
 			dependencies: ["65E0754BC5138500"]
 			id: "469495A371AA465F"
@@ -764,17 +798,19 @@
 		{
 			x: -2.0d
 			y: 2.5d
-			description: ["Drop the items shown in the recipe, then a living rock, followed by a swing of your wand of the forest. If you've got a Mana Spreader linked to the altar, it will then start."]
+			description: ["按照配方投掷物品后放置活化岩石,最后挥动森林法杖即可激活.若存在与祭坛链接的&a魔力发射器&f,装置将自动启动."]
 			dependencies: ["26C90FCCFBBEBD70"]
 			id: "3BB743C226858D7A"
-			tasks: [{
-				id: "2F973689280236B9"
-				type: "item"
-				item: "botania:runic_altar"
-			}]
+			tasks: [
+				{
+					id: "2F973689280236B9"
+					type: "item"
+					item: "botania:runic_altar"
+				}
+			]
 		}
 		{
-			title: "Mana Compressor (8x Ore Refining)"
+			title: "&a魔力&f压缩机(8倍矿物提纯)"
 			icon: "mbm2:mana_compressor"
 			x: -2.0d
 			y: 4.0d
@@ -825,29 +861,31 @@
 			]
 		}
 		{
-			title: "Mystical Flowers"
+			title: "&a神秘花&f"
 			x: -9.5d
 			y: 4.0d
 			id: "13D02E1465C8913E"
-			tasks: [{
-				id: "0D788CD792C63848"
-				type: "item"
-				title: "Any Mystical Flowers"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "botania:mystical_flowers"
+			tasks: [
+				{
+					id: "0D788CD792C63848"
+					type: "item"
+					title: "任意 &a神秘花&f"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "botania:mystical_flowers"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
-			title: "More of that strange oil"
+			title: "更多奇异原油"
 			x: -5.0d
 			y: -5.0d
-			subtitle: "Its probably nothing"
-			description: ["Use the Sensor on the ground to find an oil deposit, which you can then drill up to the surface with the Gas Lift."]
+			subtitle: "应该没什么问题"
+			description: ["使用探测器定位地下油藏后,可通过&a气举泵&f将其抽至地表."]
 			dependencies: ["02285A69B0A09A44"]
 			id: "598DE255BBB061C3"
 			tasks: [
@@ -869,13 +907,13 @@
 			]
 		}
 		{
-			title: "Pressure Chamber"
+			title: "&a压力室&f"
 			x: -5.0d
 			y: -2.0d
 			description: [
-				"You will need to pipe items in and out of the Pressure Chamber for crafting."
+				"需通过管道向&a压力室&f输入输出物品进行合成."
 				""
-				"The 4 slots surrounded by blue are for Upgrades."
+				"蓝色环绕的四个插槽用于安装升级组件."
 			]
 			dependencies: ["02285A69B0A09A44"]
 			id: "14C449A154C78D7E"
@@ -910,29 +948,33 @@
 			y: -5.0d
 			dependencies: ["02285A69B0A09A44"]
 			id: "50BDCFC5C61EAAF3"
-			tasks: [{
-				id: "0506F92DAB67DD6F"
-				type: "item"
-				title: "Compressor Upgrades"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "pneumaticcraft:compressor/basic"
+			tasks: [
+				{
+					id: "0506F92DAB67DD6F"
+					type: "item"
+					title: "压缩机升级件"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "pneumaticcraft:compressor/basic"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: -2.0d
 			y: -3.5d
 			dependencies: ["09B9B831214F6072"]
 			id: "1B543091EEA0D393"
-			tasks: [{
-				id: "5C65F16828D27EEA"
-				type: "item"
-				item: "pneumaticcraft:empty_pcb"
-			}]
+			tasks: [
+				{
+					id: "5C65F16828D27EEA"
+					type: "item"
+					item: "pneumaticcraft:empty_pcb"
+				}
+			]
 		}
 	]
 	quest_links: [ ]

@@ -1,210 +1,210 @@
 {
-  "mod_id": "modern_industrialization",
-  "provided_stones": [],
-  "provided_ores": [
-    {
-      "block_id": [
-        "modern_industrialization:antimony_ore",
-        "modern_industrialization:deepslate_antimony_ore"
-      ],
-      "en_name": "Antimony Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "antimony_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    },
-    {
-      "block_id": [
-        "modern_industrialization:bauxite_ore",
-        "modern_industrialization:deepslate_bauxite_ore"
-      ],
-      "en_name": "Bauxite Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "bauxite_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    },
-    {
-      "block_id": [
-        "modern_industrialization:iridium_ore",
-        "modern_industrialization:deepslate_iridium_ore"
-      ],
-      "en_name": "Iridium Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "iridium_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    },
-    {
-      "block_id": [
-        "modern_industrialization:lead_ore",
-        "modern_industrialization:deepslate_lead_ore"
-      ],
-      "en_name": "Lead Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "lead_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    },
-    {
-      "block_id": [
-        "modern_industrialization:lignite_coal_ore",
-        "modern_industrialization:deepslate_lignite_coal_ore"
-      ],
-      "en_name": "Lignite Coal Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "lignite_coal_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    },
-    {
-      "block_id": [
-        "modern_industrialization:mozanite_ore",
-        "modern_industrialization:deepslate_mozanite_ore"
-      ],
-      "en_name": "Mozanite Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "mozanite_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    },
-    {
-      "block_id": [
-        "modern_industrialization:nickel_ore",
-        "modern_industrialization:deepslate_nickel_ore"
-      ],
-      "en_name": "Nickel Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "nickel_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    },
-    {
-      "block_id": [
-        "modern_industrialization:salt_ore",
-        "modern_industrialization:deepslate_salt_ore"
-      ],
-      "en_name": "Salt Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "salt_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    },
-    {
-      "block_id": [
-        "modern_industrialization:uranium_ore",
-        "modern_industrialization:deepslate_uranium_ore"
-      ],
-      "en_name": "Uranium Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "uranium_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    },
-    {
-      "block_id": [
-        "modern_industrialization:quartz_ore"
-      ],
-      "en_name": "Quartz Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "quartz_ore",
-      "stone": [
-        "stone"
-      ]
-    },
-    {
-      "block_id": [
-        "modern_industrialization:platinum_ore"
-      ],
-      "en_name": "Platinum Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "platinum_ore",
-      "stone": [
-        "stone"
-      ]
-    },
-    {
-      "block_id": [
-        "modern_industrialization:tin_ore",
-        "modern_industrialization:deepslate_tin_ore"
-      ],
-      "en_name": "Tin Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "tin_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    },
-    {
-      "block_id": [
-        "modern_industrialization:titanium_ore"
-      ],
-      "en_name": "Titanium Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "titanium_ore",
-      "stone": [
-        "stone"
-      ]
-    },
-    {
-      "block_id": [
-        "modern_industrialization:tungsten_ore",
-        "modern_industrialization:deepslate_tungsten_ore"
-      ],
-      "en_name": "Tungsten Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "tungsten_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    }
-  ]
+    "mod_id": "modern_industrialization",
+    "provided_stones": [],
+    "provided_ores": [
+        {
+            "block_id": [
+                "modern_industrialization:antimony_ore",
+                "modern_industrialization:deepslate_antimony_ore"
+            ],
+            "en_name": "\u9511\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "antimony_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        },
+        {
+            "block_id": [
+                "modern_industrialization:bauxite_ore",
+                "modern_industrialization:deepslate_bauxite_ore"
+            ],
+            "en_name": "\u94dd\u571f\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "bauxite_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        },
+        {
+            "block_id": [
+                "modern_industrialization:iridium_ore",
+                "modern_industrialization:deepslate_iridium_ore"
+            ],
+            "en_name": "\u94f1\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "iridium_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        },
+        {
+            "block_id": [
+                "modern_industrialization:lead_ore",
+                "modern_industrialization:deepslate_lead_ore"
+            ],
+            "en_name": "\u94c5\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "lead_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        },
+        {
+            "block_id": [
+                "modern_industrialization:lignite_coal_ore",
+                "modern_industrialization:deepslate_lignite_coal_ore"
+            ],
+            "en_name": "\u8910\u7164\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "lignite_coal_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        },
+        {
+            "block_id": [
+                "modern_industrialization:mozanite_ore",
+                "modern_industrialization:deepslate_mozanite_ore"
+            ],
+            "en_name": "\u83ab\u6851\u77f3\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "mozanite_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        },
+        {
+            "block_id": [
+                "modern_industrialization:nickel_ore",
+                "modern_industrialization:deepslate_nickel_ore"
+            ],
+            "en_name": "\u954d\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "nickel_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        },
+        {
+            "block_id": [
+                "modern_industrialization:salt_ore",
+                "modern_industrialization:deepslate_salt_ore"
+            ],
+            "en_name": "\u76d0\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "salt_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        },
+        {
+            "block_id": [
+                "modern_industrialization:uranium_ore",
+                "modern_industrialization:deepslate_uranium_ore"
+            ],
+            "en_name": "\u94c0\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "uranium_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        },
+        {
+            "block_id": [
+                "modern_industrialization:quartz_ore"
+            ],
+            "en_name": "\u77f3\u82f1\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "quartz_ore",
+            "stone": [
+                "stone"
+            ]
+        },
+        {
+            "block_id": [
+                "modern_industrialization:platinum_ore"
+            ],
+            "en_name": "\u94c2\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "platinum_ore",
+            "stone": [
+                "stone"
+            ]
+        },
+        {
+            "block_id": [
+                "modern_industrialization:tin_ore",
+                "modern_industrialization:deepslate_tin_ore"
+            ],
+            "en_name": "\u9521\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "tin_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        },
+        {
+            "block_id": [
+                "modern_industrialization:titanium_ore"
+            ],
+            "en_name": "\u949b\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "titanium_ore",
+            "stone": [
+                "stone"
+            ]
+        },
+        {
+            "block_id": [
+                "modern_industrialization:tungsten_ore",
+                "modern_industrialization:deepslate_tungsten_ore"
+            ],
+            "en_name": "\u94a8\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "tungsten_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        }
+    ]
 }

@@ -1,0 +1,10 @@
+{
+    "name": "科技指南",
+    "landing_text": "本手册将引导你全面了解McJty系列模组，从RFTools套件到xNet、深共振(Deep Resonance)乃至更多内容！$(br)如发现漏洞，请在此$(l:rftoolsbase:basics/bugs)提交报告$()。",
+    "creative_tab": "rftoolsbase",
+    "dont_generate_book": true,
+    "custom_book_item": "rftoolsbase:manual",
+    "show_progress": false,
+    "book_texture": "rftoolsbase:textures/manual/book_techguide.png",
+    "version": 1
+}

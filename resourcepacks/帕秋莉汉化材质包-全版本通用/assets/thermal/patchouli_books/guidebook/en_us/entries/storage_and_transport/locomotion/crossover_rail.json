@@ -1,0 +1,17 @@
+{
+    "name": "交叉轨道",
+    "icon": "thermal:crossover_rail",
+    "read_by_default": true,
+    "flag": "mod:thermal_locomotion",
+    "category": "thermal:locomotion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "交叉轨道可使两条垂直铺设的轨道互不干扰地交汇。矿车经过交叉轨道时将保持原有行进方向。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:crossover_rail"
+        }
+    ]
+}

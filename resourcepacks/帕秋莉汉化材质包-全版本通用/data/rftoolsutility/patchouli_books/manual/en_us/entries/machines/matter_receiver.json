@@ -1,0 +1,15 @@
+{
+    "name": "物质接收器",
+    "icon": "rftoolsutility:matter_receiver",
+    "category": "rftoolsutility:category_rftoolsutility_machines",
+    "pages": [
+        {
+            "type": "text",
+            "text": "物质接收器是玩家可以从$(l:rftoolsutility:machines/matter_transmitter)物质传送器$(/l)传送抵达的位置。使用$(l:rftoolsutility:machines/dialing_device)拨号装置$(/l)将物质传送器与此接收器进行调谐。$(br2)$(5)灌注$()该机器可降低能耗"
+        },
+        {
+            "type": "text",
+            "text": "请注意保持物质接收器有充足能量供应至关重要。若能量不足，玩家传送时可能遭受负面状态影响"
+        }
+    ]
+}

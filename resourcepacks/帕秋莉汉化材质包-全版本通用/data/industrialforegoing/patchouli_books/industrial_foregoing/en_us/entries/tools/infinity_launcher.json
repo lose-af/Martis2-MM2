@@ -1,0 +1,13 @@
+{
+    "name": "无尽发射器",
+    "icon": "industrialforegoing:infinity_launcher",
+    "category": "industrialforegoing:tools",
+    "sortnum": 3,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "无尽发射器可远程捕捉/释放生物禁锢装置中的实体。通过GUI选择模式并发射时，可使用背包中的MIT进行生物收容或释放。"
+        }
+    ]
+}

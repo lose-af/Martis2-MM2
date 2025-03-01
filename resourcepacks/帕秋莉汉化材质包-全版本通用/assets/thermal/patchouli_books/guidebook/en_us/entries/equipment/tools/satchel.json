@@ -1,0 +1,23 @@
+{
+    "name": "便携行囊",
+    "icon": "thermal:satchel",
+    "category": "thermal:tools",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "便携行囊是个能装东西的袋子，功能简明易懂。按下'$(k:cofh.mode_change_increment)'可切换自动收集模式，根据过滤器设置自动收纳拾取物。可在匠魂工作台进行强化。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:tools/satchel",
+            "title": "便携行囊",
+            "text": "可在工作台中使用普通染料染色，并可用信素安保锁进行加密。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "增强模块兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)集成元件$(/l)$(li)$(l:thermal:technology/augments/item_filter)物品过滤器$(/l)"
+        }
+    ]
+}

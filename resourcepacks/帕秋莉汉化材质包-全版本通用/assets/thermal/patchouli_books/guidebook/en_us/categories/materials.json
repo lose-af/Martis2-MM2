@@ -1,0 +1,7 @@
+{
+    "name": "材料",
+    "description": "构成热力系列核心的基础资源。",
+    "icon": "thermal:invar_ingot",
+    "parent": "thermal:world",
+    "sortnum": 1
+}

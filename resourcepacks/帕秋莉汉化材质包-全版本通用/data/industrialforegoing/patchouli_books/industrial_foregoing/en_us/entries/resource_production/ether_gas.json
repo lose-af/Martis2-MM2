@@ -1,0 +1,13 @@
+{
+    "name": "以太气体(桶)",
+    "icon": "industrialforegoing:ether_gas_bucket",
+    "category": "industrialforegoing:resource_production",
+    "sortnum": 13,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "当$(l:resource_production/fluid_laser_base)流体激光基座$()被直接放置在凋灵头顶时产生的流体。"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "name": "模块化路由器",
+    "icon": "modularrouters:modular_router",
+    "category": "modularrouters:router",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)模块化路由器/$是系统的核心，负责执行所有插入其中的模块，通过各种方式搬运物品、方块与流体。"
+        },
+        {
+            "type": "image",
+            "images": [
+                "modularrouters:textures/patchouli/router_gui.png"
+            ],
+            "text": "$(italic)装配了多个模块与升级的模块化路由器GUI界面",
+            "border": true
+        },
+        {
+            "type": "text",
+            "title": "1. 缓存区",
+            "text": "$(thing)模块化路由器/$拥有单格缓存槽，最多可容纳一组物品。该缓存槽作为标准容器，可通过$(item)漏斗/$与其他模组管道系统交互。$(p)此外，放置在路由器旁的$(item)比较器/$将按预期测量槽位填充度。"
+        },
+        {
+            "type": "text",
+            "title": "2. 模块插槽",
+            "text": "$(thing)模块化路由器/$设有九个$(l:intro/modules)模块插槽/$。路由器每次运行(每秒1到10次，取决于速度升级)时，将按从左到右顺序$(thing)依次执行/$各模块。$(p)悬停模块时按$(4)$(bold)[$(k:modularrouters.configure)]/$或在GUI界面$(thing)中键单击/$模块，可不取出模块直接进行配置。"
+        },
+        {
+            "type": "text",
+            "title": "3. 升级插槽",
+            "text": "$(thing)模块化路由器/$设有五个$(l:intro/upgrades)升级插槽/$。升级以不同方式增强功能:例如每插入一个$(l:upgrades/speed)速度升级/$可使路由器运行周期略微加快，而每个$(l:upgrades/stack)堆叠升级/$则能提升单次操作处理物品数量。"
+        },
+        {
+            "type": "text",
+            "title": "4. 红石控制",
+            "text": "$(thing)模块化路由器/$通过右上角按钮配置红石响应模式:$(li)默认:始终运行，无视红石信号$(li)仅在$(italic)无/$红石信号时运行$(li)仅在$(italic)存在/$红石信号时运行$(li)永不运行$(li)当接收到红石脉冲时(信号强度高于前值)$(italic)单次运行/$。"
+        },
+        {
+            "type": "text",
+            "title": "5. 生态模式",
+            "text": "为践行环保理念，路由器设有闲置自动降速功能。$(p)启用生态模式后，若路由器在过去$(ttcolor)$(t:模组配置可调参数 - 'ecoTimeout')5秒/$内无任何操作，则会降低工作频率至每$(ttcolor)$(t:模组配置可调参数 - 'lowPowerTickRate')5秒/$仅处理一次(无视所有$(l:upgrades/speed)速度升级/$)。但一旦开始工作，立即恢复正常频率。"
+        },
+        {
+            "type": "text",
+            "title": "生态模式(续)",
+            "text": "此功能主要针对高负载服务器以节省CPU资源，亦适用于无需快速传输且间歇性工作的路由器(例如使用$(l:modules/vacuum)吸附模块/$定期收集剪羊毛的绵羊农场)。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:modular_router"
+        }
+    ]
+}

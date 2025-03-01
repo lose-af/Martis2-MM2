@@ -1,0 +1,21 @@
+{
+    "name": "无尽工具",
+    "icon": "industrialforegoing:infinity_drill",
+    "category": "industrialforegoing:tools",
+    "sortnum": 2,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "无尽工具遵循简单法则:能源越强性能越优。提升等阶可解锁特殊增益。装载$(l:biofuel)生物燃料$()时，将消耗燃料而非能源提升效率。$(br2)$(6)潜行+右键$()可打开工具GUI。"
+        },
+        {
+            "type": "text",
+            "text": "可通过工具GUI禁用$(6)充能$()功能。$(br2)分7个等阶:$(li)粗制$(li)普通$(li)精良$(li)稀有$(li)史诗$(li)传说$(li)神器 $(br2)所有工具都会将掉落物传送至玩家。"
+        },
+        {
+            "type": "text",
+            "text": "成为赞助者可获得$(6)闪耀$()版工具，带来视觉奖励！"
+        }
+    ]
+}

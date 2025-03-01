@@ -1,0 +1,23 @@
+{
+    "name": "植壤灌注机",
+    "icon": "thermal:device_soil_infuser",
+    "category": "thermal:devices",
+    "read_by_default": true,
+    "flag": "mod:thermal_cultivation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "植壤灌注机是消耗RF能量加速周边$(l:thermal:world/plants/phytogro)植壤$(/l)作物生长的装置。基础作用范围为3x3x3区域，可通过$(l:thermal:technology/augments/area_radius)径向增强升级组件$(/l)扩展至7x3x7。$(l:thermal:technology/augments/integral_components)集成组件$(/l)可提升生长加速效果。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:device_soil_infuser",
+            "title": "植壤灌注机"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "升级组件兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)集成元件$(/l)$(li)$(l:thermal:technology/augments/rf_coil)扩展型RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)稳定化RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)高通量RF线圈$(/l)$(li)$(l:thermal:technology/augments/area_radius)径向强化装置$(/l)"
+        }
+    ]
+}

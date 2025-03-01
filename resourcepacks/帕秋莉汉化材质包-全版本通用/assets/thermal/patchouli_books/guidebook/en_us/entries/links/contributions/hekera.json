@@ -1,0 +1,23 @@
+{
+    "name": "赫克拉",
+    "icon": "minecraft:oxeye_daisy",
+    "category": "thermal:contributors",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "赫克拉",
+            "item": "minecraft:player_head{SkullOwner:'Hekera'}",
+            "text": "联合作者，对全书进行多次重写。通过优化排版使书籍更加精美，并饱受各类排版错误的折磨。热衷于调侃Shiny。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": ""
+        },
+        {
+            "type": "patchouli:text",
+            "text": "再睡五分钟……"
+        }
+    ]
+}

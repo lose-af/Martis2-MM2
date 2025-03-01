@@ -1,0 +1,13 @@
+{
+    "name": "无尽核弹",
+    "icon": "industrialforegoing:infinity_nuke",
+    "category": "industrialforegoing:tools",
+    "sortnum": 3,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "无尽核弹是大规模杀伤性武器，爆炸半径随等阶与生物燃料量增加。已声明区块内的物品不会被破坏。$(br2)引爆方式:放置地面→右键激活→用打火石右键引爆。"
+        }
+    ]
+}

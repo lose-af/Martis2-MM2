@@ -1,0 +1,12 @@
+{
+    "name": "抽液卡",
+    "icon": "rftoolsbuilder:shape_card_pump",
+    "category": "rftoolsbuilder:category_rftoolsbuilder_shape_cards",
+    "sortnum": 50,
+    "pages": [
+        {
+            "type": "text",
+            "text": "抽液卡可使建造者执行矿脉抽吸操作"
+        }
+    ]
+}

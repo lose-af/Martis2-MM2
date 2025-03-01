@@ -1,0 +1,19 @@
+{
+    "name": "消音器升级",
+    "category": "modularrouters:upgrades",
+    "icon": "modularrouters:muffler_upgrade",
+    "pages": [
+        {
+            "type": "text",
+            "text": "此升级用于抑制物品路由装置产生的声效与粒子效果，在玩家常驻区域有频繁运作的嘈杂模块时尤为实用。$(li)装载1个消音器:禁用所有音效$(li)装载2个:额外禁用所有粒子效果(光束与飞行物品)"
+        },
+        {
+            "type": "text",
+            "text": "$(li)装载3个:进一步禁用装置激活动画(路由方块正面的脉动纹理)$(p)注意:所有声效与粒子效果也可通过模组配置全局禁用；本升级仅在未全局禁用时生效。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:muffler_upgrade"
+        }
+    ]
+}

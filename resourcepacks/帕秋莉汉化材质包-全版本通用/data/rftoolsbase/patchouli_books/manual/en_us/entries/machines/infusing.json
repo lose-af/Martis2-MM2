@@ -1,0 +1,46 @@
+{
+    "name": "充能强化",
+    "icon": "rftoolsbase:machine_infuser",
+    "category": "rftoolsbase:category_machines",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)机器充能器$()利用$(l:rftoolsbase:basics/dimensional_shards)维度碎片$()为多数机器$(thing)提升效能$()。通常可降低能耗，部分设备还能获得额外增益。$(br2)对充能器本身进行$(thing)充能$()可减少其运作能耗。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsbase:machine_infuser",
+            "text": "根据已安装模组情况，机器充能器还具备其他功能，详见下页说明。"
+        },
+        {
+            "type": "text",
+            "flag": "mod:rftoolsutility",
+            "title": "RFTools实用模组",
+            "text": "$(li)$(l:rftoolsutility:machines/environmental)环境控制器$() $(li)$(l:rftoolsutility:machines/dialing_device)拨号装置$() $(li)$(l:rftoolsutility:machines/matter_receiver)物质接收器$() $(li)$(l:rftoolsutility:machines/matter_transmitter)物质传送器$() (+速度) $(li)$()刷怪装置$() $(li)$()物质波束器$() (+速度，-材料需求) $(li)$(l:rftoolsutility:machines/screen_controller)屏幕控制器$() (+范围) $(li)$(l:rftoolsutility:machines/crafter)自动合成器$()"
+        },
+        {
+            "type": "text",
+            "flag": "mod:rftoolsstorage",
+            "title": "RFTools存储模组",
+            "text": "$(li)$(l:rftoolsstorage:scanner/scanner)存储扫描器$()"
+        },
+        {
+            "type": "text",
+            "flag": "mod:rftoolspower",
+            "title": "RFTools能源模组",
+            "text": "$(li)$(l:rftoolspower:powergeneration/coalgenerator)煤炭发电机$() $(li)$(l:rftoolspower:powergeneration/endergenic)末影能发电机$()(+发电量，持有时末影珍珠损耗降低) $(li)$(l:rftoolspower:powerstorage/dimensionalcell)维度电池$()(-远距离提取RF成本，+RF/t输出) $(li)$(l:rftoolspower:powergeneration/blazingagitator)炽焰搅拌器$()(+炽焰棒品质) $(li)$(l:rftoolspower:powergeneration/blazinggenerator)炽焰发电机$()(+发电量)"
+        },
+        {
+            "type": "text",
+            "flag": "mod:rftoolsdim",
+            "title": "RFTools维度模组",
+            "text": "$(li)$(l:rftoolsdim:dimlets/researcher)维度研究员$()(+速度) $(li)$(l:rftoolsdim:dimensions/dimension_builder)维度建造器$()(+速度)"
+        },
+        {
+            "type": "text",
+            "flag": "mod:rftoolsbuilder",
+            "title": "RFTools建造器",
+            "text": "$(li)$(l:rftoolsbuilder:shield/shield_intro)护盾投射器$()(+伤害) $(li)$(l:rftoolsbuilder:builder/builder_intro)建造器$()(+速度)"
+        }
+    ]
+}

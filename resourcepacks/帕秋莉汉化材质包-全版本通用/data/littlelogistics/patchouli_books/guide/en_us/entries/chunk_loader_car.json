@@ -1,0 +1,19 @@
+{
+    "name": "区块加载车厢",
+    "icon": "littlelogistics:chunk_loader_car",
+    "category": "littlelogistics:trains",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:chunk_loader_car",
+            "scale": 0.6,
+            "offset": 0.5,
+            "text": "该车厢能维持以自身为中心3x3区域的区块加载。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:chunk_loader_car",
+            "text": "建议用于长途线路，可能需要多节。载具在部分加载时会尝试停止。"
+        }
+    ]
+}

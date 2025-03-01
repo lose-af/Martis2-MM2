@@ -1,0 +1,17 @@
+{
+    "name": "千古智慧",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2)千古智慧$()是剑类武器的杰作附魔。$(p)击杀生物时，所有掉落物将转化为经验值。$(p)每件物品转化的经验值相同。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "此特性对掉落物数量多的生物最为高效。$(p)单件物品经验值随附魔等级提升。$(p)作为保护机制，击杀玩家不会转化其物品。"
+        }
+    ]
+}

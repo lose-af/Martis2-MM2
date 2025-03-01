@@ -1,0 +1,12 @@
+{
+    "name": "流体卡",
+    "icon": "rftoolsbuilder:shape_card_liquid",
+    "category": "rftoolsbuilder:category_rftoolsbuilder_shape_cards",
+    "sortnum": 40,
+    "pages": [
+        {
+            "type": "text",
+            "text": "流体卡可使建造者进行液体灌注操作"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "name": "无线网络连接",
+    "description": "实现多网络的无线互联",
+    "parent": "xnet:category_xnet",
+    "icon": "xnet:antenna",
+    "sortnum": 30
+}

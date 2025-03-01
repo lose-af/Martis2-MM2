@@ -1,0 +1,15 @@
+{
+    "name": "柠檬小子",
+    "icon": "minecraft:poppy",
+    "category": "thermal:contributors",
+    "read_by_default": true,
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "柠檬小子",
+            "item": "minecraft:player_head{SkullOwner:'OneLemonyBoi'}",
+            "text": "能源炉章节撰写，以及部分模组兼容内容。"
+        }
+    ]
+}

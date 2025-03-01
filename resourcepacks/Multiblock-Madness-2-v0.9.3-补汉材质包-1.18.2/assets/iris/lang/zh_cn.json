@@ -1,0 +1,6 @@
+{
+    "options.iris.colorSpace.sodium_tooltip": "将屏幕转换为的颜色空间。在着色器包上工作。如果不确定，请使用SRGB。",
+    "iris.unsupported.iris": "奥库卢斯不支持",
+    "iris.keybinds": "奥库卢斯",
+    "options.iris.colorSpace": "颜色空间"
+}

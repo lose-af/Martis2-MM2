@@ -1,0 +1,23 @@
+{
+    "name": "通量锯",
+    "icon": "thermal:flux_saw",
+    "category": "thermal:tools",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "利用RF能量轻松开采木质方块。右键仍可剥除原木树皮。可在匠魂工作台中充能与强化。安装范围强化组件后，按'$(k:cofh.mode_change_increment)'切换开采半径。可通过附魔$(l:thermal:world/holding)持有$(/l)提升RF容量。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:saw_blade",
+            "B.recipe": "thermal:flux_saw"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "强化组件兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)整合组件$(/l)$(li)$(l:thermal:technology/augments/rf_coil)扩容RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)稳定化RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)高通量RF线圈$(/l)$(li)$(l:thermal:technology/augments/area_radius)径向增强$(/l)"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "石材加工厂",
+    "icon": "industrialforegoing:material_stonework_factory",
+    "category": "industrialforegoing:resource_production",
+    "sortnum": 0,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "新一代$(6)圆石$()生成器。$(br2)在输入$(6)60$()RF/t能量并同时注入$(6)水$()与$(6)熔岩$()时，可指令其生成特定材料。$(br)生成的材料可通过下列工序进一步加工:$(br)$(li)熔炼$(br)$(li)粉碎$(br)$(li)合成"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:material_stonework_factory"
+        }
+    ]
+}

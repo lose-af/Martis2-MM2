@@ -1,0 +1,20 @@
+{
+    "teleport_whoosh": {
+        "category": "block",
+        "sounds": [
+            "rftoolsutility:teleport_whoosh"
+        ]
+    },
+    "teleport_error": {
+        "category": "block",
+        "sounds": [
+            "rftoolsutility:teleport_error"
+        ]
+    },
+    "scan": {
+        "category": "block",
+        "sounds": [
+            "rftoolsutility:scan"
+        ]
+    }
+}

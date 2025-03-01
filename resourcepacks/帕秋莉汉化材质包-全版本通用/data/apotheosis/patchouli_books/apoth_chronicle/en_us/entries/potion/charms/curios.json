@@ -1,0 +1,13 @@
+{
+    "name": "Curios(饰品栏模组)",
+    "icon": "curios:textures/item/empty_charm_slot.png",
+    "category": "apotheosis:potion/charms",
+    "flag": "&apotheosis:potion,apotheosis:curiosloaded",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "安装$(9)Curios$()模组后，可在$(9)饰品栏$()装备药水符咒。$(p)其运作方式与物品栏中相同。"
+        }
+    ]
+}

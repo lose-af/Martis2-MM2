@@ -1,0 +1,14 @@
+{
+    "name": "闪锌矿",
+    "icon": "geolosys:sphalerite_ore",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "闪锌矿",
+            "item": "geolosys:sphalerite_ore",
+            "link_recipe": false,
+            "text": "该稀疏矿床生成于海平面下18米至27米间。仅存在于主世界，可在任意生物群系中发现。"
+        }
+    ]
+}

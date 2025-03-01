@@ -1,0 +1,16 @@
+{
+    "gui.cyclopscore.infobook": "信息书",
+    "infobook.cyclopscore.keybindings": "按键绑定",
+    "gui.cyclopscore.scrollbar": "滚动条",
+    "general.cyclopscore.dev_world": "开发世界",
+    "itemGroup.cyclopscore": "Cyclops 核心",
+    "gui.cyclopscore.left": "左",
+    "gui.cyclopscore.up": "上",
+    "gui.cyclopscore.down": "下",
+    "infobook.cyclopscore.keybinding": "按键绑定",
+    "gui.cyclopscore.search": "搜索",
+    "infobook.cyclopscore.external": "网络版本",
+    "_comment": "我是注释,以下内容使用up主柠娜的汉化工具生成",
+    "gui.cyclopscore.rewards": "奖励",
+    "gui.cyclopscore.right": "右"
+}

@@ -3,16 +3,16 @@
 	group: "3C8730B42C1725BE"
 	order_index: 0
 	filename: "chapter_2"
-	title: "Chapter 1"
+	title: "第2章"
 	icon: "create:brass_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Collecting some Element Juice"
+			title: "收集元素精华"
 			x: -4.5d
 			y: 7.5d
-			description: ["Right click the pipe connection to change to extraction mode."]
+			description: ["&a右键点击&f管道接口可切换至抽取模式"]
 			dependencies: ["027AD6DB4DE3B445"]
 			id: "08C3C85483A79429"
 			tasks: [
@@ -49,57 +49,67 @@
 					item: "elementalcraft:small_container"
 				}
 			]
-			rewards: [{
-				id: "5E8D7C40010E1E55"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6594349084625110702L
-			}]
+			rewards: [
+				{
+					id: "5E8D7C40010E1E55"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6594349084625110702L
+				}
+			]
 		}
 		{
 			x: -2.5d
 			y: 6.5d
-			description: ["You can use this Instrument to turn Inert Crystal into Element Crystals."]
+			description: ["此仪器可将惰性水晶转化为元素水晶"]
 			dependencies: ["08C3C85483A79429"]
 			id: "0828BD31B9F3CD36"
-			tasks: [{
-				id: "5438CE8F6C9C4D30"
-				type: "item"
-				item: "elementalcraft:infuser"
-			}]
-			rewards: [{
-				id: "05B7E12B2529672A"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6594349084625110702L
-			}]
+			tasks: [
+				{
+					id: "5438CE8F6C9C4D30"
+					type: "item"
+					item: "elementalcraft:infuser"
+				}
+			]
+			rewards: [
+				{
+					id: "05B7E12B2529672A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6594349084625110702L
+				}
+			]
 		}
 		{
-			title: "Elemental Infused Items"
+			title: "元素灌注物品"
 			x: -0.5d
 			y: 5.5d
 			dependencies: ["0828BD31B9F3CD36"]
 			id: "391E4F9DA1A3D71B"
-			tasks: [{
-				id: "26E004E4BD3FFE89"
-				type: "item"
-				item: "elementalcraft:drenched_iron_ingot"
-			}]
-			rewards: [{
-				id: "65AACEB52AC79869"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6594349084625110702L
-			}]
+			tasks: [
+				{
+					id: "26E004E4BD3FFE89"
+					type: "item"
+					item: "elementalcraft:drenched_iron_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "65AACEB52AC79869"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6594349084625110702L
+				}
+			]
 		}
 		{
-			title: "Basic Create Components"
+			title: "基础机械元件"
 			x: -0.5d
 			y: 10.0d
 			description: [
-				"Large Cogwheels can be used in conjunction with small Cogs to increase rotational speed."
+				"&a大齿轮&f可与小齿轮配合提升转速"
 				""
-				"You'll be needing a lot of these (with the possible exception of the Large Cogwheel) so be sure to craft extra!"
+				"这些元件需求量较大(&a大齿轮&f可能例外),建议多备些材料!"
 			]
 			dependencies: ["36F53EFC92FB2CA7"]
 			id: "360253CDEF94C130"
@@ -148,8 +158,8 @@
 			icon: "create:mechanical_press"
 			x: 3.0d
 			y: 10.0d
-			subtitle: "Unlocking Upgrades!"
-			description: ["You can rig this up manually with a Depot underneath, or have it above a belt for automation."]
+			subtitle: "解锁升级项!"
+			description: ["可在下方放置存储仓手动操作,或置于传送带上实现自动化"]
 			dependencies: ["273B98D3C35D7356"]
 			id: "2990DA17B56345DA"
 			tasks: [
@@ -164,36 +174,42 @@
 					item: "create:depot"
 				}
 			]
-			rewards: [{
-				id: "4196E16F527597A6"
-				type: "random"
-				table_id: 2368795686952639629L
-			}]
+			rewards: [
+				{
+					id: "4196E16F527597A6"
+					type: "random"
+					table_id: 2368795686952639629L
+				}
+			]
 		}
 		{
 			x: 1.0d
 			y: 12.5d
 			dependencies: ["273B98D3C35D7356"]
 			id: "1AE07B2CC8D8B725"
-			tasks: [{
-				id: "2FD57F5A52E7AE56"
-				type: "item"
-				item: "create:millstone"
-			}]
-			rewards: [{
-				id: "0F222D66626F890D"
-				type: "random"
-				table_id: 2368795686952639629L
-			}]
+			tasks: [
+				{
+					id: "2FD57F5A52E7AE56"
+					type: "item"
+					item: "create:millstone"
+				}
+			]
+			rewards: [
+				{
+					id: "0F222D66626F890D"
+					type: "random"
+					table_id: 2368795686952639629L
+				}
+			]
 		}
 		{
-			title: "Tinkers Tools"
+			title: "匠魂工具"
 			x: -8.5d
 			y: 8.0d
 			description: [
-				"Check the Tinkers Station for which parts you need to make a trusty Pickaxe."
+				"查阅匠魂&a星站&f获取镐具所需部件"
 				""
-				"After placing some blank patterns in the Part Builder, you'll be able to craft the needed parts."
+				"在&a部件加工台&f放入空白模具后即可制作对应部件"
 			]
 			dependencies: ["5FD77AB0F43882B8"]
 			id: "55B6D04F54F29F96"
@@ -220,42 +236,50 @@
 					item: "tconstruct:crafting_station"
 				}
 			]
-			rewards: [{
-				id: "2969356CF50CBBB4"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 2582656620646881183L
-			}]
+			rewards: [
+				{
+					id: "2969356CF50CBBB4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2582656620646881183L
+				}
+			]
 		}
 		{
-			title: "The Toolbox"
+			title: "&a工具箱&f"
 			x: 2.0d
 			y: 11.0d
-			description: ["Hold Alt to access items stored inside the toolbox."]
+			description: ["按住Alt键可存取工具箱内物品"]
 			dependencies: ["2990DA17B56345DA"]
 			id: "298E404D2803AB20"
-			tasks: [{
-				id: "664F1389CD85DFDA"
-				type: "item"
-				item: "create:brown_toolbox"
-			}]
-			rewards: [{
-				id: "0B14B51191FB9E3D"
-				type: "random"
-				table_id: 2368795686952639629L
-			}]
+			tasks: [
+				{
+					id: "664F1389CD85DFDA"
+					type: "item"
+					item: "create:brown_toolbox"
+				}
+			]
+			rewards: [
+				{
+					id: "0B14B51191FB9E3D"
+					type: "random"
+					table_id: 2368795686952639629L
+				}
+			]
 		}
 		{
 			x: -2.5d
 			y: 10.0d
-			subtitle: "Use Ponder!"
+			subtitle: "使用&a思索&f功能!"
 			dependencies: ["4598B96CC8D9CD02"]
 			id: "36F53EFC92FB2CA7"
-			tasks: [{
-				id: "0E054D9FE6175A83"
-				type: "item"
-				item: "create:andesite_casing"
-			}]
+			tasks: [
+				{
+					id: "0E054D9FE6175A83"
+					type: "item"
+					item: "create:andesite_casing"
+				}
+			]
 			rewards: [
 				{
 					id: "70C31CF5F1B59E14"
@@ -270,15 +294,15 @@
 			]
 		}
 		{
-			title: "Coke Oven"
+			title: "&a焦炉&f"
 			icon: "immersiveengineering:coke_oven"
 			x: 6.0d
 			y: 7.5d
 			shape: "circle"
-			subtitle: "Treated Wood"
+			subtitle: "&a防腐木&f"
 			description: [
-				"Good way to extend your fuel supply, and you'll need Creosote Oil for Treated wood, used in many projects going forward."
-				"You'll need 108 (64 + 44) Coke Oven Bricks for each coke oven you want to build."
+				"高效燃料供应方案,后续工程所需的&a防腐木&f需用&a杂酚油&f处理"
+				"每座焦炉需消耗108个(64+44)&a焦炉砖块&f"
 			]
 			dependencies: [
 				"760223888ADD58B0"
@@ -311,35 +335,39 @@
 					item: "immersiveengineering:creosote_bucket"
 				}
 			]
-			rewards: [{
-				id: "1CAF568E8AFE2393"
-				type: "loot"
-				table_id: 2582656620646881183L
-			}]
+			rewards: [
+				{
+					id: "1CAF568E8AFE2393"
+					type: "loot"
+					table_id: 2582656620646881183L
+				}
+			]
 		}
 		{
-			title: "Getting Wood"
+			title: "&a木材采集&f"
 			x: -8.5d
 			y: 10.0d
 			description: [
-				"Welcome to Multiblock Madness 2! "
+				"欢迎来到多结构狂想2!"
 				""
-				"To convert your Quest Book into a tome containing most manuals needed for the pack, just left click the air with it."
+				"将&a任务书&f转换为包含整合包手册的典籍,只需手持时点击空气即可"
 			]
 			id: "5FD77AB0F43882B8"
-			tasks: [{
-				id: "42C3CD48EA88ABD1"
-				type: "item"
-				title: "Any Logs"
-				tags: ["logs"]
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "minecraft:logs"
+			tasks: [
+				{
+					id: "42C3CD48EA88ABD1"
+					type: "item"
+					title: "任意原木"
+					tags: ["logs"]
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "6E19F1EFD7B265D6"
@@ -355,43 +383,47 @@
 			]
 		}
 		{
-			title: "Deep Storage"
+			title: "深层存储"
 			x: -8.5d
 			y: 12.0d
-			subtitle: "Better Drawers?"
-			description: ["These store a high amount of a single item, with the Compacting Drawer allowing you to I/O things like blocks, ingots, and nuggets at the same time"]
+			subtitle: "强化版抽屉？"
+			description: ["专精单一物品的大容量存储方案,&a压缩抽屉&f可同步处理方块、锭、粒等形态物品"]
 			dependencies: ["5FD77AB0F43882B8"]
 			id: "09785A45FBC8D26F"
-			tasks: [{
-				id: "3A4EABCE31DA3433"
-				type: "item"
-				title: "Any Drawer"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "functionalstorage:drawer"
+			tasks: [
+				{
+					id: "3A4EABCE31DA3433"
+					type: "item"
+					title: "任意抽屉"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "functionalstorage:drawer"
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "24F80934A3C4A0EF"
-				type: "item"
-				item: {
-					id: "functionalstorage:configuration_tool"
-					Count: 1b
-					tag: {
-						Mode: "LOCKING"
+			]
+			rewards: [
+				{
+					id: "24F80934A3C4A0EF"
+					type: "item"
+					item: {
+						id: "functionalstorage:configuration_tool"
+						Count: 1b
+						tag: {
+							Mode: "LOCKING"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			icon: "functionalstorage:storage_controller"
 			x: 6.0d
 			y: 9.5d
-			subtitle: "Does not need to be next to drawers to link"
-			description: ["Use the Linking Tool to connect Drawers to the Controller."]
+			subtitle: "无需紧邻抽屉即可链接"
+			description: ["使用&a连接工具&f将抽屉与控制器相连"]
 			dependencies: [
 				"556CB869A6592D68"
 				"143FA2A8FD6E4E10"
@@ -418,23 +450,25 @@
 			]
 		}
 		{
-			title: "Drawer Upgrades!"
+			title: "抽屉升级!"
 			x: 2.0d
 			y: 9.0d
-			subtitle: "These multiply your total storage"
+			subtitle: "倍增存储容量"
 			dependencies: ["2990DA17B56345DA"]
 			id: "7A3C0E70F10FC88A"
-			tasks: [{
-				id: "7D61863A05280CAE"
-				type: "item"
-				item: "functionalstorage:copper_upgrade"
-			}]
+			tasks: [
+				{
+					id: "7D61863A05280CAE"
+					type: "item"
+					item: "functionalstorage:copper_upgrade"
+				}
+			]
 		}
 		{
 			x: -10.0d
 			y: 11.5d
-			subtitle: "You'll need to head to cloud level to get the parts"
-			description: ["Place one of the balloons on the Cloud Chest, and the other on any other chest to upload it to the cloud."]
+			subtitle: "需前往云层高度获取组件"
+			description: ["将气球分别放置在云箱和任意箱体上,即可实现云端存储同步"]
 			dependencies: ["5FD77AB0F43882B8"]
 			id: "531F9CD69D9E1D66"
 			tasks: [
@@ -450,105 +484,120 @@
 					count: 2L
 				}
 			]
-			rewards: [{
-				id: "5556A0B80853834F"
-				type: "item"
-				item: {
-					id: "sophisticatedstorage:diamond_chest"
-					Count: 1b
-					tag: {
-						woodType: "oak"
+			rewards: [
+				{
+					id: "5556A0B80853834F"
+					type: "item"
+					item: {
+						id: "sophisticatedstorage:diamond_chest"
+						Count: 1b
+						tag: {
+							woodType: "oak"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
-			title: "Furnace Upgrades!"
+			title: "&a熔炉供热升级&f!"
 			icon: "ironfurnaces:iron_furnace"
 			x: 3.0d
 			y: 9.0d
-			description: ["Gold and Diamond are the next two tiers"]
+			description: ["黄金与钻石是后续两阶升级材料"]
 			dependencies: ["2990DA17B56345DA"]
 			id: "07A5A4AA9766AC81"
-			tasks: [{
-				id: "648F119E490A167B"
-				type: "item"
-				title: "Tier 1 Furnace"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "mbm2:ingots/furnaces/tier_1"
+			tasks: [
+				{
+					id: "648F119E490A167B"
+					type: "item"
+					title: "一级熔炉"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "mbm2:ingots/furnaces/tier_1"
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "0478081DF9604AAB"
-				type: "choice"
-				table_id: 5651728752135664854L
-			}]
+			]
+			rewards: [
+				{
+					id: "0478081DF9604AAB"
+					type: "choice"
+					table_id: 5651728752135664854L
+				}
+			]
 		}
 		{
-			title: "Backpacks have Upgrades now!"
+			title: "背包现已支持升级!"
 			x: -10.0d
 			y: 8.5d
 			dependencies: ["5FD77AB0F43882B8"]
 			id: "1C13BCBAB1983C5B"
-			tasks: [{
-				id: "66D7D29B68C28559"
-				type: "item"
-				item: {
-					id: "sophisticatedbackpacks:backpack"
-					Count: 1b
-					tag: {
-						contentsUuid: [I;
-							253092764
-							-1836366034
-							-1113098560
-							-1281562646
-						]
-						inventorySlots: 27
-						upgradeSlots: 1
+			tasks: [
+				{
+					id: "66D7D29B68C28559"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:backpack"
+						Count: 1b
+						tag: {
+							contentsUuid: [I;
+								253092764
+								-1836366034
+								-1113098560
+								-1281562646
+							]
+							inventorySlots: 27
+							upgradeSlots: 1
+						}
 					}
+					match_nbt: false
 				}
-				match_nbt: false
-			}]
-			rewards: [{
-				id: "43DFC22D7660D9DE"
-				type: "item"
-				item: "sophisticatedbackpacks:upgrade_base"
-			}]
+			]
+			rewards: [
+				{
+					id: "43DFC22D7660D9DE"
+					type: "item"
+					item: "sophisticatedbackpacks:upgrade_base"
+				}
+			]
 		}
 		{
-			title: "Going Mining"
+			title: "深入矿洞"
 			x: -6.5d
 			y: 10.0d
-			subtitle: "Expect lots of Ore"
+			subtitle: "期待大量矿石"
 			description: [
-				"You'll find large veins of which can include several types of materials."
+				"你会发现包含多种材料的大型矿脉."
 				""
 				""
-				"Refill by crafting the drill and fuel together."
+				"通过将钻头与燃料合成来补充能量."
 			]
 			dependencies: ["5FD77AB0F43882B8"]
 			id: "03F754FB73DEF8FA"
-			tasks: [{
-				id: "2AA122A75C55A92C"
-				type: "item"
-				title: "Any Cobblestone"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "minecraft:stone_crafting_materials"
+			tasks: [
+				{
+					id: "2AA122A75C55A92C"
+					type: "item"
+					title: "任意圆石"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:stone_crafting_materials"
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "0CC0178FC6FC143F"
 					type: "item"
-					item: { id: "gag:sacred_salve", Count: 4b }
+					item: {
+						id: "gag:sacred_salve"
+						Count: 4b
+					}
 					count: 4
 				}
 				{
@@ -573,11 +622,13 @@
 						ForgeCaps: {
 							Parent: {
 								Size: 5
-								Items: [{
-									Slot: 0
-									id: "immersiveengineering:drillhead_steel"
-									Count: 1b
-								}]
+								Items: [
+									{
+										Slot: 0
+										id: "immersiveengineering:drillhead_steel"
+										Count: 1b
+									}
+								]
 							}
 						}
 					}
@@ -610,11 +661,11 @@
 			]
 		}
 		{
-			title: "Finding things is fun!"
+			title: "寻物之趣"
 			x: -11.0d
 			y: 10.0d
-			subtitle: "Looking for things, not so much"
-			description: ["Having people find you is even worse."]
+			subtitle: "寻物未必有趣"
+			description: ["被人找到的滋味更糟糕."]
 			dependencies: ["5FD77AB0F43882B8"]
 			id: "7AB2CE16F7A558CA"
 			tasks: [
@@ -652,11 +703,11 @@
 			]
 		}
 		{
-			title: "Metal Tools"
+			title: "金属工具"
 			icon: "tconstruct:seared_melter"
 			x: 4.5d
 			y: 11.0d
-			subtitle: "Reusable Casts are made from Brass"
+			subtitle: "可重复使用的模具由黄铜制成"
 			dependencies: ["760223888ADD58B0"]
 			min_required_tasks: 5
 			id: "23D386A39C0311F4"
@@ -684,7 +735,7 @@
 				{
 					id: "34C09736F9085277"
 					type: "item"
-					title: "Sand Casts"
+					title: "沙模铸件"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -699,36 +750,42 @@
 					item: "create:brass_ingot"
 				}
 			]
-			rewards: [{
-				id: "2297EB6E8DD179BE"
-				type: "random"
-				table_id: 2582656620646881183L
-			}]
+			rewards: [
+				{
+					id: "2297EB6E8DD179BE"
+					type: "random"
+					table_id: 2582656620646881183L
+				}
+			]
 		}
 		{
-			title: "Chest Upgrades!"
+			title: "箱子升级!"
 			x: 4.0d
 			y: 9.0d
-			description: ["To Diamond Tier and beyond!"]
+			description: ["升级至&a钻石等级&f乃至更高!"]
 			dependencies: ["2990DA17B56345DA"]
 			id: "331A846E2C1269E3"
-			tasks: [{
-				id: "11D331BD622334CE"
-				type: "item"
-				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
-			}]
-			rewards: [{
-				id: "30AB5177CEA0BE43"
-				type: "item"
-				item: "sophisticatedstorage:stack_upgrade_tier_1"
-			}]
+			tasks: [
+				{
+					id: "11D331BD622334CE"
+					type: "item"
+					item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				}
+			]
+			rewards: [
+				{
+					id: "30AB5177CEA0BE43"
+					type: "item"
+					item: "sophisticatedstorage:stack_upgrade_tier_1"
+				}
+			]
 		}
 		{
 			icon: "create:mechanical_mixer"
 			x: 4.5d
 			y: 10.0d
 			description: [
-				"You'll need to speed up your rotation to use the mixer. The simplest way is to attach a large cog to your Water Wheels, and a small cog to that one. The small cog will be spinning faster!"
+				"需要加快转速才能使用搅拌机.&a简易&f方法是在你的&a水车&f安装大齿轮,再在其上加装小齿轮.小齿轮将获得更快的转速!"
 				""
 			]
 			dependencies: ["2990DA17B56345DA"]
@@ -745,23 +802,27 @@
 					item: "create:basin"
 				}
 			]
-			rewards: [{
-				id: "4CC37FAAADE75E14"
-				type: "random"
-				table_id: 2368795686952639629L
-			}]
+			rewards: [
+				{
+					id: "4CC37FAAADE75E14"
+					type: "random"
+					table_id: 2368795686952639629L
+				}
+			]
 		}
 		{
-			title: "Primitive Rotational Power"
+			title: "基础旋转动力"
 			x: 1.0d
 			y: 10.0d
 			dependencies: ["360253CDEF94C130"]
 			id: "273B98D3C35D7356"
-			tasks: [{
-				id: "38E79964102D2043"
-				type: "item"
-				item: "create:water_wheel"
-			}]
+			tasks: [
+				{
+					id: "38E79964102D2043"
+					type: "item"
+					item: "create:water_wheel"
+				}
+			]
 			rewards: [
 				{
 					id: "64547D403D4F328D"
@@ -776,14 +837,14 @@
 			]
 		}
 		{
-			title: "Basic Alloys"
+			title: "基础合金"
 			x: 7.0d
 			y: 11.0d
 			shape: "gear"
 			description: [
-				"You'll need plenty of Brass to upgrade your Create parts, while Bronze is used in Thermal and some other recipes."
+				"升级Create部件需要大量黄铜,而青铜用于热力系列及其他配方."
 				""
-				"Nickel and Zinc are most commonly found in the Nether."
+				"镍和锌最常见于&a下界&f."
 			]
 			dependencies: [
 				"760223888ADD58B0"
@@ -791,21 +852,23 @@
 			]
 			size: 2.0d
 			id: "143FA2A8FD6E4E10"
-			tasks: [{
-				id: "5E243ECA3D6ECAD2"
-				type: "item"
-				title: "Tier 1 Alloys"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "mbm2:alloys/dusts/tier_one"
+			tasks: [
+				{
+					id: "5E243ECA3D6ECAD2"
+					type: "item"
+					title: "一级合金"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "mbm2:alloys/dusts/tier_one"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
-			title: "Basic Item Routing"
+			title: "基础物品运输"
 			x: -0.5d
 			y: 11.5d
 			dependencies: ["360253CDEF94C130"]
@@ -832,17 +895,19 @@
 					item: "create:shaft"
 				}
 			]
-			rewards: [{
-				id: "24020BCCC9948094"
-				type: "random"
-				table_id: 2368795686952639629L
-			}]
+			rewards: [
+				{
+					id: "24020BCCC9948094"
+					type: "random"
+					table_id: 2368795686952639629L
+				}
+			]
 		}
 		{
 			icon: "thermal:device_tree_extractor"
 			x: 3.0d
 			y: 11.0d
-			subtitle: "Replacement for Kelp"
+			subtitle: "海带替代品"
 			dependencies: ["2990DA17B56345DA"]
 			id: "7A86EFBA4A46492E"
 			tasks: [
@@ -857,22 +922,24 @@
 					item: "minecraft:jungle_sapling"
 				}
 			]
-			rewards: [{
-				id: "5B69F014A36AE6FC"
-				type: "item"
-				item: "thermal:phytogro"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "5B69F014A36AE6FC"
+					type: "item"
+					item: "thermal:phytogro"
+					count: 4
+				}
+			]
 		}
 		{
-			title: "The Sludge Sifter"
+			title: "&a淤泥&f筛分机"
 			icon: "mbm2:sludge_sifter"
 			x: 6.0d
 			y: 5.5d
-			subtitle: "Some passive resources"
+			subtitle: "被动资源获取"
 			description: [
-				"The Barrel can replace any of the scaffolding, while the tank can be extended upwards to hold more water."
-				"You'll need to pipe water into the tank!"
+				"&a木桶&f可替代任何脚手架结构,而&a注水渠&f可向上延伸以容纳更多水流."
+				"需要通过管道向&a注水渠&f输水!"
 			]
 			dependencies: [
 				"556CB869A6592D68"
@@ -929,10 +996,10 @@
 			]
 		}
 		{
-			title: "Fluid Transfer"
+			title: "&a流体传输过滤器&f"
 			x: 1.0d
 			y: 8.0d
-			description: ["Most fluid handling with Create needs to by done with pipes, rather then buckets."]
+			description: ["Create模组的流体处理大多需用管道而非桶具完成."]
 			dependencies: ["273B98D3C35D7356"]
 			id: "1CC0BFAC83B1134B"
 			tasks: [
@@ -947,18 +1014,20 @@
 					item: "create:mechanical_pump"
 				}
 			]
-			rewards: [{
-				id: "2F3C05323B26EF83"
-				type: "random"
-				table_id: 5216185889486752116L
-			}]
+			rewards: [
+				{
+					id: "2F3C05323B26EF83"
+					type: "random"
+					table_id: 5216185889486752116L
+				}
+			]
 		}
 		{
 			icon: "create:hose_pulley"
 			x: 2.0d
 			y: 6.5d
-			subtitle: "Infinite Water/Lava"
-			description: ["Used to drain bodies of liquid."]
+			subtitle: "无限水/岩浆"
+			description: ["用于排空液体容器."]
 			dependencies: [
 				"1CC0BFAC83B1134B"
 				"0828BD31B9F3CD36"
@@ -976,17 +1045,19 @@
 					item: "create:hand_crank"
 				}
 			]
-			rewards: [{
-				id: "6A0A631E301C20A2"
-				type: "random"
-				table_id: 5216185889486752116L
-			}]
+			rewards: [
+				{
+					id: "6A0A631E301C20A2"
+					type: "random"
+					table_id: 5216185889486752116L
+				}
+			]
 		}
 		{
-			title: "Better Rotational Power"
+			title: "进阶旋转动力"
 			x: 7.5d
 			y: 6.0d
-			subtitle: "Use Ponder!"
+			subtitle: "使用&a思索&f功能!"
 			dependencies: ["556CB869A6592D68"]
 			id: "6C5CC546B5799587"
 			tasks: [
@@ -1002,38 +1073,44 @@
 					count: 8L
 				}
 			]
-			rewards: [{
-				id: "7F17F23E447F02C7"
-				type: "random"
-				table_id: 2368795686952639629L
-			}]
+			rewards: [
+				{
+					id: "7F17F23E447F02C7"
+					type: "random"
+					table_id: 2368795686952639629L
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: 6.5d
-			subtitle: "This can also be used to automate Treated Wood."
-			description: ["You won't be able to fill the Spout with buckets, so you'll need to rig up the pipes to fill it for you."]
+			subtitle: "也可用于自动化&a防腐木&f生产"
+			description: ["无法用桶直接填充喷口,需通过管道系统自动注液."]
 			dependencies: [
 				"1CC0BFAC83B1134B"
 				"0828BD31B9F3CD36"
 			]
 			id: "03FA25E0602E0B32"
-			tasks: [{
-				id: "7E35FE79C6F30C43"
-				type: "item"
-				item: "create:spout"
-			}]
-			rewards: [{
-				id: "3DBA70525D4DD4A2"
-				type: "random"
-				table_id: 5216185889486752116L
-			}]
+			tasks: [
+				{
+					id: "7E35FE79C6F30C43"
+					type: "item"
+					item: "create:spout"
+				}
+			]
+			rewards: [
+				{
+					id: "3DBA70525D4DD4A2"
+					type: "random"
+					table_id: 5216185889486752116L
+				}
+			]
 		}
 		{
 			x: -6.5d
 			y: 8.5d
-			subtitle: "Check out the Elementopedia in your Akashic Tome!"
-			description: ["Elements! It only takes a few seconds to fill a tiny jar from a wild source, or about 5 elemental shards if you've collected some from drops."]
+			subtitle: "查阅&a阿卡什宝典&f中的元素百科!"
+			description: ["元素之力!从自然源采集只需数秒即可装满小罐,若收集掉落物则需约5枚元素碎片."]
 			dependencies: ["03F754FB73DEF8FA"]
 			id: "027AD6DB4DE3B445"
 			tasks: [
@@ -1048,57 +1125,67 @@
 					item: "elementalcraft:contained_crystal"
 				}
 			]
-			rewards: [{
-				id: "22EF5E2F00DFC5E6"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 2582656620646881183L
-			}]
+			rewards: [
+				{
+					id: "22EF5E2F00DFC5E6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2582656620646881183L
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: 10.5d
 			dependencies: ["143FA2A8FD6E4E10"]
 			id: "42F5FCF0F07BA708"
-			tasks: [{
-				id: "49C22B2A2AA1A382"
-				type: "item"
-				item: {
-					id: "thermal:fluid_cell"
-					Count: 1b
-					tag: {
-						BlockEntityTag: {
-							TankInv: [{
-								Tank: 0b
-								FluidName: "minecraft:empty"
-								Capacity: 32000
-								Amount: 0
-							}]
+			tasks: [
+				{
+					id: "49C22B2A2AA1A382"
+					type: "item"
+					item: {
+						id: "thermal:fluid_cell"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								TankInv: [
+									{
+										Tank: 0b
+										FluidName: "minecraft:empty"
+										Capacity: 32000
+										Amount: 0
+									}
+								]
+							}
 						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: -4.5d
 			y: 10.0d
-			description: ["You can use any type of stone to Create \"Stone Alloy\""]
+			description: ["可使用任意石材合成\"石质合金\""]
 			dependencies: ["03F754FB73DEF8FA"]
 			id: "4598B96CC8D9CD02"
-			tasks: [{
-				id: "5CBE4717A98DA17E"
-				type: "item"
-				item: "create:andesite_alloy"
-			}]
-			rewards: [{
-				id: "4FBC208298FF1D7D"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 2582656620646881183L
-			}]
+			tasks: [
+				{
+					id: "5CBE4717A98DA17E"
+					type: "item"
+					item: "create:andesite_alloy"
+				}
+			]
+			rewards: [
+				{
+					id: "4FBC208298FF1D7D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2582656620646881183L
+				}
+			]
 		}
 		{
-			title: "Upgrades!"
+			title: "升级时代!"
 			icon: "elementalcraft:container"
 			x: 1.0d
 			y: 4.5d
@@ -1116,20 +1203,22 @@
 					item: "elementalcraft:container"
 				}
 			]
-			rewards: [{
-				id: "61EDA6FADBC5D4F4"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6594349084625110702L
-			}]
+			rewards: [
+				{
+					id: "61EDA6FADBC5D4F4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6594349084625110702L
+				}
+			]
 		}
 		{
-			title: "Hemp"
+			title: "大麻"
 			icon: "immersiveengineering:hemp_fiber"
 			x: 4.0d
 			y: 6.5d
-			subtitle: "Can be used to craft string"
-			description: ["Found by breaking grass"]
+			subtitle: "&a可用于&f合成线材"
+			description: ["破坏草方块可获得"]
 			id: "5DF7F48CFFA43DA8"
 			tasks: [
 				{
@@ -1148,79 +1237,89 @@
 			icon: "farmersdelight:cutting_board"
 			x: -2.5d
 			y: 11.5d
-			description: ["Easy way to strip wood, and get the bark as a byproduct!"]
+			description: ["轻松剥离木材并获取树皮副产物!"]
 			dependencies: ["36F53EFC92FB2CA7"]
 			id: "4E2670A228CB0F4F"
-			tasks: [{
-				id: "271D7BAD67A40550"
-				type: "item"
-				item: "farmersdelight:cutting_board"
-			}]
-			rewards: [{
-				id: "4E2D099F1142A318"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 2582656620646881183L
-			}]
+			tasks: [
+				{
+					id: "271D7BAD67A40550"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+			]
+			rewards: [
+				{
+					id: "4E2D099F1142A318"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2582656620646881183L
+				}
+			]
 		}
 		{
-			title: "So, you've found some new Ore"
+			title: "发现新矿石"
 			x: -6.5d
 			y: 11.5d
-			description: ["These Compound Ores can be processed down into a large array of different materials."]
+			description: ["这些复合矿石可提炼出多种不同材料."]
 			dependencies: ["03F754FB73DEF8FA"]
 			id: "423438726B049430"
-			tasks: [{
-				id: "14928AF1C2A1F06C"
-				type: "item"
-				title: "Compond Ore Fragments"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:ores/compound/fragment"
+			tasks: [
+				{
+					id: "14928AF1C2A1F06C"
+					type: "item"
+					title: "复合矿石碎片"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores/compound/fragment"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
-			title: "Ore Deposits"
+			title: "&a矿床&f"
 			x: -6.5d
 			y: 13.0d
 			description: [
-				"Beneath the ring of Ore Samples, you'll find a massive vein of whichever ore is displayed by the sample."
+				"在矿石样本环下方,你'会发现与样本对应的矿石所对应的巨大矿脉."
 				"{image:kubejs:textures/quests/ore_sample.png width:119 height:82 align:1}"
 			]
 			dependencies: ["423438726B049430"]
 			progression_mode: "flexible"
 			id: "71F53411D675017F"
-			tasks: [{
-				id: "00466F8C8935B4C3"
-				type: "item"
-				title: "Raw Compound Ore"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:ores/compound/raw"
+			tasks: [
+				{
+					id: "00466F8C8935B4C3"
+					type: "item"
+					title: "原始复合矿石"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores/compound/raw"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 8.0d
 			y: 7.5d
-			description: ["You can attach an augment for your Drill by placing it on the table, then adding the augment of choice."]
+			description: ["在工具台上放置钻头后,可添加任意强化部件进行升级."]
 			dependencies: [
 				"556CB869A6592D68"
 				"143FA2A8FD6E4E10"
 			]
 			id: "02DE8C27A70C222A"
-			tasks: [{
-				id: "53F026E2743E3876"
-				type: "item"
-				item: "immersiveengineering:workbench"
-			}]
+			tasks: [
+				{
+					id: "53F026E2743E3876"
+					type: "item"
+					item: "immersiveengineering:workbench"
+				}
+			]
 			rewards: [
 				{
 					id: "266A56F6EE3D9205"
@@ -1247,20 +1346,22 @@
 		{
 			x: 8.5d
 			y: 12.5d
-			description: ["This is used to make the higher tier Tinkers Tools,"]
+			description: ["用于制作高阶匠魂工具"]
 			dependencies: ["143FA2A8FD6E4E10"]
 			id: "434D27AD712204C9"
-			tasks: [{
-				id: "3A417A0C22653AED"
-				type: "item"
-				item: {
-					id: "tconstruct:tinkers_anvil"
-					Count: 1b
-					tag: {
-						texture: "create:brass_block"
+			tasks: [
+				{
+					id: "3A417A0C22653AED"
+					type: "item"
+					item: {
+						id: "tconstruct:tinkers_anvil"
+						Count: 1b
+						tag: {
+							texture: "create:brass_block"
+						}
 					}
 				}
-			}]
+			]
 		}
 	]
 	quest_links: [ ]

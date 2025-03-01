@@ -1,0 +1,17 @@
+{
+    "name": "合成卡片",
+    "icon": "rftoolsbase:crafting_card",
+    "category": "rftoolsbase:category_tools",
+    "pages": [
+        {
+            "type": "text",
+            "text": "合成卡片是能存储配方的物品。既支持常规3x3配方，也支持复杂形状配方。多种机器均可使用此卡片。$(br2)注意存储的配方无需实际有效。此卡片也可作为表示「输入」和「输出」的通用载体"
+        },
+        {
+            "type": "image",
+            "images": [
+                "rftoolsbase:textures/manual/image_craftingcard.png"
+            ]
+        }
+    ]
+}

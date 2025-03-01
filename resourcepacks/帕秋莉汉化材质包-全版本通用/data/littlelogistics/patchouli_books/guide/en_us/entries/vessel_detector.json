@@ -1,0 +1,12 @@
+{
+    "name": "船只检测器",
+    "icon": "littlelogistics:vessel_detector",
+    "category": "littlelogistics:blocks",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:vessel_detector",
+            "text": "当指定方向3格范围内存在船只时发出红石信号。需要笔直的水道空间。"
+        }
+    ]
+}

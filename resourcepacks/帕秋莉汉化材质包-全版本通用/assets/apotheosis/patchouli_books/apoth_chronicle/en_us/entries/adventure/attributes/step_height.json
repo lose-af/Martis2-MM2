@@ -1,0 +1,17 @@
+{
+    "name": "步高",
+    "icon": "minecraft:iron_boots",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)步高$()决定你自动攀爬方块的能力。$(p)仅见于靴类装备。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 0$(p)$(9)$(n)最大值:$() 512$(p)注:该数值需叠加至默认0.5基础值上，非最终总步高。"
+        }
+    ]
+}

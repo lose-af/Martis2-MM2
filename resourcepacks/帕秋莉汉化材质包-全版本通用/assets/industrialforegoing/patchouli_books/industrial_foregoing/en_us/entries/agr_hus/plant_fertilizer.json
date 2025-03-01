@@ -1,0 +1,21 @@
+{
+    "name": "植物施肥机",
+    "icon": "industrialforegoing:plant_fertilizer",
+    "category": "industrialforegoing:agriculture_husbandry",
+    "sortnum": 5,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "用于为作物$(6)施加$()骨粉的机械装置。$(br2)该装置会在处理下一株作物前，持续对当前作物施加骨粉直至其无法继续吸收。这可能导致装置卡在永远可吸收骨粉的植物(如$(6)向日葵$())或永远无法达到最终生长阶段的植物上。"
+        },
+        {
+            "type": "text",
+            "text": "植物施肥机可接受:$(br)$(li)骨粉 $(li)肥料"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:plant_fertilizer"
+        }
+    ]
+}

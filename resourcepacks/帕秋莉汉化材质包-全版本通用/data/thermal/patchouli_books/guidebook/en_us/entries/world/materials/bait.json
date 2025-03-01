@@ -1,0 +1,28 @@
+{
+    "name": "诱饵系统",
+    "icon": "thermal:aquachow",
+    "read_by_default": true,
+    "category": "thermal:materials",
+    "flag": "mod:thermal_cultivation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "多种诱饵可用于$(l:thermal:technology/devices/fisher)流体纠缠器$(/l)以增强或改变其捕捞能力。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:aquachow_4",
+            "text": "水鲜饵是鱼类难以抗拒的特殊配方，可显著提升纠缠器的自然捕获效率。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:deep_aquachow_4",
+            "text": "深渊水鲜饵助您捕捞深海水域产物，提升河豚、海带、海晶石、墨囊、海绵甚至三叉戟等物品的获取几率。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:junk_net",
+            "text": "杂物网可使纠缠器收集线绳、睡莲、骨头、水瓶及皮革等杂物。诚如谚语所言:『此人之弃物，彼人之珍宝』——大概就是这个意思。"
+        }
+    ]
+}

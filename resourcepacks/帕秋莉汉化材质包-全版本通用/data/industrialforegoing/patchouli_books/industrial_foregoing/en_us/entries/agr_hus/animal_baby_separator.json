@@ -1,0 +1,17 @@
+{
+    "name": "幼崽分离机",
+    "icon": "industrialforegoing:animal_baby_separator",
+    "category": "industrialforegoing:agriculture_husbandry",
+    "sortnum": 16,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "用于分离$(6)幼年$()动物与成年动物的设备。幼崽会被传送至机器后方，可通过GUI界面设置筛选生物类型。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:animal_baby_separator"
+        }
+    ]
+}

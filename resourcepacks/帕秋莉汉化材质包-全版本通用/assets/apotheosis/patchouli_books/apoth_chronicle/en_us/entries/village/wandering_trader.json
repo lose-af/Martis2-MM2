@@ -1,0 +1,21 @@
+{
+    "name": "流浪商人",
+    "icon": "minecraft:emerald",
+    "category": "apotheosis:village/village",
+    "flag": "apotheosis:village",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "是否遇见过突然出现在庭院的神秘商贩？$(p)这些就是$(9)流浪商人$()。$(p)通常他们只出售无用之物。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "但Apotheosis为其交易列表新增了大量珍贵物品，$(p)包含$(9)信标$()、$(9)不死图腾$()及强附魔钻石装备等。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Apotheosis还提高了流浪商人生成频率，并允许其在地下生成，不再局限于地表。"
+        }
+    ]
+}

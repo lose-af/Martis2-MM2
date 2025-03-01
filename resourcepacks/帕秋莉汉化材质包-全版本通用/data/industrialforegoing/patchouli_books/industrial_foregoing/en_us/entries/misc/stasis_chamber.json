@@ -1,0 +1,17 @@
+{
+    "name": "停滞舱",
+    "icon": "industrialforegoing:stasis_chamber",
+    "category": "industrialforegoing:misc",
+    "sortnum": 5,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "通电时会将工作区域内的实体$(6)冻结$()并$(6)治愈$()。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:stasis_chamber"
+        }
+    ]
+}

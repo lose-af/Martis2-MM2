@@ -1,0 +1,11 @@
+{
+    "name": "模块系统",
+    "icon": "rftoolsbase:filter_module",
+    "category": "rftoolsbase:category_basics",
+    "pages": [
+        {
+            "type": "text",
+            "text": "RFTools科技模组中的各类机器支持模块化。这些可插入机器的物品能修改或扩展功能。多数情况下(当机器支持模块时)，手持模块右键点击机器即可安装。"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "生物粉碎机",
+    "icon": "industrialforegoing:mob_crusher",
+    "category": "industrialforegoing:agriculture_husbandry",
+    "sortnum": 6,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "模拟玩家击杀生物行为的设备，产出战利品与精华。战利品直接来自生物掉落池。$(br2)拥有第二工作模式:改为生成具有随机$(6)时运$()等级的掉落物。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:mob_crusher"
+        }
+    ]
+}

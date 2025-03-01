@@ -1,0 +1,16 @@
+{
+    "name": "矿渣与岩棉",
+    "icon": "thermal:slag",
+    "read_by_default": true,
+    "category": "thermal:materials",
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "thermal:2_item_page",
+            "title": "矿渣与岩棉",
+            "item1": "thermal:slag",
+            "item2": "tag:thermal:rockwool",
+            "text": "矿渣是通过$(l:thermal:technology/machines/smelter)感应炉$(/l)熔炼砂砾获得的富矿物质。岩棉是将熔融矿物(如矿渣)在熔炉中纺丝制成的纤维材料，具有阻燃特性且比普通羊毛更抗爆。"
+        }
+    ]
+}

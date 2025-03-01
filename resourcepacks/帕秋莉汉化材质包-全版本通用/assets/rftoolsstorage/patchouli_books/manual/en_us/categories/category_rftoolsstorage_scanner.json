@@ -1,0 +1,7 @@
+{
+    "name": "存储扫描器",
+    "description": "功能强大的方块，可通过中央控制台访问周边库存",
+    "parent": "rftoolsstorage:category_rftoolsstorage",
+    "icon": "rftoolsstorage:storage_scanner",
+    "sortnum": 20
+}

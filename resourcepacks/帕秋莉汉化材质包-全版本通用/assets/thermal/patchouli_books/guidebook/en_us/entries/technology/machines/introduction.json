@@ -1,0 +1,36 @@
+{
+    "name": "导言 - 机械装置",
+    "icon": "thermal:iron_gear",
+    "category": "thermal:machines",
+    "sortnum": -2,
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "机械装置使用红石通量(RF)形式的能量来处理物品和/或流体。本章其他条目将详细阐述各装置的功能。每个方块的图形界面中设有可折叠面板提供简要说明。未升级的机械装置最多消耗20 RF/t。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "为改进或调整功能的各个方面，机械装置可在'强化部件'面板中安装$(l:thermal:technology/augments/introduction)强化部件$(/l)。'红石控制'和'配置'面板分别用于设定机械装置的红石信号响应规则与面配置。默认情况下，机械装置将无视红石信号持续工作，且初次放置时面配置为空置状态，意味着所有面均不接收物品或流体。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "在'配置'面板中，每个方块面均由可点击切换配置的正方形表示。蓝色和橙色分别代表输入与输出。箭头按钮用于设置与相邻容器的自动传输。黑色表示该面将接收输入/输出，但不会自动传输。面配置会在方块被拾取时保留。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "'能源'面板显示方块的RF相关信息，如当前RF消耗量。每个机械装置都有最大RF使用速率，每项配方也有对应的RF需求。这两个可能受$(l:thermal:technology/augments/introduction)强化部件$(/l)影响的数值相除可确定配方处理速度。要加速机械装置运作，可通过$(l:thermal:technology/augments/machine_speed)强化部件$(/l)提升最大RF使用速率，或使用$(l:thermal:world/materials/catalysts)催化剂$(/l)降低配方所需RF。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:machine_frame",
+            "text": "以下页面收录机械装置常用组件的合成配方。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:redstone_servo",
+            "B.recipe": "thermal:rf_coil"
+        }
+    ]
+}

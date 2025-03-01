@@ -1,0 +1,15 @@
+{
+    "name": "推力强化",
+    "category": "modularrouters:augments",
+    "icon": "modularrouters:pushing_augment",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该强化仅可添加至$(l:modules/extruder_1)挤出模块Mk1/$和$(l:modules/extruder_2)挤出模块Mk2/$。$(p)可叠加安装，每层强化增加模块挤出方块时推动实体的力度。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:pushing_augment"
+        }
+    ]
+}

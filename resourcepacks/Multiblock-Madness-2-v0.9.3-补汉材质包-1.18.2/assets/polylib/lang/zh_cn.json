@@ -1,0 +1,11 @@
+{
+    "fluid_tank.polylib.capacity": "容量：",
+    "fluid_tank.polylib.fluid_storage": "流体储存",
+    "energy_bar.polylib.rf": "RF能量",
+    "energy_bar.polylib.energy_storage": "能量储存",
+    "energy_bar.polylib.capacity": "容量：",
+    "fluid_tank.polylib.stored": "储存：",
+    "fluid_tank.polylib.contains": "包含：",
+    "fluid_tank.polylib.mb": "毫升",
+    "energy_bar.polylib.stored": "储存："
+}

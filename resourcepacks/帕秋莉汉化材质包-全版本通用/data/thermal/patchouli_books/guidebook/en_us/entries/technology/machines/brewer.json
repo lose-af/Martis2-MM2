@@ -1,0 +1,23 @@
+{
+    "name": "炼金灌注器",
+    "icon": "thermal:machine_brewer",
+    "category": "thermal:machines",
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "炼金灌注器是用于酿造药水的设备。直接生成$(l:thermal:technology/potion_fluid)药水流体$(/l)而非瓶装药水。单次酿造可生成一桶药水流体，足以填装4个玻璃瓶。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:machine_brewer",
+            "title": "炼金灌注器"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "增强模块兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)集成元件$(/l)$(li)$(l:thermal:technology/augments/item_filter)物品过滤器$(/l)$(li)$(l:thermal:technology/augments/xp_storage)知识富集器$(/l)$(li)$(l:thermal:technology/augments/rf_coil)扩容RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)稳定化RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)高通量RF线圈$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)扩容储罐结构$(/l)$(li)$(l:thermal:technology/augments/machine_speed)通量链式增幅器$(/l)$(li)$(l:thermal:technology/augments/machine_efficiency)通量效率优化$(/l)"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "热解炉",
+    "icon": "thermal:machine_pyrolyzer",
+    "category": "thermal:machines",
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "热解炉是在低氧环境下通过高温分解物质的装置。通常用于将有机物和煤炭转化为更清洁、更持久的燃料。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "title": "热解炉",
+            "A.recipe": "thermal:machine_pyrolyzer"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "兼容增强模块",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)集成组件$(/l)$(li)$(l:thermal:technology/augments/item_filter)物品过滤器$(/l)$(li)$(l:thermal:technology/augments/xp_storage)知识浓缩器$(/l)$(li)$(l:thermal:technology/augments/rf_coil)扩容RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)稳定化RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)高通量RF线圈$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)扩容储罐结构$(/l)$(li)$(l:thermal:technology/augments/machine_speed)通量联动放大器$(/l)$(li)$(l:thermal:technology/augments/machine_efficiency)通量效率$(/l)"
+        }
+    ]
+}

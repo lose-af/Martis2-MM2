@@ -1,0 +1,11 @@
+{
+    "name": "储液罐",
+    "icon": "rftoolsutility:tank",
+    "category": "rftoolsutility:category_rftoolsutility_machines",
+    "pages": [
+        {
+            "type": "text",
+            "text": "默认可储存32桶液体的容器。通过在过滤槽放置特定液体的桶，可限定储存液体种类"
+        }
+    ]
+}

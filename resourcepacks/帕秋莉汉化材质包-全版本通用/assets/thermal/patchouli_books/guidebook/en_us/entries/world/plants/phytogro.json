@@ -1,0 +1,41 @@
+{
+    "name": "植育土",
+    "icon": "thermal:phytogro",
+    "read_by_default": true,
+    "category": "thermal:plants",
+    "flag": "|mod:thermal_cultivation,mod:thermal_expansion",
+    "pages": [
+        {
+            "flag": "&mod:thermal_cultivation,!mod:thermal_expansion",
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:phytogro_2",
+            "text": "植生催长剂是富含植物所需营养的浓缩肥料。可直接施用或通过$(l:thermal:equipment/explosives/phyto_explosives)某些爆炸物$(/l)进行区域播撒。"
+        },
+        {
+            "flag": "&!mod:thermal_cultivation,mod:thermal_expansion",
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:phytogro_2",
+            "text": "植生催长剂是富含植物所需营养的浓缩肥料。可直接施用或作为$(l:thermal:world/materials/catalysts)催化剂$(/l)用于机器。"
+        },
+        {
+            "flag": "&mod:thermal_cultivation,mod:thermal_expansion",
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:phytogro_2",
+            "text": "植生催长剂是富含植物所需营养的浓缩肥料。可直接施用，通过$(l:thermal:equipment/explosives/phyto_explosives)爆炸物$(/l)区域播撒，或作为$(l:thermal:world/materials/catalysts)催化剂$(/l)用于机器。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:phytogro_4",
+            "text": "$(o)村里的长者传说中曾有一种失传的植生催长剂配方，通过注入树液与红石通量可使作物产量远超自然极限。可惜所有复现尝试均以失败告终。$()"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:phytogro_8",
+            "B.recipe": "thermal:phytosoil"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "植生沃土是注入植生催长剂的泥土。其上作物生长速度约为两倍，使用$(l:thermal:technology/devices/soil_infuser)植生沃土灌注器$(/l)可进一步提升至约五倍。与普通耕地相同需锄地播种，不同的是锄过的植生沃土不会被踩踏破坏且无需水源保持湿润。"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "药水护符",
+    "parent": "apotheosis:potion/potion",
+    "description": "本节详述$(9)药水护符$()及其使用细节。$(p)若其他模块未启用或某些mod未安装，本节内容可能较为单薄。",
+    "icon": "apotheosis:potion_charm",
+    "flag": "apotheosis:potion",
+    "sortnum": 1
+}

@@ -1,0 +1,15 @@
+{
+    "name": "化学压缩机",
+    "icon": "alchemistry:compactor",
+    "category": "alchemistry:compactor_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "压缩机是台动力机械，能将基础成分压缩成简单物品。$(br2)$(o)(摘自沃伦教授的笔记:原子操控最基础的形式，就是将元素或化合物重组为更实用的形态——比如粉尘等。增加活塞压力，所有成分便能紧密聚合。)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "alchemistry:compactor"
+        }
+    ]
+}

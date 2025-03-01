@@ -1,0 +1,11 @@
+{
+    "log.error.saveAnchorList": "ESM：保存锚点列表时出错：n %s",
+    "log.error.loadAnchorList": "ESM：加载锚点列表时出错：n %s",
+    "log.warn.loadAnchorList": "ESM：未找到锚点列表；创建空的锚点列表",
+    "main_screen.side_screen.x": "X坐标：%s",
+    "main_screen.side_screen.y": "Y坐标：%s",
+    "log.error.loadMuffledList": "ESM：加载被消音声音列表时出错：n %s",
+    "log.error.saveMuffledList": "ESM：保存被消音声音列表时出错：n %s",
+    "main_screen.side_screen.z": "Z坐标：%s",
+    "log.warn.loadMuffledList": "ESM：未找到消音列表；创建空的消音列表"
+}

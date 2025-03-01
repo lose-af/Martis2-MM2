@@ -1,0 +1,17 @@
+{
+    "name": "污水处理器",
+    "icon": "industrialforegoing:sewer",
+    "category": "industrialforegoing:agriculture_husbandry",
+    "sortnum": 12,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "用于从动物体内收集$(l:agr_hus/sewage)污水$()并将经验转化为精华的机械装置。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:sewer"
+        }
+    ]
+}

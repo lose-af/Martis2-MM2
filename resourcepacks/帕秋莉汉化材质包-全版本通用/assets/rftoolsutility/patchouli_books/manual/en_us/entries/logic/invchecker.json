@@ -1,0 +1,21 @@
+{
+    "name": "库存检测器",
+    "icon": "rftoolsutility:invchecker",
+    "category": "rftoolsutility:category_rftoolsutility_logic",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)库存检测器$()会在后方容器指定槽位内的物品数量超过阈值时发射$(thing)红石信号$()。通过操作界面可设定目标槽位、检测物品类型及是否匹配物品标签，还能选择是否忽略物品耐久损耗。若保持空白则表示匹配该槽位的任意物品。"
+        },
+        {
+            "type": "text",
+            "text": "[待补充:库存检测器操作界面图示]"
+        },
+        {
+            "type": "crafting",
+            "heading": "Digit",
+            "recipe": "rftoolsutility:invchecker",
+            "text": "请注意:槽位编号从零开始！"
+        }
+    ]
+}

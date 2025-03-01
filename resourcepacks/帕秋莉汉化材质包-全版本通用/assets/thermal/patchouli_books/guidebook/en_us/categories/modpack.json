@@ -1,0 +1,7 @@
+{
+    "name": "整合包作者",
+    "description": "制作整合包或个性化调整热力系列？本节详解各种酷炫的自定义配置方案。",
+    "icon": "thermal:wrench",
+    "parent": "thermal:guides",
+    "sortnum": 4
+}

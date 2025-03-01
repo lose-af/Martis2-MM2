@@ -1,0 +1,15 @@
+{
+    "name": "炼金增幅器",
+    "icon": "thermal:potion_amplifier_augment",
+    "category": "thermal:augments",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "pages": [
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:augments/potion_amplifier_augment",
+            "title": "炼金增幅器",
+            "text": "炼金增幅器增强部件使存储药水效果提升1级，但持续时间减少25%。叠加4个该部件会使药水失去持续时间，导致多数药水失效。"
+        }
+    ]
+}

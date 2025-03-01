@@ -1,0 +1,17 @@
+{
+    "name": "菌丝反应堆",
+    "icon": "industrialforegoing:mycelial_reactor",
+    "category": "industrialforegoing:generators",
+    "sortnum": 2,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "通过$(6)菌丝网络$()(一个包含活体真菌菌丝团的亚空间领域)，该反应堆能侦测其他$(6)菌丝发电机$()并产生巨量FE能量。$(br2)要实现此功能，需要每种发电机各有一台同时运行。"
+        },
+        {
+            "type": "text",
+            "text": "或许未来能借助这个网络发现新科技。"
+        }
+    ]
+}

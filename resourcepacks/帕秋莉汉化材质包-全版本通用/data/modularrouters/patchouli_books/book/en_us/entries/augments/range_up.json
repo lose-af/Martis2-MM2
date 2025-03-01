@@ -1,0 +1,16 @@
+{
+    "name": "射程扩展强化",
+    "category": "modularrouters:augments",
+    "icon": "modularrouters:range_up_augment",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该增强组件可加装于所有具备作用范围的模块(发送器$(l:modules/sender_1)Mk1/$/$(l:modules/sender_2)Mk2/$、牵引器$(l:modules/puller_1)Mk1/$/$(l:modules/puller_2)Mk2/$、挤出器$(l:modules/extruder_1)Mk1/$/$(l:modules/extruder_2)Mk2/$、$(l:modules/fluid_2)流体Mk2/$、$(l:modules/vacuum)真空/$)。$(p)可堆叠使用，每安装一个增强组件将使模块作用范围增加1格。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:range_up_augment",
+            "recipe2": "modularrouters:range_up_from_down"
+        }
+    ]
+}

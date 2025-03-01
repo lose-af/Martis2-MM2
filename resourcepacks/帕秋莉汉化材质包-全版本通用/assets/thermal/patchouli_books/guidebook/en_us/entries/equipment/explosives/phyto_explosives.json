@@ -1,0 +1,24 @@
+{
+    "name": "植生炸药",
+    "icon": "thermal:phyto_tnt",
+    "read_by_default": true,
+    "flag": "mod:thermal_cultivation",
+    "category": "thermal:explosives",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "植生炸药可立即对区域内所有作物和草施加骨粉效果。爆炸方块与手雷的作用半径分别为9格和5格。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:phyto_tnt",
+            "B.recipe": "thermal:phyto_grenade_4"
+        },
+        {
+            "flag": "&mod:thermal_cultivation,mod:thermal_locomotion",
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:phyto_tnt_minecart",
+            "title": "植生炸药矿车"
+        }
+    ]
+}

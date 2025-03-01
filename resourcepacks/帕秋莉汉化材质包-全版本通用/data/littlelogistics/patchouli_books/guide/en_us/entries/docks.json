@@ -1,0 +1,23 @@
+{
+    "name": "船舶停靠坞",
+    "icon": "littlelogistics:tug_dock",
+    "category": "littlelogistics:blocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "存在两种泊位:驳船坞与拖船坞。拖船坞必须存在才能使驳船坞运作。拖船坞顶部纹理需与驳船坞对齐形成连续泊位线。泊位本身不传输物品，但会向拖船通报待转移物资状态。也可通过红石信号强制拖船等待。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "拖船坞",
+            "recipe": "littlelogistics:tug_dock",
+            "text": "拖船坞仅支持注入模式(橙色/输出模式)，需在坞顶放置漏斗输入。潜行右键拖船坞可翻转泊位方向。驳船坞说明见下页 >>>"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "驳船坞",
+            "recipe": "littlelogistics:barge_dock",
+            "text": "驳船坞支持输出(橙色模式)与输入(蓝色模式)双向操作，潜行右键切换模式。在驳船路径下方放置漏斗即可提取资源。"
+        }
+    ]
+}

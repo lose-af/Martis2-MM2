@@ -1,0 +1,17 @@
+{
+    "name": "无尽箭袋",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2)无尽箭袋$()是弓的杰作附魔。$(p)使用弓射击时，无论何种箭矢都不会被消耗。$(p)被视为$(9)无限$()的直接升级版。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "该附魔甚至可以使其他模组的箭矢变为无限。"
+        }
+    ]
+}

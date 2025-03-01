@@ -1,0 +1,14 @@
+{
+    "name": "安山岩",
+    "icon": "minecraft:andesite",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "安山岩",
+            "item": "minecraft:andesite",
+            "link_recipe": false,
+            "text": "这类致密矿脉生成于海平面上6米至海平面下62米之间，仅出现于主世界任意生物群系。"
+        }
+    ]
+}

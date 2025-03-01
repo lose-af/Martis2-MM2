@@ -1,0 +1,55 @@
+{
+    "name": "附魔属性",
+    "icon": "minecraft:bookshelf",
+    "category": "apotheosis:enchanting/table",
+    "flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "在神化模组中，附魔效果不仅取决于等级。$(p)当前新增了五种附魔属性。$(p)提供这些属性的方块会在工具提示中显示相关信息。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "永恒值",
+            "text": "$(eterna)是核心附魔属性。$(p)每点永恒值可使最大附魔等级提升两级。$(p)部分方块提供的永恒值存在上限。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "量子值",
+            "anchor": "quanta",
+            "text": "$(quanta)是次级属性，控制附魔波动范围。$(p)附魔时，初始$(bpower)为消耗等级值，经修正后得到最终$(fpower)。$(p)$(quanta)是修正过程中的重要参数之一。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "系统会在$(4)1 - 量子值$()到$(9)1 + 量子值$()区间选取系数。$(p)最终$(fpower)等于该系数乘以初始$(bpower)。$(p)量子值越高，强度波动范围越大，附魔效果越不稳定。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "奥术值",
+            "text": "$(arcana)是次级属性，影响稀有魔咒权重，并在特定阈值时保证附加魔咒数量。$(p)当奥术值达到25%时必定获得两个魔咒，75%时必定获得三个魔咒。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "默认状态下稀有度权重分布如下:$(p)普通:10$(br)罕见:5$(br)稀有:3$(br)非常稀有:1$(p)每提升10%的$(arcana)奥秘值都会改变权重比例，最终实现完全逆转。$(p)悬停于$(arcana)条可查看当前权重。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "矫正值",
+            "anchor": "rectification",
+            "text": "矫正值属于三级属性，直接影响$(quanta)量子值修正下限。$(p)需知你的$(4)最小能效$()等于$(4)1 - 量子值$()。$(p)在矫正值(R)作用下，$(4)最小能效$()将变为$(4)1 - (1 - R) * 量子值$()。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "若此公式不易理解亦无需担忧。$(p)只需记住矫正值越高越有益。$(p)负矫正值则必然产生负面影响。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "线索值",
+            "text": "线索值属于另一项三级属性。$(p)每点线索值可在预览窗口多显示一项附魔条目。$(p)当所有可用附魔均可见时，文本显示会发生变化。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "线索值归零时将无法查看任何预览信息。"
+        }
+    ]
+}

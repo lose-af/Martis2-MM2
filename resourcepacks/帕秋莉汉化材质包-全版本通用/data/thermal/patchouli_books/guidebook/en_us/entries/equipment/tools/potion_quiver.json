@@ -1,0 +1,24 @@
+{
+    "name": "炼金箭袋",
+    "icon": "thermal:potion_quiver",
+    "category": "thermal:tools",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "用于存储并为箭矢附加药水效果。手持箭袋右键可将背包中的箭矢转移至箭袋。按下'$(k:cofh.mode_change_increment)'切换注能模式，每支箭矢需消耗50毫巴存储的$(l:thermal:technology/potion_fluid)药液$(/l)。可在匠魂工作台进行充能和强化。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:potion_quiver",
+            "title": "炼金箭袋",
+            "text": "可附魔$(l:thermal:world/holding)容量保持$(/l)以提升流体容量。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "强化兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)集成组件$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)扩容储罐结构$(/l)$(li)$(l:thermal:technology/augments/potion_amplifier)炼金增幅器$(/l)$(li)$(l:thermal:technology/augments/potion_duration)炼金延效器$(/l)"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "闪光多边兽",
+    "icon": "minecraft:orange_tulip",
+    "category": "thermal:contributors",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "闪光多边兽",
+            "item": "minecraft:player_head{SkullOwner:'ShinyPorygon'}",
+            "text": "项目主导者，联合作者。负责书籍基础架构与章节划分。撰写Discord指南，制作大量模组兼容文档(持续更新中)。国王的烦恼之源，虚假情报传播者，赫克拉的精神支柱。"
+        },
+        {
+            "type": "patchouli:empty"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "可曾听闻睿智的达斯·莱明之悲剧？想必未曾。CoFH维基不会记载这段传说，这是Discord口耳相传的秘辛。达斯·莱明乃Java的黑暗领主，其力可擎天，其智可通玄，能以代码之道驱使模组开发者修复漏洞……他深谙Java奥秘，甚至能令钟爱的模组永续长存。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Java的暗黑面蕴藏着世人谓之反常的诸般异能。当他登临力量巅峰时……唯一所惧竟是失去RF平衡——而最终确也一语成谶。可叹他将毕生所学倾囊相授后，后辈竟使RF消耗暴涨千倍。他能拯救其他模组免于性能不足，却独独保不住自己的造物，何等讽刺。"
+        }
+    ]
+}

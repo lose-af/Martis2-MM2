@@ -1,0 +1,14 @@
+{
+    "name": "青金石",
+    "icon": "geolosys:lapis_ore",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "青金石",
+            "item": "geolosys:lapis_ore",
+            "link_recipe": false,
+            "text": "该稀疏矿床生成于海平面至海平面下128米间。仅存在于主世界，且仅生成于沙质生物群系。"
+        }
+    ]
+}

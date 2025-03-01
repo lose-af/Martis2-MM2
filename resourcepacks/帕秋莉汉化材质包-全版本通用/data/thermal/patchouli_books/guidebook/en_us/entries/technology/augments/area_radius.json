@@ -1,0 +1,14 @@
+{
+    "name": "径向增强模组",
+    "icon": "thermal:area_radius_augment",
+    "category": "thermal:augments",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:augments/area_radius_augment",
+            "title": "径向增强模组",
+            "text": "该增强模组可使工具或机械影响更大范围区域。每个模组将使最大作用范围在各方向增加1格。"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "智能过滤器",
+    "description": "智能过滤器是一组过滤项，可代替普通物品置于任何模块的过滤槽位，提供更精细的物品匹配功能。",
+    "icon": "modularrouters:bulk_item_filter",
+    "sortnum": 5
+}

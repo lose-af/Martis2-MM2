@@ -1,0 +1,17 @@
+{
+    "name": "寒冰电荷",
+    "icon": "thermal:ice_charge",
+    "category": "thermal:charges",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "可用于放置积雪、将水转化为冰、熔岩转化为黑曜石(后两者也可通过工作台用桶操作)。发射器发射时会产生直线弹道，对生物施加$(l:thermal:world/mobs/blizz)霜寒$(/l)效果并冻结小范围区域。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:ice_charge_3",
+            "title": "寒冰电荷"
+        }
+    ]
+}

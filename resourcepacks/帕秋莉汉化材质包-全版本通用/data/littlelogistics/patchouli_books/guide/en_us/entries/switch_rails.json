@@ -1,0 +1,23 @@
+{
+    "name": "道岔铁轨",
+    "icon": "littlelogistics:switch_rail",
+    "category": "littlelogistics:blocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "此类道岔需红石信号切换，与探测铁轨配合效果最佳。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "三向道岔",
+            "recipe": "littlelogistics:switch_rail",
+            "text": "在直行与左/右转间切换。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "T型道岔",
+            "recipe": "littlelogistics:tee_junction_rail",
+            "text": "在左/右转间切换。"
+        }
+    ]
+}

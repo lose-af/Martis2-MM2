@@ -1,0 +1,11 @@
+{
+    "name": "感应器",
+    "icon": "rftoolsutility:sensor",
+    "category": "rftoolsutility:category_rftoolsutility_logic",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该装置可检测其输入端前方(1/3/5格范围内)多种状态:方块放置、作物生长阶段、实体数量等数据均可被监测。"
+        }
+    ]
+}

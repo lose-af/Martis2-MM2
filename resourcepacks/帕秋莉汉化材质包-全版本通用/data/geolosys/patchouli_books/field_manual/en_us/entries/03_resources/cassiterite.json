@@ -1,0 +1,14 @@
+{
+    "name": "锡石",
+    "icon": "geolosys:cassiterite_ore",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "锡石",
+            "item": "geolosys:cassiterite_ore",
+            "link_recipe": false,
+            "text": "该稠密矿床生成于海平面以上4米至海平面以下20米之间，仅存在于主世界且只能在海滩、海洋和炎热生物群系中发现。"
+        }
+    ]
+}

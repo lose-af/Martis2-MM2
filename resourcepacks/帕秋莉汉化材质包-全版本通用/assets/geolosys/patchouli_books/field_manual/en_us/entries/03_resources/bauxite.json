@@ -1,0 +1,14 @@
+{
+    "name": "铝土矿",
+    "icon": "geolosys:bauxite_ore",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "铝土矿",
+            "item": "geolosys:bauxite_ore",
+            "link_recipe": false,
+            "text": "这类致密矿脉生成于海平面上1米至海平面下16米之间，仅出现于主世界任意生物群系。"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "流体筛分机",
+    "icon": "industrialforegoing:fluid_sieving_machine",
+    "category": "industrialforegoing:resource_production",
+    "sortnum": 21,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "将发酵矿石肉与沙子结合，还原生成该矿石最初形成的矿尘。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:fluid_sieving_machine"
+        }
+    ]
+}

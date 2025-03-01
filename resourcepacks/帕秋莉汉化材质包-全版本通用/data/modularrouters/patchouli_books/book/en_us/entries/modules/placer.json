@@ -1,0 +1,19 @@
+{
+    "name": "放置模块",
+    "category": "modularrouters:modules",
+    "icon": "modularrouters:placer_module",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该模块会尝试将缓冲区物品作为方块，按模块$(l:intro/modules#direction)预设方向/$部署在路由器相邻位置。$(li)若物品非方块或目标空间被阻挡，则无动作。$(li)遵循标准放置规则(如甘蔗仅能种植在沙土/泥土邻水处)。"
+        },
+        {
+            "type": "text",
+            "text": "$(li)可替换流体方块与高草等可替代方块。$(li)能在耕地上播种，或在丛林木侧面种植可可豆。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:placer_module"
+        }
+    ]
+}

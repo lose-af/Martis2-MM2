@@ -1,0 +1,12 @@
+{
+    "name": "快速漏斗",
+    "icon": "littlelogistics:rapid_hopper",
+    "category": "littlelogistics:blocks",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:rapid_hopper",
+            "text": "与原版漏斗功能相同，但速度更快！"
+        }
+    ]
+}

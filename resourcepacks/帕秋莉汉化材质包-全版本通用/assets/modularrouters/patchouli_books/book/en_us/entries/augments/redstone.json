@@ -1,0 +1,15 @@
+{
+    "name": "红石增强组件",
+    "category": "modularrouters:augments",
+    "icon": "modularrouters:redstone_augment",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该增强组件可加装于任何模块。$(p)通常模块会无条件随路由器同步运作。加装此组件后，模块可通过图形界面新增的按钮自定义红石控制逻辑，独立设定运行条件。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:redstone_augment"
+        }
+    ]
+}

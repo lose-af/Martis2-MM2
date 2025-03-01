@@ -1,0 +1,32 @@
+{
+    "name": "闪电精魄",
+    "icon": "thermal:blitz_rod",
+    "category": "thermal:mobs",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "thermal:3_item_page",
+            "title": "闪电精魄",
+            "item1": "thermal:blitz_rod",
+            "item2": "thermal:blitz_powder",
+            "item3": "thermal:blitz_spawn_egg",
+            "text": "闪电精魄生成于温暖干燥的生物群系。拥有10颗心生命值，近距离攻击造成1.5颗心伤害。其电弧投射物造成2.5颗心伤害并附加感电效果。死亡时有概率掉落电光微粒，可用于合成或粉碎成电光粉末。"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "thermal:blitz",
+            "title": "闪电精魄",
+            "text": "感电:每级使攻击伤害降低3颗心。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "行为模式",
+            "text": "该生物是远程攻击型怯战元素。24格内每秒发射电弧投射物；超出此距离会接近目标；若目标进入20格内则保持距离撤退。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "应对策略",
+            "text": "推荐使用远程武器。其投射物存在飞行延迟，移动中目标较易规避。"
+        }
+    ]
+}

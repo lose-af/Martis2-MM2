@@ -1,0 +1,27 @@
+{
+    "name": "红石通量储存单元",
+    "icon": "thermal:energy_cell",
+    "category": "thermal:storage",
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "红石通量储存单元可用于存储和分配红石通量(RF)。每个面均可配置能量输入/输出模式，并支持自动输入/输出设置。基础容量为1，000，000RF，最大传输速率为1，000RF/t，可通过强化部件升级。提供与储存量成比例的比较器信号输出。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:energy_cell_frame",
+            "B.recipe": "thermal:energy_cell"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "RF单元的传输速率可进行精确配置。在图形界面中，RF计量条两侧分别为输入/输出速率调节器。通过'+'和'-'按钮可手动控制RF传输速率:左/右击每游戏刻增减50/10RF；按住Ctrl点击时调整为5/1RF；Shift点击则调整为1000/100RF；Ctrl+Shift组合点击实现10k/1k的速率调整。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "强化部件兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)整体组件$(/l)$(li)$(l:thermal:technology/augments/rf_coil)扩展型RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)稳定化RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)高通量RF线圈$(/l)"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "辉光炸药",
+    "icon": "thermal:glowstone_tnt",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "category": "thermal:explosives",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "辉光炸药爆炸时将散布荧石粒子，形成持续10秒的照明云。初始爆炸会伤害亡灵生物并点燃它们。炸药块与手雷爆炸半径分别为9格和5格。$(br2)$(o)这基本上就是闪光弹。$()"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:glowstone_tnt",
+            "B.recipe": "thermal:glowstone_grenade_4"
+        },
+        {
+            "flag": "&mod:thermal_innovation,mod:thermal_locomotion",
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:glowstone_tnt_minecart",
+            "title": "辉光炸药矿车"
+        }
+    ]
+}

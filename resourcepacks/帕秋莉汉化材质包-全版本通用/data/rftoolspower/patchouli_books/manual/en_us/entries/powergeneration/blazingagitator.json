@@ -1,0 +1,16 @@
+{
+    "name": "炽焱搅拌机",
+    "icon": "rftoolspower:blazing_agitator",
+    "category": "rftoolspower:category_rftoolspower_powergeneration",
+    "sortnum": 23,
+    "pages": [
+        {
+            "type": "text",
+            "text": "烈焰棒需经炽焱搅拌机处理后方可用于$(l:rftoolspower:powergeneration/blazinggenerator)炽焱发电机$(/l)。搅拌机将消耗少量能量，缓慢提升输入区烈焰棒的潜能值。注意相邻烈焰棒会提升处理速度与品质。"
+        },
+        {
+            "type": "text",
+            "text": "建议投入时间优化烈焰棒至顶级品质，这些优质棒可用于提升后续产出的质量。为此设备设有9个锁定按钮，可防止完全处理的烈焰棒进入输出区。"
+        }
+    ]
+}

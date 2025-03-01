@@ -1,0 +1,14 @@
+{
+    "name": "扩容储罐构造",
+    "icon": "thermal:fluid_tank_augment",
+    "category": "thermal:augments",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:augments/fluid_tank_augment",
+            "title": "扩容储罐构造",
+            "text": "该增强模组使机械、装置、能源炉或工具中的流体存储容量扩大4倍。"
+        }
+    ]
+}

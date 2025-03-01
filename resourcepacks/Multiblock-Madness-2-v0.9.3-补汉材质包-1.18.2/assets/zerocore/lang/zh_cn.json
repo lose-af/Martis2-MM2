@@ -1,0 +1,8 @@
+{
+    "gui.zerocore.base.control.fluidbar.line3a": "流体：@1",
+    "gui.zerocore.base.control.fluidbar.line2": "  @0液体",
+    "gui.zerocore.base.control.fluidbar.line4a": "  @2 容量",
+    "_comment": "我是注释,以下内容使用up主柠娜的汉化工具生成",
+    "gui.zerocore.base.control.energybar.line3a": "  @1能量",
+    "gui.zerocore.base.control.energybar.line2a": "能量：@0"
+}

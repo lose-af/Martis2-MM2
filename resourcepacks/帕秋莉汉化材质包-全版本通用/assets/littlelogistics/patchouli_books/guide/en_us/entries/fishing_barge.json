@@ -1,0 +1,19 @@
+{
+    "name": "自动捕鱼驳船",
+    "icon": "littlelogistics:fishing_barge",
+    "category": "littlelogistics:vessels",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:fishing_barge",
+            "scale": 0.6,
+            "offset": 0.5,
+            "text": "被动执行捕鱼作业，使用原版钓鱼竿战利品表。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:fishing_barge",
+            "text": "需处于开阔水域才能展开渔网。建议在远洋长航线使用以避免「浅水区」与「过度捕捞」惩罚。"
+        }
+    ]
+}

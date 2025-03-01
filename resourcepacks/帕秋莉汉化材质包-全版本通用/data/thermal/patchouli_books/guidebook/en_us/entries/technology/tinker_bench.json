@@ -1,0 +1,23 @@
+{
+    "name": "匠魂工作台",
+    "icon": "thermal:tinker_bench",
+    "category": "thermal:technology",
+    "sortnum": -1,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "匠魂工作台是能够为工具和方块充能、补充流体以及安装增强模组的装置。它有两种模式:充能/补充模式和增强模式，可通过GUI界面物品槽下方的按钮切换。增强模组仅在你切换模式或取出工具/方块时才会完全安装。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:tinker_bench",
+            "title": "匠魂工作台"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "增强模组兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)核心组件$(/l)$(li)$(l:thermal:technology/augments/item_filter)物品过滤器$(/l)$(li)$(l:thermal:technology/augments/rf_coil)扩展型RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)稳定型RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)高通量RF线圈$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)扩容储罐构造$(/l)"
+        }
+    ]
+}

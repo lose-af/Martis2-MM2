@@ -1,0 +1,19 @@
+{
+    "name": "堆叠增强组件",
+    "category": "modularrouters:augments",
+    "icon": "modularrouters:stack_augment",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该组件适用于所有处理$(italic)物品/$的模块(非$(italic)方块/$、$(italic)流体/$或$(italic)能量/$模块)。$(p)每加装一个可使单刻处理量翻倍，最高可达物品自然堆叠数量(多数物品为64个)。"
+        },
+        {
+            "type": "text",
+            "text": "若$(l:router/modular_router)路由器/$同时安装有$(l:upgrades/stack)堆叠升级/$，模块的堆叠增强将优先生效。例如:路由器配置6级堆叠升级且模块带有2级堆叠增强时，该模块每刻将处理4件物品而非64件。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:stack_augment"
+        }
+    ]
+}

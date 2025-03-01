@@ -1,0 +1,17 @@
+{
+    "name": "火焰伤害",
+    "icon": "minecraft:blaze_powder",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)火焰伤害$()是为近战攻击附加的魔法伤害，并引燃目标。伤害值越高燃烧时间越长。$(p)该属性见于近战武器。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 0$(p)$(9)$(n)最大值:$() 1024$(p)"
+        }
+    ]
+}

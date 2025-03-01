@@ -1,0 +1,17 @@
+{
+    "name": "生物反应器",
+    "icon": "industrialforegoing:bioreactor",
+    "category": "industrialforegoing:generators",
+    "sortnum": 2,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "这台机器在注入水和$(6)种子$()、$(6)树苗$()、$(6)染料$()以及...$(6)头颅$()???时，能够生产$(l:generators/biofuel)生物燃料$()。$(br2)反应堆内物品种类越多，每件物品产生的生物燃料量就越大。例如:仅投入1种物品时每件产$(6)80$()毫巴，若投入4种不同物品，则每件产$(6)110$()毫巴，总计$(6)440$()毫巴。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:bioreactor"
+        }
+    ]
+}

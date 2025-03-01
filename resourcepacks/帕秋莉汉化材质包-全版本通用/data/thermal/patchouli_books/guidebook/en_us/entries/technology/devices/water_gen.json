@@ -1,0 +1,23 @@
+{
+    "name": "水源蓄积器",
+    "icon": "thermal:device_water_gen",
+    "category": "thermal:devices",
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "水源蓄积器是为您提供无限水源的装置。其侧面必须至少存在两个水源方块才能产水，装置上方或下方的水源不计入条件。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:device_water_gen",
+            "title": "水源蓄积器"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "增强模块兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)集成元件$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)扩容储罐构造$(/l)"
+        }
+    ]
+}

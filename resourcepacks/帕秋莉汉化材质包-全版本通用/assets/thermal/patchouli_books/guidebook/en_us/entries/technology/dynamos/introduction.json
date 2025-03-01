@@ -1,0 +1,18 @@
+{
+    "name": "入门指南 - 动态发电机",
+    "icon": "thermal:iron_gear",
+    "category": "thermal:dynamos",
+    "sortnum": -2,
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "动态发电机可将各类燃料转化为RF能量。其线圈侧(工作时亮起红色凸起标识)是唯一输出端，其他面均可接收燃料。基础型号最大输出为40 RF/t。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "动态发电机内置可通过$(l:thermal:technology/augments/integral_components)整合元件$(/l)升级的缓冲器(不可用RF线圈类增强)。其会根据缓冲器储量自动调节RF输出与燃料消耗:空载时全功率运行，满载时保持10%输出(此时产生RF将被浪费)。缓冲器仅在发电时自动输出，闲置时会逐渐衰减。"
+        }
+    ]
+}

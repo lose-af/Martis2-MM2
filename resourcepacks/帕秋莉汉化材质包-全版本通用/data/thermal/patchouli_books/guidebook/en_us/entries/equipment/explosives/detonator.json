@@ -1,0 +1,17 @@
+{
+    "name": "引爆器",
+    "icon": "thermal:detonator",
+    "read_by_default": true,
+    "category": "thermal:explosives",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "引爆器可同时预置并引爆最多16个爆炸物！首先放置所有爆炸物，用引爆器右键点击每个爆炸物进行预置。指示灯变黄表示至少1个爆炸物已预置。切换至引爆模式后指示灯转绿，再次右键即可同时引爆所有预置爆炸物。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:tools/detonator",
+            "text": "按'$(k:cofh.mode_change_increment)'切换模式。"
+        }
+    ]
+}

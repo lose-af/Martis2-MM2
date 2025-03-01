@@ -1,0 +1,40 @@
+{
+    "name": "安全升级",
+    "category": "modularrouters:upgrades",
+    "icon": "modularrouters:security_upgrade",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)安全升级组件/$具备多项重要功能，详情请见后续说明。"
+        },
+        {
+            "type": "text",
+            "title": "保护机制",
+            "text": "装配安全升级组件的路由器$(italic)仅允许/$白名单内的玩家开启。该组件虽无法阻止路由器被破坏，但由于升级组件与模块在路由器损毁时仍会保留，其他玩家无法通过破坏手段窃取模块/升级组件或重设路由器配置。若需完全防护破坏行为，建议探索其他模组的方块保护方案。"
+        },
+        {
+            "type": "text",
+            "title": "虚拟玩家机制",
+            "text": "部分模块($(l:modules/placer)放置器/$、$(l:modules/breaker)破坏器/$、$(l:modules/activator)激活器/$)以$(thing)虚拟玩家/$身份执行操作。默认使用用户名$(thing)[Modular Routers]/$，但安装安全升级组件后，模块将以组件所有者的身份运作。在具备领地保护的多人在线服务器中，这比单纯允许$(thing)[Modular Routers]/$操作更为安全。"
+        },
+        {
+            "type": "text",
+            "title": "激活器攻击模式",
+            "text": "当$(l:modules/activator)激活器模块/$处于$(thing)攻击模式/$时，将无视路由器内安全升级组件设定的白名单。若路由器装备高伤害武器，启用此模式可有效避免误伤友军。"
+        },
+        {
+            "type": "spotlight",
+            "item": "modularrouters:override_card",
+            "anchor": "override",
+            "text": "$(li)存在非合成物品$(thing)安全覆盖卡/$——可通过创造模式或JEI等途径获取。持有者将免疫所有安全升级组件限制，可访问任意路由器。"
+        },
+        {
+            "type": "text",
+            "text": "添加白名单:主手持升级组件$(thing)右键点击/$目标玩家。$(p)移除白名单:$(thing)潜行+右键点击/$目标玩家。$(p)单个安全升级组件最多添加6名额外玩家(总计7人，含创建者)，必要时可在路由器内安装多个该组件。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:security_upgrade"
+        }
+    ]
+}

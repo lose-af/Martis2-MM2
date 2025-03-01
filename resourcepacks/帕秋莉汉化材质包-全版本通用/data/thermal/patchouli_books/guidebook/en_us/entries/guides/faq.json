@@ -1,0 +1,35 @@
+{
+    "name": "常见问题解答",
+    "icon": "minecraft:redstone",
+    "category": "thermal:guides",
+    "sortnum": -3,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "问:物品导管在哪里？$(br)答:阅读$(l:thermal:storage_and_transport/dynamics)本章$(/l)。$(br2)问:升级套件在哪里？$(br)答:阅读$(l:thermal:technology/augments/integral_components)本章$(/l)。$(br2)问:如何提升机器速度？$(br)答:阅读$(l:thermal:technology/augments/integral_components)本章$(/l)与$(l:thermal:technology/augments/machine_speed)本章$(/l)。$(br2)问:增强模块能否叠加？$(br)答:阅读$(l:thermal:technology/augments/introduction)本章$(/l)。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "问:如何切换通量钻/锯模式？$(br)答:需安装$(l:thermal:technology/augments/area_radius)范围增强模块$(/l)来调整开采半径。$(br2)问:如何充能/改装工具？$(br)答:阅读$(l:thermal:technology/tinker_bench)本章$(/l)。$(br2)问:为何我的发电机在缓慢流失RF？$(br)答:发电机RF缓存仅用于控制输出节流，详见$(l:thermal:technology/dynamos/introduction)本章$(/l)。"
+        },
+        {
+            "type": "patchouli:link",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/tools-complement",
+            "link_text": "Tool's Complement",
+            "text": "问:X模组会获得支持(配方等)吗？$(br)答:可在$(l:thermal:links/discord)Discord服务器$(/l)提交兼容性请求$(br2)问:基础工具/武器/护甲(如钻石挖掘者、琥珀金弓)去哪了？$(br)答:已移至独立模组:"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "问:铂、钢、魔力灌注等材料怎么了？$(br)答:基于多方面考量，这些内容未纳入热力基础。若回归将以独立兼容模组形式出现。$(br2)问:为何无法放置某些流体？$(br)答:部分流体因Forge流体API限制无法实现，部分则因缺乏实用价值未开放放置功能。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "问:如何修改矿石生成？$(br)答:可以通过数据包控制矿石生成概率。$(br2)问:如何更改配置？$(br)答:配置现基于每个存档独立生成；在存档文件的serverconfigs文件夹内可找到配置。您也可将serverconfigs文件夹内文件复制到defaultconfigs文件夹并编辑，以此设定默认配置。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "问:如何报告漏洞？$(br)答:请访问我们的$(l:thermal:links/discord)Discord服务器$(/l)。报告前请确保模组为最新版本且未安装Optifine。$(br2)问:如何修改合成配方？$(br)答:热力系列模组支持数据驱动，可使用数据包修改配方，具体方法见$(l:thermal:guides/modpack/recipes)此链接$(/l)。此外本模组支持CraftTweaker修改。"
+        }
+    ]
+}

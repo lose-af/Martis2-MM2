@@ -1,0 +1,23 @@
+{
+    "name": "浇灌壶",
+    "icon": "thermal:watering_can",
+    "category": "thermal:tools",
+    "read_by_default": true,
+    "flag": "mod:thermal_cultivation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "用于灌溉作物加速生长。可在匠魂工作台中装填液体并安装增强模块。安装范围增强模块后，按'$(k:cofh.mode_change_increment)'切换浇灌半径。可通过附魔$(l:thermal:world/holding)持有$(/l)提升储水量。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:watering_can",
+            "title": "浇灌壶"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "增强模块兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)集成元件$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)扩容储罐结构$(/l)$(li)$(l:thermal:technology/augments/area_radius)径向增强$(/l)"
+        }
+    ]
+}

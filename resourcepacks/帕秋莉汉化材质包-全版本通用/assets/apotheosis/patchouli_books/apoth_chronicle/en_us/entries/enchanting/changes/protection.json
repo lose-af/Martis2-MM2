@@ -1,0 +1,25 @@
+{
+    "name": "保护附魔",
+    "icon": "minecraft:netherite_chestplate",
+    "category": "apotheosis:enchanting/changes",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)保护$()附魔不再与各类防护系子类附魔互斥。$(p)这意味着现在可以同时拥有$(9)保护$()和其他一种原本互斥的防御型附魔。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "为平衡此改动，保护类附魔的效果被略微调整。$(p)理解其机制需要先了解保护附魔的运作原理和一些数学知识。$(p)首先引入伤害减免(DR)点数概念，所有防御性附魔都基于此数值生效。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)保护$()附魔对所有伤害类型提供1点减免。$(p)专精类附魔对特定伤害类型提供2点减免。$(p)$(9)摔落缓冲$()对坠落伤害提供3点减免。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "前20点每点提供4%减免，最高80%。$(p)原版机制中20点为上限，超额点数无效。$(p)在启示录模组中，后续45点每点额外提供0.33%，最高可达95%(65点时)。$(p)盔甲减免计算先于附魔生效。"
+        }
+    ]
+}

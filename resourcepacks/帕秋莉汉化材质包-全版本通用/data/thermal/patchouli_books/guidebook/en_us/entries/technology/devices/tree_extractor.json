@@ -1,0 +1,23 @@
+{
+    "name": "木源萃取机",
+    "icon": "thermal:device_tree_extractor",
+    "category": "thermal:devices",
+    "read_by_default": true,
+    "flag": "|mod:thermal_expansion,mod:thermal_cultivation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "木源萃取机是从相邻树木中提取流体的装置。可选择使用肥料提升生产速度:骨粉可使产量提升1.5倍持续8个周期，而$(l:thermal:world/plants/phytogro)植物质$(/l)则可提升2.0倍持续16个周期。不同树种产出不同流体，请使用JEI查看可用配方。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:device_tree_extractor",
+            "title": "木源萃取机"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "增强模块兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)集成元件$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)扩容储罐构造$(/l)"
+        }
+    ]
+}

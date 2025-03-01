@@ -1,0 +1,16 @@
+{
+    "name": "船用弯道引导轨",
+    "icon": "littlelogistics:guide_rail_corner",
+    "category": "littlelogistics:blocks",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:guide_rail_corner",
+            "text": "辅助船只通过急转弯，建议在急弯处或狭窄水道入口(如码头)使用。对拖船和驳船均有效。潜行右键点击可翻转导向方向。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "正上方不得存在完整固体方块(如石头、木板等，但栅栏柱、告示牌等则无妨)。"
+        }
+    ]
+}

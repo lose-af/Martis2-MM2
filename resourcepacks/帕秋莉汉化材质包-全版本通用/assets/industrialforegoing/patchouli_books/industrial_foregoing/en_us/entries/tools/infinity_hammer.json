@@ -1,0 +1,17 @@
+{
+    "name": "无尽战锤",
+    "icon": "industrialforegoing:infinity_hammer",
+    "category": "industrialforegoing:tools",
+    "sortnum": 3,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "无尽战锤可对区域内敌人造成伤害。提升等阶将解锁不同层级的$(6)斩首$()效果，便于获取生物头颅。"
+        },
+        {
+            "type": "text",
+            "text": "对地面右键时，会在使用者面前形成锥形区域的$(6)碎裂$()效果。"
+        }
+    ]
+}

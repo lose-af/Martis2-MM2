@@ -1,0 +1,8 @@
+{
+    "name": "护甲",
+    "flag": "|mod:thermal_innovation,mod:thermal_cultivation",
+    "description": "或许不够时尚，但实用至上。",
+    "icon": "thermal:hazmat_boots",
+    "parent": "thermal:equipment",
+    "sortnum": 2
+}

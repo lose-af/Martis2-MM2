@@ -1,0 +1,16 @@
+{
+    "name": "item.ars_nouveau.allow_scroll",
+    "icon": "ars_nouveau:allow_scroll",
+    "category": "ars_nouveau:automation",
+    "pages": [
+        {
+            "text": "ars_nouveau.page1.allow_scroll",
+            "type": "patchouli:text"
+        },
+        {
+            "recipe": "ars_nouveau:blank_parchment",
+            "recipe2": "ars_nouveau:allow_scroll",
+            "type": "patchouli:crafting"
+        }
+    ]
+}

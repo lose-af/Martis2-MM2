@@ -1,0 +1,13 @@
+{
+    "gui.darkmodeeverywhere.perfect_dark": "完美夜间",
+    "config.darkemodeeverywhere.method_shader_blacklist": "一个由类和方法（或任何子串）组成的字符串列表（渲染方法），夜间渲染将不会应用于这些方法。 \n例如，'renderHunger'就足够阻止 'net.minecraftforge.client.gui.overlay.ForgeGui：renderFood' 的夜间渲染（任选其一都行）。",
+    "config.darkemodeeverywhere.method_shader_dump": "启用此配置后，每5秒会记录应用了夜间渲染的GUI使用的方法列表。 \n记录将包含类和方法组成的字符串，如 'net.minecraftforge.client.gui.overlay.ForgeGui：renderFood'。 \n使用此功能可帮助找到您希望阻止夜间渲染的GUI的渲染方法字符串。",
+    "config.darkemodeeverywhere.button_position_y": "距离GUI底部的像素偏移量（y轴）",
+    "config.darkmodeeverywhere.enabled": "已启用",
+    "gui.darkmodeeverywhere.dark_mode": "夜间模式",
+    "gui.darkmodeeverywhere.light_mode": "日间模式",
+    "config.darkemodeeverywhere.button_position_x": "距离GUI左侧的像素偏移量（x轴）",
+    "gui.tooltip.darkmodeeverywhere.shader_switch_tooltip": " * 使用Shift键快速切换到日间模式",
+    "gui.darkmodeeverywhere.less_perfect_dark": "较不完美夜间",
+    "gui.darkmodeeverywhere.toasted_light": "烤箱照明模式"
+}

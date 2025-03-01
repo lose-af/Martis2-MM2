@@ -1,0 +1,11 @@
+{
+    "name": "屏幕链接器",
+    "icon": "rftoolsutility:screen_link",
+    "category": "rftoolsutility:category_rftoolsutility_machines",
+    "pages": [
+        {
+            "type": "text",
+            "text": "使用$(5)右键点击$()可将该物品与$(l:rftoolsutility:machines/screen)信息屏幕$(/l)绑定，之后放入$(l:tools/tablet)平板设备$(/l)即可远程查看屏幕内容(需确保屏幕所在区块已加载)"
+        }
+    ]
+}

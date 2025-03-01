@@ -1,0 +1,15 @@
+{
+    "name": "宝石尘",
+    "icon": "apotheosis:gem_dust",
+    "category": "apotheosis:adventure/affix_loot",
+    "flag": "apotheosis:adventure",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "apotheosis:gem_dust",
+            "link_recipe": true,
+            "text": "所有天启宝石均可通过粉碎转化为$(9)宝石尘$()。$(p)具体操作需在世界中使用铁砧进行粉碎。"
+        }
+    ]
+}

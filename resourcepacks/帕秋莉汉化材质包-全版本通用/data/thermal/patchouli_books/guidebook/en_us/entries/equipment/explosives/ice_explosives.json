@@ -1,0 +1,24 @@
+{
+    "name": "寒霜炸药",
+    "icon": "thermal:ice_tnt",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "category": "thermal:explosives",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "寒霜炸药将冻结区域内方块，并使范围内的生物获得$(l:thermal:world/mobs/blizz)霜寒II$(/l)效果。炸药块与手雷爆炸半径分别为9格和5格。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:ice_tnt",
+            "B.recipe": "thermal:ice_grenade_4"
+        },
+        {
+            "flag": "&mod:thermal_innovation,mod:thermal_locomotion",
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:ice_tnt_minecart",
+            "title": "寒霜炸药矿车"
+        }
+    ]
+}

@@ -3,17 +3,17 @@
 	group: "7571E15FFD2D3DD8"
 	order_index: 3
 	filename: "elemental_craft"
-	title: "Elemental Craft"
+	title: "&d元素工艺&f"
 	icon: "elementalcraft:contained_crystal"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "All The Elements"
+			title: "所有&a元素&f"
 			x: -0.5d
 			y: -0.5d
-			subtitle: "Don't put these on a blender"
-			description: ["Elemental Crystals are a important resource for ElementalCraft crafts, it's a good idea to stack a bunch of them. &l&dFor more info about getting them, check Chapter 1&r."]
+			subtitle: "别把这些放进搅拌机"
+			description: ["元素水晶是元素工艺的重要资源,建议大量囤积.&l&d获取方式详见第一章&r."]
 			dependencies: [
 				"08C3C85483A79429"
 				"70E221DBF04BC533"
@@ -45,13 +45,13 @@
 		{
 			x: -0.5d
 			y: 1.5d
-			subtitle: "Renewable Source!"
+			subtitle: "可再生资源!"
 			description: [
-				"For extracting elements, you first will need to find element sources. Each source has a corresponding color that relates to the element. When you find them, place a small element container with a extractor on top, pointing to the element node that you will extract. "
-				"&6Orange&r nodes are &6Fire&r element."
-				"&9Blue&r nodes are &9Water&r element."
-				"&2Green&r nodes are &2Earth&r Element."
-				"&eYellow&r nodes are &eWind&r element."
+				"提取元素前需先找到元素节点.不同颜色的节点对应不同元素:找到后放置小型元素容器并在顶部安装提取器,对准目标元素节点."
+				"&e橙色&r节点是&e火&r元素"
+				"&9蓝色&r节点是&9水&r元素"
+				"&2绿色&r节点是&2土&r元素"
+				"&e黄色&r节点是&e风&r元素"
 			]
 			dependencies: ["08C3C85483A79429"]
 			id: "70E221DBF04BC533"
@@ -68,20 +68,22 @@
 					item: "elementalcraft:small_container"
 				}
 			]
-			rewards: [{
-				id: "0E2D47B32F040FF9"
-				type: "item"
-				item: "elementalcraft:elementpipe_impaired"
-				count: 5
-			}]
+			rewards: [
+				{
+					id: "0E2D47B32F040FF9"
+					type: "item"
+					item: "elementalcraft:elementpipe_impaired"
+					count: 5
+				}
+			]
 		}
 		{
-			title: "Elemental Crafting Table"
+			title: "&d元素工艺&f桌"
 			x: -0.5d
 			y: -2.5d
 			shape: "gear"
-			subtitle: "Follow to the letter"
-			description: ["Element Binder will have a good amount of functions, but you'll need it for some important craftings of components and devices. Each crafting have a order that &l&2MUST&r be respected, otherwise, it won't work."]
+			subtitle: "按图索骥"
+			description: ["元素绑定器具备多项功能,是制作组件和装置的重要工具.所有合成必须&l&2严格遵循&r工艺顺序才能生效."]
 			dependencies: [
 				"5C26AD4BFF752032"
 				"6B06707ECFAFD263"
@@ -89,33 +91,37 @@
 			dependency_requirement: "one_completed"
 			size: 1.75d
 			id: "28F45CF9D514202B"
-			tasks: [{
-				id: "3813E631690FF287"
-				type: "item"
-				item: "elementalcraft:binder"
-			}]
+			tasks: [
+				{
+					id: "3813E631690FF287"
+					type: "item"
+					item: "elementalcraft:binder"
+				}
+			]
 		}
 		{
 			x: 1.0d
 			y: -1.5d
-			subtitle: "&6I WILL HAVE ORDER!"
+			subtitle: "&6我要建立秩序!&f"
 			description: [
-				"Element Binder needs things to be put in a specific order, and ordered sorters are here to let the things work out easier. It will insert items in the exact order you configured them to."
+				"元素绑定器需要按特定顺序放置物品,而有序分拣器则能让这一过程更轻松.它会按照你配置的顺序准确插入物品."
 				"{image:kubejs:textures/quests/sorter.png width:150 height:100 align:1}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["28F45CF9D514202B"]
 			id: "1E837639DAA7DF3F"
-			tasks: [{
-				id: "460ED3D82E848A9D"
-				type: "item"
-				item: "elementalcraft:sorter"
-			}]
+			tasks: [
+				{
+					id: "460ED3D82E848A9D"
+					type: "item"
+					item: "elementalcraft:sorter"
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: 1.5d
-			description: ["Each node can have traits that differ them. Some have better recovery, some better capacity and othe things. You can see each node using this item at cost of 1 springaline for operation."]
+			description: ["元素节点具有不同特性:有些恢复更快,有些容量更大.使用此装置(每次消耗1个辉晶)可查看节点属性."]
 			hide_dependency_lines: true
 			dependencies: [
 				"70E221DBF04BC533"
@@ -123,76 +129,86 @@
 			]
 			secret: true
 			id: "4B7D752BE53A895C"
-			tasks: [{
-				id: "7ACBD626B21D6804"
-				type: "item"
-				item: "elementalcraft:source_analysis_glass"
-			}]
+			tasks: [
+				{
+					id: "7ACBD626B21D6804"
+					type: "item"
+					item: "elementalcraft:source_analysis_glass"
+				}
+			]
 		}
 		{
-			title: "Traits"
+			title: "节点特性"
 			x: 4.5d
 			y: 1.5d
 			description: [
-				"Source traits are an ensemble of traits that define how sources behave. This affect things like the amount they can hold or the speed it takes for them to recover."
-				"&3&lCapacity&r&3: The element capacity of the source, the bigger the capacity the longer it will take to exhaust and replenish the source"
-				"&6&lRecovery&r&6: The speed at which the source recover elements once exhausted"
-				"&e&lDiurnal&r&e: Increase recovery speed during the day, decrease recovery speed during the night"
-				"&9&lNocturnal&r&9: Increase recovery speed during the night, decrease recovery speed during the day"
-				"&a&lGenerous&r&a: Increase the extraction speed from the source"
-				"&c&lSelfish&r&c: Decrease the extraction speed from the source"
-				"&b&lThrifty&r&b: Decrease the element lost by the source during extraction"
-				"&7&lWasteful&r&7: Increase the element lost by the source during extraction"
+				"元素特性决定了节点行为模式:"
+				"&3&l容量&r&3:节点元素储量,容量越大耗尽/恢复周期越长"
+				"&e&l恢复&r&e:节点耗尽后的元素再生速度"
+				"&e&l昼行&r&e:白天加速恢复,夜间减速恢复"
+				"&9&l夜行&r&9:夜间加速恢复,白天减速恢复"
+				"&a&l慷慨&r&a:提升元素提取速度"
+				"&c&l自私&r&c:降低元素提取速度"
+				"&b&l节俭&r&b:减少提取时的元素损耗"
+				"&7&l挥霍&r&7:增加提取时的元素损耗"
 			]
 			dependencies: ["4B7D752BE53A895C"]
 			id: "7BFF3ECF9488DF09"
-			tasks: [{
-				id: "20A232980E4EC1AF"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "20A232980E4EC1AF"
+					type: "checkmark"
+				}
+			]
 		}
 		{
 			x: -2.0d
 			y: -1.5d
 			dependencies: ["28F45CF9D514202B"]
 			id: "60FE66A2EC4D0459"
-			tasks: [{
-				id: "70F9474416B86759"
-				type: "item"
-				item: "elementalcraft:spell_desk"
-			}]
+			tasks: [
+				{
+					id: "70F9474416B86759"
+					type: "item"
+					item: "elementalcraft:spell_desk"
+				}
+			]
 		}
 		{
-			title: "Spells"
+			title: "元素法术"
 			icon: "elementalcraft:scroll_paper"
 			x: -3.5d
 			y: -1.5d
-			description: ["Spells can do a variety of things, from creating walls to teleporting. Some spells can be very useful, but they all use some element."]
+			description: ["法术功能多样:筑墙瞬移无所不能.所有法术都会消耗特定元素."]
 			dependencies: ["60FE66A2EC4D0459"]
 			id: "4AB3FAC4AE38A215"
-			tasks: [{
-				id: "4A0B9E536E86A7F2"
-				type: "observation"
-				icon: "elementalcraft:spell_desk"
-				timer: 0L
-				observe_type: 0
-				to_observe: "elementalcraft:spell_desk"
-			}]
-			rewards: [{
-				id: "14347FBB95ECCFCA"
-				type: "random"
-				icon: "elementalcraft:scroll_paper"
-				table_id: 278806829828433834L
-			}]
+			tasks: [
+				{
+					id: "4A0B9E536E86A7F2"
+					type: "observation"
+					icon: "elementalcraft:spell_desk"
+					timer: 0L
+					observe_type: 0
+					to_observe: "elementalcraft:spell_desk"
+				}
+			]
+			rewards: [
+				{
+					id: "14347FBB95ECCFCA"
+					type: "random"
+					icon: "elementalcraft:scroll_paper"
+					table_id: 278806829828433834L
+				}
+			]
 		}
 		{
-			title: "Element Holder"
+			title: "元素容器"
 			x: -5.0d
 			y: -2.5d
-			subtitle: "Element backpacks"
+			subtitle: "元素背包"
 			description: [
-				"The same way instruments use elements to work, spells and jewels use them too. You can use element holders to store element and use your spells when they are needed. Jewels use them passively."
-				"To fill them, just hold RMB on a corresponding element source."
+				"如同仪器需要元素驱动,法术与宝石亦需元素支持.使用元素容器储存元素,随时施展法术.宝石则会被动消耗元素."
+				"长按右键对应元素节点即可充能."
 			]
 			dependencies: [
 				"4AB3FAC4AE38A215"
@@ -274,52 +290,58 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "1EA7DD311BF4889C"
-				type: "random"
-				icon: "elementalcraft:scroll_paper"
-				table_id: 278806829828433834L
-			}]
+			rewards: [
+				{
+					id: "1EA7DD311BF4889C"
+					type: "random"
+					icon: "elementalcraft:scroll_paper"
+					table_id: 278806829828433834L
+				}
+			]
 		}
 		{
 			x: 1.0d
 			y: -2.5d
-			subtitle: "Not the malevolent one"
+			subtitle: "非邪神祭坛"
 			description: [
-				"Shrines are devices that can use elements to do a variety of tasks, such as: "
-				"Improving plants growth speed"
-				"Grow amethyst/springaline clusters"
-				"Increase the tick speed of a block"
-				"Spawn mobs"
-				"and do a lot of other things."
+				"神殿可利用元素执行多种任务:"
+				"加速植物生长"
+				"培育紫水晶/辉晶簇"
+				"提升方块更新频率"
+				"生成生物"
+				"以及更多神奇功能"
 			]
 			dependencies: ["28F45CF9D514202B"]
 			id: "66E491622AC4F15F"
-			tasks: [{
-				id: "46B44F89D3C1C7EA"
-				type: "item"
-				item: "elementalcraft:shrinebase"
-			}]
+			tasks: [
+				{
+					id: "46B44F89D3C1C7EA"
+					type: "item"
+					item: "elementalcraft:shrinebase"
+				}
+			]
 		}
 		{
-			title: "Magic Machinery"
+			title: "&a神秘量子科学&f"
 			x: 2.5d
 			y: -2.5d
-			description: ["As mentioned before, shrines have some nice utilities. &2Growth&r shrine is really useful for plants, &5Ender Lock&r is really a good device for ender farms, but there are some shrines that can be used with other mods, such as the &aWild Grove&r Shrine for a Nature's Aura Herbivorous Absorber aura automation, or the &dMystical Grove&r upgrade for Botania flowers."]
+			description: ["如前所述,神龛具备诸多实用功能.&2生长&r神龛对植物助益良多,&5&a末影锁&f&r是末影农场的最佳装置,还有些神龛可与其他模组联动使用,例如&a野性林地&r神龛能实现&d自然灵气&f与&a植物吸收器&f的灵气自动化,或通过&d神秘林地&r升级强化&d植物魔法&f花卉效能."]
 			dependencies: ["66E491622AC4F15F"]
 			id: "20E0A0A18E0C1C47"
-			tasks: [{
-				id: "45F30DB218B94942"
-				type: "item"
-				title: "Any #elementalcraft:shrines"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "elementalcraft:shrines"
+			tasks: [
+				{
+					id: "45F30DB218B94942"
+					type: "item"
+					title: "任意 #elementalcraft:shrines 元素圣坛"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "elementalcraft:shrines"
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "09EE0BAEC553F734"
@@ -338,37 +360,41 @@
 			x: 4.0d
 			y: -2.5d
 			description: [
-				"Shrines can be upgraded with some devices that improve speed, production, and do other things."
-				"Some upgrades are restricted to a specific shrines, so keep an eye on the Elementopedia for more info."
+				"可通过添加设备对神龛进行升级,提升其速度、产量及扩展功能."
+				"部分升级仅限特定神龛使用,请查阅元素百科&a获取详细信息.&f"
 			]
 			dependencies: ["20E0A0A18E0C1C47"]
 			id: "2453044DD037ED6C"
-			tasks: [{
-				id: "47D5BF8317A6F1DA"
-				type: "item"
-				title: "Shrine Upgrades"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "elementalcraft:shrine_upgrades"
+			tasks: [
+				{
+					id: "47D5BF8317A6F1DA"
+					type: "item"
+					title: "圣坛升级"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "elementalcraft:shrine_upgrades"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: -2.0d
 			y: -3.5d
 			dependencies: ["28F45CF9D514202B"]
 			id: "5445C707CBEEAFD7"
-			tasks: [{
-				id: "055447444AECD2DE"
-				type: "item"
-				item: "elementalcraft:unset_jewel"
-			}]
+			tasks: [
+				{
+					id: "055447444AECD2DE"
+					type: "item"
+					item: "elementalcraft:unset_jewel"
+				}
+			]
 		}
 		{
-			title: "Jewels"
+			title: "宝石之力"
 			icon: {
 				id: "elementalcraft:jewel"
 				Count: 1b
@@ -380,20 +406,22 @@
 			}
 			x: -3.5d
 			y: -3.5d
-			description: ["Jewels give the player some effects that can help in many situations. They'll use source from your inventory to activate the effects."]
+			description: ["宝石赋予玩家各种情境助益效果,激活时将消耗背包内的魔源能量."]
 			dependencies: ["5445C707CBEEAFD7"]
 			id: "71D8C1416BD779EB"
-			tasks: [{
-				id: "55FAE921460C6E9B"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "55FAE921460C6E9B"
+					type: "checkmark"
+				}
+			]
 		}
 		{
 			x: -6.5d
 			y: -2.5d
 			shape: "diamond"
-			subtitle: "All for one, and one for all!"
-			description: ["This item can hold all the elements at the same time."]
+			subtitle: "万物归一,一纳万物!"
+			description: ["此容器可同时容纳所有元素能量."]
 			hide_dependency_lines: true
 			dependencies: [
 				"3F260EDD3E3F518B"
@@ -401,35 +429,39 @@
 			]
 			size: 1.5d
 			id: "0BCBEF4DF75748FB"
-			tasks: [{
-				id: "57719007320AFF3A"
-				type: "item"
-				item: {
-					id: "elementalcraft:pure_element_holder"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							earth: 0
-							air: 0
-							water: 0
-							fire: 0
+			tasks: [
+				{
+					id: "57719007320AFF3A"
+					type: "item"
+					item: {
+						id: "elementalcraft:pure_element_holder"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								earth: 0
+								air: 0
+								water: 0
+								fire: 0
+							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "73B8124D3EAB1564"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6594349084625110702L
-			}]
+			]
+			rewards: [
+				{
+					id: "73B8124D3EAB1564"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6594349084625110702L
+				}
+			]
 		}
 		{
 			x: -0.5d
 			y: -5.0d
 			description: [
-				"Pure Infuser is a instrument that can make the &dPure Crystal&r, which is a key component for most advanced recipes in ElementalCraft. "
-				"In this modpack, this instrument is also used in the &7&lOre Processing Chain&r."
+				"纯净灌注器是制作&d纯净水晶&r的核心装置,该材料在元素工艺模组中广泛用于高阶合成配方."
+				"在本整合包中,该装置亦应用于&7&l&a矿物处理&r生产线."
 			]
 			dependencies: ["28F45CF9D514202B"]
 			id: "3B244ACC959125F2"
@@ -460,29 +492,33 @@
 					item: "elementalcraft:pedestal_air"
 				}
 			]
-			rewards: [{
-				id: "0B5D12926B899158"
-				type: "item"
-				item: "elementalcraft:purecrystal"
-			}]
+			rewards: [
+				{
+					id: "0B5D12926B899158"
+					type: "item"
+					item: "elementalcraft:purecrystal"
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: -4.5d
 			dependencies: ["28F45CF9D514202B"]
 			id: "65D0ED1814790B26"
-			tasks: [{
-				id: "0D96444B73FAB4EA"
-				type: "item"
-				item: "elementalcraft:crystallizer"
-			}]
+			tasks: [
+				{
+					id: "0D96444B73FAB4EA"
+					type: "item"
+					item: "elementalcraft:crystallizer"
+				}
+			]
 		}
 		{
-			title: "Jewel Collectionist"
+			title: "宝石收藏家"
 			x: -3.5d
 			y: -7.0d
 			shape: "hexagon"
-			subtitle: "Jackie Chan would be proud"
+			subtitle: "成龙都会为之自豪"
 			dependencies: ["16A534BCC327711E"]
 			size: 1.75d
 			optional: true
@@ -744,10 +780,10 @@
 			]
 		}
 		{
-			title: "Editor's Choice"
+			title: "编者精选"
 			x: -3.5d
 			y: -5.0d
-			description: ["Just some recommendations that can be useful."]
+			description: ["部分实用性推荐配置."]
 			dependencies: ["71D8C1416BD779EB"]
 			id: "16A534BCC327711E"
 			tasks: [
@@ -806,10 +842,10 @@
 			]
 		}
 		{
-			title: "Editor's Choice"
+			title: "编者精选"
 			x: -3.5d
 			y: 0.0d
-			description: ["Just some recommendations that can be useful."]
+			description: ["部分实用性推荐配置."]
 			dependencies: ["4AB3FAC4AE38A215"]
 			id: "62D22C766FC911C4"
 			tasks: [
@@ -868,12 +904,12 @@
 			]
 		}
 		{
-			title: "Scroll Collectionist"
+			title: "卷轴收藏家"
 			x: -3.5d
 			y: 2.0d
 			shape: "hexagon"
-			subtitle: "All the Spells"
-			description: ["Now you can start a DnD campaign"]
+			subtitle: "万法归宗"
+			description: ["此刻你可开启龙与地下城冒险"]
 			dependencies: ["62D22C766FC911C4"]
 			size: 1.75d
 			optional: true
@@ -1144,37 +1180,41 @@
 		{
 			x: 3.0d
 			y: 1.5d
-			description: ["The source stabilizer is an item that can be used on sources. It prevents them from being replaced by blocks. It also slightly increase the source &l&2recovery rate."]
+			description: ["&a魔源稳定器&f可作用于魔源节点,防止其被方块覆盖,并小幅提升魔源&l&2恢复速率&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"28F45CF9D514202B"
 				"4B7D752BE53A895C"
 			]
 			id: "339A744CFDA1D135"
-			tasks: [{
-				id: "3BFACBD7C294242D"
-				type: "item"
-				item: "elementalcraft:source_stabilizer"
-			}]
+			tasks: [
+				{
+					id: "3BFACBD7C294242D"
+					type: "item"
+					item: "elementalcraft:source_stabilizer"
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: -1.5d
-			description: ["Can be used as facade for your pipes."]
+			description: ["&a管道装饰&f覆层,美化流体传输系统."]
 			hide_dependency_lines: true
 			dependencies: ["28F45CF9D514202B"]
 			id: "310BF5742A0EE8D0"
-			tasks: [{
-				id: "44D13E0A1538B460"
-				type: "item"
-				item: "elementalcraft:cover_frame"
-			}]
+			tasks: [
+				{
+					id: "44D13E0A1538B460"
+					type: "item"
+					item: "elementalcraft:cover_frame"
+				}
+			]
 		}
 		{
 			x: 1.0d
 			y: -3.5d
-			subtitle: "Upgrade the machines"
-			description: ["Runes are used to upgrade your instruments. Each rune have specific effects that can be used to make craftings &efaster&r, &apreserve&r some portion of elements, or boost the &9luck&r factor for crafting gems."]
+			subtitle: "机械强化之道"
+			description: ["符文用于强化装置性能.不同符文具备特殊效果:加速合成进程、&a元素保留&r或提升&9宝石合成&r幸运值."]
 			hide_dependency_lines: true
 			dependencies: ["28F45CF9D514202B"]
 			id: "4D4C29FEAD80B539"
@@ -1217,14 +1257,16 @@
 		{
 			x: -1.5d
 			y: -4.5d
-			description: ["Has some uses for grinding materials. Can turn one &eGold Leaf&r into 2 &eGold Powders&r."]
+			description: ["具备材料研磨功能,可将1份&e&a金叶&f&r转化为2份&e&a金粉&f&r."]
 			dependencies: ["28F45CF9D514202B"]
 			id: "0311F130ED6F7375"
-			tasks: [{
-				id: "685536F358067FD2"
-				type: "item"
-				item: "elementalcraft:air_mill"
-			}]
+			tasks: [
+				{
+					id: "685536F358067FD2"
+					type: "item"
+					item: "elementalcraft:air_mill"
+				}
+			]
 			rewards: [
 				{
 					id: "3B74E0CBC69E16D8"
@@ -1239,35 +1281,39 @@
 			]
 		}
 		{
-			title: "Ore Shrine"
+			title: "矿石神龛"
 			x: 2.5d
 			y: -3.5d
 			shape: "square"
-			subtitle: "Digital Miner, is that you?"
-			description: ["Ore Shrines work as a miner that collects ores in a 24x24 area, down to bedrock. Each operation takes 10 seconds (less if you use acceleration upgrades). It's compatible with Silk Touch and Fortune Shrine Upgrade, and also some other good upgrades. Needs a good amount of &2Earth Element&r."]
+			subtitle: "&a数字化采矿机&f,是你吗？"
+			description: ["该神龛在24x24区域(基岩层以上)执行矿物采集,每次运作耗时10秒(使用加速升级可缩短).兼容&a精准采集&f与时运升级,及其他增效模块.需消耗大量&2地元素&r能量."]
 			hide_dependency_lines: true
 			dependencies: ["20E0A0A18E0C1C47"]
 			size: 1.25d
 			id: "422A9AD44C189BD8"
-			tasks: [{
-				id: "0DB8CF9213B0CFCC"
-				type: "item"
-				item: "elementalcraft:oreshrine"
-			}]
-			rewards: [{
-				id: "3B1BA2FE9D3AF02F"
-				type: "item"
-				item: "elementalcraft:shrine_upgrade_core"
-			}]
+			tasks: [
+				{
+					id: "0DB8CF9213B0CFCC"
+					type: "item"
+					item: "elementalcraft:oreshrine"
+				}
+			]
+			rewards: [
+				{
+					id: "3B1BA2FE9D3AF02F"
+					type: "item"
+					item: "elementalcraft:shrine_upgrade_core"
+				}
+			]
 		}
 		{
-			title: "Improving Instruments"
+			title: "装置强化"
 			x: 4.0d
 			y: -3.5d
 			description: [
-				"Better version of the original instuments. "
-				"&3Improved Binder&r works faster and works as Infuser and Binder."
-				"&2Improved Element Extractor&r works faster."
+				"基础装置的高效改良版."
+				"&3强化型绑定器&r兼具灌注与绑定功能且效率更高."
+				"&2强化元素提取器&r运作速度显著提升."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1287,53 +1333,61 @@
 					item: "elementalcraft:binder_improved"
 				}
 			]
-			rewards: [{
-				id: "213CB15200E57A5A"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 278806829828433834L
-			}]
+			rewards: [
+				{
+					id: "213CB15200E57A5A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 278806829828433834L
+				}
+			]
 		}
 		{
 			x: 2.5d
 			y: -1.5d
-			description: ["Will retrieve any crafting result from Instruments into a inventory."]
+			description: ["自动将装置合成产物输送至指定容器."]
 			hide_dependency_lines: true
 			dependencies: ["28F45CF9D514202B"]
 			id: "540A62454E121113"
-			tasks: [{
-				id: "0AE2A9928944EB9C"
-				type: "item"
-				item: "elementalcraft:instrument_retriever"
-			}]
+			tasks: [
+				{
+					id: "0AE2A9928944EB9C"
+					type: "item"
+					item: "elementalcraft:instrument_retriever"
+				}
+			]
 		}
 		{
-			title: "Receptacles"
+			title: "元素容器"
 			x: -0.5d
 			y: -6.5d
 			shape: "diamond"
-			subtitle: "Moving Day!"
-			description: ["Can be used to move element nodes around. Can be enchanted, but they'll lose the enchantments after each use, so, be careful."]
+			subtitle: "&a迁居大吉&f!"
+			description: ["&a用于&f搬运魔源节点.可附魔使用,但每次使用后附魔效果消失,请谨慎操作."]
 			dependencies: ["3B244ACC959125F2"]
 			size: 1.75d
 			id: "0B1F4BCF4C0FA13A"
-			tasks: [{
-				id: "0D421344360E4567"
-				type: "item"
-				title: "Any #elementalcraft:receptacles/empty"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "elementalcraft:receptacles/empty"
+			tasks: [
+				{
+					id: "0D421344360E4567"
+					type: "item"
+					title: "任意 #elementalcraft:receptacles/empty 空元素容器"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "elementalcraft:receptacles/empty"
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "585C0EF881B616FC"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			]
+			rewards: [
+				{
+					id: "585C0EF881B616FC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 	]
 	quest_links: [ ]

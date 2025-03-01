@@ -1,0 +1,12 @@
+{
+    "name": "路由节点",
+    "icon": "xnet:router",
+    "category": "xnet:category_xnet_network",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "路由节点可实现多网络连接，需配合路由线缆使用"
+        }
+    ]
+}

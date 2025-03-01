@@ -1,0 +1,10 @@
+{
+    "info.lollipop.fe.pet.tick": "%s FE/刻",
+    "info.lollipop.mb.pet.tick": "%s 毫升/刻",
+    "info.lollipop.fe.per.mb": "%s FE/%s 毫升",
+    "info.lollipop.mb": "%s 毫升",
+    "info.lollipop.fe": "%s能量",
+    "info.lollipop.fe.stored": "%s/%s能量",
+    "info.lollipop.temperature.c": "%s 摄氏度",
+    "info.lollipop.mb.stored": "%s/%s 毫升"
+}

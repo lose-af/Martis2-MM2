@@ -1,0 +1,17 @@
+{
+    "name": "生物侦测器",
+    "icon": "industrialforegoing:mob_detector",
+    "category": "industrialforegoing:misc",
+    "sortnum": 6,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "侦测前方实体数量，并在后方输出与实体数量相等的红石信号强度。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:mob_detector"
+        }
+    ]
+}

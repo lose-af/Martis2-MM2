@@ -1,0 +1,27 @@
+{
+    "name": "海晶石轨道",
+    "icon": "thermal:prismarine_rail",
+    "read_by_default": true,
+    "flag": "mod:thermal_locomotion",
+    "category": "thermal:locomotion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "海晶石轨道功能与标准轨道相同，但具有可含水特性且可水下铺设。需注意:普通矿车若完全浸没水中，乘员仍会被弹出。此问题可通过使用$(l:thermal:storage_and_transport/locomotion/underwaterminecart)水下矿车$(/l)解决。海晶石轨道同时提供光照等级8的照明效果。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:prismarine_rail",
+            "B.recipe": "thermal:prismarine_crossover_rail"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:prismarine_powered_rail",
+            "B.recipe": "thermal:prismarine_activator_rail"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:prismarine_detector_rail"
+        }
+    ]
+}

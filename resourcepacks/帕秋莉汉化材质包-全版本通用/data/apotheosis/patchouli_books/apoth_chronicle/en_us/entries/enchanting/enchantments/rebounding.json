@@ -1,0 +1,13 @@
+{
+    "name": "弹反",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)反弹$() 是胸甲和护腿的附魔。$(p)使所有近战攻击者被击退远离使用者。$(p)等级越高击退距离越远。"
+        }
+    ]
+}

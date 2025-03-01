@@ -1,0 +1,17 @@
+{
+    "name": "生命窃取",
+    "icon": "apotheosis:textures/mob_effect/bleeding.png",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)生命窃取$()可将物理伤害的百分比直接转化为生命恢复。$(p)通常仅武器提供此属性。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 1$(p)$(9)$(n)最大值:$() 1024$(p)注:1.0实际对应0%生命窃取，若基础值为零，百分比修饰符将失效且数值修饰符无法正确生效。"
+        }
+    ]
+}

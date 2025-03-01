@@ -1,0 +1,11 @@
+{
+    "ftblibrary.mb": "%d 毫升 %s",
+    "ftblibrary.select_image.scanning": "扫描图像中：可能需要几秒钟……",
+    "ftblibrary.gui.listSize": "%d个物品",
+    "ftblibrary.select_item.list_mode.jei": "JEI物品查看手册",
+    "sidebar_group.ftblibrary.util": "FTB图书馆 — 实用工具",
+    "ftblibrary.gui.listSize1": "1个物品",
+    "ftblibrary.select_item.list_mode.rei": "REI整合物品查看",
+    "sidebar_group.ftblibrary.cheat": "FTB图书馆 — 作弊",
+    "sidebar_group.ftblibrary.info": "FTB图书馆 — 信息"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "泥炭",
+    "icon": "geolosys:peat",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "泥炭",
+            "item": "geolosys:peat",
+            "link_recipe": false,
+            "text": "该表层矿床直接生成于地表，表面覆盖杜鹃花。不会在下界或末地生成，可在任意生物群系中发现。"
+        }
+    ]
+}

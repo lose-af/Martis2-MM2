@@ -1,0 +1,19 @@
+{
+    "name": "能量机车",
+    "icon": "littlelogistics:energy_locomotive",
+    "category": "littlelogistics:trains",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:energy_locomotive",
+            "scale": 0.4,
+            "offset": 0.5,
+            "text": "使用Forge能源驱动的机车，停靠时可通过$(l:vessel_charger)载具充电器$()补充能量。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:energy_locomotive",
+            "text": "机车额外提供一个电容插槽，当长途运输中途耗尽能量时可用于应急充电。"
+        }
+    ]
+}

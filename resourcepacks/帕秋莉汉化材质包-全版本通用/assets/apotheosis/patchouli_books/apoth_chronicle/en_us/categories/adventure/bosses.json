@@ -1,0 +1,7 @@
+{
+    "name": "首领机制",
+    "description": "$(9)首领$()是掌握了词缀力量的敌人。$(p)通常可通过其独特名称和强力装备辨认。",
+    "icon": "apotheosis:boss_summoner",
+    "flag": "apotheosis:adventure",
+    "parent": "apotheosis:adventure/adventure"
+}

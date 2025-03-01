@@ -1,0 +1,7 @@
+{
+    "name": "新增魔咒",
+    "description": "本节每项条目详述本模块新增的魔咒。$(p)其他模块新增魔咒不在此列。",
+    "icon": "minecraft:enchanted_book",
+    "flag": "apotheosis:enchanting",
+    "parent": "apotheosis:enchanting/enchanting"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "暴击率",
+    "icon": "minecraft:netherite_sword",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)暴击率$()是攻击(或箭矢)触发暴击的概率，可与跳跃暴击叠加。超过100%可实现多重暴击。$(p)该属性见于武器。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 1$(p)$(9)$(n)最大值:$() 5$(p)注:数值1.0实际对应0%暴击率，若基础值为零会导致百分比修正失效，固定值修正也无法正确计算加成。"
+        }
+    ]
+}

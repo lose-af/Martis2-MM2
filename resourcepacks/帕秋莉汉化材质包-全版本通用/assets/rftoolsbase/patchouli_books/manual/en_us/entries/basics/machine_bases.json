@@ -1,0 +1,25 @@
+{
+    "name": "机械基座",
+    "icon": "rftoolsbase:machine_base",
+    "category": "rftoolsbase:category_basics",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)机械基座$()与$(l:rftoolsbase:basics/machine_frames)机械框架$()同属合成材料，但成品机械特性不同。$(br2)基座制造的机械高度为1/4格，通常具备$(thing)红石$()信号输入/输出功能。"
+        },
+        {
+            "type": "text",
+            "text": "当放置这类机器时，其朝向由$(thing)光标最靠近方块哪条边$()决定。$(br2)可想象在目标方块侧面绘制X形标记，观察你视线聚焦于X形的哪个'象限'。$(br2)输出端将朝向该方向，输入端则来自相反方向。"
+        },
+        {
+            "type": "text",
+            "text": "此特性在狭窄空间或墙面安装时尤为实用——这也是这类方块最便利的特性之一。$(br2)若对当前朝向不满意，可使用$(l:rftoolsbase:tools/smartwrench)扳手$()调整——在扳手模式下右键点击即可切换朝向。"
+        },
+        {
+            "type": "crafting",
+            "heading": "Machine Base",
+            "recipe": "rftoolsbase:machine_base",
+            "text": "$(item)机器基座$()本身无功能，但作为多种合成配方的基础组件使用。"
+        }
+    ]
+}

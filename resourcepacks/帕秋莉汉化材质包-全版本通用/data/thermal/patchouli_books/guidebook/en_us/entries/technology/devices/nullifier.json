@@ -1,0 +1,24 @@
+{
+    "name": "虚空装置",
+    "icon": "thermal:device_nullifier",
+    "category": "thermal:devices",
+    "read_by_default": true,
+    "flag": "|mod:thermal_expansion,mod:thermal_dynamics",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "虚空装置可销毁所有放入其中的物品和流体。自动输入(如通过漏斗)的物品/流体会立即销毁，通过GUI手动放入的物品将暂存直至点击清除按钮。兼容过滤器类增强模块以限制可接受内容。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:device_nullifier",
+            "title": "虚空装置",
+            "text": "红石控制仅影响物品/流体的自动输入。通过GUI手动清除操作不受红石控制设置限制。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "增强模块兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/item_filter)物品过滤器$(/l)"
+        }
+    ]
+}

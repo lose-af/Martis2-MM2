@@ -1,0 +1,14 @@
+{
+    "name": "闪长岩",
+    "icon": "minecraft:diorite",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "闪长岩",
+            "item": "minecraft:diorite",
+            "link_recipe": false,
+            "text": "该稠密矿床生成于海平面以上6米至海平面以下84米之间，仅存在于主世界且可在任意生物群系中发现。"
+        }
+    ]
+}

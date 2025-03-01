@@ -1,0 +1,7 @@
+{
+    "name": "属性系统",
+    "description": "除原版属性外，Apotheosis新增了海量新属性。$(p)本节将详细阐述所有属性。",
+    "icon": "minecraft:diamond_chestplate",
+    "flag": "apotheosis:adventure",
+    "parent": "apotheosis:adventure/adventure"
+}

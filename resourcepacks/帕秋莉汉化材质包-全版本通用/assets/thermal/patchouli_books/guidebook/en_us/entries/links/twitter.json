@@ -1,0 +1,19 @@
+{
+    "name": "国王的推特",
+    "icon": "thermal:lumium_gear",
+    "category": "thermal:links",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "patchouli:link",
+            "url": "https://twitter.com/KingLemmingCoFH",
+            "link_text": "Twitter",
+            "text": "想紧跟国王动态？关注他的推特账号！"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "thermal:lumium_ingot",
+            "text": "冷知识！耀素合金因其自发光特性得名！"
+        }
+    ]
+}

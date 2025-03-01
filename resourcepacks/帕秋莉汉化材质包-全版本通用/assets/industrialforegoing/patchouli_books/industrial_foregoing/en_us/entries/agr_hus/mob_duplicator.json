@@ -1,0 +1,20 @@
+{
+    "name": "生物复制机",
+    "icon": "industrialforegoing:mob_duplicator",
+    "category": "industrialforegoing:agriculture_husbandry",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "用于生成生物的装置。需供电、$(l:agr_hus/essence)精华$()及装载于$(l:tools/mib)生物禁锢工具$()中的实体样本，方可在周围生成对应生物。$(br2)自动检测周边实体数量，过量时停止运作。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:mob_duplicator"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:mob_imprisonment_tool"
+        }
+    ]
+}

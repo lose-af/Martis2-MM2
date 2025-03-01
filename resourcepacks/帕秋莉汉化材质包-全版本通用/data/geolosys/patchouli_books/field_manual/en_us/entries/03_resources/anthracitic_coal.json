@@ -1,0 +1,14 @@
+{
+    "name": "无烟煤",
+    "icon": "geolosys:anthracite_coal_ore",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "无烟煤",
+            "item": "geolosys:anthracite_coal_ore",
+            "link_recipe": false,
+            "text": "这类层状矿脉生成于海平面下128米至116米之间，仅出现于主世界任意生物群系。"
+        }
+    ]
+}

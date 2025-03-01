@@ -1,0 +1,24 @@
+{
+    "name": "黏液炸药",
+    "icon": "thermal:slime_tnt",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "category": "thermal:explosives",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "黏液炸药将击退爆炸范围内的所有生物与玩家，并用黏液包裹他们，暂时赋予滑溜效果。具有该效果的生物和玩家将能在表面弹跳，如同落在黏液块上。爆炸方块与手雷的作用半径分别为9格和5格。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:slime_tnt",
+            "B.recipe": "thermal:slime_grenade_4"
+        },
+        {
+            "flag": "&mod:thermal_innovation,mod:thermal_locomotion",
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:slime_tnt_minecart",
+            "title": "黏液炸药矿车"
+        }
+    ]
+}

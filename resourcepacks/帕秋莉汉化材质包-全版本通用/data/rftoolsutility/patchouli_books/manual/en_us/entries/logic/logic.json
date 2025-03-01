@@ -1,0 +1,20 @@
+{
+    "name": "逻辑系统",
+    "icon": "rftoolsutility:logic",
+    "category": "rftoolsutility:category_rftoolsutility_logic",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该方块有三个红石输入端和一个输出端。通过图形界面，您可以将这三个输入端的任意组合映射到单一输出端。对于每个输入组合，您可以将输出设置为关闭、开启或保持状态。'保持'状态下输出端将维持切换到此状态前的信号状态。"
+        },
+        {
+            "type": "text",
+            "text": "[待补充:逻辑图形界面示意图]"
+        },
+        {
+            "type": "crafting",
+            "heading": "Digit",
+            "recipe": "rftoolsutility:logic"
+        }
+    ]
+}

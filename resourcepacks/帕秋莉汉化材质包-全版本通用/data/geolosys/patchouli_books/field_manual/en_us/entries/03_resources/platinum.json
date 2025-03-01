@@ -1,0 +1,14 @@
+{
+    "name": "铂",
+    "icon": "geolosys:platinum_ore",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "铂",
+            "item": "geolosys:platinum_ore",
+            "link_recipe": false,
+            "text": "该岩脉矿床生成于海平面下45米至89米间。仅存在于主世界，且仅生成于山地生物群系。"
+        }
+    ]
+}

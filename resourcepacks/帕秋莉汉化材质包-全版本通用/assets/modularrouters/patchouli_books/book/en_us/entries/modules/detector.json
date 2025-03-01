@@ -1,0 +1,15 @@
+{
+    "name": "探测器模块",
+    "category": "modularrouters:modules",
+    "icon": "modularrouters:detector_module",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该模块不搬运物品，而是检测路由器缓冲区中特定物品。当缓冲区内容符合过滤条件时，会按$(l:intro/modules#direction)设定方向/$发出红石信号。$(p)可通过模块GUI调整信号强度(默认15)和信号类型(默认弱信号)。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:detector_module"
+        }
+    ]
+}

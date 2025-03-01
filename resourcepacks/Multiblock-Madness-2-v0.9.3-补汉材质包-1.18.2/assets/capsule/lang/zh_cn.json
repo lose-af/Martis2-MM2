@@ -1,0 +1,20 @@
+{
+    "items.capsule.state_blueprint": "蓝图",
+    "capsule.gui.title": "胶囊重命名",
+    "jei.capsule.desc.blueprintCapsule": "可以使用链接库存中的材料多次部署结构。 \n结构是从制作时使用的胶囊复制的。 \n* 左键点击进行充能 \n* Shift+右键点击库存进行链接。 \n* 使用任何胶囊进行制作以更新结构。 \n* 如果链接库存中缺少材料，将使用玩家的库存。 \n* 可以染色。",
+    "capsule.error.blueprintCreationError": "在创建蓝图模板时发生错误。此蓝图可能无法正常工作。",
+    "capsule.tooltip.blueprintUseCharged": "* 右键点击：立即部署 \n* 潜行+右键点击：链接库存",
+    "capsule.feedback.linkedToInventory": "链接到“%s“（x=%s，y=%s，z=%s）",
+    "capsule.tooltip.instant": "瞬间",
+    "items.capsule.state_uncharged": "未充能蓝图",
+    "capsule.error.blueprintExcluded": "某些方块不支持蓝图。在蓝图中被忽略的方块：%s",
+    "capsule.gui.capsuleName": "胶囊名称",
+    "capsule.tooltip.cannotRotate": "某些复杂的方块无法旋转",
+    "capsule.tooltip.blueprint": "从链接的库存中获取物品来建造结构",
+    "capsule.error.cantDownload": "无法下载nbt模板：将胶囊物品拿在手中并确保它未部署且不为空。在尝试此命令之前，请尝试预览部署（不进行部署）。",
+    "capsule.error.blueprintDontMatch": "无法取消部署：您可以为蓝图胶囊充电（在空中左键单击），或确保您要取消部署的区域与蓝图结构相匹配（没有移除或添加的方块，库存中没有物品）。",
+    "capsule.tooltip.canRotate": "* 左键点击：旋转 \n* 潜行+左键点击：镜像",
+    "capsule.error.areaNotLoaded": "无法部署：目标区域未加载",
+    "enchantment.capsule.recall.desc": "部署后，胶囊立即返回玩家。",
+    "capsule.tooltip.blueprintUseUncharged": "* 左键点击：从库存中充能 \n* 右键点击：撤销上次部署 \n* 潜行+右键点击：链接库存"
+}

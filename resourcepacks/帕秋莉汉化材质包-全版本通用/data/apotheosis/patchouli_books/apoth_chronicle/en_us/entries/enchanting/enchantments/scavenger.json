@@ -1,0 +1,17 @@
+{
+    "name": "清道夫",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2)清道夫$() 是剑的杰作附魔。$(p)每级提供2.5%概率在击杀生物时双倍掉落战利品。$(p)成功时会视为击杀了两个相同实体。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "该附魔对所有实体生效，包括$(8)凋灵$()等Boss。$(p)可与$(9)掠夺$()叠加生效。"
+        }
+    ]
+}

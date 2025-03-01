@@ -1,0 +1,27 @@
+{
+    "name": "入门须知",
+    "icon": "minecraft:wooden_pickaxe",
+    "category": "geolosys:01_introduction",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "地矿系统模组通过类似群峦传说的矿脉生成机制，为采矿增添了挑战性。本质上，世界中的矿脉分布更贴近真实地质构造，您需要从地表样本勘探开始。这些样本往往标志着地下半径数米范围内存在大型矿藏。发现样本后，即可开始挖掘勘探！"
+        },
+        {
+            "type": "image",
+            "title": "地表样本",
+            "text": "地表矿样示意图例",
+            "images": [
+                "geolosys:textures/gui/patchouli/introduction/samples.png"
+            ],
+            "border": true
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "geolosys:introduction/02_ore_plutons"
+            ]
+        }
+    ]
+}

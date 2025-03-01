@@ -1,0 +1,17 @@
+{
+    "name": "孢子再生器",
+    "icon": "industrialforegoing:spores_recreator",
+    "category": "industrialforegoing:resource_production",
+    "sortnum": 8,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "用于复制$(6)真菌$()。$(br2)需消耗$(6)40$()RF/t能量及$(6)水$()(每次操作消耗$(6)100$()毫升)。$(br2)复制下界真菌需使用$(6)熔岩$()。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:spores_recreator"
+        }
+    ]
+}

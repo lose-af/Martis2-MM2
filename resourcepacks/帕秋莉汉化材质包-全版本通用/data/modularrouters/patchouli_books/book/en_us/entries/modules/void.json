@@ -1,0 +1,15 @@
+{
+    "name": "虚空模块",
+    "category": "modularrouters:modules",
+    "icon": "modularrouters:void_module",
+    "pages": [
+        {
+            "type": "text",
+            "text": "这个危险模块会永久销毁路由器缓存中的物品！强烈建议配置$(l:intro/modules#filter)白名单过滤器/$以防止误删贵重物品..."
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:void_module"
+        }
+    ]
+}

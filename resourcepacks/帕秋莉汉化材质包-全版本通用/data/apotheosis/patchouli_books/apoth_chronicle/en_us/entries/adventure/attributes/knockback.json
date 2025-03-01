@@ -1,0 +1,17 @@
+{
+    "name": "攻击击退",
+    "icon": "minecraft:piston",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)攻击击退$()决定攻击时击退敌人的距离。$(p)每点属性可将被击中的敌人推开半方块距离。$(p)武器和盾牌可能提供此属性。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 0$(p)$(9)$(n)最大值:$() 5$(p)注:击退附魔提供的加值与本属性等效，但不计入最大值上限。"
+        }
+    ]
+}

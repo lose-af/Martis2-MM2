@@ -1,0 +1,19 @@
+{
+    "name": "生物捕捉",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:spawner/spawner",
+    "flag": "apotheosis:spawner",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "使用$(9)刷怪蛋$()可更改刷怪笼生成的生物类型。$(p)通常情况下无法获取刷怪蛋，为此神化模组为剑类武器添加了$(9)捕捉$()附魔。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:cow_spawn_egg",
+            "title": "刷怪蛋机制",
+            "text": "$(9)捕捉$()附魔每级提供0.4%概率使生物死亡时掉落对应刷怪蛋。$(p)JEI中未显示刷怪蛋的生物无法通过此方式获取。"
+        }
+    ]
+}

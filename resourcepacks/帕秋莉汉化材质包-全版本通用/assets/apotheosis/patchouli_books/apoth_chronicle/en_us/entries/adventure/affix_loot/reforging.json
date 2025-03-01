@@ -1,0 +1,49 @@
+{
+    "name": "重铸系统",
+    "icon": "apotheosis:reforging_table",
+    "category": "apotheosis:adventure/affix_loot",
+    "flag": "apotheosis:adventure",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:reforging_table",
+            "text": "$(9)重铸台$()能使物品焕发新生，抹除旧词缀并赋予全新属性。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "借助$(9)稀有材料$()的原始潜能与$(9)宝石尘$()的妙用，现可为物品重铸全新词缀。$(p)重铸不限已有词缀物品，任何合格物品皆可进行。"
+        },
+        {
+            "type": "patchouli:image",
+            "title": "输入槽位",
+            "images": [
+                "apotheosis:textures/gui/book/reforge_slots.png"
+            ],
+            "text": "重铸台设有三个输入槽位。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "输入槽位",
+            "text": "顶部槽位放置需要重铸的物品。$(p)左侧槽位接收$(9)稀有材料$()。$(p)右侧槽位用于放置宝石尘。$(p)所有槽位必须填满才能成功重铸。"
+        },
+        {
+            "type": "patchouli:image",
+            "title": "重铸过程",
+            "images": [
+                "apotheosis:textures/gui/book/reforge_menu.png"
+            ],
+            "text": "与附魔台类似，系统会给出三个选项。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "重铸过程",
+            "text": "每个选项代表物品重铸后的潜在形态。不同选项的消耗各异，分别需要2/4/6份宝石尘、稀有材料和经验等级。$(p)点击心仪选项即可完成重铸。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "注意事项",
+            "text": "物品可多次重铸，但每次需先取回再放置。$(p)各选项强度并无优劣之分。$(p)重铸台使用你的附魔种子生成选项。"
+        }
+    ]
+}

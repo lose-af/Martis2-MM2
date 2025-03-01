@@ -1,0 +1,16 @@
+{
+    "name": "赞助者鸣谢！",
+    "icon": "minecraft:diamond",
+    "category": "geolosys:04_patrons",
+    "pages": [
+        {
+            "type": "patron_list"
+        },
+        {
+            "type": "link",
+            "link_text": "Patreon Page",
+            "text": "若您尚未成为赞助者，并希望提前体验主要测试版本，或在本书中留下您的名字，请点击下方按钮访问Patreon页面！",
+            "url": "https://patreon.com/oitsjustjose"
+        }
+    ]
+}

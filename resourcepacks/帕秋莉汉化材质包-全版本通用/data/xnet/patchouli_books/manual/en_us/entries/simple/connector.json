@@ -1,0 +1,12 @@
+{
+    "name": "连接接口",
+    "icon": "xnet:connector_red",
+    "category": "xnet:category_xnet_simple",
+    "sortnum": 30,
+    "pages": [
+        {
+            "type": "text",
+            "text": "需使用连接器将线缆接入方块或机器"
+        }
+    ]
+}

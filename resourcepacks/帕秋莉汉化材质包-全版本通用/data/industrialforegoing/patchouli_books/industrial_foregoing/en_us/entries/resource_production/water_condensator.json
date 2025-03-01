@@ -1,0 +1,17 @@
+{
+    "name": "水冷凝器",
+    "icon": "industrialforegoing:water_condensator",
+    "category": "industrialforegoing:resource_production",
+    "sortnum": 11,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "从周围水源生成$(6)水$()的设备。$(br2)当邻近至少$(6)2个水源方块$()时启动工作。$(br)增加更多水源方块并供应$(6)每次操作1000RF$()能量可显著提升运转速度。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:water_condensator"
+        }
+    ]
+}

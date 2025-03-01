@@ -1,0 +1,16 @@
+{
+    "name": "发送模块 Mk1",
+    "category": "modularrouters:modules",
+    "icon": "modularrouters:sender_module_1",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该模块尝试将路由器缓冲区的物品发送至其$(l:intro/modules#direction)设定方向/$的容器:$(li)最远距离8格(使用$(l:augments/range_up)距离增强组件/$可达16格)$(li)目标容器必须严格位于X/Y/Z轴线上$(li)路由器与目标间需有直达视线(透明方块可穿透，实体方块不可)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:sender_module_1",
+            "recipe2": "modularrouters:sender_module_1_alt"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "稳固立足",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)稳固立足$() 是靴子附魔。$(p)消除飞行状态对挖掘速度的惩罚。$(p)包括所有非地面站立状态下的惩罚。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "与$(9)水下速掘$()结合时，可在游泳时保持完整挖掘速度。"
+        }
+    ]
+}

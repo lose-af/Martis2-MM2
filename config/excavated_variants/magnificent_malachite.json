@@ -1,21 +1,21 @@
 {
-  "mod_id": "magnificent_malachite",
-  "provided_stones": [],
-  "provided_ores": [
-    {
-      "block_id": [
-        "magnificent_malachite:malachite_ore",
-        "magnificent_malachite:deepslate_malachite_ore"
-      ],
-      "en_name": "Malachite Ore",
-      "types": [
-        "stone"
-      ],
-      "id": "malachite_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ]
-    }
-  ]
+    "mod_id": "magnificent_malachite",
+    "provided_stones": [],
+    "provided_ores": [
+        {
+            "block_id": [
+                "magnificent_malachite:malachite_ore",
+                "magnificent_malachite:deepslate_malachite_ore"
+            ],
+            "en_name": "\u5b54\u96c0\u77f3\u77ff\u77f3",
+            "types": [
+                "stone"
+            ],
+            "id": "malachite_ore",
+            "stone": [
+                "stone",
+                "deepslate"
+            ]
+        }
+    ]
 }

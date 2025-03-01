@@ -1,0 +1,17 @@
+{
+    "name": "攻击距离",
+    "icon": "minecraft:skeleton_skull",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)攻击距离$()指使用近战武器时能攻击到目标的最远距离。$(p)该属性通常出现在武器上。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(9)$(n)基础值:$() 3.0$(p)$(9)$(n)最大值:$() 1024$(p)"
+        }
+    ]
+}

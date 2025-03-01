@@ -1,0 +1,6 @@
+{
+    "name": "功能模块",
+    "description": "功能模块需置入模块化路由器以定义路由器的功能。",
+    "icon": "modularrouters:sender_module_1",
+    "sortnum": 2
+}

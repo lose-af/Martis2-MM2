@@ -1,0 +1,6 @@
+{
+    "name": "强化升级",
+    "description": "强化升级可安装于模块化路由器以增强或调整其功能。",
+    "icon": "modularrouters:speed_upgrade",
+    "sortnum": 3
+}

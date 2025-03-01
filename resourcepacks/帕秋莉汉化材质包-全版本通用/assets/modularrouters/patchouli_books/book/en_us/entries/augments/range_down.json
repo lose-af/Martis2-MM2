@@ -1,0 +1,16 @@
+{
+    "name": "射程缩减强化",
+    "category": "modularrouters:augments",
+    "icon": "modularrouters:range_down_augment",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该强化适用于所有具备作用范围的模块(发送器$(l:modules/sender_1)Mk1/$/$(l:modules/sender_2)Mk2/$、牵引器$(l:modules/puller_1)Mk1/$/$(l:modules/puller_2)Mk2/$、挤出模块$(l:modules/extruder_1)Mk1/$/$(l:modules/extruder_2)Mk2/$、$(l:modules/fluid_2)流体模块Mk2/$、$(l:modules/vacuum)吸取模块/$)。$(p)可叠加安装，每层强化使模块作用范围缩减1格。$(p)建议配合$(l:modules/vacuum)吸取模块/$使用，调控其物品扫描范围。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:range_down_augment",
+            "recipe2": "modularrouters:range_down_from_up"
+        }
+    ]
+}

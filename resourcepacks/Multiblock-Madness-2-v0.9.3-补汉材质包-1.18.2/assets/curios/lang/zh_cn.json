@@ -1,0 +1,5 @@
+{
+    "commands.curios.dropAll.success": "为%s的所有槽位丢弃物品",
+    "commands.curios.drop.success": "在%s槽位中为%s丢弃物品",
+    "commands.curios.replace.success": "将%s的槽位%s替换为%s"
+}

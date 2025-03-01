@@ -1,19 +1,19 @@
 {
-  "mod_id": "purpeille",
-  "provided_stones": [],
-  "provided_ores": [
-    {
-      "block_id": [
-        "purpeille:purpur_remnants"
-      ],
-      "en_name": "Purpur Remnants",
-      "types": [
-        "end"
-      ],
-      "id": "purpur_remnants",
-      "stone": [
-        "end_stone"
-      ]
-    }
-  ]
+    "mod_id": "purpeille",
+    "provided_stones": [],
+    "provided_ores": [
+        {
+            "block_id": [
+                "purpeille:purpur_remnants"
+            ],
+            "en_name": "\u7d2b\u73c0\u6b8b\u9ab8",
+            "types": [
+                "end"
+            ],
+            "id": "purpur_remnants",
+            "stone": [
+                "end_stone"
+            ]
+        }
+    ]
 }

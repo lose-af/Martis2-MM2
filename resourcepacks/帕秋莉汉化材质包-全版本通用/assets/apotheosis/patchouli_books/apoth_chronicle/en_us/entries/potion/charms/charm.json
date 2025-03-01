@@ -1,0 +1,28 @@
+{
+    "name": "药水符咒",
+    "icon": "apotheosis:potion_charm",
+    "category": "apotheosis:potion/charms",
+    "flag": "apotheosis:potion",
+    "sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)药水符咒$()是能最大化药水效用的全新物品。$(p)普通药水需要一次性饮用并消耗全部效果，而$(9)药水符咒$()允许你分阶段使用效果。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:potion_charm",
+            "title": "药水符咒合成",
+            "text": "符咒由三瓶同类型药水加烈焰粉合成。$(p)单个符咒的持续时间超过三瓶药水的总和。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "使用药水符咒",
+            "text": "$(9)药水符咒$()需激活后生效。$(p)手持符咒右键即可激活。$(p)已激活符咒会发出微光。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "只要符咒处于激活状态且在物品栏中，就会持续消耗耐久施加药水效果。$(p)每次仅施加数秒效果。$(p)耐久耗尽时符咒会损毁。"
+        }
+    ]
+}

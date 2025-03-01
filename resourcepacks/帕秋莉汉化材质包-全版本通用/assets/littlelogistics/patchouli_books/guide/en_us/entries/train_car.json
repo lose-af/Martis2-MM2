@@ -1,0 +1,19 @@
+{
+    "name": "载客车厢",
+    "icon": "littlelogistics:seater_car",
+    "category": "littlelogistics:trains",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:seater_car",
+            "scale": 0.6,
+            "offset": 0.5,
+            "text": "可搭载一名玩家或生物的简易车厢。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:seater_car",
+            "text": "与原版矿车相同，可通过激活铁轨卸载"
+        }
+    ]
+}

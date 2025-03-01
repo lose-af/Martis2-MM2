@@ -1,0 +1,27 @@
+{
+    "name": "调控增强组件",
+    "category": "modularrouters:augments",
+    "icon": "modularrouters:regulator_augment",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该组件可精确控制物品在容器与路由器缓存间的传输数量。$(p)加装后模块界面将出现数值输入框，不同模块对数值的解读方式如下:"
+        },
+        {
+            "type": "text",
+            "text": "$(li)发送器$(l:modules/sender_1)Mk1/$/$(l:modules/sender_2)Mk2/$/$(l:modules/sender_3)Mk3/$及$(l:modules/player)玩家模块/$(插入模式):目标容器内该物品数量低于设定值时执行传输$(li)牵引器$(l:modules/puller_1)Mk1/$/$(l:modules/puller_2)Mk2/$及$(l:modules/player)玩家模块/$(提取模式):源容器内该物品数量高于设定值时执行提取"
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(l:modules/dropper)投掷器/$、$(l:modules/flinger)弹射器/$、$(l:modules/placer)放置器/$与$(l:modules/void)虚空/$:路由器缓存内该物品数量高于设定值时激活$(li)$(l:modules/breaker)破坏器/$与$(l:modules/vacuum)真空/$:路由器缓存内该物品数量低于设定值时激活"
+        },
+        {
+            "type": "text",
+            "text": "$(li)流体$(l:modules/fluid)Mk1/$/$(l:modules/fluid_2)Mk2/$模块:可设置目标储罐容量百分比或具体毫巴值(mB)。提取时目标储罐液量需$(italic)高于/$设定值，注入时需$(italic)低于/$设定值。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:regulator_augment"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "流体激光基座",
+    "icon": "industrialforegoing:fluid_laser_base",
+    "category": "industrialforegoing:resource_production",
+    "sortnum": 15,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "由$(l:resource_production/laser_drill)激光钻机$()充满能量后，将生成特定流体。需放置特定催化剂(非消耗品)、处于指定生物群系并按设定深度作业。$(br2)部分流体需在基座下方存在实体才能生成。$(br2)具体参数请查阅JEI。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:fluid_laser_base"
+        }
+    ]
+}

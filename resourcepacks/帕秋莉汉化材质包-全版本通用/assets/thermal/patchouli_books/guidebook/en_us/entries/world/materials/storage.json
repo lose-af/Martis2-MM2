@@ -1,0 +1,72 @@
+{
+    "name": "材料存储方案",
+    "icon": "thermal:invar_block",
+    "read_by_default": true,
+    "category": "thermal:materials",
+    "pages": [
+        {
+            "flag": "!mod:thermal_expansion",
+            "type": "patchouli:text",
+            "text": "热力系列为所有$(l:thermal:world/ores)矿物$(/l)、$(l:thermal:materials/alloys)合金$(/l)，以及火药、矿渣、富集矿渣和木炭提供存储块。跨模组合成时，配方中心物品决定存储块归属:例如用8个沉浸工程铜锭环绕热力铜锭，将合成热力铜块。"
+        },
+        {
+            "flag": "mod:thermal_expansion",
+            "type": "patchouli:text",
+            "text": "热力系列为所有$(l:thermal:world/ores)矿物$(/l)、$(l:thermal:materials/alloys)合金$(/l)，以及火药、矿渣、富集矿渣和木炭提供存储块。可通过$(l:thermal:technology/machines/press)多功能伺服压机$(/l)实现自动打包/解包。"
+        },
+        {
+            "flag": "mod:thermal_expansion",
+            "type": "patchouli:text",
+            "text": "在与其他模组的存储块兼容性方面，热力膨胀遵循合成配方中心物品决定合成哪个模组存储块的规则。例如，用8个沉浸工程铜锭环绕热力膨胀铜锭，可以合成热力膨胀铜块。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:storage/charcoal_block",
+            "B.recipe": "thermal:storage/gunpowder_block"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:storage/slag_block",
+            "B.recipe": "thermal:storage/rich_slag_block"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:storage/apatite_block",
+            "B.recipe": "thermal:storage/cinnabar_block"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:storage/niter_block",
+            "B.recipe": "thermal:storage/sulfur_block"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:storage/tin_block",
+            "B.recipe": "thermal:storage/nickel_block"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:storage/lead_block",
+            "B.recipe": "thermal:storage/silver_block"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:storage/bronze_block",
+            "B.recipe": "thermal:storage/invar_block"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:storage/electrum_block",
+            "B.recipe": "thermal:storage/constantan_block"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:storage/signalum_block",
+            "B.recipe": "thermal:storage/lumium_block"
+        },
+        {
+            "type": "thermal:crafting_page",
+            "recipe": "thermal:storage/enderium_block"
+        }
+    ]
+}

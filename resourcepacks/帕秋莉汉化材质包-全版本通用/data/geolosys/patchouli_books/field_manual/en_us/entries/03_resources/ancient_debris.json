@@ -1,0 +1,14 @@
+{
+    "name": "远古残骸",
+    "icon": "geolosys:ancient_debris_ore",
+    "category": "geolosys:03_resources",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "远古残骸",
+            "item": "geolosys:ancient_debris_ore",
+            "link_recipe": false,
+            "text": "这类岩脉矿藏生成于海平面下42米至56米之间，仅出现于下界任意生物群系。"
+        }
+    ]
+}

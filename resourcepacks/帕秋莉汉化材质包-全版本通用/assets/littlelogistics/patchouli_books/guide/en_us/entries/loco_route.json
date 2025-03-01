@@ -1,0 +1,16 @@
+{
+    "name": "机车路线",
+    "icon": "littlelogistics:locomotive_route",
+    "category": "littlelogistics:items",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:locomotive_route",
+            "text": "此物品存储机车目的地/路径点。机车始终会前往当前循环中未访问的最近目的地。需配合$(l:auto_switch_rails)自动切换铁轨$()使用。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "右键铁轨添加/移除目的地。可在工作台中复制或重置。"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "modularrouters.guiText.label.inspectionOp.GE": "大于等于",
+    "modularrouters.guiText.label.inspectionOp.LE": "小于等于",
+    "modularrouters.guiText.tooltip.regulator.labelFluidmB": "%d 毫升"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "机械泥土",
+    "icon": "industrialforegoing:mechanical_dirt",
+    "category": "industrialforegoing:resource_production",
+    "sortnum": 1,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "灌注未知科技的方块，满足条件时可快速生成$(6)生物$()。$(br2)首先需要$(6)1000$()RF能量与$(6)20mb$()$(6)液态肉$()作为启动消耗；其次需符合常规生物生成条件(即光照等级≤$(6)7$()且区块已加载)。$(br2)"
+        },
+        {
+            "type": "text",
+            "text": "当某方块接收$(6)能量$()或$(6)液态肉$()时，将自动平均分配给所有相邻的同类方块。"
+        }
+    ]
+}

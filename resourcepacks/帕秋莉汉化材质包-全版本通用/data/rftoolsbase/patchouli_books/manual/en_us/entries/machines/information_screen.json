@@ -1,0 +1,15 @@
+{
+    "name": "信息屏幕",
+    "icon": "rftoolsbase:information_screen",
+    "category": "rftoolsbase:category_machines",
+    "pages": [
+        {
+            "type": "text",
+            "text": "信息屏幕是可紧邻机器放置的显示装置。默认显示能量信息，但某些机器(如RFTools能源模组的能量核心)支持更多显示模式。"
+        },
+        {
+            "type": "text",
+            "text": "使用扳手右键点击信息屏幕可切换显示模式(需连接设备支持该功能)"
+        }
+    ]
+}

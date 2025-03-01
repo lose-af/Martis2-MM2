@@ -1,0 +1,17 @@
+{
+    "name": "物品附魔能力",
+    "icon": "minecraft:golden_sword",
+    "category": "apotheosis:enchanting/changes",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "在原版中，所有未明确设置$(l:apotheosis:enchanting/table/enchantability)物品附魔能力$()的物品默认值为零。$(p)Apotheosis模组将此默认值改为1。$(p)这导致某些物品意外获得了附魔能力。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "此项调整不会改变已明确设置附魔能力的物品数值。$(p)附魔能力为零的物品永远无法被附魔。"
+        }
+    ]
+}

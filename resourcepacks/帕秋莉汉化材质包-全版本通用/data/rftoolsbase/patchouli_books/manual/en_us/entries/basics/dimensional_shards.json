@@ -1,0 +1,62 @@
+{
+    "name": "维度碎片",
+    "icon": "rftoolsbase:dimensionalshard",
+    "category": "rftoolsbase:category_basics",
+    "extra_recipe_mappings": {
+        "rftoolsbase:dimensionalshard": 0,
+        "rftoolsbase:dimensionalshard_overworld": 0,
+        "rftoolsbase:dimensionalshard_nether": 0,
+        "rftoolsbase:dimensionalshard_end": 0
+    },
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)维度碎片矿石$()生成于各维度地下的小型矿脉中，受$(thing)时运$()附魔影响，破坏后掉落$(item)维度碎片$()。$(br2)该材料用于复杂合成配方，也可用于$(l:rftoolsbase:machines/infusing)机器灌注$()。"
+        },
+        {
+            "type": "image",
+            "images": [
+                "rftoolsbase:textures/manual/image_ore.png"
+            ],
+            "text": "主世界地下某处的维度碎片矿脉。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolsbase:infused_diamond",
+            "recipe2": "rftoolsbase:infused_enderpearl"
+        },
+        {
+            "type": "text",
+            "flag": "mod:rftoolsdim",
+            "text": "$(item)维度碎片$()还可用于制作多种$(item)装饰性方块$()。"
+        },
+        {
+            "type": "text",
+            "flag": "!mod:rftoolsdim",
+            "text": "若安装了RFTools Dimensions，你本可以制作超酷的装饰方块，但既然没有，那就算啦:("
+        },
+        {
+            "type": "crafting",
+            "flag": "mod:rftoolsdim",
+            "recipe": "rftoolsdim:dimensional_blank_block",
+            "recipe2": "rftoolsdim:dimensional_block"
+        },
+        {
+            "type": "crafting",
+            "flag": "mod:rftoolsdim",
+            "recipe": "rftoolsdim:dimensional_small_blocks",
+            "recipe2": "rftoolsdim:dimensional_cross_block"
+        },
+        {
+            "type": "crafting",
+            "flag": "mod:rftoolsdim",
+            "recipe": "rftoolsdim:dimensional_pattern1_block",
+            "recipe2": "rftoolsdim:dimensional_pattern2_block"
+        },
+        {
+            "type": "crafting",
+            "flag": "mod:rftoolsdim",
+            "recipe": "rftoolsdim:dimensional_cross2_block"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "rftoolsbuilder.entry.shield_advanced": "Advanced",
+    "rftoolsbuilder.page.shield_advanced0": "",
+    "name": "进阶应用",
+    "icon": "minecraft:nether_star",
+    "category": "rftoolsbuilder:category_rftoolsbuilder_shield",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "text",
+            "text": "部分高阶用法 @待补充"
+        }
+    ]
+}

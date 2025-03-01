@@ -1,0 +1,24 @@
+{
+    "name": "充能灌注器",
+    "icon": "thermal:charge_bench",
+    "category": "thermal:technology",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "充能灌注器是可同时为最多9件物品充能的设备。相较于$(l:thermal:technology/tinker_bench)匠魂台$(/l)，其优势在于更快的充能速度，并支持自动化输入输出(如通过漏斗)。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:charge_bench",
+            "title": "充能灌注器",
+            "text": "$(o)古籍记载同名设备曾具备直接向非工具类物品灌注红石通量的能力，此举显然违背物理法则。$()"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "增强模块兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)集成元件$(/l)$(li)$(l:thermal:technology/augments/item_filter)物品过滤器$(/l)$(li)$(l:thermal:technology/augments/rf_coil)扩展型射频线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)稳压射频线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)高通量射频线圈$(/l)"
+        }
+    ]
+}

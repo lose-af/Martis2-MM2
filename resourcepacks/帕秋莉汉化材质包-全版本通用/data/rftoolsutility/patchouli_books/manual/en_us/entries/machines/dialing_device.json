@@ -1,0 +1,15 @@
+{
+    "name": "拨号装置",
+    "icon": "rftoolsutility:dialing_device",
+    "category": "rftoolsutility:category_rftoolsutility_machines",
+    "pages": [
+        {
+            "type": "text",
+            "text": "拨号装置用于将$(l:rftoolsutility:machines/matter_transmitter)物质发射器$()与$(l:rftoolsutility:machines/matter_receiver)物质接收器$()建立连接。注:发射器需在装置附近，接收器可位于任意位置(包括其他维度)$(br2)$(5)灌注$()该装置可降低能耗"
+        },
+        {
+            "type": "text",
+            "text": "操作流程:首先选择物质发射器(若范围内仅存在一个将自动选定)，随后在底部列表中选择物质接收器，点击'持续连接'或'单次连接'。选择'单次连接'时，传送完成后连接将自动中断"
+        }
+    ]
+}

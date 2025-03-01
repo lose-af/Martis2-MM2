@@ -1,0 +1,24 @@
+{
+    "name": "雷暴炸药",
+    "icon": "thermal:lightning_tnt",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "category": "thermal:explosives",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "爆雷炸药可在区域内召唤闪电，并使范围内的生物获得$(l:thermal:world/mobs/blitz)震慑II$(/l)效果。爆炸方块与手雷的作用半径分别为9格和5格。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:lightning_tnt",
+            "B.recipe": "thermal:lightning_grenade_4"
+        },
+        {
+            "flag": "&mod:thermal_innovation,mod:thermal_locomotion",
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:lightning_tnt_minecart",
+            "title": "爆雷炸药矿车"
+        }
+    ]
+}

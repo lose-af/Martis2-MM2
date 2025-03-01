@@ -1,0 +1,13 @@
+{
+    "name": "无限钻机",
+    "icon": "industrialforegoing:infinity_drill",
+    "category": "industrialforegoing:tools",
+    "sortnum": 3,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "无尽钻头是一种可大范围采矿的工具，等阶越高开采范围越大。"
+        }
+    ]
+}

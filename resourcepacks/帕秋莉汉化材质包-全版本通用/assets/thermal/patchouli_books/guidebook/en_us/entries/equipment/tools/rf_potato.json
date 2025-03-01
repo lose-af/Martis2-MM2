@@ -1,0 +1,18 @@
+{
+    "name": "电容马铃薯",
+    "icon": "thermal:rf_potato",
+    "category": "thermal:tools",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "用于存储和传输RF能量。不可用于补充玩家背包内物品能量。可附魔$(l:thermal:world/holding)容量保持$(/l)以提升RF容量。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:tools/rf_potato",
+            "title": "电容马铃薯",
+            "text": "$(br2)$(o)'不耍花样。这个马铃薯只能产生1.1伏电压。我真的连骗你的精力都没有。'"
+        }
+    ]
+}

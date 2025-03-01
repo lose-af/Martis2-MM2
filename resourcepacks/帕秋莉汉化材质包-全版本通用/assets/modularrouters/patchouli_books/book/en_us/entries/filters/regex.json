@@ -1,0 +1,34 @@
+{
+    "name": "正则表达式过滤器",
+    "category": "modularrouters:filters",
+    "icon": "modularrouters:regex_filter",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该过滤器通过正则表达式匹配物品的$(strong)注册名/$。正则表达式功能强大但需学习方能发挥其潜力。基础应用并不困难，推荐访问$(l:https://regexone.com/)RegexOne教程网站/$学习。"
+        },
+        {
+            "type": "text",
+            "title": "注册名机制",
+            "text": "因物品过滤完全由服务端执行，无法获知物品显示名称。故所有匹配均基于物品内部$(thing)注册名/$。可通过$(thing)F3+H/$切换高级提示信息查看注册名。$(p)注意:匹配仅针对冒号后的注册名部分。"
+        },
+        {
+            "type": "text",
+            "text": "$(thing)打开模块配置界面:$(thing)右键点击/$过滤器，或对已安装的过滤器使用$(thing)中键点击/$/按下$(bold)$(4)[$(k:modularrouters.configure)]/$键。$(li)在顶部文本框输入正则表达式，按$(thing)回车/$或点击绿色$(bold)$(2)+/$按钮添加(语法正确则加入列表)，单个过滤器最多支持6条表达式。$(li)点击红色$(bold)$(4)X/$移除对应表达式。$(li)匹配过程不区分大小写。"
+        },
+        {
+            "type": "text",
+            "title": "示例一",
+            "text": "使用'ore'正则式可匹配所有注册名含'ore'的物品(如“iron_ore“、“gold_ore“)。但此表达式也会匹配到“drill_core“。改用$(1)_ore/$可规避，更精准的$(1)_ore$/$将确保'_ore'位于注册名末尾。"
+        },
+        {
+            "type": "text",
+            "title": "示例二",
+            "text": "配置一个$(l:modules/player)玩家模块/$从玩家主物品栏提取物品，并在模块内放置包含$(1)_ore/$的正则表达式过滤器。这可将任何矿石从物品栏提取至矿石处理系统，无论身处何方——当你在远离基地采矿时，此功能尤为实用，能即时将矿石传送回基地。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:regex_filter"
+        }
+    ]
+}

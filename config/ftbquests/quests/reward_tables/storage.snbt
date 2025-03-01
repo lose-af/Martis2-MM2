@@ -1,7 +1,7 @@
 {
 	id: "5AA20E8CC5BFE54F"
 	order_index: 5
-	title: "Storage"
+	title: "存储系统"
 	loot_size: 1
 	rewards: [
 		{
@@ -13,6 +13,8 @@
 				}
 			}
 		}
-		{ item: "sophisticatedstorage:basic_to_iron_tier_upgrade" }
+		{
+			item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+		}
 	]
 }

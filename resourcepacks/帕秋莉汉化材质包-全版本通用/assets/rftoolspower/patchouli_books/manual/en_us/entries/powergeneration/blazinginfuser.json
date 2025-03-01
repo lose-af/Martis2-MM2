@@ -1,0 +1,16 @@
+{
+    "name": "炽焱灌注机",
+    "icon": "rftoolspower:blazing_infuser",
+    "category": "rftoolspower:category_rftoolspower_powergeneration",
+    "sortnum": 26,
+    "pages": [
+        {
+            "type": "text",
+            "text": "经$(l:rftoolspower:powergeneration/blazingagitator)炽焱搅拌机$(/l)处理的烈焰棒，可通过灌注催化剂堆栈进一步提升性能(注:灌注后的烈焰棒不可再用于辅助其他烈焰棒的加工)。"
+        },
+        {
+            "type": "text",
+            "text": "催化剂(整组加成效果):$(br2)$(li)$(item)红石$() 能量+40%$(li)$(item)荧石$() 能量+10%，持续时间+30%$(li)$(item)石英$() 持续时间+40%$(li)$(item)维度碎片$() 能量+60%，持续时间+60%$(li)$(item)下界之星$() 能量+120%，持续时间+120%$(li)$(item)恶魂之泪$() 能量+80%，持续时间+80%"
+        }
+    ]
+}

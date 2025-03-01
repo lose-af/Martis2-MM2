@@ -1,0 +1,4 @@
+{
+    "sodium.options.chunk_memory_allocator.async": "异步",
+    "sodium.options.chunk_memory_allocator.swap": "交换"
+}

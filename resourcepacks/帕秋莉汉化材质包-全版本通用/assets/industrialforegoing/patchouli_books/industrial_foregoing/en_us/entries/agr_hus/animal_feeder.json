@@ -1,0 +1,17 @@
+{
+    "name": "动物喂食机",
+    "icon": "industrialforegoing:animal_feeder",
+    "category": "industrialforegoing:agriculture_husbandry",
+    "sortnum": 8,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "该机器通过投放饲料$(6)喂养$()动物以促进繁殖。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:animal_feeder"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "储物驳船",
+    "icon": "littlelogistics:barge",
+    "category": "littlelogistics:vessels",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:barge",
+            "scale": 0.6,
+            "offset": 0.5,
+            "text": "可储存物品的简易驳船，类似于运输矿车。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:barge",
+            "text": "必须停靠并作为拖船编队成员，方可与漏斗交互。"
+        }
+    ]
+}

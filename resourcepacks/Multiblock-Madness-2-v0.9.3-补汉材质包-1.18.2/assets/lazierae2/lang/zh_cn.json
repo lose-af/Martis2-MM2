@@ -1,0 +1,15 @@
+{
+    "tooltip.lazierae2.upgrade.time.value": "升级时间：%dx",
+    "tooltip.lazierae2.energy.current.value": "当前能量：%s",
+    "tooltip.lazierae2.item.energy.value": "物品能量：%s",
+    "tooltip.lazierae2.progress.time_multiplier.value": "时间倍数：%dx",
+    "tooltip.lazierae2.progress.recipe_energy.value": "配方能量：%s",
+    "tooltip.lazierae2.item.upgrades.value": "物品升级：%d / %d",
+    "tooltip.lazierae2.energy.capacity.value": "能量容量：%s",
+    "tooltip.lazierae2.progress.energy_multiplier.value": "能量倍数：%dx",
+    "tooltip.lazierae2.progress.energy.value": "能量：%s",
+    "io_setting.lazierae2.io": "输入/输出",
+    "tooltip.lazierae2.upgrade.current.value": "当前升级：%d / %d",
+    "tooltip.lazierae2.upgrade.additional.value": "额外升级：%s",
+    "tooltip.lazierae2.upgrade.energy.value": "升级能量：%dx"
+}

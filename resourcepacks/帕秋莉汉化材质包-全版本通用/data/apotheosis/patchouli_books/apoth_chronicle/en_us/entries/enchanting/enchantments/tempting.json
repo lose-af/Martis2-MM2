@@ -1,0 +1,13 @@
+{
+    "name": "引诱",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)引诱$() 是锄头附魔。$(p)持有时所有动物会跟随你，如同手持其繁殖食物。"
+        }
+    ]
+}

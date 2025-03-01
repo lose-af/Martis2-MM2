@@ -1,0 +1,24 @@
+{
+    "name": "末影干扰炸药",
+    "icon": "thermal:ender_tnt",
+    "read_by_default": true,
+    "flag": "mod:thermal_innovation",
+    "category": "thermal:explosives",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "末影干扰炸药将产生持续10秒的末影干扰场，随机传送场内大多数生物/玩家至128格范围内。初始爆炸会伤害并阻止末影人与螨虫传送15秒。炸药块与手雷爆炸半径分别为9格和5格。类似末影人，此类炸药遇水失效！"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:ender_tnt",
+            "B.recipe": "thermal:ender_grenade_4"
+        },
+        {
+            "flag": "&mod:thermal_innovation,mod:thermal_locomotion",
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:ender_tnt_minecart",
+            "title": "末影干扰炸药矿车"
+        }
+    ]
+}

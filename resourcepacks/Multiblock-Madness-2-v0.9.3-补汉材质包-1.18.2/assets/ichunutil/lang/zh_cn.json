@@ -1,0 +1,16 @@
+{
+    "config.ichunutil.prop.bnsDoubleClickSpeed.desc": "注册双击的速度（以刻为单位）。",
+    "config.ichunutil.prop.bnsDockPadding.desc": "为停靠的窗口添加多少内边距。",
+    "gui.ichunutil.configs.needsRestart": "某些配置更改需要重启才能生效！",
+    "config.ichunutil.prop.bnsTheme.name": "主题",
+    "gui.ichunutil.configs.configs": "配置",
+    "config.ichunutil.prop.bnsTooltipCooldown.desc": "鼠标悬停在一个元素上多久（以刻为单位）后显示工具提示。",
+    "config.ichunutil.prop.bnsDockPadding.name": "停靠窗口内边距",
+    "config.ichunutil.prop.bnsDoubleClickSpeed.name": "双击速度",
+    "config.ichunutil.prop.bnsMinecraftStyle.name": "B&S 我的世界风格",
+    "config.ichunutil.prop.bnsTooltipCooldown.name": "工具提示冷却时间",
+    "config.ichunutil.prop.bnsTheme.desc": "用于 Boxes & Stuff 的主题",
+    "config.ichunutil.prop.bnsMinecraftStyle.desc": "以我的世界风格渲染 B&S 的 GUI。\n0 = 默认风格\n1 = 原版风格\n2 = 材质包风格。",
+    "config.ichunutil.prop.bnsDockBorder.desc": "在 iChunUtil 认为你正在尝试停靠窗口之前的像素数。",
+    "config.ichunutil.prop.bnsDockBorder.name": "停靠边框大小"
+}

@@ -1,0 +1,5 @@
+{
+    "trashcans.gui.energy_trash_can.limit.change1": "SHIFT %s（按住SHIFT键）",
+    "trashcans.gui.energy_trash_can.limit.change2": "CTRL %s（按住CTRL键）",
+    "trashcans.gui.energy_trash_can.limit.change3": "CTRL 和 SHIFT %s"
+}

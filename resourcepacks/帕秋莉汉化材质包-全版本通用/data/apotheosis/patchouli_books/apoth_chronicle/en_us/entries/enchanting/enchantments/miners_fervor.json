@@ -1,0 +1,17 @@
+{
+    "name": "矿工狂热",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(5)矿工狂热$()是可应用于所有工具的诡异附魔。$(p)使你能极速破坏方块，但永远无法瞬间破坏。$(p)与$(9)效率$()互斥。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "虽存在速度上限，但每级加成都远高于$(9)效率$()。$(p)这使其成为基础速度缓慢工具的完美选择。"
+        }
+    ]
+}

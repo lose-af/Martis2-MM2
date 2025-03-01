@@ -1,0 +1,24 @@
+{
+    "name": "序列组装机",
+    "icon": "thermal:machine_crafter",
+    "category": "thermal:machines",
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "序列组装机是自动化合成装置。设定好合成配方后，将自动从内部存储提取物品和液体进行合成。需要消耗特定流体桶的配方可直接使用内部储罐中的液体进行合成。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:machine_crafter",
+            "title": "序列组装机",
+            "text": "注意:本设备当前无法防止某种材料过量填充！批量处理装置将随热力动力学模组推出，敬请期待！"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "强化模组兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)集成元件$(/l)$(li)$(l:thermal:technology/augments/item_filter)物品过滤器$(/l)$(li)$(l:thermal:technology/augments/xp_storage)知识富集器$(/l)$(li)$(l:thermal:technology/augments/rf_coil)扩容型RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)稳定化RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)高通量RF线圈$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)扩容储罐结构$(/l)$(li)$(l:thermal:technology/augments/machine_speed)通量链接增幅器$(/l)$(li)$(l:thermal:technology/augments/machine_efficiency)通量效率$(/l)"
+        }
+    ]
+}

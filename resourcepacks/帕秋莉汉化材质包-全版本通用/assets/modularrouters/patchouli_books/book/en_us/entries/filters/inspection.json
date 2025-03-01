@@ -1,0 +1,23 @@
+{
+    "name": "属性检测过滤器",
+    "category": "modularrouters:filters",
+    "icon": "modularrouters:inspection_filter",
+    "pages": [
+        {
+            "type": "text",
+            "text": "该过滤器通过物品各类数值属性进行匹配，当前支持以下检测项:$(li)流体容器(桶、储罐等)的液体容量百分比$(li)能量容器(电池、充能工具等)的能量存储百分比"
+        },
+        {
+            "type": "text",
+            "text": "$(li)物品最高附魔等级(可过滤附魔物品，如来自刷怪塔的战利品)$(li)工具/武器的耐久度百分比$(li)食物的饱食度恢复量(以半鸡腿为单位，如牛排对应数值为8)。"
+        },
+        {
+            "type": "text",
+            "text": "对于完全不具备耐久度属性的物品，返回值恒定为-1。例如一块$(item)圆石/$的耐久值为-1。这有别于返回0值的情况——当工具的剩余耐久度<1%时才会返回0。$(p)该过滤器可用于自动分拣受损/耗尽物品以便修复/充能等操作。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "modularrouters:inspection_filter"
+        }
+    ]
+}

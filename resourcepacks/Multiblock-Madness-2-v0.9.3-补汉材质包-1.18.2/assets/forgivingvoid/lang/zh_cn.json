@@ -1,0 +1,13 @@
+{
+    "text.autoconfig.forgivingvoid.option.preventDeath": "防止死亡",
+    "text.autoconfig.forgivingvoid.option.disableVanillaAntiCheatWhileFalling": "下落时禁用原版反作弊",
+    "text.autoconfig.forgivingvoid.title": "宽容虚空",
+    "text.autoconfig.forgivingvoid.option.triggerInNether": "在地狱中触发",
+    "text.autoconfig.forgivingvoid.option.triggerInOverworld": "在主世界中触发",
+    "text.autoconfig.forgivingvoid.option.damageOnFall": "摔落伤害",
+    "text.autoconfig.forgivingvoid.option.dimensionAllowList": "允许的维度清单",
+    "text.autoconfig.forgivingvoid.option.triggerAtY": "触发高度",
+    "text.autoconfig.forgivingvoid.option.fallingHeight": "下落高度",
+    "text.autoconfig.forgivingvoid.option.dimensionDenyList": "禁止的维度清单",
+    "text.autoconfig.forgivingvoid.option.triggerInEnd": "在末地中触发"
+}

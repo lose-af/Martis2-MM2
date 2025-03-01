@@ -1,0 +1,26 @@
+{
+    "name": "核心组件",
+    "icon": "thermal:upgrade_augment_3",
+    "category": "thermal:augments",
+    "sortnum": -1,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "升级型增强模组可全面提升机械、装置、能源炉及工具的基础性能:它们会按比例调整基础RF存储/传输量、流体存储/传输量以及RF/t消耗/生成量。该全局缩放系数可与其它增强模组调整值叠加，即使这些调整值带有下划线标记。但与其他带下划线的调整值相同，仅最高缩放系数生效。"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "例如:装配共鸣核心组件、硬化核心组件和$(l:thermal:technology/augments/rf_coil_storage)稳定型RF线圈$(/l)的$(l:thermal:technology/machines/furnace)红石炉$(/l)，其RF存储量将达24倍，RF传输量达8倍，基础RF/t达4倍。$(br2)硬化、强化、共鸣核心组件的缩放系数分别为2倍、3倍、4倍。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:augments/upgrade_augment_1",
+            "B.recipe": "thermal:augments/upgrade_augment_2"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:augments/upgrade_augment_3"
+        }
+    ]
+}

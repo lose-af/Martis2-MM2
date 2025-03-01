@@ -1,0 +1,17 @@
+{
+    "name": "流体放置器",
+    "icon": "industrialforegoing:fluid_placer",
+    "category": "industrialforegoing:resource_production",
+    "sortnum": 4,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "用于放置流体。$(br2)放置内部容器中的流体需消耗$(6)1000$()RF能量。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:fluid_placer"
+        }
+    ]
+}

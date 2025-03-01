@@ -1,0 +1,17 @@
+{
+    "name": "方块放置器",
+    "icon": "industrialforegoing:block_placer",
+    "category": "industrialforegoing:resource_production",
+    "sortnum": 5,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "从内部容器取出方块进行放置。$(br2)每次操作消耗$(6)1000$()RF。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:block_placer"
+        }
+    ]
+}

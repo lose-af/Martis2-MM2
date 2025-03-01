@@ -1,0 +1,21 @@
+{
+    "name": "勘探技巧",
+    "icon": "geolosys:prospectors_pick",
+    "category": "geolosys:02_prospecting",
+    "pages": [
+        {
+            "type": "crafting",
+            "title": "勘探技巧",
+            "text": "探矿镐(配方如上图所示)是你在长期地下探索后不可或缺的工具。这个工具需要消耗相当数量的铁锭制作，可通过多种方式帮助你探测其他矿脉。",
+            "recipe": "geolosys:crafting/prospectors_pick_from_crafting"
+        },
+        {
+            "type": "text",
+            "text": "手持时，镐子会显示你当前位于海平面以上/以下的米数。结合本书可判断需深入挖掘的深度。$(br2)在海平面以上右键使用时，若周边存在矿藏会提示大致方位。在地下使用时，会扫描视线方向的可配置区域并反馈潜在资源。"
+        },
+        {
+            "type": "text",
+            "text": "若该方向无资源，则会反馈该区域是否存在矿脉(若有)，助你判断勘探路线是否正确。"
+        }
+    ]
+}

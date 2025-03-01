@@ -1,0 +1,23 @@
+{
+    "name": "植生培养仪",
+    "icon": "thermal:machine_insolator",
+    "category": "thermal:machines",
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "植生培养仪利用RF能量、水及$(l:thermal:world/materials/catalysts)可选的肥料$(/l)来培育作物、花卉与树木。"
+        },
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:machine_insolator",
+            "title": "植生培养仪"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "增容兼容性",
+            "text": "$(li)$(l:thermal:technology/augments/integral_components)整合组件$(/l)$(li)$(l:thermal:technology/augments/item_filter)物品过滤器$(/l)$(li)$(l:thermal:technology/augments/xp_storage)知识浓缩器$(/l)$(li)$(l:thermal:technology/augments/rf_coil)扩容型RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)稳定化RF线圈$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)高通量RF线圈$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)扩容储罐结构$(/l)$(li)$(l:thermal:technology/augments/machine_speed)通量链路增幅器$(/l)$(li)$(l:thermal:technology/augments/machine_efficiency)通量效率优化$(/l)$(li)$(l:thermal:technology/augments/machine_output)辅助工艺筛分器$(/l)$(li)$(l:thermal:technology/augments/machine_null)辅助仙人掌装置$(/l)$(li)$(l:thermal:technology/augments/machine_catalyst)催化回收仓$(/l)$(li)$(l:thermal:technology/augments/machine_cycle)循环处理系统$(/l)"
+        }
+    ]
+}

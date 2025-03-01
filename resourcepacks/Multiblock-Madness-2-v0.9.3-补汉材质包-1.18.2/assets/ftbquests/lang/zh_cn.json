@@ -1,0 +1,12 @@
+{
+    "ftbquests.quest.x": "X坐标",
+    "ftbquests.chapter.image.y": "Y坐标",
+    "ftbquests.task.ftbquests.buildcraft_mj.text": "%d 水力动能",
+    "ftbquests.quest.y": "是",
+    "ftbquests.reward_table.loot_crate.id": "ID编号",
+    "ftbquests.reward.ftbquests.command.silent": "静音",
+    "ftbquests.task.ftbquests.ic2_energy.text": "%d 欧能",
+    "ftbquests.task.ftbquests.ic2_energy.value": "欧元",
+    "ftbquests.task.ftbquests.tech_reborn_energy.text": "%d 电能",
+    "ftbquests.chapter.image.x": "X坐标"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "辅助反应仓",
+    "icon": "thermal:dynamo_output_augment",
+    "category": "thermal:augments",
+    "read_by_default": true,
+    "flag": "mod:thermal_expansion",
+    "pages": [
+        {
+            "type": "thermal:double_crafting_page",
+            "A.recipe": "thermal:augments/dynamo_output_augment",
+            "title": "辅助反应仓",
+            "text": "该增强模组使能源炉最大产能提升100%，但效率调整为0.9倍。"
+        }
+    ]
+}

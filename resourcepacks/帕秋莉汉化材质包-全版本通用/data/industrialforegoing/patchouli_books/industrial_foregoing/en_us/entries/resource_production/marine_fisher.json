@@ -1,0 +1,17 @@
+{
+    "name": "海洋捕捞机",
+    "icon": "industrialforegoing:marine_fisher",
+    "category": "industrialforegoing:resource_production",
+    "sortnum": 3,
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "猫猫最好的朋友 <3$(br2)当置于至少$(6)3x3$()面积、$(6)1$()格深度的水池上方时，将启动$(6)捕鱼$()程序，每次消耗$(6)5000$()RF能量将渔获(或许还有其他惊喜？)存入内部库存。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "industrialforegoing:marine_fisher"
+        }
+    ]
+}
