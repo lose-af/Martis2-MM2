@@ -1,0 +1,13 @@
+name = "LDLib"
+filename = "LowDragLib-1.18.2-1.0.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d4fa859904ea9a33042982cf5424b7d4da276a20"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4732622
+project-id = 626676

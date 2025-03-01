@@ -1,0 +1,13 @@
+name = "Compressed Creativity"
+filename = "compressedcreativity-1.18.2-0.1.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "81c7d6e92c5c50e13d8a84feb7a25e3715cf33fb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4792468
+project-id = 549381

@@ -1,0 +1,13 @@
+name = "Large Ore Deposits"
+filename = "AdLods-1.18.2-6.0.5.0-build.1586.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6781d8934fb55be2b2d893b64af591f15c3a38a8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5222256
+project-id = 318833

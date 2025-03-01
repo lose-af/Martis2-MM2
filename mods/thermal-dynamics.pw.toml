@@ -1,0 +1,13 @@
+name = "Thermal Dynamics"
+filename = "thermal_dynamics-1.18.2-9.2.2.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "753f95e4f9880a513440ed544d393bb2829ad1cd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4760631
+project-id = 227443

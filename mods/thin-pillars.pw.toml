@@ -1,0 +1,13 @@
+name = "Thin Pillars"
+filename = "thinpillars-1.18.2-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "941f3167d9c21e4dc5a0d8f1fae41bfd4dd0408b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3838888
+project-id = 494795

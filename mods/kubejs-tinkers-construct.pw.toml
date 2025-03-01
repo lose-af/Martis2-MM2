@@ -1,0 +1,13 @@
+name = "KubeJS Tinkers Construct"
+filename = "kubejs-tinkers-1802.1.0-build.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e6c05925eea6cc7ba703367e0aad610e12f2c3f0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3787479
+project-id = 579107

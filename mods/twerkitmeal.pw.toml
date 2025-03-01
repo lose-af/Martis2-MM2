@@ -1,0 +1,13 @@
+name = "TwerkItMeal - Twerk To Grow All The Things"
+filename = "TwerkItMeal-2.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f27528baa38ac8a71426dc678f1d4fa9d74be5fc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4123940
+project-id = 414640

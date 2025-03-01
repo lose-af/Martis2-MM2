@@ -1,0 +1,13 @@
+name = "DataPack Anvil"
+filename = "dpanvil-1.18.2-3.4.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "868dfbfc92176a2f88ea400873ca636cae69c697"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4504932
+project-id = 432817

@@ -1,0 +1,13 @@
+name = "Integrated NBT"
+filename = "integratednbt-1.18.2-1.5.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a66612279b5e1b07ce718764c20b622f741bc019"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3824420
+project-id = 380998

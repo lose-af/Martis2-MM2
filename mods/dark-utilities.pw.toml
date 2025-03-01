@@ -1,0 +1,13 @@
+name = "Dark Utilities"
+filename = "DarkUtilities-Forge-1.18.2-10.1.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ddf00907590bd7d798aa13cc39dee6a7cec4ab74"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4569313
+project-id = 242195

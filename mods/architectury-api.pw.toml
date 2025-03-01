@@ -1,0 +1,13 @@
+name = "Architectury API"
+filename = "architectury-4.12.94-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a6705e4ae7acb91870cdb63bc86dadf3dd97ec08"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5137931
+project-id = 419699

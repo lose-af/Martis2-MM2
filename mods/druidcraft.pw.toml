@@ -1,0 +1,13 @@
+name = "Druidcraft"
+filename = "druidcraftrg-0.0.12.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "169ae9fb694df3d6b6c9b2e203da7eb2fb0a806e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3735857
+project-id = 340991

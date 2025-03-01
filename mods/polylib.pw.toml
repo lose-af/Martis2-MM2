@@ -1,0 +1,13 @@
+name = "PolyLib"
+filename = "polylib-forge-1801.0.3-build.109.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cf89b7f5af4a1b183cd0437e5d1ddfc49864d0f7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4899765
+project-id = 576589

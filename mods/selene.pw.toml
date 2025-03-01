@@ -1,0 +1,13 @@
+name = "Moonlight Lib"
+filename = "selene-1.18.2-1.17.17.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5f1aa7adeb75e99d20a3e187d099d987dc42ea9d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6047192
+project-id = 499980

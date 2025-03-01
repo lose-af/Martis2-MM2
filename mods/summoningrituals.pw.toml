@@ -1,0 +1,13 @@
+name = "Summoning Rituals"
+filename = "summoningrituals-1.18.2-1.1.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "59eee0f2c9f0f1e740102392e46b6e440caf8201"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4330228
+project-id = 671040

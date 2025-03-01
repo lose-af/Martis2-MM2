@@ -1,0 +1,13 @@
+name = "Spirit"
+filename = "spirit-forge-1.18.2-2.1.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6f31804390b1ea001df090899f55a7a74a1a3fa7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3931224
+project-id = 495509

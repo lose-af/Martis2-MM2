@@ -1,0 +1,13 @@
+name = "Cloud  Storage"
+filename = "cloudstorage-1.1.0-1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c3826f45f996f39f7cdb542892dd0c38e719ac2b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3757407
+project-id = 606618

@@ -1,0 +1,13 @@
+name = "Dynamic Asset Generator"
+filename = "dynamic_asset_generator-forge-1.18.2-0.6.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "89889ec1097d1e396eb19bbc0644023de8d7df61"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3808487
+project-id = 577096
