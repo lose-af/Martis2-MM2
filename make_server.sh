@@ -10,12 +10,19 @@ fi
 
 # Function to download with either curl or wget
 download() {
+    local url="$1"
+    local output_path="$2"
+
     if command -v curl >/dev/null 2>&1; then
-        curl -OJL "$1"
-    elif command -v wget >/dev/null 2>&1; then
-        wget "$1"
+        if [ -z "$output_path" ]; then
+            curl -OJL "$url"
+        else
+            # Create directory if it doesn't exist
+            mkdir -p "$(dirname "$output_path")"
+            curl -L "$url" -o "$output_path"
+        fi
     else
-        echo "Neither curl nor wget found. Please install either curl or wget."
+        echo "curl not found. Please install curl."
         exit 1
     fi
 }
@@ -30,11 +37,15 @@ if [ ! -f forge-$FORGE_VERSION-installer.jar ]; then
 fi
 
 # These mods does not allow distribution on curseforge
-download https://raw.githubusercontent.com/lose-af/Martis2-MM2/main/manual_mods.list
 mkdir -p mods
+download https://raw.githubusercontent.com/lose-af/Martis2-MM2/main/manual_mods.list
 while IFS=$'\t' read -r url filename; do
+  if [ $url == END ]; then
+    break
+  fi
+
   # Execute the download command
-  download "$url" -O "mods/$filename"
+  download "$url" mods/$filename
 done < manual_mods.list
 
 # Install packwiz if needed
