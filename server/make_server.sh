@@ -38,7 +38,6 @@ fi
 
 # These mods does not allow distribution on curseforge
 mkdir -p mods
-download https://raw.githubusercontent.com/lose-af/Martis2-MM2/main/manual_mods.list
 while IFS=$'\t' read -r url filename; do
   if [ $url == END ]; then
     break
@@ -53,7 +52,7 @@ if [ ! -f packwiz-installer-bootstrap.jar ]; then
     download "https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar"
 fi
 
-java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/lose-af/Martis2-MM2/main/pack.toml
+java -jar packwiz-installer-bootstrap.jar -g -s server ../pack.toml
 
 echo Use the following command to start the server
 echo java @user_jvm_args.txt @libraries/net/minecraftforge/forge/$FORGE_VERSION/unix_args.txt nogui
