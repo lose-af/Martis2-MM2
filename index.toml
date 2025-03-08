@@ -31641,6 +31641,10 @@ file = "kubejs/assets/kubejs/textures/quests/sorter.png"
 hash = "8971464469e692ac825e8a04afa61764498c0d51efe1d97605f4e8b78faab178"
 
 [[files]]
+file = "kubejs/assets/langpack/lang/zh_cn.json"
+hash = "bd8b1fe77d870728fd6fd8b4d0a10d29198ee98932a3d6735e1cba7bca0ea2ef"
+
+[[files]]
 file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_0.png"
 hash = "16ebf4e8d61d7217e2fcd322f1dd4d684de3fa29a0063bf00e3fa9a88c34db7c"
 
